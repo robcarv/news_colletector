@@ -32,7 +32,7 @@ def main():
         all_news.extend(news)
 
     # Save the collected news to a JSON file
-    with open("data/news.json", "w", encoding="utf-8") as f:
+    with open("../data/news.json", "w", encoding="utf-8") as f:
         json.dump(all_news, f, ensure_ascii=False, indent=4)
 
     print(f"Total news collected: {len(all_news)}")
