@@ -6,8 +6,8 @@ This project collects news from RSS feeds, summarizes the content using NLP, and
 
 - **RSS Feed Collection**: Fetches news from multiple RSS feeds.
 - **Text Summarization**: Uses Hugging Face's `facebook/bart-large-cnn` model to summarize news content.
-- **Audio Conversion**: Converts summarized text into audio (future feature).
-- **GitHub Integration**: Automatically pushes updates to GitHub.
+- **Audio Conversion**: Converts summarized text into audio .
+<!-- - **GitHub Integration**: Automatically pushes updates to GitHub. -->
 
 ## Setup
 
