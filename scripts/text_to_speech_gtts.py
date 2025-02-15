@@ -5,7 +5,7 @@ import os
 # Function to convert text to audio
 def text_to_audio(text, output_file):
     try:
-        tts = gTTS(text=text, lang='en')  # Use 'pt' para português
+        tts = gTTS(text=text, lang='pt')  # Use 'pt' para português
         tts.save(output_file)
         print(f"Audio saved to {output_file}")
     except Exception as e:

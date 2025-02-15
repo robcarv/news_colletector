@@ -4,13 +4,13 @@ from datetime import datetime, timedelta
 
 # List of RSS feeds to collect news from
 RSS_FEEDS = [
-    "http://feeds.bbci.co.uk/news/rss.xml",  # BBC News
+    # "http://feeds.bbci.co.uk/news/rss.xml",  # BBC News
     "https://feeds.folha.uol.com.br/tec/rss091.xml",  # The New York Times
     "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",  # Folha de S.Paulo
 ]
 
 # Function to collect news from an RSS feed
-def collect_news(feed_url, max_news=20):
+def collect_news(feed_url, max_news=10):
     feed = feedparser.parse(feed_url)
     news_items = []
     for entry in feed.entries[:max_news]:  # Limit the number of news items
