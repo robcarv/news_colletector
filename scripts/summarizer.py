@@ -7,14 +7,12 @@ summarizer = pipeline("summarization", model="t5-small")
 
 # Function to summarize text
 def summarize_text(text, max_length_ratio=0.5, min_input_length=20):
-    # Skip summarization if the input text is too short
     if len(text.split()) < min_input_length:
         print("Input text is too short. Skipping summarization.")
         return text
 
-    # Calculate max_length based on input text length
     input_length = len(text.split())
-    max_length = max(8, int(input_length * max_length_ratio))  # Ensure a minimum length of 8
+    max_length = max(8, int(input_length * max_length_ratio))
 
     try:
         summary = summarizer(text, max_length=max_length, min_length=5, do_sample=False)
@@ -34,24 +32,15 @@ def main():
             with open(os.path.join(data_folder, filename), "r", encoding="utf-8") as f:
                 news = json.load(f)
 
-            # Summarize each news item
-            summarized_news = []
+            # Summarize each news item and add the summary to the same JSON
             for item in news:
-                summarized_item = {
-                    "title": item["title"],
-                    "summary": summarize_text(item["summary"] if item["summary"] else item["title"]),
-                    "link": item["link"],
-                    "source": item["source"],
-                    "publication_date": item["publication_date"]
-                }
-                summarized_news.append(summarized_item)
+                item["summarized_text"] = summarize_text(item["summary"] if item["summary"] else item["title"])
 
-            # Save the summarized news to a new JSON file
-            summarized_filename = filename.replace("_news.json", "_summarized_news.json")
-            with open(os.path.join(data_folder, summarized_filename), "w", encoding="utf-8") as f:
-                json.dump(summarized_news, f, ensure_ascii=False, indent=4)
+            # Save the updated news with summaries to the same JSON file
+            with open(os.path.join(data_folder, filename), "w", encoding="utf-8") as f:
+                json.dump(news, f, ensure_ascii=False, indent=4)
 
-            print(f"Summarized news saved to {summarized_filename}")
+            print(f"Summarized news saved to {filename}")
 
 if __name__ == "__main__":
     main()

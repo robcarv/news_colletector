@@ -9,30 +9,27 @@ def detect_language(filename):
     elif "bbci" in filename.lower():
         return "en"  # Inglês
     else:
-        return "en"  # Default para inglês
+        return "pt"  # Default para português
 
 # Função para converter texto em áudio usando Coqui TTS
 def text_to_audio(text, output_file, language="en"):
     try:
-        # Carregar o modelo TTS com base no idioma
+        if not text or text.strip() == "":
+            print("⚠️ Aviso: O texto está vazio. Pulando a geração de áudio.")
+            return
+
         if language == "pt":
-            tts = TTS(model_name="tts_models/pt/21st_century/vits", progress_bar=False, gpu=False)
+            model_path = "/home/robert/.local/share/tts/tts_models--pt--cv--vits/"
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"Modelo TTS não encontrado em {model_path}")
+            tts = TTS(model_path=model_path, progress_bar=False, gpu=False)
         else:
             tts = TTS(model_name="tts_models/en/ljspeech/glow-tts", progress_bar=False, gpu=False)
 
-        # Gerar o áudio e salvar no arquivo de saída
         tts.tts_to_file(text=text, file_path=output_file)
         print(f"Áudio salvo em {output_file}")
     except Exception as e:
         print(f"Erro ao converter texto em áudio: {e}")
-
-# Função para limitar o tamanho do texto com base na duração estimada do áudio
-def limit_text_length(text, max_duration_minutes=10, words_per_minute=150):
-    max_words = max_duration_minutes * words_per_minute
-    words = text.split()
-    if len(words) > max_words:
-        return " ".join(words[:max_words])
-    return text
 
 # Função para adicionar transições entre notícias
 def add_transitions(summarized_news, language="en"):
@@ -43,12 +40,15 @@ def add_transitions(summarized_news, language="en"):
         combined_text += "Today's news summary:\n\n"
 
     for i, item in enumerate(summarized_news):
-        combined_text += f"{i + 1}. {item['summary']}\n\n"
-        if i < len(summarized_news) - 1:
-            if language == "pt":
-                combined_text += "Próxima notícia:\n\n"
-            else:
-                combined_text += "Next news:\n\n"
+        if "summarized_text" in item and item["summarized_text"].strip() != "":
+            combined_text += f"{i + 1}. {item['summarized_text']}\n\n"
+            if i < len(summarized_news) - 1:
+                if language == "pt":
+                    combined_text += "Próxima notícia:\n\n"
+                else:
+                    combined_text += "Next news:\n\n"
+        else:
+            print(f"⚠️ Aviso: O campo 'summarized_text' está vazio ou ausente no item {i + 1}.")
 
     return combined_text
 
@@ -59,9 +59,9 @@ def main():
     if not os.path.exists(audio_folder):
         os.makedirs(audio_folder)
 
-    # Listar todos os arquivos JSON resumidos na pasta de dados
+    # Listar todos os arquivos JSON na pasta de dados
     for filename in os.listdir(data_folder):
-        if filename.endswith("_summarized_news.json"):
+        if filename.endswith("_news.json"):
             # Detectar o idioma do feed
             language = detect_language(filename)
 
@@ -72,11 +72,8 @@ def main():
             # Adicionar transições entre as notícias
             combined_text = add_transitions(summarized_news, language=language)
 
-            # Limitar o texto a 10 minutos de áudio
-            combined_text = limit_text_length(combined_text, max_duration_minutes=10)
-
             # Converter o texto combinado em um único arquivo de áudio (WAV)
-            output_file = os.path.join(audio_folder, f"{filename.replace('_summarized_news.json', '_daily_news_summary.wav')}")
+            output_file = os.path.join(audio_folder, f"{filename.replace('_news.json', '_daily_news_summary.wav')}")
             text_to_audio(combined_text, output_file, language=language)
 
             print(f"Conversão de texto para áudio concluída. Áudio salvo em {output_file}")
