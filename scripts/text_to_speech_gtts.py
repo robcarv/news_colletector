@@ -1,82 +1,66 @@
-from TTS.api import TTS
-import json
 import os
+from TTS.api import TTS
+from TTS.utils.manage import ModelManager
+import json
+import logging
+import time
 
-# Função para detectar o idioma do feed com base no nome do arquivo
-def detect_language(filename):
-    if "folha" in filename.lower():
-        return "pt"  # Português
-    elif "bbci" in filename.lower():
-        return "en"  # Inglês
+# Configuração de logs
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+input_folder = '../data/'
+audio_folder = os.path.join(input_folder, 'audio')
+os.makedirs(audio_folder, exist_ok=True)
+
+output_file = os.path.join(input_folder, 'feeds_folha_uol_com_br_news.json')
+
+try:
+    # Carrega o modelo de TTS
+    logger.info("Carregando o modelo de TTS...")
+    start_time = time.time()
+    model_manager = ModelManager()
+    TTS_MODEL = model_manager.list_models()[0]  # Obtém o primeiro modelo disponível
+    logger.info(f"Usando o modelo de TTS: {TTS_MODEL}")
+
+    if not TTS_MODEL:
+        raise ValueError("Nenhum modelo TTS disponível. Verifique o caminho e a instalação do modelo.")
+
+    tts = TTS(TTS_MODEL)
+    logger.info(f"Modelo carregado em {time.time() - start_time:.2f} segundos.")
+
+    # Verifica se o arquivo JSON existe
+    if not os.path.exists(output_file):
+        raise FileNotFoundError(f"Arquivo JSON não encontrado: {output_file}")
+
+    # Carrega o JSON
+    logger.info("Carregando o arquivo JSON...")
+    with open(output_file, 'r', encoding='utf-8') as file:
+        news_data = json.load(file)
+
+    # Verifica se o JSON contém uma lista de notícias
+    if isinstance(news_data, list):
+        for i, article in enumerate(news_data):
+            summary = article.get('summary', '')
+            if summary:
+                # Gera um arquivo de áudio para cada notícia
+                output_audio = os.path.join(audio_folder, f'noticia_{i+1}.mp3')  # Usa MP3 para arquivos menores
+                logger.info(f"Gerando áudio para a notícia {i+1}: {summary[:100]}...")  # Loga apenas os primeiros 100 caracteres
+
+                # Gera o áudio
+                start_time = time.time()
+                tts.tts_to_file(
+                    text=summary,
+                    speaker="Gilberto Mathias",  # Verifique se o speaker é válido para o modelo
+                    language=tts.languages[0],  # Usa o primeiro idioma suportado
+                    file_path=output_audio
+                )
+                logger.info(f"Áudio gerado em {time.time() - start_time:.2f} segundos.")
+                logger.info(f"Áudio salvo em {output_audio}")
+            else:
+                logger.warning(f"Artigo {i+1} não contém um resumo.")
     else:
-        return "pt"  # Default para português
+        logger.error("O arquivo JSON não contém uma lista de notícias.")
 
-# Função para converter texto em áudio usando Coqui TTS
-def text_to_audio(text, output_file, language="en"):
-    try:
-        if not text or text.strip() == "":
-            print("⚠️ Aviso: O texto está vazio. Pulando a geração de áudio.")
-            return
-
-        if language == "pt":
-            model_path = "/home/robert/.local/share/tts/tts_models--pt--cv--vits/"
-            if not os.path.exists(model_path):
-                raise FileNotFoundError(f"Modelo TTS não encontrado em {model_path}")
-            tts = TTS(model_path=model_path, progress_bar=False, gpu=False)
-        else:
-            tts = TTS(model_name="tts_models/en/ljspeech/glow-tts", progress_bar=False, gpu=False)
-
-        tts.tts_to_file(text=text, file_path=output_file)
-        print(f"Áudio salvo em {output_file}")
-    except Exception as e:
-        print(f"Erro ao converter texto em áudio: {e}")
-
-# Função para adicionar transições entre notícias
-def add_transitions(summarized_news, language="en"):
-    combined_text = ""
-    if language == "pt":
-        combined_text += "Resumo das notícias de hoje:\n\n"
-    else:
-        combined_text += "Today's news summary:\n\n"
-
-    for i, item in enumerate(summarized_news):
-        if "summarized_text" in item and item["summarized_text"].strip() != "":
-            combined_text += f"{i + 1}. {item['summarized_text']}\n\n"
-            if i < len(summarized_news) - 1:
-                if language == "pt":
-                    combined_text += "Próxima notícia:\n\n"
-                else:
-                    combined_text += "Next news:\n\n"
-        else:
-            print(f"⚠️ Aviso: O campo 'summarized_text' está vazio ou ausente no item {i + 1}.")
-
-    return combined_text
-
-# Função principal
-def main():
-    data_folder = "../data"
-    audio_folder = os.path.join(data_folder, "audio")
-    if not os.path.exists(audio_folder):
-        os.makedirs(audio_folder)
-
-    # Listar todos os arquivos JSON na pasta de dados
-    for filename in os.listdir(data_folder):
-        if filename.endswith("_news.json"):
-            # Detectar o idioma do feed
-            language = detect_language(filename)
-
-            # Carregar as notícias resumidas
-            with open(os.path.join(data_folder, filename), "r", encoding="utf-8") as f:
-                summarized_news = json.load(f)
-
-            # Adicionar transições entre as notícias
-            combined_text = add_transitions(summarized_news, language=language)
-
-            # Converter o texto combinado em um único arquivo de áudio (WAV)
-            output_file = os.path.join(audio_folder, f"{filename.replace('_news.json', '_daily_news_summary.wav')}")
-            text_to_audio(combined_text, output_file, language=language)
-
-            print(f"Conversão de texto para áudio concluída. Áudio salvo em {output_file}")
-
-if __name__ == "__main__":
-    main()
+except Exception as e:
+    logger.error(f"Erro durante a execução do script: {e}", exc_info=True)

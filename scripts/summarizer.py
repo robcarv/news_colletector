@@ -1,46 +1,42 @@
-from transformers import pipeline
 import json
-import os
+from transformers import pipeline
 
-# Load a smaller summarization model for better performance
-summarizer = pipeline("summarization", model="t5-small")
+# Carrega o modelo de sumarização
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)  # Força o uso da CPU
 
-# Function to summarize text
-def summarize_text(text, max_length_ratio=0.5, min_input_length=20):
-    if len(text.split()) < min_input_length:
-        print("Input text is too short. Skipping summarization.")
-        return text
+input_folder = '../data/'
+output_file = input_folder + 'feeds_folha_uol_com_br_news.json'
 
-    input_length = len(text.split())
-    max_length = max(8, int(input_length * max_length_ratio))
+try:
+    # Abre o arquivo JSON com as notícias
+    with open(output_file, 'r', encoding='utf-8') as file:
+        news_data = json.load(file)
 
-    try:
-        summary = summarizer(text, max_length=max_length, min_length=5, do_sample=False)
-        return summary[0]['summary_text']
-    except Exception as e:
-        print(f"Error summarizing text: {e}")
-        return text
+    # Verifica se o JSON contém uma lista de notícias
+    if isinstance(news_data, list):
+        summarized_news = []
+        for i, article in enumerate(news_data):
+            content = article.get('summary', article.get('content', ''))  # Usa o resumo se existir, caso contrário, o conteúdo original
+            if len(content.split()) > 50:  # Limita o tamanho mínimo
+                # Gera o resumo
+                summary = summarizer(
+                    content,
+                    max_length=100,
+                    min_length=25,
+                    do_sample=False
+                )
+                article['summary'] = summary[0]['summary_text']
+            else:
+                article['summary'] = content  # Se for muito curto, mantém o original
+            summarized_news.append(article)
 
-# Main function
-def main():
-    data_folder = "../data"
-    # List all JSON files in the data folder
-    for filename in os.listdir(data_folder):
-        if filename.endswith("_news.json"):
-            print(f"\nProcessing file: {filename}")
-            # Load the collected news
-            with open(os.path.join(data_folder, filename), "r", encoding="utf-8") as f:
-                news = json.load(f)
+        # Salva as notícias resumidas de volta no arquivo JSON
+        with open(output_file, 'w', encoding='utf-8') as file:
+            json.dump(summarized_news, file, indent=4, ensure_ascii=False)
 
-            # Summarize each news item and add the summary to the same JSON
-            for item in news:
-                item["summarized_text"] = summarize_text(item["summary"] if item["summary"] else item["title"])
+        print("Summarization completed.")
+    else:
+        print("O arquivo JSON não contém uma lista de notícias.")
 
-            # Save the updated news with summaries to the same JSON file
-            with open(os.path.join(data_folder, filename), "w", encoding="utf-8") as f:
-                json.dump(news, f, ensure_ascii=False, indent=4)
-
-            print(f"Summarized news saved to {filename}")
-
-if __name__ == "__main__":
-    main()
+except Exception as e:
+    print(f"Erro durante a execução do script: {e}")
