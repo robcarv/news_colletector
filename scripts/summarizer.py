@@ -1,9 +1,13 @@
 import json
 from transformers import pipeline
+import logging
+
+# Configuração de logs
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Carrega o modelo de sumarização
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)  # Força o uso da CPU
-
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)  # Usa CPU
 input_folder = '../data/'
 output_file = input_folder + 'feeds_folha_uol_com_br_news.json'
 
@@ -16,9 +20,9 @@ try:
     if isinstance(news_data, list):
         summarized_news = []
         for i, article in enumerate(news_data):
-            content = article.get('summary', article.get('content', ''))  # Usa o resumo se existir, caso contrário, o conteúdo original
+            content = article.get('summary', article.get('content', ''))
             if len(content.split()) > 50:  # Limita o tamanho mínimo
-                # Gera o resumo
+                logger.info(f"📝 Sumarizando notícia {i+1}...")
                 summary = summarizer(
                     content,
                     max_length=100,
@@ -34,9 +38,9 @@ try:
         with open(output_file, 'w', encoding='utf-8') as file:
             json.dump(summarized_news, file, indent=4, ensure_ascii=False)
 
-        print("Summarization completed.")
+        logger.info("✅ Sumarização concluída.")
     else:
-        print("O arquivo JSON não contém uma lista de notícias.")
+        logger.error("❌ O arquivo JSON não contém uma lista de notícias.")
 
 except Exception as e:
-    print(f"Erro durante a execução do script: {e}")
+    logger.error(f"❌ Erro durante a execução do script: {e}", exc_info=True)

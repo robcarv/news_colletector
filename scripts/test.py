@@ -26,4 +26,5 @@ else:
     print("Este modelo não possui um gerenciador de locutores.")
 
 
-    # tts --model_name "tts_models/<language>/<dataset>/<model_name>"  --list_speaker_idxs 
+    # tts --model_name ="tts_models/multilingual/multi-dataset/xtts_v2"  --list_speaker_idxs 
+# tts_models/multilingual/multi-dataset/xtts_v2
