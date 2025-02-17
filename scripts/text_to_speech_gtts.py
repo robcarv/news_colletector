@@ -34,7 +34,7 @@ output_file = os.path.join(input_folder, 'feeds_folha_uol_com_br_news.json')
 try:
     # Carrega o modelo de TTS específico para português
     logger.info("🔧 Carregando o modelo de TTS...")
-    tts = TTS(model_name="tts_models/pt/cv/vits")
+    tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2")
     logger.info("✅ Modelo carregado com sucesso.")
 
     # Verifica se o arquivo JSON existe
@@ -60,8 +60,11 @@ try:
                 logger.info(f"🔊 Gerando áudio para a notícia {i+1}...")
 
                 # Gera o áudio com o modelo em português
+
                 tts.tts_to_file(
-                    text=processed_text,
+                    text=summary,
+                    speaker="Sofia Hellen",  # Voz em pt-BR
+                    language="pt",               # Idioma: português
                     file_path=output_audio
                 )
                 logger.info(f"🔊 Áudio salvo em {output_audio}")
@@ -76,7 +79,7 @@ try:
                 time.sleep(5)
 
                 # Recarrega o modelo para o próximo áudio
-                tts = TTS(model_name="tts_models/pt/cv/vits")
+                tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2")
             else:
                 logger.warning(f"⚠️ Artigo {i+1} não contém um resumo.")
     else:
