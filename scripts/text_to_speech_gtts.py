@@ -5,10 +5,96 @@ import logging
 import gc
 import time
 import re
+import requests
+from dotenv import load_dotenv
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Carrega as variáveis de ambiente do arquivo .env
+load_dotenv()
+
+# Constantes para o Telegram (carregadas do .env)
+BOT_TOKEN = os.getenv('BOT_TOKEN')  # Token do bot do Telegram
+CHAT_ID = os.getenv('CHAT_ID')  # ID do chat do Telegram
+
+# Função para remover tags HTML
+def remove_html_tags(text):
+    """
+    Remove todas as tags HTML de um texto.
+    
+    :param text: Texto contendo tags HTML
+    :return: Texto sem tags HTML
+    """
+    clean = re.compile(r'<.*?>')
+    return re.sub(clean, '', text)
+
+# Função para limpar caracteres problemáticos
+def clean_text(text):
+    """
+    Remove caracteres que podem causar problemas na formatação Markdown do Telegram.
+    
+    :param text: Texto a ser limpo
+    :return: Texto limpo
+    """
+    # Remove caracteres especiais que podem interferir na formatação Markdown
+    text = re.sub(r'([_*\[\]()~`>#+\-=|{}.!])', r'\\\1', text)
+    return text
+
+# Função para enviar mensagem formatada para o Telegram
+def send_to_telegram(title, summary, source, audio_path):
+    """
+    Envia uma mensagem formatada para o Telegram com o título, resumo, fonte e áudio da notícia.
+    
+    :param title: Título da notícia
+    :param summary: Resumo da notícia
+    :param source: Fonte da notícia
+    :param audio_path: Caminho do arquivo de áudio
+    """
+    try:
+        # Remove tags HTML e limpa o texto
+        title = remove_html_tags(title)
+        summary = remove_html_tags(summary)
+        source = remove_html_tags(source)
+
+        # Limpa caracteres problemáticos
+        title = clean_text(title)
+        summary = clean_text(summary)
+        source = clean_text(source)
+
+        # Formata a mensagem
+        message = (
+            f"📰 *{title}*\n\n"
+            f"🔍 *Resumo:* {summary}\n\n"
+            f"📌 *Fonte:* {source}\n\n"
+            f"🎧 Ouça o áudio abaixo:"
+        )
+
+        # Envia a mensagem de texto
+        url_text = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+        payload = {
+            'chat_id': CHAT_ID,
+            'text': message,
+            'parse_mode': 'Markdown'  # Usa Markdown para formatação
+        }
+        response_text = requests.post(url_text, data=payload)
+        if response_text.status_code != 200:
+            logger.error(f"❌ Erro ao enviar mensagem de texto para o Telegram: {response_text.text}")
+            return
+
+        # Envia o áudio
+        url_audio = f"https://api.telegram.org/bot{BOT_TOKEN}/sendAudio"
+        with open(audio_path, 'rb') as audio_file:
+            files = {'audio': audio_file}
+            data = {'chat_id': CHAT_ID}
+            response_audio = requests.post(url_audio, files=files, data=data)
+            if response_audio.status_code != 200:
+                logger.error(f"❌ Erro ao enviar áudio para o Telegram: {response_audio.text}")
+            else:
+                logger.info(f"✅ Áudio e mensagem enviados com sucesso para o Telegram.")
+    except Exception as e:
+        logger.error(f"❌ Erro ao enviar mensagem ou áudio para o Telegram: {e}")
 
 # Função de pré-processamento
 def preprocess_text(text):
@@ -49,9 +135,12 @@ try:
     # Verifica se o JSON contém uma lista de notícias
     if isinstance(news_data, list):
         for i, article in enumerate(news_data):
+            title = article.get('title', '')
             summary = article.get('summary', '')
+            source = article.get('source', '')
             if summary:
-                # Pré-processa o texto
+                # Remove tags HTML e pré-processa o texto
+                summary = remove_html_tags(summary)
                 processed_text = preprocess_text(summary)
                 logger.info(f"🔧 Texto pré-processado: {processed_text[:100]}...")  # Loga os primeiros 100 caracteres
 
@@ -60,14 +149,17 @@ try:
                 logger.info(f"🔊 Gerando áudio para a notícia {i+1}...")
 
                 # Gera o áudio com o modelo em português
-
                 tts.tts_to_file(
                     text=summary,
                     speaker="Sofia Hellen",  # Voz em pt-BR
-                    language="pt",               # Idioma: português
+                    language="pt",           # Idioma: português
                     file_path=output_audio
                 )
                 logger.info(f"🔊 Áudio salvo em {output_audio}")
+
+                # Envia a notícia e o áudio para o Telegram
+                logger.info(f"📤 Enviando notícia {i+1} para o Telegram...")
+                send_to_telegram(title, summary, source, output_audio)
 
                 # Limpa o cache e libera memória
                 logger.info("🧹 Limpando cache e liberando memória...")
