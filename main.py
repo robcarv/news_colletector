@@ -6,7 +6,7 @@ import shutil
 scripts = [
     "rss_collector.py",
     "summarizer.py",
-    "text_to_speech_gtts.py"
+    "text_to_speech.py"
 ]
 
 # Função para limpar o conteúdo de uma pasta

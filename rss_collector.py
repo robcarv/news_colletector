@@ -1,6 +1,6 @@
 import feedparser
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 import os
 import logging
 
@@ -8,10 +8,17 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Lista de feeds RSS
-RSS_FEEDS = [
-    "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
-]
+# Caminho para o arquivo de configuração dos feeds
+FEEDS_CONFIG_FILE = "./feeds_config.json"
+
+# Função para carregar a configuração dos feeds
+def load_feeds_config():
+    try:
+        with open(FEEDS_CONFIG_FILE, 'r', encoding='utf-8') as file:
+            return json.load(file)
+    except Exception as e:
+        logger.error(f"❌ Erro ao carregar o arquivo de configuração dos feeds: {e}")
+        return []
 
 # Função para coletar notícias de um feed
 def collect_news(feed_url, max_news=5):
@@ -50,20 +57,32 @@ def is_today(published_parsed):
 # Função principal
 def main():
     # Cria a pasta de dados se não existir
-    data_folder = "../data"
+    data_folder = "./data"
     if not os.path.exists(data_folder):
         os.makedirs(data_folder)
         logger.info(f"📁 Pasta de dados criada: {data_folder}")
 
-    for feed_url in RSS_FEEDS:
-        logger.info(f"\n🌐 Coletando notícias de: {feed_url}")
+    # Carrega a configuração dos feeds
+    feeds_config = load_feeds_config()
+    if not feeds_config:
+        logger.error("❌ Nenhum feed configurado. Verifique o arquivo feeds_config.json.")
+        return
+
+    for feed in feeds_config:
+        feed_url = feed.get("url")
+        language = feed.get("language")
+        if not feed_url or not language:
+            logger.warning(f"⚠️ Feed inválido ou sem idioma definido: {feed}")
+            continue
+
+        logger.info(f"\n🌐 Coletando notícias de: {feed_url} (Idioma: {language})")
         news = collect_news(feed_url, max_news=10)
 
         # Salva as notícias coletadas em um arquivo JSON
         feed_name = feed_url.split("//")[1].split("/")[0].replace(".", "_")
         output_file = os.path.join(data_folder, f"{feed_name}_news.json")
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(news, f, ensure_ascii=False, indent=4)
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({"language": language, "news": news}, f, ensure_ascii=False, indent=4)
 
         logger.info(f"💾 Notícias de {feed_url} salvas em {output_file}")
         logger.info(f"📄 Total de notícias salvas para este feed: {len(news)}")

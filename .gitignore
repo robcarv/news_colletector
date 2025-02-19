@@ -1,8 +1,19 @@
-venv/
-*.mp3
-*.json
+# Ignorar tudo
+*
+
+# Exceto os arquivos .py
+!*.py
+
+# Exceto o .gitignore (para que ele seja versionado)
+!.gitignore
+!README.md
+# Ignorar pastas específicas
+data/
+audio/
+.env
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
+*.db
+*.sqlite3
