@@ -26,7 +26,7 @@ def detect_language_and_speaker(source_link):
     :return: Idioma e falante.
     """
     if "nytimes.com" in source_link or "bbc.co.uk" in source_link:
-        return "en", "Joanna"  # Inglês
+        return "en", "en_0"  # Inglês
     else:
         return "pt", "Sofia Hellen"  # Português
 
@@ -45,10 +45,13 @@ def main():
 
             # Carrega o JSON
             with open(json_path, 'r', encoding='utf-8') as file:
-                news_data = json.load(file)
+                data = json.load(file)
 
-            # Verifica se o JSON contém uma lista de notícias
-            if isinstance(news_data, list):
+            # Verifica se o JSON contém a estrutura esperada
+            if isinstance(data, dict) and "news" in data:
+                language = data.get("language", "pt")  # Idioma padrão é português
+                news_data = data.get("news", [])
+
                 for i, article in enumerate(news_data):
                     title = article.get('title', '')
                     summary = article.get('summary', '')
@@ -62,7 +65,7 @@ def main():
                         logger.info(f"🔧 Texto pré-processado: {processed_text[:100]}...")
 
                         # Detecta o idioma e o falante com base na fonte
-                        language, speaker = detect_language_and_speaker(source_link)
+                        detected_language, speaker = detect_language_and_speaker(source_link)
 
                         # Gera um arquivo de áudio para cada notícia
                         valid_filename = generate_valid_filename(title)
@@ -70,7 +73,7 @@ def main():
                         logger.info(f"🔊 Gerando áudio para a notícia {i+1}...")
 
                         # Gera o áudio com o idioma e falante corretos
-                        generate_audio(summary, output_audio, speaker=speaker, language=language)
+                        generate_audio(summary, output_audio, speaker=speaker, language=detected_language)
 
                         # Envia a notícia e o áudio para o Telegram
                         logger.info(f"📤 Enviando notícia {i+1} para o Telegram...")
@@ -82,7 +85,7 @@ def main():
                     else:
                         logger.warning(f"⚠️ Artigo {i+1} não contém um resumo.")
             else:
-                logger.error(f"❌ O arquivo JSON {json_file} não contém uma lista de notícias.")
+                logger.error(f"❌ O arquivo JSON {json_file} não contém a estrutura esperada.")
     except Exception as e:
         logger.error(f"❌ Erro durante a execução do script: {e}", exc_info=True)
 
