@@ -1,8 +1,10 @@
+# rss_collector.py
 import feedparser
 import json
 from datetime import datetime
 import os
 import logging
+from bs4 import BeautifulSoup  # Para processar HTML dentro do feed
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
@@ -20,27 +22,65 @@ def load_feeds_config():
         logger.error(f"❌ Erro ao carregar o arquivo de configuração dos feeds: {e}")
         return []
 
+# Função para extrair texto de HTML (usando BeautifulSoup)
+def extract_text_from_html(html_content):
+    """
+    Extrai texto de um conteúdo HTML.
+    :param html_content: Conteúdo HTML.
+    :return: Texto extraído.
+    """
+    try:
+        soup = BeautifulSoup(html_content, "html.parser")
+        return soup.get_text(separator=" ").strip()
+    except Exception as e:
+        logger.error(f"❌ Erro ao extrair texto do HTML: {e}")
+        return ""
+
 # Função para coletar notícias de um feed
-def collect_news(feed_url, max_news=5):
+def collect_news(feed_url, max_news=10):
     feed = feedparser.parse(feed_url)
     news_items = []
     logger.info(f"\n🔍 Processando feed: {feed_url}")
     logger.info(f"📰 Total de entradas encontradas: {len(feed.entries)}")
 
     for i, entry in enumerate(feed.entries):
-        if is_today(entry.published_parsed):
-            news_items.append({
-                "title": entry.title,
-                "summary": entry.summary if "summary" in entry else "",
-                "link": entry.link,
-                "source": feed.feed.title,
-                "publication_date": entry.published if "published" in entry else ""
-            })
-            logger.info(f"✅ Notícia {i+1} adicionada: {entry.title}")
+        try:
+            # Verifica se a entrada tem os campos necessários
+            if not all(key in entry for key in ['title', 'link', 'published']):
+                logger.warning(f"⚠️ Entrada {i+1} do feed {feed_url} está incompleta. Pulando...")
+                continue
 
+            # Verifica se a data de publicação é hoje
+            if not is_today(entry.published_parsed):
+                continue
+
+            # Extrai os dados da notícia
+            title = entry.title
+            link = entry.link
+            source = feed.feed.title if "title" in feed.feed else "Fonte desconhecida"
+            publication_date = entry.published
+
+            # Extrai o resumo do campo <description> (que contém HTML)
+            summary = ""
+            if "description" in entry:
+                summary = extract_text_from_html(entry.description)
+
+            # Adiciona a notícia à lista
+            news_items.append({
+                "title": title,
+                "summary": summary,
+                "link": link,
+                "source": source,
+                "publication_date": publication_date
+            })
+            logger.info(f"✅ Notícia {i+1} adicionada: {title}")
+
+            # Limita o número de notícias coletadas
             if len(news_items) >= max_news:
                 logger.info(f"🚫 Limite de {max_news} notícias atingido para este feed.")
                 break
+        except Exception as e:
+            logger.error(f"❌ Erro ao processar entrada {i+1} do feed {feed_url}: {e}")
 
     logger.info(f"📥 Total de notícias coletadas de {feed_url}: {len(news_items)}")
     return news_items
