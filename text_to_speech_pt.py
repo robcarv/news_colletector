@@ -75,11 +75,11 @@ def main():
             compiled_audio_path = compile_audio_for_feed(news_data, feed_name, audio_folder, language=language)
 
             # Faz o upload do áudio compilado para o Anchor
-            if compiled_audio_path:
-                logger.info(f"📤 Enviando áudio compilado para o Anchor: {feed_name}...")
-                # upload_to_anchor(compiled_audio_path, feed_name)
-            else:
-                logger.warning(f"⚠️ Nenhum áudio compilado gerado para o feed: {feed_name}")
+            # if compiled_audio_path:
+            #     logger.info(f"📤 Enviando áudio compilado para o Anchor: {feed_name}...")
+            #     # upload_to_anchor(compiled_audio_path, feed_name)
+            # else:
+            #     logger.warning(f"⚠️ Nenhum áudio compilado gerado para o feed: {feed_name}")
 
     except Exception as e:
         logger.error(f"❌ Erro durante a execução do script: {e}", exc_info=True)
