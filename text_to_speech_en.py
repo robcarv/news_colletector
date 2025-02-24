@@ -4,7 +4,6 @@ import json
 import logging
 from services.audio_generator import generate_audio_for_article, compile_audio_for_feed, cleanup_and_wait
 from services.telegram_service import send_to_telegram
-from pydub import AudioSegment
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
@@ -36,12 +35,18 @@ def main():
                 json_data = json.load(file)
 
             # Verifica se o JSON contém a chave "news" e se é uma lista
-            if isinstance(json_data, dict) and "news" in json_data and isinstance(json_data["news"], list):
-                news_data = json_data["news"]  # Extrai a lista de notícias
-                language = json_data.get("language", "en")  # Obtém o idioma do JSON
-            else:
+            if not (isinstance(json_data, dict) and "news" in json_data and isinstance(json_data["news"], list)):
                 logger.error(f"❌ O arquivo JSON {json_file} não contém uma lista de notícias na chave 'news'.")
                 continue
+
+            # Verifica o idioma do JSON (apenas processa se for "en")
+            language = json_data.get("language", "en")
+            if language != "en":
+                logger.info(f"⚠️ Ignorando arquivo {json_file} (idioma '{language}' não é 'en').")
+                continue
+
+            # Extrai a lista de notícias
+            news_data = json_data["news"]
 
             # Nome do feed (extraído do nome do arquivo JSON)
             feed_name = json_file.replace("_news.json", "").replace("_", " ").title()
