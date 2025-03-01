@@ -2,9 +2,10 @@
 import os
 import json
 import logging
+from datetime import datetime, timezone
 from services.audio_generator import generate_audio_for_article, compile_audio_for_feed, cleanup_and_wait
 from services.telegram_service import send_to_telegram
-from services.spotify_audio_uploader import upload_to_spotify  # Importação do Spotify Uploader
+from services.rss_generator import generate_rss_feed  # Importação do gerador de RSS
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
@@ -80,10 +81,27 @@ def main():
             # Compila todos os áudios do feed em um único arquivo
             compiled_audio_path = compile_audio_for_feed(news_data, feed_name, audio_folder, language=language)
 
-            # Faz o upload do áudio compilado para o Spotify
+            # Gera o feed RSS se o áudio compilado foi criado
             if compiled_audio_path:
-                logger.info(f"📤 Enviando áudio compilado para o Spotify: {feed_name}...")
-                upload_to_spotify(compiled_audio_path, feed_name)
+                logger.info(f"🔗 Gerando feed RSS para o feed: {feed_name}...")
+
+                # Cria o episódio para o feed RSS
+                episode = {
+                    "title": f"Resumo das Notícias - {feed_name}",
+                    "description": f"Resumo das notícias de {feed_name}.",
+                    "link": f"https://seusite.com/{feed_name}_compiled.mp3",  # Substitua pelo link público do áudio
+                    "audio_url": f"https://seusite.com/{feed_name}_compiled.mp3",  # Substitua pelo link público do áudio
+                    "file_size": os.path.getsize(compiled_audio_path),
+                    "pub_date": datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT"),
+                    "duration": "30:00"  # Duração do áudio (ajuste conforme necessário)
+                }
+
+                # Gera o feed RSS
+                rss_file_path = generate_rss_feed(feed_name, [episode], audio_folder)
+                if rss_file_path:
+                    logger.info(f"✅ Feed RSS gerado e salvo em: {rss_file_path}")
+                else:
+                    logger.error("❌ Erro ao gerar o feed RSS.")
             else:
                 logger.warning(f"⚠️ Nenhum áudio compilado gerado para o feed: {feed_name}")
 
