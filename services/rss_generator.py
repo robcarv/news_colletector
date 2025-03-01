@@ -1,7 +1,6 @@
 # services/rss_generator.py
 import os
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
 from xml.dom import minidom
 
 # Configuração de logs
@@ -18,8 +17,14 @@ def generate_rss_feed(feed_name, episodes, output_folder):
     :return: Caminho do arquivo RSS gerado.
     """
     try:
-        # Cria a estrutura do RSS feed
-        rss = ET.Element("rss", version="2.0", xmlns_itunes="http://www.itunes.com/dtds/podcast-1.0.dtd")
+        # Namespaces para o RSS feed
+        namespaces = {
+            "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+            "content": "http://purl.org/rss/1.0/modules/content/"
+        }
+
+        # Cria a estrutura do RSS feed com namespaces
+        rss = ET.Element("rss", version="2.0", attrib=namespaces)
 
         channel = ET.SubElement(rss, "channel")
         ET.SubElement(channel, "title").text = feed_name
@@ -27,9 +32,9 @@ def generate_rss_feed(feed_name, episodes, output_folder):
         ET.SubElement(channel, "link").text = "https://seusite.com/podcast"
         ET.SubElement(channel, "language").text = "pt-br"
         ET.SubElement(channel, "itunes:author").text = "Seu Nome"
-        ET.SubElement(channel, "itunes:category", text="News")
+        ET.SubElement(channel, "itunes:category", attrib={"text": "News"})
         ET.SubElement(channel, "itunes:explicit").text = "no"
-        ET.SubElement(channel, "itunes:image", href="https://seusite.com/imagem.jpg")
+        ET.SubElement(channel, "itunes:image", attrib={"href": "https://seusite.com/imagem.jpg"})
 
         # Adiciona os episódios
         for episode in episodes:
@@ -37,7 +42,11 @@ def generate_rss_feed(feed_name, episodes, output_folder):
             ET.SubElement(item, "title").text = episode["title"]
             ET.SubElement(item, "description").text = episode["description"]
             ET.SubElement(item, "link").text = episode["link"]
-            ET.SubElement(item, "enclosure", url=episode["audio_url"], length=str(episode["file_size"]), type="audio/mpeg")
+            ET.SubElement(item, "enclosure", attrib={
+                "url": episode["audio_url"],
+                "length": str(episode["file_size"]),
+                "type": "audio/mpeg"
+            })
             ET.SubElement(item, "pubDate").text = episode["pub_date"]
             ET.SubElement(item, "guid").text = episode["link"]
             ET.SubElement(item, "itunes:duration").text = episode["duration"]
