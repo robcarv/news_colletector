@@ -1,0 +1,24 @@
+[
+    {
+        "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+        "language": "pt"
+    },
+    {
+        "url": "https://www.nintendo.com/en-gb/news.xml",
+        "language": "en"
+    },
+    {
+        "url": "https://newsroom.ibm.com/announcements?pagetemplate=rss",
+        "language": "en"
+    },
+    {
+        "url": "http://feeds.bbci.co.uk/news/rss.xml",
+        "language": "en"
+    },
+    {
+        "url": "https://pitchfork.com/feed/feed-news/rss",
+        "language": "en"
+    } 
+
+
+]

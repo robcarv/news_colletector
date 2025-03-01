@@ -1,19 +1,52 @@
-# Ignorar tudo
-*
-
-# Exceto os arquivos .py
-!*.py
-
-# Exceto o .gitignore (para que ele seja versionado)
-!.gitignore
-!README.md
-# Ignorar pastas específicas
-data/
-audio/
+# Ignorar arquivos de configuração sensíveis
 .env
+*.env
+
+# Ignorar pastas de dependências
+venv/
+env/
+.venv/
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.pyc
 *.pyo
 *.pyd
 *.db
 *.sqlite3
+
+# Ignorar pastas de dados e áudios
+/data/audio/
+/data/*.json
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar logs
+*.log
+logs/
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
+
+# Ignorar arquivos de cache
+.cache/
+.pytest_cache/
+
+# Ignorar arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db

@@ -4,6 +4,7 @@ import json
 import logging
 from services.audio_generator import generate_audio_for_article, compile_audio_for_feed, cleanup_and_wait
 from services.telegram_service import send_to_telegram
+from services.spotify_audio_uploader import upload_to_spotify  # Importação do Spotify Uploader
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
@@ -79,12 +80,12 @@ def main():
             # Compila todos os áudios do feed em um único arquivo
             compiled_audio_path = compile_audio_for_feed(news_data, feed_name, audio_folder, language=language)
 
-            # Faz o upload do áudio compilado para o Anchor
-            # if compiled_audio_path:
-            #     logger.info(f"📤 Enviando áudio compilado para o Anchor: {feed_name}...")
-            #     # upload_to_anchor(compiled_audio_path, feed_name)
-            # else:
-            #     logger.warning(f"⚠️ Nenhum áudio compilado gerado para o feed: {feed_name}")
+            # Faz o upload do áudio compilado para o Spotify
+            if compiled_audio_path:
+                logger.info(f"📤 Enviando áudio compilado para o Spotify: {feed_name}...")
+                upload_to_spotify(compiled_audio_path, feed_name)
+            else:
+                logger.warning(f"⚠️ Nenhum áudio compilado gerado para o feed: {feed_name}")
 
     except Exception as e:
         logger.error(f"❌ Erro durante a execução do script: {e}", exc_info=True)

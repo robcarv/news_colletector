@@ -116,7 +116,7 @@ def main():
             continue
 
         logger.info(f"\n🌐 Coletando notícias de: {feed_url} (Idioma: {language})")
-        news = collect_news(feed_url, max_news=10)
+        news = collect_news(feed_url, max_news=5)
 
         # Salva as notícias coletadas em um arquivo JSON
         feed_name = feed_url.split("//")[1].split("/")[0].replace(".", "_")
