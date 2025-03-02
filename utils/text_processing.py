@@ -153,21 +153,40 @@ def preprocess_text(text, language="pt"):
         print(f"Erro ao pré-processar texto: {e}")
         return text  # Retorna o texto original em caso de erro
 
-def format_telegram_message(title, summary, source, source_link):
+def format_telegram_message(title, summary, source, source_link, language="pt"):
     """
-    Formata a mensagem para o Telegram com MarkdownV2.
+    Formata a mensagem para o Telegram com MarkdownV2, adaptando ao idioma.
     """
+    # Traduções para os rótulos
+    labels = {
+        "pt": {
+            "news": "📰 *{title}*\n\n",
+            "summary": "🔍 *Resumo:* {summary}\n\n",
+            "source": "📌 *Fonte:* [{source}]({source_link})\n\n",
+            "audio": "🎧 Ouça o áudio abaixo:"
+        },
+        "en": {
+            "news": "📰 *{title}*\n\n",
+            "summary": "🔍 *Summary:* {summary}\n\n",
+            "source": "📌 *Source:* [{source}]({source_link})\n\n",
+            "audio": "🎧 Listen to the audio below:"
+        }
+    }
+
+    # Define os textos apropriados para o idioma
+    texts = labels.get(language, labels["pt"])
+
     # Limpa e escapa o texto
     title = clean_text(title)
     summary = clean_text(summary)
     source = clean_text(source)
-    
-    # Formata a mensagem
+
+    # Formata a mensagem no idioma correto
     message = (
-        f"📰 *{title}*\n\n"
-        f"🔍 *Resumo:* {summary}\n\n"
-        f"📌 *Fonte:* [{source}]({source_link})\n\n"
-        f"🎧 Ouça o áudio abaixo:"
+        texts["news"].format(title=title) +
+        texts["summary"].format(summary=summary) +
+        texts["source"].format(source=source, source_link=source_link) +
+        texts["audio"]
     )
-    
+
     return message
