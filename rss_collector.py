@@ -1,10 +1,10 @@
-# rss_collector.py
 import os
 import json
 import logging
 from datetime import datetime
 from bs4 import BeautifulSoup
-from services.rss_generator import generate_rss_feed  # Importação do gerador de RSS
+import feedparser
+# from services.rss_generator import generate_rss_feed  # Importação do gerador de RSS
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
@@ -13,6 +13,9 @@ logger = logging.getLogger(__name__)
 # Caminho da pasta de dados (relativo ao local do script)
 script_dir = os.path.dirname(os.path.abspath(__file__))
 data_folder = os.path.join(script_dir, './data')
+
+# Caminho para o arquivo de configuração de feeds
+feeds_config_path = os.path.join(script_dir, 'feeds_config.json')
 
 # Função para extrair texto de HTML
 def extract_text_from_html(html_content):
@@ -29,7 +32,7 @@ def extract_text_from_html(html_content):
         return ""
 
 # Função para coletar notícias de um feed
-def collect_news(feed_url, max_news=10):
+def collect_news(feed_url, max_news=3):
     feed = feedparser.parse(feed_url)
     news_items = []
     logger.info(f"\n🔍 Processando feed: {feed_url}")
@@ -77,6 +80,32 @@ def collect_news(feed_url, max_news=10):
     logger.info(f"📥 Total de notícias coletadas de {feed_url}: {len(news_items)}")
     return news_items
 
+# Função para salvar notícias em um arquivo JSON
+def save_news_to_json(news_items, feed_name, language="pt-br"):
+    """
+    Salva as notícias coletadas em um arquivo JSON.
+    :param news_items: Lista de notícias.
+    :param feed_name: Nome do feed (usado para nomear o arquivo JSON).
+    :param language: Idioma das notícias.
+    """
+    try:
+        # Cria a pasta de dados se não existir
+        if not os.path.exists(data_folder):
+            os.makedirs(data_folder)
+            logger.info(f"📁 Pasta de dados criada: {data_folder}")
+
+        # Nome do arquivo JSON
+        json_filename = f"{feed_name}_news.json"
+        json_path = os.path.join(data_folder, json_filename)
+
+        # Salva as notícias em um arquivo JSON
+        with open(json_path, 'w', encoding='utf-8') as file:
+            json.dump({"language": language, "news": news_items}, file, indent=4, ensure_ascii=False)
+        
+        logger.info(f"✅ Notícias salvas em: {json_path}")
+    except Exception as e:
+        logger.error(f"❌ Erro ao salvar notícias em JSON: {e}")
+
 # Função para verificar se a data de publicação é hoje
 def is_today(published_parsed):
     if not published_parsed:
@@ -86,54 +115,38 @@ def is_today(published_parsed):
     today = datetime.now()
     return published_date.date() == today.date()
 
+# Função para carregar a configuração de feeds
+def load_feeds_config():
+    """
+    Carrega a configuração de feeds do arquivo feeds_config.json.
+    :return: Lista de feeds configurados.
+    """
+    try:
+        with open(feeds_config_path, 'r', encoding='utf-8') as file:
+            feeds_config = json.load(file)
+        logger.info("✅ Configuração de feeds carregada com sucesso.")
+        return feeds_config
+    except Exception as e:
+        logger.error(f"❌ Erro ao carregar a configuração de feeds: {e}")
+        return []
+
 # Função principal
 def main():
-    # Cria a pasta de dados se não existir
-    if not os.path.exists(data_folder):
-        os.makedirs(data_folder)
-        logger.info(f"📁 Pasta de dados criada: {data_folder}")
-
-    # Lista de arquivos JSON na pasta de dados
-    json_files = [f for f in os.listdir(data_folder) if f.endswith('.json')]
-
-    if not json_files:
-        logger.error("❌ Nenhum arquivo JSON encontrado. Verifique a pasta de dados.")
+    # Carrega a configuração de feeds
+    feeds_config = load_feeds_config()
+    if not feeds_config:
+        logger.error("❌ Nenhum feed configurado. Verifique o arquivo feeds_config.json.")
         return
 
-    # Processa cada arquivo JSON
-    for json_file in json_files:
-        json_path = os.path.join(data_folder, json_file)
-        logger.info(f"📂 Carregando o arquivo JSON: {json_file}")
+    # Coleta notícias de cada feed e salva em JSON
+    for feed in feeds_config:
+        feed_url = feed.get("url")
+        language = feed.get("language", "pt-br")  # Idioma padrão: português
+        feed_name = feed_url.split("//")[1].split("/")[0].replace(".", "_")  # Gera um nome para o feed
 
-        try:
-            # Carrega o JSON
-            with open(json_path, 'r', encoding='utf-8') as file:
-                json_data = json.load(file)
-
-            # Verifica se o JSON contém a chave "news" e se é uma lista
-            if not (isinstance(json_data, dict) and "news" in json_data and isinstance(json_data["news"], list)):
-                logger.error(f"❌ O arquivo JSON {json_file} não contém uma lista de notícias na chave 'news'.")
-                continue
-
-            # Extrai o idioma do JSON
-            language = json_data.get("language", "pt-br")  # Idioma padrão: português
-            logger.info(f"🌐 Idioma do feed: {language}")
-
-            # Extrai a lista de notícias
-            news_data = json_data["news"]
-
-            # Nome do feed (extraído do nome do arquivo JSON)
-            feed_name = json_file.replace("_news.json", "").replace("_", " ").title()
-
-            # Gera o feed RSS com o idioma correto
-            rss_file_path = generate_rss_feed(feed_name, news_data, data_folder, language=language)
-            if rss_file_path:
-                logger.info(f"✅ Feed RSS gerado e salvo em: {rss_file_path}")
-            else:
-                logger.error("❌ Erro ao gerar o feed RSS.")
-
-        except Exception as e:
-            logger.error(f"❌ Erro ao processar o arquivo {json_file}: {e}")
+        logger.info(f"🌐 Coletando notícias do feed: {feed_url} (Idioma: {language})")
+        news_items = collect_news(feed_url)
+        save_news_to_json(news_items, feed_name, language)
 
 if __name__ == "__main__":
     main()
