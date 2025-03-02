@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # Caminho da pasta de dados
 script_dir = os.path.dirname(os.path.abspath(__file__))
-input_folder = os.path.join(script_dir, './data')
+input_folder = os.path.join(script_dir, 'data')
 audio_folder = os.path.join(input_folder, 'audio')
 
 # Cria a pasta de áudio se não existir
