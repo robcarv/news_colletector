@@ -1,14 +1,13 @@
-# text_to_speech_pt.py
 import os
 import json
 import logging
 from datetime import datetime, timezone
 from services.audio_generator import generate_audio_for_article, compile_audio_for_feed, cleanup_and_wait
 from services.telegram_service import send_to_telegram
-from services.rss_generator import generate_rss_feed  # Importação do gerador de RSS
+from services.rss_generator import generate_rss_feed
 
 # Configuração de logs
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Caminho da pasta de dados (relativo ao local do script)
@@ -76,7 +75,7 @@ def main():
                         send_to_telegram(title, summary, source, source_link, audio_path)
 
                         # Limpa o cache e espera 5 segundos
-                        cleanup_and_wait()
+                        cleanup_and_wait()  # Certifique-se de que esta linha está sendo executada
 
             # Compila todos os áudios do feed em um único arquivo
             compiled_audio_path = compile_audio_for_feed(news_data, feed_name, audio_folder, language=language)

@@ -1,4 +1,3 @@
-# services/audio_generator.py
 import os
 import logging
 import time
@@ -9,7 +8,7 @@ from services.tts_service import generate_audio
 from utils.text_processing import remove_html_tags, preprocess_text, generate_valid_filename
 
 # Configuração de logs
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 # Fuso horário do Brasil
@@ -18,13 +17,15 @@ brazil_tz = pytz.timezone('America/Sao_Paulo')
 # Mapeamento de idiomas para speakers padrão
 DEFAULT_SPEAKERS = {
     "pt": "Sofia Hellen",  # Português
-    "en": "Gitta Nikolina",        # Inglês
+    "en": "Gitta Nikolina",  # Inglês
     "es": "Ana Florence",  # Espanhol
     "fr": "Brenda Stern",  # Francês
     "de": "Gitta Nikolina",  # Alemão
     "it": "Henriette Usha",  # Italiano
-    # Adicione mais mapeamentos conforme necessário
 }
+
+# Contador global para contar execuções do cleanup_and_wait
+cleanup_counter = 0
 
 def get_speaker_for_language(language):
     """
@@ -115,7 +116,12 @@ def cleanup_and_wait():
     """
     Limpa o cache e espera um tempo para evitar sobrecarga no Raspberry Pi.
     """
+    global cleanup_counter
     try:
+        cleanup_counter += 1  # Incrementa o contador
+        start_time = time.time()  # Marca o início
+        logger.info(f"🟢 Iniciando cleanup_and_wait() (execução {cleanup_counter})...")
+        
         # Limpa o cache e libera memória
         gc.collect()
         logger.info("🧹 Cache limpo e memória liberada.")
@@ -123,5 +129,8 @@ def cleanup_and_wait():
         # Adiciona um timeout de 5 segundos
         logger.info("⏳ Aguardando 5 segundos antes da próxima geração...")
         time.sleep(5)
+
+        end_time = time.time()  # Marca o fim
+        logger.info(f"🔴 cleanup_and_wait() concluído em {end_time - start_time:.2f} segundos.")
     except Exception as e:
         logger.error(f"❌ Erro ao limpar cache ou esperar: {e}")
