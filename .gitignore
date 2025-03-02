@@ -30,6 +30,7 @@ __pycache__/
 
 # Ignorar logs
 *.log
+*.txt
 logs/
 
 # Ignorar arquivos temporários

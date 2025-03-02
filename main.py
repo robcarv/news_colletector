@@ -12,8 +12,9 @@ logger = logging.getLogger(__name__)
 scripts = [
     "rss_collector.py",  # Coleta as notícias dos feeds RSS
     "summarizer.py",     # Sumariza as notícias coletadas
-    "text_to_speech_en.py", # Gera áudios e envia para o Telegram e Anchor
-    "text_to_speech_pt.py"
+    # "text_to_speech_en.py", # Gera áudios e envia para o Telegram e Anchor
+    # "text_to_speech_pt.py"
+    "text_to_speech.py"
 ]
 
 # Função para limpar o conteúdo de uma pasta

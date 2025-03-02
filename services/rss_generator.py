@@ -1,66 +1,48 @@
-# services/rss_generator.py
 import os
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
+from datetime import datetime
 
-# Configuração de logs
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-def generate_rss_feed(feed_name, episodes, output_folder):
+def generate_rss_feed(language, audio_folder, output_folder):
     """
-    Gera um arquivo RSS feed para o podcast.
-    :param feed_name: Nome do podcast.
-    :param episodes: Lista de episódios (cada episódio é um dicionário com título, descrição, link, etc.).
-    :param output_folder: Pasta onde o arquivo RSS será salvo.
-    :return: Caminho do arquivo RSS gerado.
+    Gera um feed RSS dinâmico baseado nos arquivos de áudio disponíveis.
     """
-    try:
-        # Namespaces para o RSS feed
-        namespaces = {
-            "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
-            "content": "http://purl.org/rss/1.0/modules/content/"
-        }
+    rss_file = os.path.join(output_folder, f'news_{language}.xml')
+    
+    # Criar estrutura base do RSS
+    rss = ET.Element('rss', version='2.0')
+    channel = ET.SubElement(rss, 'channel')
+    ET.SubElement(channel, 'title').text = f'News Summary ({language.upper()})'
+    ET.SubElement(channel, 'link').text = 'https://yourwebsite.com/rss'
+    ET.SubElement(channel, 'description').text = f'Summarized news in {language.upper()}'
+    
+    # Buscar arquivos de áudio
+    if not os.path.exists(audio_folder):
+        print(f"Pasta de áudio não encontrada: {audio_folder}")
+        return
+    
+    audio_files = [f for f in os.listdir(audio_folder) if f.endswith('.mp3')]
+    
+    for audio_file in audio_files:
+        file_path = os.path.join(audio_folder, audio_file)
+        file_url = f'https://seusite.com/{language}/{audio_file}'
+        title = f'Resumo das Notícias - {audio_file.replace("_compiled.mp3", "").replace("_", " ")}'
+        
+        item = ET.SubElement(channel, 'item')
+        ET.SubElement(item, 'title').text = title
+        ET.SubElement(item, 'link').text = file_url
+        ET.SubElement(item, 'description').text = 'No Summary'
+        ET.SubElement(item, 'enclosure', url=file_url, type='audio/mpeg')
+    
+    # Salvar RSS
+    tree = ET.ElementTree(rss)
+    os.makedirs(output_folder, exist_ok=True)
+    tree.write(rss_file, encoding='utf-8', xml_declaration=True)
+    print(f"RSS gerado: {rss_file}")
 
-        # Cria a estrutura do RSS feed com namespaces
-        rss = ET.Element("rss", version="2.0", attrib=namespaces)
+# Configuração das pastas
+script_dir = os.path.dirname(os.path.abspath(__file__))
+data_folder = os.path.join(script_dir, 'rss_feeds')
 
-        channel = ET.SubElement(rss, "channel")
-        ET.SubElement(channel, "title").text = feed_name
-        ET.SubElement(channel, "description").text = f"Resumo das notícias de {feed_name}."
-        ET.SubElement(channel, "link").text = "https://seusite.com/podcast"
-        ET.SubElement(channel, "language").text = "pt-br"
-        ET.SubElement(channel, "itunes:author").text = "Seu Nome"
-        ET.SubElement(channel, "itunes:category", attrib={"text": "News"})
-        ET.SubElement(channel, "itunes:explicit").text = "no"
-        ET.SubElement(channel, "itunes:image", attrib={"href": "https://seusite.com/imagem.jpg"})
-
-        # Adiciona os episódios
-        for episode in episodes:
-            item = ET.SubElement(channel, "item")
-            ET.SubElement(item, "title").text = episode["title"]
-            ET.SubElement(item, "description").text = episode["description"]
-            ET.SubElement(item, "link").text = episode["link"]
-            ET.SubElement(item, "enclosure", attrib={
-                "url": episode["audio_url"],
-                "length": str(episode["file_size"]),
-                "type": "audio/mpeg"
-            })
-            ET.SubElement(item, "pubDate").text = episode["pub_date"]
-            ET.SubElement(item, "guid").text = episode["link"]
-            ET.SubElement(item, "itunes:duration").text = episode["duration"]
-
-        # Converte o XML para uma string formatada
-        xml_str = minidom.parseString(ET.tostring(rss)).toprettyxml(indent="  ")
-
-        # Salva o arquivo RSS
-        rss_file_path = os.path.join(output_folder, f"{feed_name}_feed.rss")
-        with open(rss_file_path, "w", encoding="utf-8") as f:
-            f.write(xml_str)
-
-        logger.info(f"✅ Feed RSS gerado e salvo em: {rss_file_path}")
-        return rss_file_path
-    except Exception as e:
-        logger.error(f"❌ Erro ao gerar o feed RSS: {e}")
-        return None
+# Gerar RSS dinâmico para cada idioma
+generate_rss_feed('en', os.path.join(data_folder, 'en'), data_folder)
+generate_rss_feed('pt', os.path.join(data_folder, 'pt'), data_folder)
