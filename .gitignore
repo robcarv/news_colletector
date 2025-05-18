@@ -18,7 +18,6 @@ __pycache__/
 
 # Ignorar pastas de dados e áudios
 /data/audio/
-/data/*.json
 
 # Ignorar arquivos de IDE
 .vscode/
