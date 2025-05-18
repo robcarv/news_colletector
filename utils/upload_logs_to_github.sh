@@ -1,4 +1,22 @@
 #!/bin/bash
+# set -x  # Ativa o modo debug (mostra cada comando executado)
+
+# # Configurações
+# REPO_DIR="/home/robert/Documents/vscode_projects/news_colletector"
+# DATA_DIR="${REPO_DIR}/data"
+
+# echo "=== DEBUG: Verificando diretórios ==="
+# ls -la $DATA_DIR
+# ls -la $REPO_DIR/.gitignore
+
+# echo "=== DEBUG: Verificando arquivos JSON ==="
+# find "$DATA_DIR" -name "*.json" -exec ls -la {} \;
+
+# echo "=== DEBUG: Verificando chave SSH ==="
+# ls -la ~/.ssh/
+# ssh-add -l
+
+
 
 # upload_feeds_to_github.sh - Script para enviar feeds JSON para o GitHub
 
