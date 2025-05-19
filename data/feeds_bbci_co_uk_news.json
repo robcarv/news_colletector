@@ -2,109 +2,39 @@
     "language": "en",
     "news": [
         {
-            "title": "Private data including criminal records stolen in Legal Aid hack",
-            "summary": "MoJ says data includes addresses, national ID numbers, criminal histories and financial details dating to 2010.",
-            "link": "https://www.bbc.com/news/articles/cgr5g4pv2l0o",
+            "title": "What will 'reset' deal mean for UK economic growth?",
+            "summary": "The deal paves the way for more common ground with the EU, but only dismantles a fraction of the trade barriers erected post-Brexit.",
+            "link": "https://www.bbc.com/news/articles/cgmj8l3ndlno",
             "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 07:35:09 GMT"
+            "publication_date": "Mon, 19 May 2025 14:50:05 GMT"
         },
         {
-            "title": "Olympic gold swimmer left ‘broken’ by coach's harsh regime and weight comments",
-            "summary": "Gold medallist Ruta Meilutytė describes toxic training environment under esteemed trainer Jon Rudd at top swim club.",
-            "link": "https://www.bbc.com/news/articles/cn4gmm2zv8no",
+            "title": "Lineker to leave BBC sooner than planned after antisemitism row",
+            "summary": "He will no longer present the corporation's future coverage of the FA Cup and World Cup as planned.",
+            "link": "https://www.bbc.com/news/articles/c79e37nld1no",
             "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 05:02:30 GMT"
+            "publication_date": "Mon, 19 May 2025 12:54:24 GMT"
         },
         {
-            "title": "Joe Biden diagnosed with 'aggressive' prostate cancer",
-            "summary": "The former US president was diagnosed on Friday after seeing a doctor for urinary symptoms.",
-            "link": "https://www.bbc.com/news/articles/cwywqg7lq1zo",
+            "title": "Gary Lineker could not keep quiet. In the end, it finished his BBC career",
+            "summary": "His years as a BBC host end in circumstances nobody would have wanted, but some might have predicted.",
+            "link": "https://www.bbc.com/news/articles/cq54wy9jzgdo",
             "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 04:44:42 GMT"
+            "publication_date": "Mon, 19 May 2025 11:40:19 GMT"
         },
         {
-            "title": "Scientists try to solve mystery of mass dinosaur grave beneath lush Canadian forest",
-            "summary": "A group of researchers have come to Pipestone Creek in Canada to figure out why thousands of dinosaurs are buried here.",
-            "link": "https://www.bbc.com/news/articles/c0k3x8lmje1o",
+            "title": "Third man arrested over fires at homes linked to PM",
+            "summary": "A 34-year-old man is arrested over alleged arson attacks on properties connected to Sir Keir Starmer.",
+            "link": "https://www.bbc.com/news/articles/cvg78zw7yqyo",
             "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 05:06:24 GMT"
+            "publication_date": "Mon, 19 May 2025 15:47:45 GMT"
         },
         {
-            "title": "Indian YouTuber arrested for allegedly 'spying' for Pakistan",
-            "summary": "The father of Jyoti Malhotra, the Indian travel influencer, has denied allegations that she was a spy for Pakistan.",
-            "link": "https://www.bbc.com/news/articles/cx2e7xv8v80o",
+            "title": "Cancer touches us all, says Biden after outpouring of support",
+            "summary": "The former US president has been diagnosed with an aggressive form of prostate cancer that has spread to his bones, his office says.",
+            "link": "https://www.bbc.com/news/articles/cyvmq997y9go",
             "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 08:28:52 GMT"
-        },
-        {
-            "title": "British mountaineer scales Everest for 19th time, breaking own record",
-            "summary": "Kenton Cool has broken his own record for the most climbs up the world's tallest peak by a non-sherpa.",
-            "link": "https://www.bbc.com/news/articles/cy0jyjdxrd1o",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 01:45:02 GMT"
-        },
-        {
-            "title": "Water voles are almost extinct in Wales - could edible glitter save them?",
-            "summary": "It is hoped edible glitter could help conservationists to track the shy species in the wild.",
-            "link": "https://www.bbc.com/news/articles/czx08exwp97o",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 05:10:06 GMT"
-        },
-        {
-            "title": "What we know about Biden's prostate cancer diagnosis",
-            "summary": "Prostate cancer is one of the most common cancers affecting men in the US.",
-            "link": "https://www.bbc.com/news/articles/cx2e7vrqyyyo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 04:47:27 GMT"
-        },
-        {
-            "title": "BBC uncovers child sex abuse in South Africa's illegal mines",
-            "summary": "An investigation into the illicit mining sector reveals a world of child exploitation.",
-            "link": "https://www.bbc.com/news/articles/c74z0px07nzo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 06:37:05 GMT"
-        },
-        {
-            "title": "The inside story of a council held to ransom in cyber-attack",
-            "summary": "The BBC investigates one of the most damaging ranswomare attacks on a UK local council.",
-            "link": "https://www.bbc.com/news/articles/cpw72pxrgdzo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 01:26:43 GMT"
-        },
-        {
-            "title": "Energy price cap: What next for gas and electricity bills and can I fix?",
-            "summary": "Gas and electricity prices are expected to fall in July, under regulator Ofgem's new price cap.",
-            "link": "https://www.bbc.com/news/articles/cdd29v8mp9jo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 08:28:34 GMT"
-        },
-        {
-            "title": "'A pain I can't describe': Tornadoes sweep multiple US states",
-            "summary": "Dozens of people have died in parts of the United States after tornadoes caused catastrophic damage across the weekend.",
-            "link": "https://www.bbc.com/news/videos/cwy3np4pnj3o",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 08:52:59 GMT"
-        },
-        {
-            "title": "Annual energy bills predicted to fall £129 in July",
-            "summary": "Domestic energy prices are forecast to fall in July, reversing three consecutive increases in the regulator's price cap.",
-            "link": "https://www.bbc.com/news/articles/clyn5keznpqo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 07:23:40 GMT"
-        },
-        {
-            "title": "Liberal mayor Dan beats nationalist in tense race for Romanian presidency",
-            "summary": "Nicusor Dan fights off a strong challenge from a right-wing nationalist after months of political turbulence.",
-            "link": "https://www.bbc.com/news/articles/crk2xxzxkzxo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 06:45:11 GMT"
-        },
-        {
-            "title": "GP patients to help NHS find more infected blood victims",
-            "summary": "The NHS is trying to find many hundreds of people exposed to the virus via contaminated blood in the 1970s, 80s and 90s.",
-            "link": "https://www.bbc.com/news/articles/c93lqz7lrkyo",
-            "source": "BBC News",
-            "publication_date": "Mon, 19 May 2025 00:59:27 GMT"
+            "publication_date": "Mon, 19 May 2025 15:18:31 GMT"
         }
     ]
 }
