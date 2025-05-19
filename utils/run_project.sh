@@ -14,7 +14,7 @@ if [ $? -eq 0 ]; then
     echo "✅ Coleta de notícias concluída com sucesso. Iniciando upload para GitHub..."
     
     # Executa o script de upload para o GitHub a partir do diretório utils
-    ./utils/upload_feeds_to_github.sh
+    /home/robert/Documents/vscode_projects/news_colletector/utils/upload_logs_to_github.sh
     
     # Verifica o resultado do upload
     if [ $? -eq 0 ]; then

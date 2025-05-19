@@ -12,19 +12,13 @@ def generate_audio(text, output_audio_path, speaker="Sofia Hellen", language="pt
     Gera um arquivo de áudio a partir de um texto usando TTS.
     :param text: Texto a ser convertido em áudio.
     :param output_audio_path: Caminho onde o arquivo de áudio será salvo.
-    :param speaker: Nome do falante (voz) a ser usado.
-    :param language: Idioma do texto (pt para português, en para inglês).
+    :param speaker: Nome do falante (opcional, depende do modelo TTS).
+    :param language: Idioma do texto (padrão: "pt" para português).
     """
     try:
         logger.info("🔧 Carregando o modelo de TTS...")
         tts = TTS(model_name="tts_models/multilingual/multi-dataset/xtts_v2")
         logger.info("✅ Modelo carregado com sucesso.")
-
-        # Verifica se o idioma e o falante são suportados
-        supported_languages = ["pt", "en"]
-        if language not in supported_languages:
-            logger.warning(f"⚠️ Idioma '{language}' não suportado. Usando 'pt' como padrão.")
-            language = "pt"
 
         # Gera o áudio
         tts.tts_to_file(
