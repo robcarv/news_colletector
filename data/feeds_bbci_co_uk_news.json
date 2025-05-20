@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "UK now best placed country on trade, says Reeves",
+            "summary": "The chancellor tells the BBC the latest trade agreements with the EU, US and India will boost economic growth.",
+            "link": "https://www.bbc.com/news/articles/ce802rygr02o",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 05:58:22 GMT"
+        },
+        {
+            "title": "Chris Mason: EU deal a reminder of an uneasy relationship",
+            "summary": "Our political editor reflects on the UK's deal with the EU to smoothen frictions in trade.",
+            "link": "https://www.bbc.com/news/articles/c4ge2ndqdpeo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 01:44:18 GMT"
+        },
+        {
+            "title": "Family criticises law change on paedophiles' parental rights",
+            "summary": "Those convicted of child sexual offences may not be banned from contact with their own offspring.",
+            "link": "https://www.bbc.com/news/articles/czr8v24g6gxo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 05:00:12 GMT"
+        },
+        {
+            "title": "UK, France and Canada threaten action against Israel over Gaza",
+            "summary": "The three nations \"strongly oppose\" Benjamin Netanyahu's expansion of military operations, a statement from their leaders said.",
+            "link": "https://www.bbc.com/news/articles/czxy19n4kpyo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 03:47:29 GMT"
+        },
+        {
+            "title": "British man breaks record for fastest run across Australia",
+            "summary": "William Goodge ran from Perth to Sydney in 35 days, running the equivalent of 2.5 marathons each day.",
+            "link": "https://www.bbc.com/news/articles/cm265m72l5jo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 01:15:29 GMT"
+        },
+        {
+            "title": "Sesame Street heads to Netflix after Trump pulled funding",
+            "summary": "The platform will offer a new season and 90 hours of previous episodes to its 300 million subscribers.",
+            "link": "https://www.bbc.com/news/articles/c80k7z8z77yo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 03:38:31 GMT"
+        },
+        {
+            "title": "The Papers: 'UK condemns Israel' and 'Brexit reset'",
+            "summary": "Reaction to the UK's new trade deal with the EU dominated the front pages of Tuesday's papers.",
+            "link": "https://www.bbc.com/news/articles/cx2e7z72r0eo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 04:26:26 GMT"
+        },
+        {
+            "title": "Tesla battery maker sees shares jump on Hong Kong debut",
+            "summary": "China's CATL makes more than a third of electric vehicle batteries sold worldwide and also supplies VW and Toyota.",
+            "link": "https://www.bbc.com/news/articles/c3d4k1derzgo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 04:55:31 GMT"
+        },
+        {
+            "title": "The £100m final Man Utd cannot afford to lose?",
+            "summary": "Manchester United play \"the most financially important match in the club's history\" against Tottenham on Wednesday - BBC sports editor Dan Roan explains why it is one they cannot afford to lose.",
+            "link": "https://www.bbc.com/sport/football/articles/cly3wed9de5o",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 05:13:13 GMT"
+        },
+        {
+            "title": "Postecoglou's second-season success - what and how has he won?",
+            "summary": "\"I always win things in my second year,\" said Ange Postecoglou, who hopes to guide Tottenham to glory in the Europa League final.",
+            "link": "https://www.bbc.com/sport/football/articles/c4g3wpwlj4jo",
+            "source": "BBC News",
+            "publication_date": "Tue, 20 May 2025 05:48:27 GMT"
+        }
+    ]
 }
