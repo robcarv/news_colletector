@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Thames Water halts bonus scheme as No 10 says rewarding failure 'not acceptable'",
+            "summary": "The company pauses its \"retention scheme\", which pays out cash to top executives linked to its rescue loan.",
+            "link": "https://www.bbc.com/news/articles/c4g3300yyyno",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:40:15 GMT"
+        },
+        {
+            "title": "World-first gonorrhoea vaccine launched by NHS England as infections soar",
+            "summary": "The treatment will be offered to those most at risk from August after a record number of cases.",
+            "link": "https://www.bbc.com/news/articles/cded26z16leo",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 00:13:10 GMT"
+        },
+        {
+            "title": "Student suicide review says unis must act to stop more deaths",
+            "summary": "The government wants universities to check the safety of halls and reach out to families after a death.",
+            "link": "https://www.bbc.com/news/articles/cq855x0gk3xo",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 00:52:35 GMT"
+        },
+        {
+            "title": "Tropical forests destroyed at fastest recorded rate last year",
+            "summary": "Tropical forests provide a buffer against climate change, but disappeared faster than ever recorded last year.",
+            "link": "https://www.bbc.com/news/articles/c0lnngl6713o",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 04:04:19 GMT"
+        },
+        {
+            "title": "The Papers: 'This must end now' and 'Rayner's secret plan'",
+            "summary": "Foreign Secretary David Lammy's rare condemnation of Israel's bombing of Gaza dominates Tuesday's papers.",
+            "link": "https://www.bbc.com/news/articles/cy755y2nde3o",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:13:19 GMT"
+        },
+        {
+            "title": "Nicotine pouches helped me quit vaping – but now I'm addicted",
+            "summary": "Teenagers say it is easy to get hold of the products, which experts warn can be highly addictive.",
+            "link": "https://www.bbc.com/news/articles/cgj87dz28eeo",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:22:22 GMT"
+        },
+        {
+            "title": "New brain tumour test a 'game changer', say experts",
+            "summary": "Scientists say the new method can diagnose the exact type of tumour within hours, rather than weeks.",
+            "link": "https://www.bbc.com/news/articles/cpvkmkk4pv4o",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 01:34:17 GMT"
+        },
+        {
+            "title": "India's Banu Mushtaq scripts history with International Booker win",
+            "summary": "Mushtaq won the prize for the short story collection Heart Lamp, translated into English by Deepa Bhasthi.",
+            "link": "https://www.bbc.com/news/articles/c308qjpz9y2o",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:58:23 GMT"
+        },
+        {
+            "title": "'Convinced he was Spurs-bound' - How Fernandes became Man Utd's heart",
+            "summary": "As Bruno Fernandes leads Man Utd out against Tottenham in the Europa League final, BBC Sport look at his journey - including almost signing for Spurs.",
+            "link": "https://www.bbc.com/sport/football/articles/c0mr92m01weo",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:13:29 GMT"
+        },
+        {
+            "title": "Spurs and Man Utd meet in worst-form European final",
+            "summary": "The winners of Wednesday's Europa League final between Manchester United and Tottenham will be the lowest league finishers ever to win a major European trophy. BBC Sport examines their seasons, motives and stats.",
+            "link": "https://www.bbc.com/sport/football/articles/c89px2308g4o",
+            "source": "BBC News",
+            "publication_date": "Wed, 21 May 2025 05:45:57 GMT"
+        }
+    ]
 }
