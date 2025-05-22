@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Violent criminals could be let out early for good behaviour under new proposals",
+            "summary": "The landmark sentencing review calls for fewer custodial sentences and earlier prison releases.",
+            "link": "https://www.bbc.com/news/articles/cql22xwg62vo",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 05:00:33 GMT"
+        },
+        {
+            "title": "Gazans fear shutdown of water plants as Israel widens offensive",
+            "summary": "Parents say children are having to drink unsafe and salty water, as fuel shortages threaten desalination and hygiene facilities.",
+            "link": "https://www.bbc.com/news/articles/ced227p84n4o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 04:31:31 GMT"
+        },
+        {
+            "title": "UK to sign Chagos deal with Mauritius",
+            "summary": "The US and UK will maintain a key military base on the island for 99 years, under the multi-billion pound deal.",
+            "link": "https://www.bbc.com/news/articles/c04ed914qn9o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 00:11:28 GMT"
+        },
+        {
+            "title": "Chris Mason: Labour is still blaming the Conservatives",
+            "summary": "A year on from the election, the government needs to demonstrate delivery to claw back some popularity.",
+            "link": "https://www.bbc.com/news/articles/cp3qlnqv7w8o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 04:41:21 GMT"
+        },
+        {
+            "title": "UK sea temperatures soar after exceptionally warm Spring",
+            "summary": "Sea temperatures in some areas off the UK and Ireland are 4C above average.",
+            "link": "https://www.bbc.com/news/articles/c7533y6l3k0o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 01:05:01 GMT"
+        },
+        {
+            "title": "Why Starmer will struggle to win on immigration",
+            "summary": "New figures are expected to show a fall in net migration. But still, Labour will struggle to soothe public concern, writes our senior correspondent Allan Little.",
+            "link": "https://www.bbc.com/news/articles/cyvmmldmvq4o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 02:01:40 GMT"
+        },
+        {
+            "title": "Ramaphosa keeps cool during Trump's choreographed onslaught",
+            "summary": "The BBC's Gary O'Donoghue analyses how the South African president reacted in an extraordinary Oval Office meeting.",
+            "link": "https://www.bbc.com/news/articles/c753rlw4430o",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 01:48:07 GMT"
+        },
+        {
+            "title": "M&S website completely down, leaving users unable to browse",
+            "summary": "The site reads: \"Sorry you can't browse the site currently. We're making some updates and will be back soon.\"",
+            "link": "https://www.bbc.com/news/articles/c0k374x1y8do",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 04:00:47 GMT"
+        },
+        {
+            "title": "North Korea's Kim slams 'serious accident' at warship launch",
+            "summary": "The failed launch \"severely damaged the dignity and pride of our nation in an instant,\" says the North Korean leader.",
+            "link": "https://www.bbc.com/news/articles/c39xzn970pyo",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 03:43:40 GMT"
+        },
+        {
+            "title": "Watch: Deep inside a Norwegian mountain, Nato allies train for Arctic war",
+            "summary": "Europe editor Katya Adler gains access to a secret HQ and Norwegian warships leading military exercises.",
+            "link": "https://www.bbc.com/news/videos/cy0jjxnd8weo",
+            "source": "BBC News",
+            "publication_date": "Thu, 22 May 2025 05:10:24 GMT"
+        }
+    ]
 }
