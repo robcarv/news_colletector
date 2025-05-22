@@ -1,19 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Ask the Developer Vol. 18, Mario Kart World – Chapter 4",
-            "summary": "A new generation of Mario Kart",
-            "link": "https://www.nintendo.com/en-gb/News/2025/May/Ask-the-Developer-Vol-18-Mario-Kart-World-Chapter-4-2832777.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
-            "source": "Latest news - Nintendo UK",
-            "publication_date": "Wed, 21 May 2025 11:19:28 +0200"
-        },
-        {
-            "title": "Ask the Developer Vol. 18, Mario Kart World – Chapter 3",
-            "summary": "An interconnected world",
-            "link": "https://www.nintendo.com/en-gb/News/2025/May/Ask-the-Developer-Vol-18-Mario-Kart-World-Chapter-3-2832747.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
-            "source": "Latest news - Nintendo UK",
-            "publication_date": "Wed, 21 May 2025 03:00:00 +0200"
-        }
-    ]
+    "news": []
 }
