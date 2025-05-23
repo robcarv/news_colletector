@@ -2,32 +2,67 @@
     "language": "en",
     "news": [
         {
-            "title": "Netanyahu accuses Starmer of siding with Hamas",
+            "title": "Customers urged to fix energy bills as prices fall from July",
+            "summary": "A typical annual domestic energy bill will drop by £129 in July, the first fall in a year.",
+            "link": "https://www.bbc.com/news/articles/cn7zdzz83y0o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 10:52:54 GMT"
+        },
+        {
+            "title": "Netanyahu accuses Starmer of being on 'wrong side of humanity' and siding with Hamas",
             "summary": "The UK, France and Canada condemned the expanded Israeli military operation in Gaza this week.",
             "link": "https://www.bbc.com/news/articles/c7804k13x52o",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 03:38:30 GMT"
-        },
-        {
-            "title": "Prince of Wales hails Sir David Attenborough ‘inspiration’ for new wildlife show",
-            "summary": "The Prince of Wales says his new series on rangers follows in the nature broadcaster's footsteps.",
-            "link": "https://www.bbc.com/news/articles/c3087vlmljmo",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 00:21:04 GMT"
+            "publication_date": "Fri, 23 May 2025 11:33:42 GMT"
         },
         {
             "title": "Man in Norway wakes to find huge container ship in garden",
             "summary": "Johan Helberg says he was \"quite astonished\" to look out of his window and see the vessel.",
             "link": "https://www.bbc.com/news/articles/cy8nk279ydyo",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 02:02:15 GMT"
+            "publication_date": "Fri, 23 May 2025 06:25:13 GMT"
         },
         {
-            "title": "The Papers: 'Chagos surrender' and 'Shipshape Kate'",
-            "summary": "The fallout from the PM's controversial Chagos Islands deal features prominently in Friday's papers.",
-            "link": "https://www.bbc.com/news/articles/cdxk5jy40j7o",
+            "title": "'It's dehumanising': Harvard's foreign students reel from Trump administration ban",
+            "summary": "Harvard has around 6,800 foreign students currently - a third are from China, and more than 700 are Indian.",
+            "link": "https://www.bbc.com/news/articles/cm2k0pl3ex7o",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 04:21:00 GMT"
+            "publication_date": "Fri, 23 May 2025 10:54:15 GMT"
+        },
+        {
+            "title": "Doctors threaten strike action after 4% pay offer",
+            "summary": "The British Medical Association, which represents doctors, said the increase was \"derisory\".",
+            "link": "https://www.bbc.com/news/articles/c8jg1zyejeno",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 11:55:56 GMT"
+        },
+        {
+            "title": "Labubu fan fury as viral dolls pulled from stores after reports of customer fighting",
+            "summary": "The popular toys have been removed from shelves until June, following reports of customers fighting over them.",
+            "link": "https://www.bbc.com/news/articles/cvgvwvvlnv3o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 06:15:04 GMT"
+        },
+        {
+            "title": "New satellite photos show damaged North Korean warship",
+            "summary": "Kim Jong Un has called the shipyard accident a \"criminal act\" and vowed to find those responsible.",
+            "link": "https://www.bbc.com/news/articles/cx2qgdnxxe2o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 10:07:49 GMT"
+        },
+        {
+            "title": "Drivers claim cars damaged and keys missing after using ‘secure’ airport parking service",
+            "summary": "Meet-and-greet firm denies liability after a customer's car is damaged in a hit-and-run accident.",
+            "link": "https://www.bbc.com/news/articles/cdd27pv4dy9o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 08:42:33 GMT"
+        },
+        {
+            "title": "Liverpool boss Arne Slot: Excuses are for teams that don't win the league",
+            "summary": "In a wide-ranging interview with the BBC, the head coach says it is \"nice\" his side won the Premier League so he does not have to rely on them.",
+            "link": "https://www.bbc.com/sport/football/articles/cqxee7p5x48o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 05:16:57 GMT"
         },
         {
             "title": "What not to miss at Radio 1's Big Weekend 2025",
@@ -35,41 +70,6 @@
             "link": "https://www.bbc.com/news/articles/c0r11l0rzgwo",
             "source": "BBC News",
             "publication_date": "Fri, 23 May 2025 00:03:57 GMT"
-        },
-        {
-            "title": "U2: 'We want to make the sound of the future'",
-            "summary": "In an exclusive interview, the band talk about their first album since 2017's Songs of Innocence.",
-            "link": "https://www.bbc.com/news/articles/cm2yl1n6kr5o",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 02:24:03 GMT"
-        },
-        {
-            "title": "US says Sudan used chemical weapons in war as it issues new sanctions",
-            "summary": "The state department is imposing new sanctions on the country's government because of the findings.",
-            "link": "https://www.bbc.com/news/articles/cwynkdyk14zo",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 02:34:52 GMT"
-        },
-        {
-            "title": "Sum 41 music agent among those killed in San Diego plane crash",
-            "summary": "Federal officials say all six people aboard the small plane are presumed dead.",
-            "link": "https://www.bbc.com/news/articles/c0mr844xl42o",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 02:22:27 GMT"
-        },
-        {
-            "title": "Title, Trent and transfers - Slot reflects on season",
-            "summary": "In a wide-ranging interview with the BBC, Liverpool boss Arne Slot says excuses are \"for teams that don't win the league\".",
-            "link": "https://www.bbc.com/sport/football/articles/cqxee7p5x48o",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 05:16:57 GMT"
-        },
-        {
-            "title": "Arsenal's Williamson savours 'full circle' moment",
-            "summary": "Speaking to BBC Sport's Jo Currie, Arsenal captain Leah Williamson says to be leading her side out against Barcelona in the a Champions League final is a \"full circle\" moment as she was a mascot for their previous final in 2007.",
-            "link": "https://www.bbc.com/sport/football/videos/c5y22yl948no",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 05:28:11 GMT"
         }
     ]
 }
