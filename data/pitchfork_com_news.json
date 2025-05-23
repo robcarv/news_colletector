@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Sound Talent Group Co-Founder Dave Shapiro Killed in San Diego Plane Crash",
+            "summary": "Shapiro was among those killed when a private plane that crashed into San Diego’s Tierrasanta neighborhood, leaving no survivors",
+            "link": "https://pitchfork.com/news/dave-shapiro-sound-talent-group-co-founder-dies-at-42",
+            "source": "RSS: News",
+            "publication_date": "Fri, 23 May 2025 00:22:21 +0000"
+        }
+    ]
 }
