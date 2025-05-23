@@ -2,6 +2,20 @@
     "language": "en",
     "news": [
         {
+            "title": "Trump threatens 50% tariffs on EU goods and 25% on iPhones not made in US",
+            "summary": "Shares in the US and Europe fall after the US president says trade talks with the EU are \"going nowhere\".",
+            "link": "https://www.bbc.com/news/articles/cgr5xrygzk5o",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 16:32:37 GMT"
+        },
+        {
+            "title": "Faisal Islam: Trump's tariff plans could spark global economic shock",
+            "summary": "The move threatens significant volatility in the coming weeks, ahead of a crucial G7 summit in Canada next month.",
+            "link": "https://www.bbc.com/news/articles/czr86m8mvrmo",
+            "source": "BBC News",
+            "publication_date": "Fri, 23 May 2025 16:46:13 GMT"
+        },
+        {
             "title": "Customers urged to fix energy bills as prices fall from July",
             "summary": "A typical annual domestic energy bill will drop by £129 in July, the first fall in a year.",
             "link": "https://www.bbc.com/news/articles/cn7zdzz83y0o",
@@ -9,67 +23,53 @@
             "publication_date": "Fri, 23 May 2025 10:52:54 GMT"
         },
         {
-            "title": "Netanyahu accuses Starmer of being on 'wrong side of humanity' and siding with Hamas",
-            "summary": "The UK, France and Canada condemned the expanded Israeli military operation in Gaza this week.",
-            "link": "https://www.bbc.com/news/articles/c7804k13x52o",
+            "title": "Twelve injured in knife attack at  Hamburg station",
+            "summary": "A suspect has been arrested and a major operation is under way, German police say.",
+            "link": "https://www.bbc.com/news/articles/cm26v7n5y4eo",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 11:33:42 GMT"
+            "publication_date": "Fri, 23 May 2025 17:57:14 GMT"
         },
         {
-            "title": "Man in Norway wakes to find huge container ship in garden",
-            "summary": "Johan Helberg says he was \"quite astonished\" to look out of his window and see the vessel.",
-            "link": "https://www.bbc.com/news/articles/cy8nk279ydyo",
+            "title": "Watch officer of ship that crashed into garden fell asleep, police say",
+            "summary": "Police say the ship's watch officer admitted to being asleep during the incident in Norway.",
+            "link": "https://www.bbc.com/news/articles/c1e6jp6z6lgo",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 06:25:13 GMT"
+            "publication_date": "Fri, 23 May 2025 16:39:37 GMT"
         },
         {
-            "title": "'It's dehumanising': Harvard's foreign students reel from Trump administration ban",
-            "summary": "Harvard has around 6,800 foreign students currently - a third are from China, and more than 700 are Indian.",
-            "link": "https://www.bbc.com/news/articles/cm2k0pl3ex7o",
+            "title": "Ukraine and Russia take part in biggest prisoner swap since 2022 invasion",
+            "summary": "They each handed over 270 servicemen and 120 civilians on the Ukrainian border with Belarus.",
+            "link": "https://www.bbc.com/news/articles/cy4eyjxz7eno",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 10:54:15 GMT"
+            "publication_date": "Fri, 23 May 2025 15:45:14 GMT"
         },
         {
-            "title": "Doctors threaten strike action after 4% pay offer",
-            "summary": "The British Medical Association, which represents doctors, said the increase was \"derisory\".",
-            "link": "https://www.bbc.com/news/articles/c8jg1zyejeno",
+            "title": "Billy Joel cancels tour after brain condition diagnosis",
+            "summary": "Doctors have told the veteran US singer to stop performing as he recovers from the rare condition.",
+            "link": "https://www.bbc.com/news/articles/cx2q95d4wy1o",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 11:55:56 GMT"
+            "publication_date": "Fri, 23 May 2025 17:49:24 GMT"
         },
         {
-            "title": "Labubu fan fury as viral dolls pulled from stores after reports of customer fighting",
-            "summary": "The popular toys have been removed from shelves until June, following reports of customers fighting over them.",
-            "link": "https://www.bbc.com/news/articles/cvgvwvvlnv3o",
+            "title": "Footage reveals Jay Slater's final hours in Tenerife",
+            "summary": "The teenager, who was found dead in the Spanish island, made Snapchat videos the day he went missing.",
+            "link": "https://www.bbc.com/news/articles/cdd2z841g86o",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 06:15:04 GMT"
+            "publication_date": "Fri, 23 May 2025 10:33:11 GMT"
         },
         {
-            "title": "New satellite photos show damaged North Korean warship",
-            "summary": "Kim Jong Un has called the shipyard accident a \"criminal act\" and vowed to find those responsible.",
-            "link": "https://www.bbc.com/news/articles/cx2qgdnxxe2o",
+            "title": "Judge temporarily blocks Trump plan to stop Harvard enrolling foreign students",
+            "summary": "It comes a day after the administration said it had revoked Harvard's access to student visa programmes.",
+            "link": "https://www.bbc.com/news/articles/cje7ledqvyqo",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 10:07:49 GMT"
+            "publication_date": "Fri, 23 May 2025 16:14:05 GMT"
         },
         {
-            "title": "Drivers claim cars damaged and keys missing after using ‘secure’ airport parking service",
-            "summary": "Meet-and-greet firm denies liability after a customer's car is damaged in a hit-and-run accident.",
-            "link": "https://www.bbc.com/news/articles/cdd27pv4dy9o",
+            "title": "British woman held in Sri Lanka on drug offences",
+            "summary": "Charlotte May Lee, 21, from south London, denies knowing drugs were in her suitcase.",
+            "link": "https://www.bbc.com/news/articles/cwy6gq0l5dgo",
             "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 08:42:33 GMT"
-        },
-        {
-            "title": "Liverpool boss Arne Slot: Excuses are for teams that don't win the league",
-            "summary": "In a wide-ranging interview with the BBC, the head coach says it is \"nice\" his side won the Premier League so he does not have to rely on them.",
-            "link": "https://www.bbc.com/sport/football/articles/cqxee7p5x48o",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 05:16:57 GMT"
-        },
-        {
-            "title": "What not to miss at Radio 1's Big Weekend 2025",
-            "summary": "Four stages, 100 acts. Not sure where to start? Greg James, Jack Saunders and Sian Eleri have you covered.",
-            "link": "https://www.bbc.com/news/articles/c0r11l0rzgwo",
-            "source": "BBC News",
-            "publication_date": "Fri, 23 May 2025 00:03:57 GMT"
+            "publication_date": "Fri, 23 May 2025 15:31:23 GMT"
         }
     ]
 }
