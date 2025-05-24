@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "EU calls for 'respect' after Trump threatens 50% tariffs",
+            "summary": "Trade chief Maros Sefcovic said the EU is \"ready to defend\" its interests after Trump threatened 50% tariffs on the bloc.",
+            "link": "https://www.bbc.com/news/articles/cq857yqwvldo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 01:59:11 GMT"
+        },
+        {
+            "title": "Mental health A&E centres to open across England",
+            "summary": "The plans would allow people in acute mental distress to get treatment in hospital while also reducing A&E wait times.",
+            "link": "https://www.bbc.com/news/articles/c75343nx06go",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 03:47:02 GMT"
+        },
+        {
+            "title": "Yachts an easy way to bring migrants to UK, says ex-smuggler",
+            "summary": "Former British soldier describes smuggling dozens of Vietnamese into marinas in English seaside towns.",
+            "link": "https://www.bbc.com/news/articles/c70664266plo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 05:00:37 GMT"
+        },
+        {
+            "title": "Kneecap defiant at first major gig since terror charge",
+            "summary": "The Irish-language hip-hop trio play their biggest ever festival headline slot in south London.",
+            "link": "https://www.bbc.com/news/articles/cz70lyqzeqeo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 01:46:57 GMT"
+        },
+        {
+            "title": "Government delays publication of child poverty strategy",
+            "summary": "The taskforce, which is working on the strategy, has been considering scrapping the two-child benefit cap.",
+            "link": "https://www.bbc.com/news/articles/c62vn453ejjo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 05:36:36 GMT"
+        },
+        {
+            "title": "Eighteen injured in Hamburg knife attack as woman arrested",
+            "summary": "A 39-year-old woman is understood to have acted alone with no \"political motive\", German police say.",
+            "link": "https://www.bbc.com/news/articles/cm26v7n5y4eo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 04:37:22 GMT"
+        },
+        {
+            "title": "The Papers:  'Rayner on the Rampage' and 'My big sister Kate'",
+            "summary": "Concerns over government cuts and a heart-warming interview with the Princess of Wales's brother lead the papers.",
+            "link": "https://www.bbc.com/news/articles/c3e5z3275vqo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 04:49:06 GMT"
+        },
+        {
+            "title": "'I don't know what we'll do' - Vapers panic-buy ahead of disposables ban",
+            "summary": "Some disposable vape users say they are stockpiling, worried about what they will do after the ban.",
+            "link": "https://www.bbc.com/news/articles/cvgvw2ydg33o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 03:04:52 GMT"
+        },
+        {
+            "title": "Reform UK prepares for real power on a council it now dominates",
+            "summary": "Lancashire's new councillors start their jobs, after the party's big wins in this month's local elections.",
+            "link": "https://www.bbc.com/news/articles/c87j39glvp1o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 02:58:11 GMT"
+        },
+        {
+            "title": "Boeing to avoid prosecution in US Justice Department deal over crashes",
+            "summary": "The two crashes happened in 2018 and 2019 and left 346 people dead.",
+            "link": "https://www.bbc.com/news/articles/c14kg0lj8k6o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 01:17:24 GMT"
+        }
+    ]
 }
