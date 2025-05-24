@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Murder arrest as mum and three children die in fire",
+            "summary": "A 41-year-old man was arrested at the scene on suspicion of murder and remains in custody.",
+            "link": "https://www.bbc.com/news/articles/cn4g3jgv7mro",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 15:59:43 GMT"
+        },
+        {
+            "title": "Yachts an easy way to bring migrants to UK, says ex-smuggler",
+            "summary": "Former British soldier describes smuggling dozens of Vietnamese into marinas in English seaside towns.",
+            "link": "https://www.bbc.com/news/articles/c70664266plo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 05:00:37 GMT"
+        },
+        {
+            "title": "Thirteen killed in wave of Russian attacks across Ukraine",
+            "summary": "At least 13 people were killed the the latest Russian aerial attack across Ukraine",
+            "link": "https://www.bbc.com/news/articles/cy908n4vr0jo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 14:17:52 GMT"
+        },
+        {
+            "title": "'It's going to be ugly': Westminster braces for Spending Review",
+            "summary": "As the chancellor prepares to set government budgets for future years, who are likely winners and losers?",
+            "link": "https://www.bbc.com/news/articles/c0eqp9ejjvdo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 13:00:48 GMT"
+        },
+        {
+            "title": "Israeli strike kills nine of Gaza doctor's children, hospital says",
+            "summary": "A British surgeon working in Nasser Hospital said he had operated on the doctor's surviving 11-year-old.",
+            "link": "https://www.bbc.com/news/articles/c0eq9lq7xr1o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 17:24:33 GMT"
+        },
+        {
+            "title": "Boris and Carrie Johnson announce birth of fourth child",
+            "summary": "The former PM's wife says the family is \"totally smitten\" by their daughter, Poppy.",
+            "link": "https://www.bbc.com/news/articles/c989lqym15qo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 16:05:19 GMT"
+        },
+        {
+            "title": "'I don't know what we'll do' - Vapers panic-buy ahead of disposables ban",
+            "summary": "Some disposable vape users say they are stockpiling, worried about what they will do after the ban.",
+            "link": "https://www.bbc.com/news/articles/cvgvw2ydg33o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 03:04:52 GMT"
+        },
+        {
+            "title": "Kneecap defiant at first major gig since terror charge",
+            "summary": "The Irish-language hip-hop trio play their biggest ever festival headline slot in south London.",
+            "link": "https://www.bbc.com/news/articles/cz70lyqzeqeo",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 01:46:57 GMT"
+        },
+        {
+            "title": "There is an alternative, Labour MPs tell Reeves",
+            "summary": "Some MPs are calling on the chancellor to raise taxes on the wealthy instead of cutting welfare.",
+            "link": "https://www.bbc.com/news/articles/c991mg1gjx9o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 11:14:01 GMT"
+        },
+        {
+            "title": "Sabotage suspected as power cut hits Cannes Film Festival",
+            "summary": "A substation was set on fire and a pylon damaged, interrupting screenings and affecting 160,000 homes.",
+            "link": "https://www.bbc.com/news/articles/c4gel3g84q0o",
+            "source": "BBC News",
+            "publication_date": "Sat, 24 May 2025 17:52:30 GMT"
+        }
+    ]
 }
