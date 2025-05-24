@@ -1,40 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Billy Joel Cancels All Concerts Due to Brain Disorder",
-            "summary": "The musician was recently diagnosed with normal pressure hydrocephalus (NPH) and is “undergoing specific physical therapy,” according to a statement",
-            "link": "https://pitchfork.com/news/billy-joel-cancels-all-concerts-due-to-brain-disorder",
-            "source": "RSS: News",
-            "publication_date": "Fri, 23 May 2025 16:28:05 +0000"
-        },
-        {
-            "title": "Afrika Bambaataa Loses Child Sex Abuse and Trafficking Lawsuit via Default Judgment",
-            "summary": "In 2021, a man sued Afrika Bambaataa, alleging that the musician abused him for years in the 1990s. The hip-hop pioneer never acknowledged the lawsuit, leading to a default judgment against him.",
-            "link": "https://pitchfork.com/news/afrika-bambaataa-loses-child-sex-abuse-and-trafficking-lawsuit-via-default-judgment",
-            "source": "RSS: News",
-            "publication_date": "Fri, 23 May 2025 13:50:14 +0000"
-        },
-        {
-            "title": "Saint Etienne Announce Final Album, Share Video for New Song “Glad”: Watch",
-            "summary": "The British indie-pop trio is not breaking up, but would like “to go out with a bang” with new album International",
-            "link": "https://pitchfork.com/news/saint-etienne-announce-final-album-share-video-for-new-song-glad-watch",
-            "source": "RSS: News",
-            "publication_date": "Fri, 23 May 2025 13:25:32 +0000"
-        },
-        {
-            "title": "8 New Albums You Should Listen to Now: Stereolab, Smerz, and More",
-            "summary": "Stream new releases from Stereolab, Smerz, Sparks, Sophia Kennedy, MSPaint, These New Puritans, Home Is Where, and Lindstrøm",
-            "link": "https://pitchfork.com/news/8-new-albums-you-should-listen-to-now-stereolab-smerz",
-            "source": "RSS: News",
-            "publication_date": "Fri, 23 May 2025 12:52:49 +0000"
-        },
-        {
-            "title": "Sound Talent Group Co-Founder Dave Shapiro Killed in San Diego Plane Crash",
-            "summary": "Shapiro was among those killed when a private plane that crashed into San Diego’s Tierrasanta neighborhood, leaving no survivors",
-            "link": "https://pitchfork.com/news/dave-shapiro-sound-talent-group-co-founder-dies-at-42",
-            "source": "RSS: News",
-            "publication_date": "Fri, 23 May 2025 00:22:21 +0000"
-        }
-    ]
+    "news": []
 }
