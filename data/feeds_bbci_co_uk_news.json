@@ -1,4 +1,54 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "South Western becomes first rail company renationalised by Labour",
+            "summary": "The first service under new public ownership will be partially operated by a rail replacement bus.",
+            "link": "https://www.bbc.com/news/articles/ceqg73znzzeo",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 05:51:03 GMT"
+        },
+        {
+            "title": "Farage commits to reinstating winter fuel payment",
+            "summary": "Reform UK also plans to scrap the two-child benefit policy, as part of plans to outflank the government.",
+            "link": "https://www.bbc.com/news/articles/cvg9v0ylv8vo",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 00:42:06 GMT"
+        },
+        {
+            "title": "Russian strikes kill eight across Ukraine, officials say",
+            "summary": "Deaths were reported in Ukraine's west, south and the capital Kyiv region, while Russia says it destroyed 95 Ukrainian drones.",
+            "link": "https://www.bbc.com/news/articles/cx2rx8kxdm4o",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 05:46:54 GMT"
+        },
+        {
+            "title": "Murder arrest as mum and three children die in fire",
+            "summary": "A 41-year-old man was arrested at the scene on suspicion of murder and remains in custody.",
+            "link": "https://www.bbc.com/news/articles/cn4g3jgv7mro",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 02:04:43 GMT"
+        },
+        {
+            "title": "The Papers:  Child benefit cap 'to be lifted' and fires 'twist'",
+            "summary": "Plans to lift limits on child benefit payments and calls to restore the winter fuel allowance lead the papers.",
+            "link": "https://www.bbc.com/news/articles/cvg547nlyxpo",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 04:26:53 GMT"
+        },
+        {
+            "title": "France impounds UK vessel accused of illegal fishing",
+            "summary": "The British ship is diverted to the port of Boulogne after being stopped by a French patrol boat.",
+            "link": "https://www.bbc.com/news/articles/cn05268j86zo",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 03:23:58 GMT"
+        },
+        {
+            "title": "How one woman's racist tweet sparked a free speech row",
+            "summary": "Lucy Connolly lost her appeal against her race-hate jail sentence, but is free speech under threat?",
+            "link": "https://www.bbc.com/news/articles/cp3nn60wyr6o",
+            "source": "BBC News",
+            "publication_date": "Sun, 25 May 2025 01:39:35 GMT"
+        }
+    ]
 }
