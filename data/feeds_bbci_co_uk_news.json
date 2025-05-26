@@ -1,4 +1,61 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Trump calls Putin 'crazy' after largest Russian attack on Ukraine",
+            "summary": "In a rare rebuke, the US president says he is \"not happy\" with his Russian counterpart over the latest attacks.",
+            "link": "https://www.bbc.com/news/articles/c4g2wz74jdzo",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 04:37:41 GMT"
+        },
+        {
+            "title": "Israeli strikes across Gaza kill 24, medics and officials say",
+            "summary": "A school sheltering displaced families in central Gaza was among those hit, according to medics and civil defence officials.",
+            "link": "https://www.bbc.com/news/articles/cz9yjj54v3xo",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 03:43:55 GMT"
+        },
+        {
+            "title": "Lilo and Stitch beat Tom Cruise in box office bonanza",
+            "summary": "Disney's Lilo and Stitch remake and the latest Mission: Impossible become two of the year's biggest films.",
+            "link": "https://www.bbc.com/news/articles/c4g2w8pqeyvo",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 00:35:40 GMT"
+        },
+        {
+            "title": "HS2 investigating two firms supplying construction staff",
+            "summary": "The company building the high-speed rail line says it takes all whistleblower allegations seriously.",
+            "link": "https://www.bbc.com/news/articles/c3rpv4lj2g3o",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 01:18:05 GMT"
+        },
+        {
+            "title": "King travels to support Canada as it fends off Trump",
+            "summary": "The King and Queen will be arriving in Canada on Monday for a visit seen as a symbol of support.",
+            "link": "https://www.bbc.com/news/articles/cgkdnmm8k2no",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 00:31:09 GMT"
+        },
+        {
+            "title": "North Korea arrests senior official over warship launch failure",
+            "summary": "The Workers' Party official was \"largely responsible\" for the botched launch, state media said.",
+            "link": "https://www.bbc.com/news/articles/cwy3rr307qyo",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 02:07:37 GMT"
+        },
+        {
+            "title": "AI could already be conscious. Are we ready for it?",
+            "summary": "With a leap in the evolution of large language models, some leading thinkers are questioning whether AI might become sentient",
+            "link": "https://www.bbc.com/news/articles/c0k3700zljjo",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 00:38:27 GMT"
+        },
+        {
+            "title": "Winter fuel 'in total chaos', and Ukraine 'fury' at US",
+            "summary": "A mix of stories lead the front pages this Bank Holiday Monday, including the government's welfare cuts.",
+            "link": "https://www.bbc.com/news/articles/cly3730yxg1o",
+            "source": "BBC News",
+            "publication_date": "Mon, 26 May 2025 04:03:06 GMT"
+        }
+    ]
 }
