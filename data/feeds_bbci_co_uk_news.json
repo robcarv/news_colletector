@@ -2,67 +2,74 @@
     "language": "en",
     "news": [
         {
-            "title": "Abortion arrest: Recording reveals police concern",
+            "title": "Why police released details about Liverpool crash suspect so quickly",
+            "summary": "The decision shows lessons have been learned from the Southport attacks last summer, writes Daniel Sandford.",
+            "link": "https://www.bbc.com/news/articles/cvgv4ddpyddo",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 10:52:19 GMT"
+        },
+        {
+            "title": "Ministers considering scrapping two-child benefit cap",
+            "summary": "The education secretary says the policy pushes people into poverty but warns scrapping it would be costly.",
+            "link": "https://www.bbc.com/news/articles/c5ykp78r5r7o",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 11:00:42 GMT"
+        },
+        {
+            "title": "Controversial US-backed group says it has begun aid distribution in Gaza",
+            "summary": "The Gaza Humanitarian Foundation says Palestinians have collected supplies, though the scale is unclear.",
+            "link": "https://www.bbc.com/news/articles/cev41em3r9lo",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 09:22:57 GMT"
+        },
+        {
+            "title": "Leaked recording reveals police doubts over woman’s abortion arrest",
             "summary": "Police “not comfortable” operating in abortion criminalisation, says Met officer in case of Nicola Packer.",
             "link": "https://www.bbc.com/news/articles/cp852g0l6j6o",
             "source": "BBC News",
             "publication_date": "Tue, 27 May 2025 05:04:46 GMT"
         },
         {
-            "title": "King prepares to give key speech backing Canada",
-            "summary": "King Charles has received a warm welcome in Canada ahead of a historic speech in its parliament.",
+            "title": "Mary Earps announces shock England retirement before Euro 2025",
+            "summary": "England goalkeeper Mary Earps announces her retirement from international football with immediate effect - just five weeks before Euro 2025 begins.",
+            "link": "https://www.bbc.com/sport/football/articles/cdj9ryd8mgro",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 10:17:31 GMT"
+        },
+        {
+            "title": "IMF raises UK growth forecast as it warns on tax and spending",
+            "summary": "In its annual health-check for the UK economy, the IMF predicted growth of 1.2%, a marginal upgrade to its previous forecast.",
+            "link": "https://www.bbc.com/news/articles/cx2jy0jk231o",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 11:48:19 GMT"
+        },
+        {
+            "title": "Man charged with attempted murder after police officer injured in Buckinghamshire",
+            "summary": "Simranjit Kajla is charged with attempted murder after the suspected hit-and-run.",
+            "link": "https://www.bbc.com/news/articles/clynkzqw3nwo",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 10:24:00 GMT"
+        },
+        {
+            "title": "KFC to create 7,000 jobs in UK and Irish growth push",
+            "summary": "The fried chicken firm will invest nearly £1.5bn over five years as rivals step up expansion.",
+            "link": "https://www.bbc.com/news/articles/cy75exp5p6mo",
+            "source": "BBC News",
+            "publication_date": "Tue, 27 May 2025 10:04:15 GMT"
+        },
+        {
+            "title": "King to give key speech in support of Canada after its dispute with Trump",
+            "summary": "King Charles has received a warm welcome in Canada ahead of a historic speech to its parliament.",
             "link": "https://www.bbc.com/news/articles/c9wgd98yr89o",
             "source": "BBC News",
             "publication_date": "Tue, 27 May 2025 00:25:00 GMT"
         },
         {
-            "title": "Churchill photo thief sentenced to two years in jail",
-            "summary": "'The Roaring Lion' - one of the 20th century's most iconic images - was stolen from a hotel in Ottawa.",
-            "link": "https://www.bbc.com/news/articles/cvgdk4j1pg5o",
+            "title": "Tommy Robinson released after seven months in jail",
+            "summary": "The 42-year-old, whose real name is Stephen Yaxley-Lennon, is freed after his sentence was reduced.",
+            "link": "https://www.bbc.com/news/articles/c9q0147e4yxo",
             "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 02:05:00 GMT"
-        },
-        {
-            "title": "Streeting urges doctors to vote no in strike ballot",
-            "summary": "Resident doctors unhappy with 5.4% pay rise with union warning strikes in England could return.",
-            "link": "https://www.bbc.com/news/articles/c771dgm8vrpo",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 00:08:47 GMT"
-        },
-        {
-            "title": "Iran's Palme d'Or-winning director cheered as he arrives home",
-            "summary": "Director Jafar Panahi returns to Iran after his Cannes Film Festival win, greeted by cheers and applause.",
-            "link": "https://www.bbc.com/news/articles/cdd2r4y6nv8o",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 04:14:27 GMT"
-        },
-        {
-            "title": "Chinese-owned Volvo Cars to cut 3,000 jobs",
-            "summary": "The firm's boss pointed to the \"challenging period\" faced by the industry as a reason for the layoffs.",
-            "link": "https://www.bbc.com/news/articles/c8jgrl1wde8o",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 04:33:42 GMT"
-        },
-        {
-            "title": "Battle begins over new homes approved in historic village without sewage capacity",
-            "summary": "Charity launches legal challenge as it says problem of over-capacity sewage works near new homes is \"rife\".",
-            "link": "https://www.bbc.com/news/articles/cn055462jy1o",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 05:07:08 GMT"
-        },
-        {
-            "title": "The Papers: Liverpool 'glory' descends into 'horror'",
-            "summary": "The aftermath of a car ploughing into crowds at the Liverpool FC victory parade dominates Tuesday's papers.",
-            "link": "https://www.bbc.com/news/articles/c0lnk30w522o",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 04:04:43 GMT"
-        },
-        {
-            "title": "Who should be in the Premier League team of the season?",
-            "summary": "Final Score pundits Ashley Williams and Ellen White talk through their Premier League team of the season.",
-            "link": "https://www.bbc.com/sport/football/videos/ckgnq2gzx9no",
-            "source": "BBC News",
-            "publication_date": "Tue, 27 May 2025 05:19:54 GMT"
+            "publication_date": "Tue, 27 May 2025 09:57:27 GMT"
         }
     ]
 }
