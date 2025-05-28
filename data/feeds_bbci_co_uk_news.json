@@ -2,18 +2,67 @@
     "language": "en",
     "news": [
         {
+            "title": "Thames Water hit with biggest ever penalty over sewage and shareholder payouts",
+            "summary": "Thames Water must pay a £104.5m penalty for sewage breaches and £18.2m relating to shareholder dividends.",
+            "link": "https://www.bbc.com/news/articles/cgeg5vy9q8eo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 11:56:04 GMT"
+        },
+        {
+            "title": "Dozens injured by Israeli gunfire as crowds overwhelmed Gaza aid site, UN says",
+            "summary": "The UN Human Rights Office says most of the injuries were due to Israeli gunfire, but the Israeli military says troops fired into the air.",
+            "link": "https://www.bbc.com/news/articles/clyz4mzww1ro",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 11:22:45 GMT"
+        },
+        {
+            "title": "Thousands to get payouts over forced prepayment meter fitting",
+            "summary": "More than £70m is being paid to customers who were forced to switch to prepaying for energy.",
+            "link": "https://www.bbc.com/news/articles/c308vzqj975o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 10:46:14 GMT"
+        },
+        {
+            "title": "Anti-crime pledges will not be met without extra money, Met chief warns",
+            "summary": "Sir Mark Rowley says forces grappling with years of cuts need more money to meet the government's \"ambition\".",
+            "link": "https://www.bbc.com/news/articles/clyg95n0l05o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 10:59:02 GMT"
+        },
+        {
+            "title": "Indian man who disguised parcel bomb as wedding gift jailed for life",
+            "summary": "The bomb, disguised as a wedding gift killed a software engineer and his great aunt just days after his wedding in 2018.",
+            "link": "https://www.bbc.com/news/articles/c071myeve25o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 08:31:11 GMT"
+        },
+        {
+            "title": "Tesco shoppers mock 'VAR'-style cameras at self-checkout",
+            "summary": "The supermarket's latest use of technology to crack down on shoplifting has led to both jokes and complaints.",
+            "link": "https://www.bbc.com/news/articles/c20q5q92y2yo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 09:56:16 GMT"
+        },
+        {
+            "title": "Musk 'disappointed' by Trump's tax and spending bill",
+            "summary": "As the former Doge chief, Musk had worked to reduce government spending which he says this bill contradicts.",
+            "link": "https://www.bbc.com/news/articles/c20q54vn0evo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 11:50:15 GMT"
+        },
+        {
             "title": "I reported my offensive colleague to the Met - why did he get his job back?",
-            "summary": "Izzy Vine reported a colleague who made discriminatory remarks but resigned after he was reinstated.",
+            "summary": "Issy Vine reported a colleague who made discriminatory remarks but resigned after he was reinstated.",
             "link": "https://www.bbc.com/news/articles/c14ke41yg18o",
             "source": "BBC News",
             "publication_date": "Wed, 28 May 2025 05:28:50 GMT"
         },
         {
-            "title": "Anti-crime pledges will not be met without extra money, warns Met chief",
-            "summary": "In what amounts to a direct plea to the chancellor, Sir Mark Rowley says the police are \"overstretched\".",
-            "link": "https://www.bbc.com/news/articles/clyg95n0l05o",
+            "title": "Actor Paul Danan's drug use caused death by misadventure, coroner rules",
+            "summary": "The actor was found unresponsive at his home in Bristol after consuming a cocktail of drugs.",
+            "link": "https://www.bbc.com/news/articles/c5ye9z75pd0o",
             "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 05:53:51 GMT"
+            "publication_date": "Wed, 28 May 2025 11:49:59 GMT"
         },
         {
             "title": "Moment SpaceX Starship spins out of control in test flight",
@@ -21,55 +70,6 @@
             "link": "https://www.bbc.com/news/videos/c5y6drv99r9o",
             "source": "BBC News",
             "publication_date": "Wed, 28 May 2025 01:23:28 GMT"
-        },
-        {
-            "title": "US halts student visa appointments and plans expanded social media vetting",
-            "summary": "The state department says the policy will have \"significant implications\" for embassies and consulates.",
-            "link": "https://www.bbc.com/news/articles/cy75eenl46eo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 05:43:29 GMT"
-        },
-        {
-            "title": "Crowds overrun US-backed group's new aid distribution site in Gaza",
-            "summary": "Videos show people walking over torn-down fences at the Gaza Humanitarian Foundation's site in Rafah.",
-            "link": "https://www.bbc.com/news/articles/c4gep705527o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 02:49:22 GMT"
-        },
-        {
-            "title": "How 'laughing gas' became a deadly - but legal - American addiction",
-            "summary": "Nitrous oxide overdoses have increased in the US, but the substance is still legal as a \"culinary product\".",
-            "link": "https://www.bbc.com/news/articles/cly36n88n56o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 00:20:13 GMT"
-        },
-        {
-            "title": "The Papers: 'Drug drive arrest' and 'Worried about Trump?'",
-            "summary": "The driver in the Liverpool incident is suspected of acting while using drugs and the King visits Canada.",
-            "link": "https://www.bbc.com/news/articles/c87j44rdjvzo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 03:31:25 GMT"
-        },
-        {
-            "title": "'Our homes were taken for a road that was never built'",
-            "summary": "Three families speak of the \"utter hell\" of losing their homes to a road scheme that was cancelled.",
-            "link": "https://www.bbc.com/news/articles/cly8yl2rv0jo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 01:41:45 GMT"
-        },
-        {
-            "title": "A soft knock - how police arrest a suspected paedophile",
-            "summary": "Police say there has been a marked change in child abuse since the pandemic - with offenders able to contact children online in 30 seconds.",
-            "link": "https://www.bbc.com/news/articles/ckgnq5gdxpvo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 05:09:06 GMT"
-        },
-        {
-            "title": "The tiny island where puffins are thriving despite global decline",
-            "summary": "A record number of puffins have been recorded on Skomer Island despite the birds  being at risk of extinction.",
-            "link": "https://www.bbc.com/news/articles/c0mrxwpevxmo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 05:09:10 GMT"
         }
     ]
 }
