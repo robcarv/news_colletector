@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "I reported my offensive colleague to the Met - why did he get his job back?",
+            "summary": "Izzy Vine reported a colleague who made discriminatory remarks but resigned after he was reinstated.",
+            "link": "https://www.bbc.com/news/articles/c14ke41yg18o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 05:28:50 GMT"
+        },
+        {
+            "title": "Anti-crime pledges will not be met without extra money, warns Met chief",
+            "summary": "In what amounts to a direct plea to the chancellor, Sir Mark Rowley says the police are \"overstretched\".",
+            "link": "https://www.bbc.com/news/articles/clyg95n0l05o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 05:53:51 GMT"
+        },
+        {
+            "title": "Moment SpaceX Starship spins out of control in test flight",
+            "summary": "Fuel leaks on the rocket caused it to begin spinning, leading to an uncontrolled re-entry through Earth's atmosphere.",
+            "link": "https://www.bbc.com/news/videos/c5y6drv99r9o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 01:23:28 GMT"
+        },
+        {
+            "title": "US halts student visa appointments and plans expanded social media vetting",
+            "summary": "The state department says the policy will have \"significant implications\" for embassies and consulates.",
+            "link": "https://www.bbc.com/news/articles/cy75eenl46eo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 05:43:29 GMT"
+        },
+        {
+            "title": "Crowds overrun US-backed group's new aid distribution site in Gaza",
+            "summary": "Videos show people walking over torn-down fences at the Gaza Humanitarian Foundation's site in Rafah.",
+            "link": "https://www.bbc.com/news/articles/c4gep705527o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 02:49:22 GMT"
+        },
+        {
+            "title": "How 'laughing gas' became a deadly - but legal - American addiction",
+            "summary": "Nitrous oxide overdoses have increased in the US, but the substance is still legal as a \"culinary product\".",
+            "link": "https://www.bbc.com/news/articles/cly36n88n56o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 00:20:13 GMT"
+        },
+        {
+            "title": "The Papers: 'Drug drive arrest' and 'Worried about Trump?'",
+            "summary": "The driver in the Liverpool incident is suspected of acting while using drugs and the King visits Canada.",
+            "link": "https://www.bbc.com/news/articles/c87j44rdjvzo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 03:31:25 GMT"
+        },
+        {
+            "title": "'Our homes were taken for a road that was never built'",
+            "summary": "Three families speak of the \"utter hell\" of losing their homes to a road scheme that was cancelled.",
+            "link": "https://www.bbc.com/news/articles/cly8yl2rv0jo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 01:41:45 GMT"
+        },
+        {
+            "title": "A soft knock - how police arrest a suspected paedophile",
+            "summary": "Police say there has been a marked change in child abuse since the pandemic - with offenders able to contact children online in 30 seconds.",
+            "link": "https://www.bbc.com/news/articles/ckgnq5gdxpvo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 05:09:06 GMT"
+        },
+        {
+            "title": "The tiny island where puffins are thriving despite global decline",
+            "summary": "A record number of puffins have been recorded on Skomer Island despite the birds  being at risk of extinction.",
+            "link": "https://www.bbc.com/news/articles/c0mrxwpevxmo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 05:09:10 GMT"
+        }
+    ]
 }
