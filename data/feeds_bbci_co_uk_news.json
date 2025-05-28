@@ -2,6 +2,62 @@
     "language": "en",
     "news": [
         {
+            "title": "UK prosecutors say 21 charges authorised against Tate brothers",
+            "summary": "Prosecutors in the UK confirm they have authorised 21 charges against Andrew and Tristan Tate, including rape, actual bodily harm and human trafficking.",
+            "link": "https://www.bbc.com/news/articles/ckg41g1140po",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 17:00:31 GMT"
+        },
+        {
+            "title": "The terrifying new weapon changing the war in Ukraine",
+            "summary": "The BBC reports from Donetsk where swarms of fibre optic drones give Russia the edge as Ukraine defends towns behind the front line.",
+            "link": "https://www.bbc.com/news/articles/ckgn47e5qyno",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 16:00:06 GMT"
+        },
+        {
+            "title": "Heathrow chief slept as power outage closed airport, inquiry finds",
+            "summary": "Findings from a review commissioned by Heathrow management into March's power cut are published.",
+            "link": "https://www.bbc.com/news/articles/c62n0y3nepzo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 16:37:33 GMT"
+        },
+        {
+            "title": "French paedophile surgeon who abused hundreds sentenced to 20 years in jail",
+            "summary": "Joel Le Scouarnec, who has admitted his guilt, said last week he neither wanted nor expected to be shown leniency.",
+            "link": "https://www.bbc.com/news/articles/cvgdkyge198o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 12:45:32 GMT"
+        },
+        {
+            "title": "BBC Verify examines footage of chaos at aid site in Gaza",
+            "summary": "The UN Human Rights Office has said it believes 47 people were injured in Gaza on Tuesday when crowds overwhelmed an aid distribution centre run by a controversial US and Israeli-backed group.",
+            "link": "https://www.bbc.com/news/videos/cvgdkgmn3yxo",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 16:04:34 GMT"
+        },
+        {
+            "title": "Police given more time to question Liverpool parade suspect",
+            "summary": "Police get an extension to continue questioning a man arrested on suspicion of attempted murder.",
+            "link": "https://www.bbc.com/news/articles/c9wgvzyngn4o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 17:07:02 GMT"
+        },
+        {
+            "title": "UK to hit 26C this weekend after sunniest spring on record",
+            "summary": "Temperatures are set to rise across England and eastern Wales over the next few days, as this spring is confirmed as the sunniest on record.",
+            "link": "https://www.bbc.com/weather/articles/c0eqxjjvxw7o",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 11:38:22 GMT"
+        },
+        {
+            "title": "EU says Israeli strikes in Gaza 'go beyond what is necessary' to fight Hamas",
+            "summary": "Kaja Kallas, the EU's top diplomat, says the bloc also does not support a new aid distribution model which bypasses the UN and other humanitarian organisations.",
+            "link": "https://www.bbc.com/news/articles/cj937k0wg3do",
+            "source": "BBC News",
+            "publication_date": "Wed, 28 May 2025 12:46:51 GMT"
+        },
+        {
             "title": "Thames Water hit with biggest ever penalty over sewage and shareholder payouts",
             "summary": "Thames Water must pay a £104.5m penalty for sewage breaches and £18.2m relating to shareholder dividends.",
             "link": "https://www.bbc.com/news/articles/cgeg5vy9q8eo",
@@ -9,67 +65,11 @@
             "publication_date": "Wed, 28 May 2025 11:56:04 GMT"
         },
         {
-            "title": "Dozens injured by Israeli gunfire as crowds overwhelmed Gaza aid site, UN says",
-            "summary": "The UN Human Rights Office says most of the injuries were due to Israeli gunfire, but the Israeli military says troops fired into the air.",
-            "link": "https://www.bbc.com/news/articles/clyz4mzww1ro",
+            "title": "Man wrongly identified as Liverpool parade driver speaks out",
+            "summary": "Peter Cunningham had his picture circulated online alongside false claims he was driving the car that ploughed into crowds.",
+            "link": "https://www.bbc.com/news/articles/cdedg865725o",
             "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 11:22:45 GMT"
-        },
-        {
-            "title": "Thousands to get payouts over forced prepayment meter fitting",
-            "summary": "More than £70m is being paid to customers who were forced to switch to prepaying for energy.",
-            "link": "https://www.bbc.com/news/articles/c308vzqj975o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 10:46:14 GMT"
-        },
-        {
-            "title": "Anti-crime pledges will not be met without extra money, Met chief warns",
-            "summary": "Sir Mark Rowley says forces grappling with years of cuts need more money to meet the government's \"ambition\".",
-            "link": "https://www.bbc.com/news/articles/clyg95n0l05o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 10:59:02 GMT"
-        },
-        {
-            "title": "Indian man who disguised parcel bomb as wedding gift jailed for life",
-            "summary": "The bomb, disguised as a wedding gift killed a software engineer and his great aunt just days after his wedding in 2018.",
-            "link": "https://www.bbc.com/news/articles/c071myeve25o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 08:31:11 GMT"
-        },
-        {
-            "title": "Tesco shoppers mock 'VAR'-style cameras at self-checkout",
-            "summary": "The supermarket's latest use of technology to crack down on shoplifting has led to both jokes and complaints.",
-            "link": "https://www.bbc.com/news/articles/c20q5q92y2yo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 09:56:16 GMT"
-        },
-        {
-            "title": "Musk 'disappointed' by Trump's tax and spending bill",
-            "summary": "As the former Doge chief, Musk had worked to reduce government spending which he says this bill contradicts.",
-            "link": "https://www.bbc.com/news/articles/c20q54vn0evo",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 11:50:15 GMT"
-        },
-        {
-            "title": "I reported my offensive colleague to the Met - why did he get his job back?",
-            "summary": "Issy Vine reported a colleague who made discriminatory remarks but resigned after he was reinstated.",
-            "link": "https://www.bbc.com/news/articles/c14ke41yg18o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 05:28:50 GMT"
-        },
-        {
-            "title": "Actor Paul Danan's drug use caused death by misadventure, coroner rules",
-            "summary": "The actor was found unresponsive at his home in Bristol after consuming a cocktail of drugs.",
-            "link": "https://www.bbc.com/news/articles/c5ye9z75pd0o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 11:49:59 GMT"
-        },
-        {
-            "title": "Moment SpaceX Starship spins out of control in test flight",
-            "summary": "Fuel leaks on the rocket caused it to begin spinning, leading to an uncontrolled re-entry through Earth's atmosphere.",
-            "link": "https://www.bbc.com/news/videos/c5y6drv99r9o",
-            "source": "BBC News",
-            "publication_date": "Wed, 28 May 2025 01:23:28 GMT"
+            "publication_date": "Wed, 28 May 2025 15:25:42 GMT"
         }
     ]
 }
