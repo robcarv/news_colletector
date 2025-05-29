@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "US trade court blocks Trump's sweeping tariffs. What happens now?",
+            "summary": "The Trump administration lodges an appeal against the ruling shortly after it was announced.",
+            "link": "https://www.bbc.com/news/articles/c8xgdj9kyero",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 05:01:02 GMT"
+        },
+        {
+            "title": "Elon Musk leaves White House but says Doge will continue",
+            "summary": "Musk's exit comes after he criticised the legislative centrepiece of the president's agenda.",
+            "link": "https://www.bbc.com/news/articles/cz9y4exj822o",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 02:49:50 GMT"
+        },
+        {
+            "title": "Gaza warehouse broken into by 'hordes of hungry people', says WFP",
+            "summary": "Video footage shows crowds breaking into the warehouse and taking bags of flour and cartons of food.",
+            "link": "https://www.bbc.com/news/articles/c0qg5z4lkj0o",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 04:04:36 GMT"
+        },
+        {
+            "title": "Government fast-tracks two new reservoirs to shore up water supply",
+            "summary": "Changes to planning laws could speed up projects, but experts warn water consumption will also need limiting.",
+            "link": "https://www.bbc.com/news/articles/cy8dv6l2jlzo",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 01:49:43 GMT"
+        },
+        {
+            "title": "Starmer to liken Farage to Truss in policy attack",
+            "summary": "The PM's comments suggest the prime minister sees Farage as his principal political adversary.",
+            "link": "https://www.bbc.com/news/articles/cp3n4zwq6v9o",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 02:33:52 GMT"
+        },
+        {
+            "title": "Tears and heartbreak over tragic story of South African girl sold by her mother",
+            "summary": "Joshlin Smith's mother, branded the \"mastermind\" in her child's disappearance, is to be sentenced.",
+            "link": "https://www.bbc.com/news/articles/cdxk480g75qo",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 02:01:15 GMT"
+        },
+        {
+            "title": "The Papers: '£123m down the drain' and 'Better than a slap'",
+            "summary": "Thames Water faces a major fine and France's president cosies up with his wife on Thursday's front pages.",
+            "link": "https://www.bbc.com/news/articles/c1w39jp4l0zo",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 03:54:42 GMT"
+        },
+        {
+            "title": "Fleeing US deportations, it took this family three tries to enter Canada",
+            "summary": "Migrant Araceli and her family hoped Canada offered safety from President Trump's immigration crackdown, but claiming asylum proved a challenge.",
+            "link": "https://www.bbc.com/news/articles/cql2990k4dno",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 02:03:22 GMT"
+        },
+        {
+            "title": "Golden eagles soaring south back to English skies",
+            "summary": "Golden eagles reintroduced to southern Scotland start to spread their wings back into English skies.",
+            "link": "https://www.bbc.com/news/articles/c62x408deppo",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 01:44:16 GMT"
+        },
+        {
+            "title": "Moment man lights himself on fire in botched arson attack",
+            "summary": "Newly released CCTV captures a man's failed attempt to set a restaurant alight in Melbourne, Australia last year.",
+            "link": "https://www.bbc.com/news/videos/cn5ylx4ppr0o",
+            "source": "BBC News",
+            "publication_date": "Thu, 29 May 2025 04:21:27 GMT"
+        }
+    ]
 }

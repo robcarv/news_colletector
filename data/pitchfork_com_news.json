@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Watch Lorde’s Video for New Song “Man of the Year”",
+            "summary": "“An offering from really deep inside me,” the New Zealand pop star shared. “The song I’m proudest of on Virgin.”",
+            "link": "https://pitchfork.com/news/watch-lorde-video-new-song-man-of-the-year",
+            "source": "RSS: News",
+            "publication_date": "Thu, 29 May 2025 04:01:00 +0000"
+        },
+        {
+            "title": "YoungBoy Never Broke Again Pardoned by Donald Trump",
+            "summary": "The Louisiana rapper had been sentenced to nearly two years in prison on gun-related charges",
+            "link": "https://pitchfork.com/news/youngboy-never-broke-again-pardoned-by-donald-trump",
+            "source": "RSS: News",
+            "publication_date": "Thu, 29 May 2025 00:58:52 +0000"
+        }
+    ]
 }
