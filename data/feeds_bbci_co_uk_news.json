@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Trump to double tariffs on steel imports",
+            "summary": "The US president says increasing them to 50% will protect local industry and reduce reliance on China.",
+            "link": "https://www.bbc.com/news/articles/cy0k5x21y35o",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 02:44:36 GMT"
+        },
+        {
+            "title": "Healey sees defence spend rise to 3% of GDP by 2034",
+            "summary": "But a source says the defence secretary is voicing an opinion, not announcing a new commitment.",
+            "link": "https://www.bbc.com/news/articles/c2kq9qxde3go",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 01:03:00 GMT"
+        },
+        {
+            "title": "'As awkward as it gets': Ricky Gervais gets star on Hollywood Walk of Fame",
+            "summary": "The British actor says he is \"humbled\" and his success was \"luck, persistence, and a little bit of pushing against the tide\".",
+            "link": "https://www.bbc.com/news/videos/c5ykdkn1p4no",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 00:36:28 GMT"
+        },
+        {
+            "title": "Arrest after policeman injured by car in Manchester",
+            "summary": "A sergeant's legs are crushed in an alleged hit-and-run incident in the Rusholme area.",
+            "link": "https://www.bbc.com/news/articles/cwy61gnwxl5o",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 02:02:57 GMT"
+        },
+        {
+            "title": "Rugby league anger at no knighthoods in 130 years",
+            "summary": "The Speaker Sir Lindsay Hoyle joins protests at the lack of knighthoods for rugby league players.",
+            "link": "https://www.bbc.com/news/articles/cgeg74j4w1ro",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 00:11:06 GMT"
+        },
+        {
+            "title": "The Papers: 'Key worker' and 'Nazi' slur",
+            "summary": "Most of Saturday's front pages lead on Donald Trump gifting Elon Musk a key to mark his last day in office at Doge.",
+            "link": "https://www.bbc.com/news/articles/cm26yjd15vjo",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 03:17:25 GMT"
+        },
+        {
+            "title": "Scouse superhero Speedo Mick: From rock bottom to seeing life story on stage",
+            "summary": "He went from sleeping rough to raising £1m on charity walks in all weathers in just his swimming trunks.",
+            "link": "https://www.bbc.com/news/articles/cwy7wky3vyyo",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 01:44:21 GMT"
+        },
+        {
+            "title": "She defended drug lord El Chapo - now, she's running for office",
+            "summary": "On Sunday, Mexico will become the first country to elect all its judges, following a major reform.",
+            "link": "https://www.bbc.com/news/articles/cn7zk2r14gpo",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 00:22:33 GMT"
+        },
+        {
+            "title": "'A cry from the council estate' - the trans teen drama that pulls no punches",
+            "summary": "The coming-of-age BBC drama is a visceral look at working class life when you don't fit in.",
+            "link": "https://www.bbc.com/news/articles/c70zd31n2k0o",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 01:28:00 GMT"
+        },
+        {
+            "title": "How Bondi mass killer slipped through the cracks in Australia",
+            "summary": "An inquest is examining whether there were \"missed opportunities\" to stop Joel Cauchi's stabbing rampage.",
+            "link": "https://www.bbc.com/news/articles/cwyjxdwnp60o",
+            "source": "BBC News",
+            "publication_date": "Sat, 31 May 2025 04:29:33 GMT"
+        }
+    ]
 }
