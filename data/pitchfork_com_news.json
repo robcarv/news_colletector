@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Alf Clausen, Acclaimed Simpsons Composer, Dies at 84",
+            "summary": "Clausen scored over 560 episodes of the beloved animated series and was nominated for 21 Emmy Awards for his work",
+            "link": "https://pitchfork.com/news/alf-clausen-acclaimed-simpsons-composer-dies-at-84",
+            "source": "RSS: News",
+            "publication_date": "Sun, 01 Jun 2025 17:20:29 +0000"
+        },
+        {
+            "title": "New Music Releases and Upcoming Albums in 2025",
+            "summary": "A regularly updated guide to the new albums, EPs, mixtapes, and projects getting released in the coming weeks and months",
+            "link": "https://pitchfork.com/news/new-album-releases",
+            "source": "RSS: News",
+            "publication_date": "Sun, 01 Jun 2025 12:53:55 +0000"
+        }
+    ]
 }
