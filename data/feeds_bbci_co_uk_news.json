@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Defence review to send 'message to Moscow' – Healey",
+            "summary": "At least six new factories will be built and up to 7,000 UK-built long-range weapons will be procured.",
+            "link": "https://www.bbc.com/news/articles/cq69vqpp2l4o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 05:00:50 GMT"
+        },
+        {
+            "title": "Ranganathan opens up about mental health struggle",
+            "summary": "The comedian says he hopes to destigmatise mental health issues by being open about his own experiences.",
+            "link": "https://www.bbc.com/news/articles/cy8np7zzdl3o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 00:53:41 GMT"
+        },
+        {
+            "title": "Briton accused of plot to export US military tech",
+            "summary": "John Miller and Chinese man Cui Guanghai are in custody in Serbia facing a US extradition request.",
+            "link": "https://www.bbc.com/news/articles/c0qg4q87p1zo",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 04:52:58 GMT"
+        },
+        {
+            "title": "At least 15 killed in Israeli fire near Gaza aid centre, say medics",
+            "summary": "Thousands of Palestinians had reportedly gathered near the aid centre when Israeli tanks opened fire on the crowd.",
+            "link": "https://www.bbc.com/news/articles/c991j01lym3o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 05:00:36 GMT"
+        },
+        {
+            "title": "People say coke and fries are helping their migraines - but there's a twist",
+            "summary": "Migraines are one of the most complex neurological disorders. What is the science behind the latest hack?",
+            "link": "https://www.bbc.com/news/articles/c23mrl5x53ro",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 00:36:31 GMT"
+        },
+        {
+            "title": "IFS says tough public spending choices unavoidable",
+            "summary": "With the NHS and defence getting more funding, cuts to other areas are inevitable, the influential think tank says.",
+            "link": "https://www.bbc.com/news/articles/c787385qx62o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 01:19:10 GMT"
+        },
+        {
+            "title": "At least seven dead after Russian bridge collapses on to train",
+            "summary": "Another 30 people are reportedly injured after the train derailed following the bridge collapse.",
+            "link": "https://www.bbc.com/news/articles/cr7zjy89304o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 05:08:39 GMT"
+        },
+        {
+            "title": "The Papers: 'Jets to carry nuclear bombs' and 'Look Who's back'",
+            "summary": "The UK seeks to expand its nuclear deterrent and a new Doctor Who splashes on Sunday's front pages.",
+            "link": "https://www.bbc.com/news/articles/c74nvg21n84o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 03:20:31 GMT"
+        },
+        {
+            "title": "How FA's new transgender policy is affecting players",
+            "summary": "The FA's ban on transgender women playing women's football in England comes into effect on Sunday - BBC Sport hears a range of views.",
+            "link": "https://www.bbc.com/sport/football/articles/cx2e0l5gr27o",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 05:16:03 GMT"
+        },
+        {
+            "title": "These women helped bring down a president - now they say they feel invisible",
+            "summary": "A snap presidential election has exposed South Korea's stark gender divide.",
+            "link": "https://www.bbc.com/news/articles/cy8njzr42zvo",
+            "source": "BBC News",
+            "publication_date": "Sun, 01 Jun 2025 04:42:19 GMT"
+        }
+    ]
 }
