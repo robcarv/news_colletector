@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Eight hurt in Colorado fire attack after suspect shouts 'free Palestine'",
+            "summary": "The FBI calls it a suspected terror attack and says the suspect used a makeshift flamethrower.",
+            "link": "https://www.bbc.com/news/articles/cev47ze8vp3o",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 05:57:31 GMT"
+        },
+        {
+            "title": "Watch: Eyewitness captures video of Colorado attack scene",
+            "summary": "Eight people were injured after a man \"started setting people on fire\" at a mall in Boulder, Colorado, police say.",
+            "link": "https://www.bbc.com/news/videos/cev478djx4zo",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 02:45:13 GMT"
+        },
+        {
+            "title": "Ukraine drones strike 40 bombers during major attack in Russia",
+            "summary": "President Volodymyr Zelensky claims the operation is Ukraine's biggest long-range attack of the war so far.",
+            "link": "https://www.bbc.com/news/articles/c1ld7ppre9vo",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 02:43:35 GMT"
+        },
+        {
+            "title": "Conservative historian wins Polish presidential vote",
+            "summary": "Right-wing historian Karol Nawrocki is Poland's new president, official results show.",
+            "link": "https://www.bbc.com/news/articles/cx27897vedno",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 05:03:02 GMT"
+        },
+        {
+            "title": "Pharmacists warn drug shortage affecting cancer patients",
+            "summary": "Some patients are skipping meals due to a shortage of Creon, says a pharmacy association.",
+            "link": "https://www.bbc.com/news/articles/c3wdlxdj6x3o",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 00:03:10 GMT"
+        },
+        {
+            "title": "Red Cross says at least 21 killed and dozens shot in Gaza aid incident",
+            "summary": "Reports say an incident occurred in Rafah in the early hours of Sunday as people were queueing for aid.",
+            "link": "https://www.bbc.com/news/articles/c991j01lym3o",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 00:19:11 GMT"
+        },
+        {
+            "title": "Mormon wives on swinging scandals, friendship fallouts and religious backlash",
+            "summary": "Set in suburban Utah, the series follows a group of Mormon women, most of whom rose to fame on TikTok.",
+            "link": "https://www.bbc.com/news/articles/c20ndp1yzkxo",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 00:52:03 GMT"
+        },
+        {
+            "title": "Lockerbie: Remembering the victims of Flight 103",
+            "summary": "A new documentary hears from the families and friends of some of those who died in the Lockerbie bombing.",
+            "link": "https://www.bbc.com/news/articles/czel8y3gjnno",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 00:39:27 GMT"
+        },
+        {
+            "title": "The Papers: 'UK sends warning to Putin' and 'wish you were beer'",
+            "summary": "The UK moves to 'warfighting readiness' and warmer spring weather helps pubs splashes on Monday's front pages.",
+            "link": "https://www.bbc.com/news/articles/c0r1j74015qo",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 04:47:39 GMT"
+        },
+        {
+            "title": "Martial law fractured South Korea. Can this election heal the nation?",
+            "summary": "The snap election follows the impeachment of former president Yoon for declaring martial law.",
+            "link": "https://www.bbc.com/news/articles/c7069pg4zpko",
+            "source": "BBC News",
+            "publication_date": "Mon, 02 Jun 2025 00:16:29 GMT"
+        }
+    ]
 }
