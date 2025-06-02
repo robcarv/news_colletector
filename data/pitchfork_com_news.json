@@ -1,4 +1,33 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Superchunk Announce New Album, Share New Song: Listen",
+            "summary": "“Is It Making You Feel Something” is the new single from Songs in the Key of Yikes",
+            "link": "https://pitchfork.com/news/superchunk-announce-new-album-share-new-song-listen",
+            "source": "RSS: News",
+            "publication_date": "Mon, 02 Jun 2025 16:49:26 +0000"
+        },
+        {
+            "title": "Panda Bear Announces Tour Dates, Shares New Song “Virginia Tech”: Listen",
+            "summary": "The Sinister Grift B-side features contributions from Animal Collective’s Deakin and Oneohtrix Point Never",
+            "link": "https://pitchfork.com/news/panda-bear-announces-tour-dates-shares-new-song-virginia-tech-listen",
+            "source": "RSS: News",
+            "publication_date": "Mon, 02 Jun 2025 16:31:33 +0000"
+        },
+        {
+            "title": "Alex G, Mavi, Protect, and More: This Week’s Pitchfork Selects Playlist",
+            "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+            "link": "https://pitchfork.com/news/alex-g-mavi-protect-this-week-pitchfork-selects-playlist",
+            "source": "RSS: News",
+            "publication_date": "Mon, 02 Jun 2025 15:39:13 +0000"
+        },
+        {
+            "title": "Stranger Things’ Final Season Premiere Dates Announced",
+            "summary": "The rollout for the Netflix series’ fifth season begins in November",
+            "link": "https://pitchfork.com/news/stranger-things-final-season-premiere-dates-announced",
+            "source": "RSS: News",
+            "publication_date": "Mon, 02 Jun 2025 13:51:24 +0000"
+        }
+    ]
 }
