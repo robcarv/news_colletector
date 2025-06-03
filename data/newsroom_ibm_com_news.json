@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "IBM and Inclusive Brains Bring Together AI, Quantum and Neurotechnologies to Improve the Understanding of Brain-Machine Interfaces",
+            "summary": "New joint study agreement to enhance the classification of brain activity patterns.",
+            "link": "https://newsroom.ibm.com/2025-06-03-ibm-and-inclusive-brains-bring-together-ai,-quantum-and-neurotechnologies-to-improve-the-understanding-of-brain-machine-interfaces",
+            "source": "IBM - Announcements",
+            "publication_date": "Tue, 03 Jun 2025 03:00:00 -0400"
+        }
+    ]
 }
