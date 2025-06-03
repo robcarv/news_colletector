@@ -1,19 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "IBM Unveils watsonx AI Labs: The Ultimate Accelerator for AI Builders, Startups and Enterprises in New York City",
-            "summary": "New AI initiative will co-create gen AI solutions with IBM clients, nurture NYC talent, advance enterprise AI implementations",
-            "link": "https://newsroom.ibm.com/2025-06-02-ibm-unveils-watsonx-ai-labs-the-ultimate-accelerator-for-ai-builders,-startups-and-enterprises-in-new-york-city",
-            "source": "IBM - Announcements",
-            "publication_date": "Mon, 02 Jun 2025 12:00:00 -0400"
-        },
-        {
-            "title": "IBM and Roche Co-Created an Innovative Solution to Support People with Diabetes in their Daily Lives with AI-Enabled Glucose Predictions",
-            "summary": "●\tAI-enabled continuous glucose monitoring app provides supportive predictions for people with diabetes.",
-            "link": "https://newsroom.ibm.com/2025-06-02-ibm-and-roche-co-created-an-innovative-solution-to-support-people-with-diabetes-in-their-daily-lives-with-ai-enabled-glucose-predictions",
-            "source": "IBM - Announcements",
-            "publication_date": "Mon, 02 Jun 2025 03:00:00 -0400"
-        }
-    ]
+    "news": []
 }
