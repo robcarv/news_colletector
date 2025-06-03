@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "MI5 neo-Nazi spy: Judge had 'no confidence' in Security Service's account of false evidence",
+            "summary": "Judge's concerns came ahead of High Court hearing to decide next steps about false evidence.",
+            "link": "https://www.bbc.com/news/articles/cy0jdzngx2vo",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 04:59:12 GMT"
+        },
+        {
+            "title": "Failing water sector needs stronger regulation, review says",
+            "summary": "The Water Commission finds \"deep-rooted, systemic and interlocking failures\" in the water industry.",
+            "link": "https://www.bbc.com/news/articles/cz70g4vgdnxo",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:53:59 GMT"
+        },
+        {
+            "title": "UK threatens to sue Abramovich over Chelsea sale",
+            "summary": "The proceeds have been frozen since the UK government forced the club's sale following Russia's invasion of Ukraine.",
+            "link": "https://www.bbc.com/news/articles/cvgn45d72eyo",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 02:52:13 GMT"
+        },
+        {
+            "title": "'The abuse was almost daily' - Grooming survivors share their stories",
+            "summary": "Five women from across England who were abused as children or young adults have told BBC Newsnight about the ongoing impact it has had on their lives.",
+            "link": "https://www.bbc.com/news/articles/c62n72mj113o",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:30:42 GMT"
+        },
+        {
+            "title": "UN calls for investigation into killings near Gaza aid distribution site",
+            "summary": "Antonio Guterres says he is \"appalled\" by reports of Palestinians being killed and injured while seeking aid in Gaza.",
+            "link": "https://www.bbc.com/news/articles/c753e0p29z0o",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:47:00 GMT"
+        },
+        {
+            "title": "The Papers: Britain 'battle-ready' and 'new Maddie search'",
+            "summary": "PM Sir Keir Starmer announces new military spending and police look again for Madeleine McCann.",
+            "link": "https://www.bbc.com/news/articles/c0j76p45wn8o",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:07:08 GMT"
+        },
+        {
+            "title": "More then 3,000 shows announced for Edinburgh Fringe",
+            "summary": "Comedy, music, magic and cabaret will all be part of the arts festival, which runs from August 1 to 25.",
+            "link": "https://www.bbc.com/news/articles/cj3j2k47534o",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:10:06 GMT"
+        },
+        {
+            "title": "Disney makes hundreds more layoffs as it cuts costs",
+            "summary": "The media giant has been under pressure as viewers move away from cable TV to streaming platforms.",
+            "link": "https://www.bbc.com/news/articles/ce80j93wrd2o",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 01:58:22 GMT"
+        },
+        {
+            "title": "UK threatens to sue Abramovich over Chelsea sale",
+            "summary": "The proceeds have been frozen since the UK government forced the club's sale following Russia's invasion of Ukraine.",
+            "link": "https://www.bbc.com/news/articles/cvgn45d72eyo",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 02:52:13 GMT"
+        },
+        {
+            "title": "'I'm not scared' - Malaysia hero's courage to play again after acid attack",
+            "summary": "Malaysia and Selangor FC footballer Faisal Halim on returning to the national team for the Asian Cup qualifiers following a life-changing acid attack.",
+            "link": "https://www.bbc.com/sport/football/articles/c15qex2pdvxo",
+            "source": "BBC News",
+            "publication_date": "Tue, 03 Jun 2025 05:32:12 GMT"
+        }
+    ]
 }
