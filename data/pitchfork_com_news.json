@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Drake and PartyNextDoor Announce Summer 2025 Tour",
+            "summary": "The $ome $exy $ongs 4 U collaborators will play shows in the United Kingdom and Europe",
+            "link": "https://pitchfork.com/news/drake-and-partynextdoor-announce-summer-2025-tour",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 18:41:18 +0000"
+        },
+        {
+            "title": "Pusha T Says Dispute Over Kendrick Lamar Verse Led to Expensive Def Jam Exit",
+            "summary": "The rapper claims that the label, which is owned by Universal Music Group, was reluctant to release a song with two of Drake’s biggest adversaries",
+            "link": "https://pitchfork.com/news/pusha-t-says-dispute-over-kendrick-lamar-verse-led-to-expensive-def-jam-exit",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 18:18:00 +0000"
+        },
+        {
+            "title": "Grizzly Bear Add More Dates to First Tour Since 2019",
+            "summary": "Due to high demand, the band has added shows in Brooklyn and Chicago",
+            "link": "https://pitchfork.com/news/grizzly-bear-add-more-dates-to-first-tour-since-2019",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 17:22:12 +0000"
+        },
+        {
+            "title": "Japanese Composer Yasunao Tone Dies at 90",
+            "summary": "The influential glitch musician and multimedia artist helped spearhead the Japanese Fluxus movement",
+            "link": "https://pitchfork.com/news/japanese-composer-yasunao-tone-dies-at-90",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 16:19:41 +0000"
+        },
+        {
+            "title": "Sudan Archives Shares Video for New Song “Dead”: Watch",
+            "summary": "It’s her first new music in nearly three years, following the standout 2022 album Natural Brown Prom Queen",
+            "link": "https://pitchfork.com/news/sudan-archives-shares-video-for-new-song-dead-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 16:09:19 +0000"
+        },
+        {
+            "title": "Cate Le Bon Announces New Album and Tour, Shares Video for New Song “Heaven Is No Feeling”: Watch",
+            "summary": "Michelangelo Dying is out in September, via Mexican Summer, and features a collaboration with John Cale",
+            "link": "https://pitchfork.com/news/cate-le-bon-announces-new-album-and-tour-shares-video-for-new-song-heaven-is-no-feeling-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 16:07:12 +0000"
+        },
+        {
+            "title": "Big Thief Announce New Album Double Infinity, Share New Song “Incomprehensible”: Listen",
+            "summary": "The follow-up to 2022’s Dragon New Warm Mountain I Believe In You is out September 5",
+            "link": "https://pitchfork.com/news/big-thief-announce-new-album-double-infinity-share-new-song-incomprehensible-listen",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 15:34:40 +0000"
+        },
+        {
+            "title": "Lil Wayne Announces Tour for New Album Tha Carter VI",
+            "summary": "The rapper will celebrate all of his Carter albums on his trek across North America",
+            "link": "https://pitchfork.com/news/lil-wayne-announces-tour-for-new-album-tha-carter-vi",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 15:20:21 +0000"
+        },
+        {
+            "title": "Shame Announce New Album, Share Video for New Song “Cutthroat”: Watch",
+            "summary": "The English post-punk band will also embark on a tour behind the new LP",
+            "link": "https://pitchfork.com/news/shame-announce-new-album-share-video-for-new-song-cutthroat-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 14:45:12 +0000"
+        },
+        {
+            "title": "Wednesday Announce Fall 2025 Tour",
+            "summary": "The indie-rock band will hit the road with support from Friendship and Daffo",
+            "link": "https://pitchfork.com/news/wednesday-announce-fall-2025-tour",
+            "source": "RSS: News",
+            "publication_date": "Tue, 03 Jun 2025 13:46:02 +0000"
+        }
+    ]
 }
