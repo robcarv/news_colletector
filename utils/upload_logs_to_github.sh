@@ -101,8 +101,8 @@ upload_feeds_to_github() {
         log_message "INFO" "Nenhuma mudança detectada nos arquivos JSON."
     else
         local timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
-        local commit_msg="Atualização automática de feeds em $(date '+%d/%m/%Y %H:%M:%S')"
-        
+        # local commit_msg="Atualização automática de feeds em $(date '+%d/%m/%Y %H:%M:%S')"
+        local commit_msg="Update: $(openssl rand -hex 4)"
         git commit -m "$commit_msg" 2>&1 | while read line; do log_message "GIT" "$line"; done
         
         if git push origin "$BRANCH" 2>&1 | while read line; do log_message "GIT" "$line"; done; then
