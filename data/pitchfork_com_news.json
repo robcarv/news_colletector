@@ -1,4 +1,40 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Ivy Announce First Album in 14 Years, Share New Song: Listen",
+            "summary": "Traces of You features the late Adam Schlesinger, an original member of the indie-pop band, on every track",
+            "link": "https://pitchfork.com/news/ivy-announce-first-album-in-15-years-share-new-song-listen",
+            "source": "RSS: News",
+            "publication_date": "Wed, 04 Jun 2025 15:27:47 +0000"
+        },
+        {
+            "title": "Watch Turnstile Play “I Care” and “Dull” on Fallon",
+            "summary": "Days before the release of Never Enough, the Baltimore experimental hardcore band made a late-night TV pitstop",
+            "link": "https://pitchfork.com/news/watch-turnstile-play-i-care-and-dull-on-fallon",
+            "source": "RSS: News",
+            "publication_date": "Wed, 04 Jun 2025 14:12:45 +0000"
+        },
+        {
+            "title": "Water From Your Eyes Announce Tour and New Album, Share Video: Watch",
+            "summary": "Nate Amos and Rachel Brown are back with It’s a Beautiful Place",
+            "link": "https://pitchfork.com/news/water-from-your-eyes-announce-tour-and-new-album-share-video-watch",
+            "source": "RSS: News",
+            "publication_date": "Wed, 04 Jun 2025 14:07:09 +0000"
+        },
+        {
+            "title": "Vinyl Me, Please to Relaunch Following Acquisition",
+            "summary": "VNYL Inc. has promised to honor legacy orders as it relaunches the record club with new leadership",
+            "link": "https://pitchfork.com/news/vinyl-me-please-to-relaunch-following-acquisition",
+            "source": "RSS: News",
+            "publication_date": "Wed, 04 Jun 2025 14:01:08 +0000"
+        },
+        {
+            "title": "Hand Habits Announces New Album and Tour, Shares Video for New Song “Wheel of Change”: Watch",
+            "summary": "Blue Reminder, Meg Duffy’s proper follow-up to 2021’s Fun House, arrives in the summer",
+            "link": "https://pitchfork.com/news/hand-habits-announces-new-album-and-tour-shares-video-for-new-song-wheel-of-change-watch",
+            "source": "RSS: News",
+            "publication_date": "Wed, 04 Jun 2025 13:17:11 +0000"
+        }
+    ]
 }
