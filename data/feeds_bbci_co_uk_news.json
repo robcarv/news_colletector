@@ -2,11 +2,32 @@
     "language": "en",
     "news": [
         {
-            "title": "Labour is cosying up to China after years of rollercoaster relations",
-            "summary": "To some closer ties are a smart economic opportunity, to others there are fears it could risk national security. But either way, is the UK lacking a playbook?",
-            "link": "https://www.bbc.com/news/articles/c071jr159p0o",
+            "title": "Winter fuel payment U-turn in place this year, says chancellor",
+            "summary": "Chancellor Rachel Reeves says that more people will get winter fuel payment \"this winter\", but details of who is eligible remain unclear.",
+            "link": "https://www.bbc.com/news/articles/czr8e5g5vp8o",
             "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 00:16:25 GMT"
+            "publication_date": "Wed, 04 Jun 2025 11:20:54 GMT"
+        },
+        {
+            "title": "Police launch probe into patient deaths at NHS hospital after heart operations",
+            "summary": "Patients who died at Castle Hill Hospital near Hull may have suffered avoidable harm, documents suggest.",
+            "link": "https://www.bbc.com/news/articles/cev404npy4po",
+            "source": "BBC News",
+            "publication_date": "Wed, 04 Jun 2025 05:01:31 GMT"
+        },
+        {
+            "title": "Madeleine McCann search goes on but is it 18 years too late?",
+            "summary": "Searches have resumed in Portugal nearly two decades after the three-year-old went missing.",
+            "link": "https://www.bbc.com/news/articles/c20qdwxq394o",
+            "source": "BBC News",
+            "publication_date": "Wed, 04 Jun 2025 10:58:16 GMT"
+        },
+        {
+            "title": "'I need a hug' - Singer Jessie J says she has breast cancer",
+            "summary": "The singer says she will \"disappear for a bit\" to have surgery.",
+            "link": "https://www.bbc.com/news/articles/cwy3ve0rrlro",
+            "source": "BBC News",
+            "publication_date": "Wed, 04 Jun 2025 06:27:55 GMT"
         },
         {
             "title": "Man killed in racist attack told police he saw similar assault weeks before death",
@@ -16,60 +37,39 @@
             "publication_date": "Wed, 04 Jun 2025 00:47:53 GMT"
         },
         {
-            "title": "Chancellor to announce £15bn for transport projects outside London",
-            "summary": "Money will be spent on tram, train and bus projects in England across the Midlands, North and West Country.",
-            "link": "https://www.bbc.com/news/articles/c331ln47e7ko",
+            "title": "BBC rejects incorrect White House claims on Gaza coverage",
+            "summary": "The corporation says claims that a story was removed from its website are \"completely wrong\".",
+            "link": "https://www.bbc.com/news/articles/ce814ez7030o",
             "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 03:00:10 GMT"
+            "publication_date": "Wed, 04 Jun 2025 09:42:10 GMT"
         },
         {
-            "title": "Police investigate heart deaths at NHS hospital",
-            "summary": "Patients who died at Castle Hill Hospital near Hull may have suffered avoidable harm, documents suggest.",
-            "link": "https://www.bbc.com/news/articles/cev404npy4po",
-            "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 05:01:31 GMT"
-        },
-        {
-            "title": "'Review into my daughter's killing has been hell on earth'",
+            "title": "'Delayed review into my daughter's killing has left me broken'",
             "summary": "The reviews aim to prevent future attacks but just 1% are completed on time, BBC research suggests.",
             "link": "https://www.bbc.com/news/articles/c3655wzzlgeo",
             "source": "BBC News",
             "publication_date": "Wed, 04 Jun 2025 05:04:24 GMT"
         },
         {
-            "title": "RAF chief Sir Richard Knighton to lead armed forces",
-            "summary": "Sir Richard Knighton is set to replace Admiral Sir Tony Radakin as next Chief of the Defence Staff.",
-            "link": "https://www.bbc.com/news/articles/cje74pxdgzeo",
+            "title": "Meghan shares new photos of Lilibet to mark fourth birthday",
+            "summary": "The Duchess of Sussex releases rare photos of Princess Lilibet to mark her birthday.",
+            "link": "https://www.bbc.com/news/articles/cewd79ey270o",
             "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 04:02:31 GMT"
+            "publication_date": "Wed, 04 Jun 2025 09:34:45 GMT"
         },
         {
-            "title": "The Papers: 'Good weather' small boat surge and 'tax bombshells'",
-            "summary": "A mix of stories makes up the front pages, including a surge in small boats crossings.",
-            "link": "https://www.bbc.com/news/articles/c1ld9z3v58lo",
+            "title": "Why Labour is strengthening ties with China after years of rollercoaster relations",
+            "summary": "To some, it’s a smart opportunity. To others there are security concerns. But either way, is there a playbook?",
+            "link": "https://www.bbc.com/news/articles/c071jr159p0o",
             "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 04:48:20 GMT"
+            "publication_date": "Wed, 04 Jun 2025 00:16:25 GMT"
         },
         {
-            "title": "South Korea's new president has a Trump-shaped crisis to avert",
-            "summary": "Lee Jae-myung secured a storming victory, but his honeymoon will barely last the day.",
-            "link": "https://www.bbc.com/news/articles/cpvkxxerln1o",
+            "title": "Watch: Searching derelict and desolate area in Madeleine McCann case",
+            "summary": "Police are searching an area where prime suspect, Christian Brückner, stayed at the time of Madeleine's disappearance.",
+            "link": "https://www.bbc.com/news/videos/cwywkv1gj7lo",
             "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 01:25:27 GMT"
-        },
-        {
-            "title": "Author Bernardine Evaristo 'astonished' to receive one-off £100k prize",
-            "summary": "The trailblazing novelist says she will use the £100,000 prize money to support other female writers.",
-            "link": "https://www.bbc.com/news/articles/cy0k5jldgd1o",
-            "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 00:25:45 GMT"
-        },
-        {
-            "title": "Why time is right for resilient 'Mini Messi' Kirby to end England career",
-            "summary": "Fran Kirby's international career epitomised what resilience, combined with serious talent, can accomplish but the time is right to retire, writes Emma Sanders.",
-            "link": "https://www.bbc.com/sport/football/articles/c20qd5379pyo",
-            "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 05:45:51 GMT"
+            "publication_date": "Wed, 04 Jun 2025 09:02:33 GMT"
         }
     ]
 }
