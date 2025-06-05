@@ -1,19 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Putin will seek revenge for Ukraine drone attack, warns Trump",
-            "summary": "Trump says a call with the Russian president was a \"good conversation\" but would not lead to \"immediate peace\".",
-            "link": "https://www.bbc.com/news/articles/cx2r108l785o",
-            "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 20:39:26 GMT"
-        },
-        {
-            "title": "Are the surprise airfield attacks a turning point for Ukraine?",
-            "summary": "Ukraine is still digesting the full implications of Operation Spider's Web, writes our correspondent.",
-            "link": "https://www.bbc.com/news/articles/cn4gp2g7g47o",
-            "source": "BBC News",
-            "publication_date": "Wed, 04 Jun 2025 21:00:39 GMT"
-        }
-    ]
+    "news": []
 }
