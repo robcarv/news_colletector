@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "What we know about Trump's latest travel ban",
+            "summary": "President Trump has signed a proclamation banning travel to the US from nationals of 12 countries.",
+            "link": "https://www.bbc.com/news/articles/cx271g270v7o",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:51:13 GMT"
+        },
+        {
+            "title": "Pregnant women warned against using weight-loss jabs",
+            "summary": "Women also reminded that they should use the most effective contraception to avoid pregnancy while taking 'skinny jabs'.",
+            "link": "https://www.bbc.com/news/articles/cn0gp2pl7zwo",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 00:09:15 GMT"
+        },
+        {
+            "title": "Badenoch launches review into possible ECHR exit",
+            "summary": "A review by the shadow attorney general will examine whether the UK should exit certain domestic and international agreements.",
+            "link": "https://www.bbc.com/news/articles/cgj8p2pv117o",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 00:01:46 GMT"
+        },
+        {
+            "title": "First trailer for Wicked sequel released",
+            "summary": "Cynthia Erivo and Ariana Grande will return for the second half of The Wizard of Oz spin-off.",
+            "link": "https://www.bbc.com/news/articles/cx2e187e1njo",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 01:40:17 GMT"
+        },
+        {
+            "title": "This armoured vehicle was used in Iraq - now it stands on the US-Mexico border",
+            "summary": "The Trump administration has expanded military bases near the border in order to deploy troops to detain migrants.",
+            "link": "https://www.bbc.com/news/articles/cvgd3rz47j4o",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:34:21 GMT"
+        },
+        {
+            "title": "The Papers: Winter fuel 'U-turn' and immigration 'battle lines'",
+            "summary": "The government has reversed its winter fuel payments policy and there is discussion of Keir Starmer's immigration policy.",
+            "link": "https://www.bbc.com/news/articles/c0572mj5mdjo",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:36:02 GMT"
+        },
+        {
+            "title": "Retiring police dogs 'deserve to get pension'",
+            "summary": "Owners argue police forces should pay a contribution towards their former dogs' vet bills.",
+            "link": "https://www.bbc.com/news/articles/cr7z907rmggo",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:12:36 GMT"
+        },
+        {
+            "title": "Trump orders inquiry into Biden's actions, alleging 'cognitive decline'",
+            "summary": "Donald Trump accuses the former president's aides of covering up his \"mental state\" - a claim Biden says is \"ridiculous\".",
+            "link": "https://www.bbc.com/news/articles/cvg9z9veyr1o",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:02:52 GMT"
+        },
+        {
+            "title": "US-Boeing crashes deal 'repugnant', says lawyer for victims' families",
+            "summary": "The plane maker has agreed to pay $1.1bn to avoid prosecution over two fatal crashes that killed 346 people.",
+            "link": "https://www.bbc.com/news/articles/c5y57p8xnp5o",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 05:05:19 GMT"
+        },
+        {
+            "title": "First bacteria we ever meet can keep us out of hospital",
+            "summary": "For the first time, scientists show how our microbiome forms affects the risk of infection.",
+            "link": "https://www.bbc.com/news/articles/cgr5lej9l8lo",
+            "source": "BBC News",
+            "publication_date": "Thu, 05 Jun 2025 00:48:13 GMT"
+        }
+    ]
 }
