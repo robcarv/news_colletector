@@ -1,4 +1,26 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Listen to Mariah Carey’s New Song “Type Dangerous”",
+            "summary": "Carey’s first original solo track since 2019 samples Eric B. & Rakim’s “Eric B. Is President”",
+            "link": "https://pitchfork.com/news/listen-to-mariah-carey-new-song-type-dangerous",
+            "source": "RSS: News",
+            "publication_date": "Fri, 06 Jun 2025 04:12:40 +0000"
+        },
+        {
+            "title": "Turnstile Release New Album Never Enough: Listen and Read the Full Credits",
+            "summary": "The Baltimore band’s fourth album features Faye Webster, Paramore’s Hayley Williams, Blood Orange’s Devonté Hynes, and others",
+            "link": "https://pitchfork.com/news/turnstile-release-new-album-never-enough-listen-and-read-the-full-credits",
+            "source": "RSS: News",
+            "publication_date": "Fri, 06 Jun 2025 04:05:00 +0000"
+        },
+        {
+            "title": "Sabrina Carpenter Shares New Song “Manchild”: Listen",
+            "summary": "Jack Antonoff produced the pop singer’s first proper single of 2025",
+            "link": "https://pitchfork.com/news/sabrina-carpenter-shares-new-song-manchild-listen",
+            "source": "RSS: News",
+            "publication_date": "Fri, 06 Jun 2025 00:36:11 +0000"
+        }
+    ]
 }
