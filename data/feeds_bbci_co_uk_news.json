@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Labour celebrates close win over SNP as Reform surges in Hamilton by-election",
+            "summary": "The ballot was held following the death of local MSP and government minister Christina McKelvie.",
+            "link": "https://www.bbc.com/news/articles/cpw7ppj2wyxo",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 16:21:44 GMT"
+        },
+        {
+            "title": "Why Reform was the other big winner in the Hamilton by-election",
+            "summary": "Reform UK recorded their best ever parliamentary election result in Scotland - with a 26% share of the vote.",
+            "link": "https://www.bbc.com/news/articles/cj42gver2glo",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 16:04:11 GMT"
+        },
+        {
+            "title": "Bargain Hunt expert jailed for selling art to suspected Hezbollah financier",
+            "summary": "Police investigators tracked suspicious transactions between the Middle East and London.",
+            "link": "https://www.bbc.com/news/articles/c7539vd0wepo",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 16:27:51 GMT"
+        },
+        {
+            "title": "UK arrests made in international crackdown on financial influencers",
+            "summary": "Hundreds of take down requests of social media posts are also made following a campaign by regulators.",
+            "link": "https://www.bbc.com/news/articles/crljw8n78l1o",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 13:42:57 GMT"
+        },
+        {
+            "title": "Beckham's already in with the royals - and now he's scored a winner with a knighthood",
+            "summary": "The ex-footballer appears to be in line for a knighthood, but he already has a close relationship with the royals.",
+            "link": "https://www.bbc.com/news/articles/c5yezxvjy25o",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 14:05:02 GMT"
+        },
+        {
+            "title": "Fraud culture was 'pervasive' at union, auditors say",
+            "summary": "There was a \"pervasive fraud environment\" at Unite the Union, a report obtained by the BBC has concluded.",
+            "link": "https://www.bbc.com/news/articles/c1w3ye4p8l3o",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 17:31:37 GMT"
+        },
+        {
+            "title": "Spurs sack manager Postecoglou after Europa League win",
+            "summary": "Ange Postecoglou is sacked as Tottenham manager 16 days after leading them to victory in the Europa League final.",
+            "link": "https://www.bbc.com/sport/football/articles/c391v08kp9ro",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 17:53:57 GMT"
+        },
+        {
+            "title": "Thunderstorm warning issued for large parts of England and Wales",
+            "summary": "The Met Office warns frequent lightning, hail and strong, gusty winds will be additional hazards.",
+            "link": "https://www.bbc.com/news/articles/cq851x1y9eqo",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 14:26:42 GMT"
+        },
+        {
+            "title": "Norwegian doctor jailed for raping patients",
+            "summary": "Arne Bye is sentenced to 21 years in prison for abusing his position to conduct inappropriate exams.",
+            "link": "https://www.bbc.com/news/articles/cgj8x7dz435o",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 16:55:32 GMT"
+        },
+        {
+            "title": "Defending champion Alcaraz into French Open final after Musetti quits",
+            "summary": "Defending champion Carlos Alcaraz moves into the French Open final after Italian opponent Lorenzo Musetti retires injured in their semi-final.",
+            "link": "https://www.bbc.com/sport/tennis/articles/cnv193eey78o",
+            "source": "BBC News",
+            "publication_date": "Fri, 06 Jun 2025 16:25:44 GMT"
+        }
+    ]
 }
