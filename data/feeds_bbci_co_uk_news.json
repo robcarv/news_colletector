@@ -2,11 +2,39 @@
     "language": "en",
     "news": [
         {
-            "title": "World fertility rates in 'unprecedented decline', UN says",
-            "summary": "Hundreds of millions of people are not able to have the number of children they want, the UN warns.",
-            "link": "https://www.bbc.com/news/articles/clynq459wxgo",
+            "title": "Greta Thunberg deported, Israel says, after Gaza aid boat intercepted",
+            "summary": "The activists' yacht, which was trying to carry aid to Gaza, was intercepted by Israeli forces in the early hours of Monday.",
+            "link": "https://www.bbc.com/news/articles/c5y264x3nnno",
             "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 04:02:41 GMT"
+            "publication_date": "Tue, 10 Jun 2025 11:34:55 GMT"
+        },
+        {
+            "title": "Miliband defends winter fuel payment U-turn",
+            "summary": "The energy secretary says the government had to make \"difficult\" decisions to stabilise the economy.",
+            "link": "https://www.bbc.com/news/articles/c79e0qq3r31o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 11:00:36 GMT"
+        },
+        {
+            "title": "TV presenter David Bull named new Reform chairman",
+            "summary": "The TalkTV host replaces Zia Yusuf, who quit last week after clashing with Reform UK colleagues.",
+            "link": "https://www.bbc.com/news/articles/c3v54d60y6vo",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 11:28:23 GMT"
+        },
+        {
+            "title": "Eurostar plans direct trains to Frankfurt and Geneva",
+            "summary": "The firm hopes a fleet of up to 50 new trains will be up and running by the early 2030s.",
+            "link": "https://www.bbc.com/news/articles/cded0zypxl7o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 10:31:45 GMT"
+        },
+        {
+            "title": "Police injured in disorder following alleged sex assault",
+            "summary": "Houses and police vehicles were damaged in the disorder in Ballymena on Monday evening.",
+            "link": "https://www.bbc.com/news/articles/ckg4v04p008o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 11:51:30 GMT"
         },
         {
             "title": "Foreign Office staff told to consider resigning if they disagree over Gaza",
@@ -16,20 +44,6 @@
             "publication_date": "Tue, 10 Jun 2025 04:02:45 GMT"
         },
         {
-            "title": "Teachers can use AI to save time on marking, new guidance says",
-            "summary": "For the first time teachers in England are receiving guidelines on how they should and shouldn't use AI.",
-            "link": "https://www.bbc.com/news/articles/c1kvyj7dkp0o",
-            "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 00:51:53 GMT"
-        },
-        {
-            "title": "Paternity leave system is outdated and unequal, MPs say",
-            "summary": "A report says dads should be paid 80% of earnings and allowed six weeks off work when they have a child.",
-            "link": "https://www.bbc.com/news/articles/crmk07jyjmxo",
-            "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 01:00:23 GMT"
-        },
-        {
             "title": "Ketamine swapped for salt as smugglers exploit Europe loophole in booming market",
             "summary": "Crime gangs are using increasingly elaborate routes to traffic the drug across Europe to the UK, the BBC is told.",
             "link": "https://www.bbc.com/news/articles/c201jjgkvjlo",
@@ -37,32 +51,11 @@
             "publication_date": "Tue, 10 Jun 2025 05:06:43 GMT"
         },
         {
-            "title": "Disorder breaks out in Ballymena after alleged sexual assault of girl",
-            "summary": "Youths with their faces masked and wearing gloves could be seen throwing objects.",
-            "link": "https://www.bbc.com/news/articles/ckg4v04p008o",
+            "title": "Watch: Former Syria prison guard tells BBC he showed detainees 'no mercy'",
+            "summary": "The BBC heard from dozens of former officials about their role enforcing the brutality of the Assad regime.",
+            "link": "https://www.bbc.com/news/videos/c78034xn2jpo",
             "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 00:42:23 GMT"
-        },
-        {
-            "title": "Perfect storm as Trump's mass deportation drive collides with city of immigrants",
-            "summary": "The clashes over local Ice raids come as the White House orders immigration agents to ramp up enforcement.",
-            "link": "https://www.bbc.com/news/articles/c3d47v7394go",
-            "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 01:19:13 GMT"
-        },
-        {
-            "title": "Everything we know about the protests",
-            "summary": "Dozens have been arrested after clashes with officers in America's second city, with National Guard members now deployed.",
-            "link": "https://www.bbc.com/news/articles/cj93d3r0zz0o",
-            "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 03:58:06 GMT"
-        },
-        {
-            "title": "The Papers: 'It was fuelish' and '£14bn for nuclear'",
-            "summary": "A majority of papers lead with the chancellor's U-turn on winter fuel payments for pensioners.",
-            "link": "https://www.bbc.com/news/articles/cr580m6r711o",
-            "source": "BBC News",
-            "publication_date": "Tue, 10 Jun 2025 04:35:45 GMT"
+            "publication_date": "Tue, 10 Jun 2025 09:43:19 GMT"
         },
         {
             "title": "Sly Stone: A funky life - in pictures",
@@ -70,6 +63,13 @@
             "link": "https://www.bbc.com/news/articles/c9q0r7y9xj3o",
             "source": "BBC News",
             "publication_date": "Tue, 10 Jun 2025 02:47:53 GMT"
+        },
+        {
+            "title": "Perfect storm as Trump's mass deportation drive collides with city of immigrants",
+            "summary": "The clashes over local Ice raids come as the White House orders immigration agents to ramp up enforcement.",
+            "link": "https://www.bbc.com/news/articles/c3d47v7394go",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 01:19:13 GMT"
         }
     ]
 }

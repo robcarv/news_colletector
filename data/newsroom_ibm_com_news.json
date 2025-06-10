@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "IBM Sets the Course to Build World's First Large-Scale, Fault-Tolerant Quantum Computer at New IBM Quantum Data Center",
+            "summary": "",
+            "link": "https://newsroom.ibm.com/2025-06-10-IBM-Sets-the-Course-to-Build-Worlds-First-Large-Scale,-Fault-Tolerant-Quantum-Computer-at-New-IBM-Quantum-Data-Center",
+            "source": "IBM - Announcements",
+            "publication_date": "Tue, 10 Jun 2025 06:00:00 -0400"
+        }
+    ]
 }
