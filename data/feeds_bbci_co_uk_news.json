@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "World fertility rates in 'unprecedented decline', UN says",
+            "summary": "Hundreds of millions of people are not able to have the number of children they want, the UN warns.",
+            "link": "https://www.bbc.com/news/articles/clynq459wxgo",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 04:02:41 GMT"
+        },
+        {
+            "title": "Foreign Office staff told to consider resigning if they disagree over Gaza",
+            "summary": "More than 300 Foreign Office staff had raised concerns about potential UK \"complicity\" in Israel's conduct in Gaza.",
+            "link": "https://www.bbc.com/news/articles/cy8nzx1475ro",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 04:02:45 GMT"
+        },
+        {
+            "title": "Teachers can use AI to save time on marking, new guidance says",
+            "summary": "For the first time teachers in England are receiving guidelines on how they should and shouldn't use AI.",
+            "link": "https://www.bbc.com/news/articles/c1kvyj7dkp0o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 00:51:53 GMT"
+        },
+        {
+            "title": "Paternity leave system is outdated and unequal, MPs say",
+            "summary": "A report says dads should be paid 80% of earnings and allowed six weeks off work when they have a child.",
+            "link": "https://www.bbc.com/news/articles/crmk07jyjmxo",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 01:00:23 GMT"
+        },
+        {
+            "title": "Ketamine swapped for salt as smugglers exploit Europe loophole in booming market",
+            "summary": "Crime gangs are using increasingly elaborate routes to traffic the drug across Europe to the UK, the BBC is told.",
+            "link": "https://www.bbc.com/news/articles/c201jjgkvjlo",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 05:06:43 GMT"
+        },
+        {
+            "title": "Disorder breaks out in Ballymena after alleged sexual assault of girl",
+            "summary": "Youths with their faces masked and wearing gloves could be seen throwing objects.",
+            "link": "https://www.bbc.com/news/articles/ckg4v04p008o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 00:42:23 GMT"
+        },
+        {
+            "title": "Perfect storm as Trump's mass deportation drive collides with city of immigrants",
+            "summary": "The clashes over local Ice raids come as the White House orders immigration agents to ramp up enforcement.",
+            "link": "https://www.bbc.com/news/articles/c3d47v7394go",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 01:19:13 GMT"
+        },
+        {
+            "title": "Everything we know about the protests",
+            "summary": "Dozens have been arrested after clashes with officers in America's second city, with National Guard members now deployed.",
+            "link": "https://www.bbc.com/news/articles/cj93d3r0zz0o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 03:58:06 GMT"
+        },
+        {
+            "title": "The Papers: 'It was fuelish' and '£14bn for nuclear'",
+            "summary": "A majority of papers lead with the chancellor's U-turn on winter fuel payments for pensioners.",
+            "link": "https://www.bbc.com/news/articles/cr580m6r711o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 04:35:45 GMT"
+        },
+        {
+            "title": "Sly Stone: A funky life - in pictures",
+            "summary": "The singer and front man of Sly and the Family Stone was known for his big style and even bigger hair.",
+            "link": "https://www.bbc.com/news/articles/c9q0r7y9xj3o",
+            "source": "BBC News",
+            "publication_date": "Tue, 10 Jun 2025 02:47:53 GMT"
+        }
+    ]
 }
