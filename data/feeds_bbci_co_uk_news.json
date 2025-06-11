@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Austrians hold vigil to mourn 10 victims of school shooting",
+            "summary": "Thousands gather in near silence in Graz after the deadliest gun attack in the country's recent history.",
+            "link": "https://www.bbc.com/news/articles/ced27g4e6xwo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 01:06:42 GMT"
+        },
+        {
+            "title": "Fireworks and bottles thrown at police as Ballymena violence flares for second night",
+            "summary": "Police say a number of homes and businesses were attacked as violence erupted again on Tuesday night.",
+            "link": "https://www.bbc.com/news/articles/c0k3le25r8ro",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 05:56:52 GMT"
+        },
+        {
+            "title": "Twix advert banned for encouraging unsafe driving",
+            "summary": "The video advert shows a car chase that ends with two caramel-coloured cars on top of each other.",
+            "link": "https://www.bbc.com/news/articles/c5y5ez8189lo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 00:38:09 GMT"
+        },
+        {
+            "title": "Ban on 'no ball games' signs suggested to get kids off screens",
+            "summary": "Experts say outdoor play in England has declined by 50% and are calling for urgent change.",
+            "link": "https://www.bbc.com/news/articles/c39xegx41xko",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 00:14:52 GMT"
+        },
+        {
+            "title": "Scrap Chagos Islands deal and agree new one, UN panel urges UK",
+            "summary": "A UN human rights panel says the deal \"fails to guarantee\" the rights of Chagossians.",
+            "link": "https://www.bbc.com/news/articles/cyvmz0q0335o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 01:08:41 GMT"
+        },
+        {
+            "title": "People on £10,000 to £96,000 tell us what they want the UK to spend money on",
+            "summary": "As the government outlines its spending plans, people with a range of incomes tell us where they think the money should go.",
+            "link": "https://www.bbc.com/news/articles/c1de612exp4o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 05:59:29 GMT"
+        },
+        {
+            "title": "Spending Review to shape Scotland's priorities for years to come",
+            "summary": "Announcements from Chancellor Rachel Reeves later will have a significant effect on public spending in Scotland.",
+            "link": "https://www.bbc.com/news/articles/c4g3l6x3z1eo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 04:57:56 GMT"
+        },
+        {
+            "title": "Gangster tells BBC why India's biggest hip-hop star was murdered",
+            "summary": "Three years after Moose Wala's murder, the BBC investigates how he found himself an enemy of a feared gang.",
+            "link": "https://www.bbc.com/news/articles/c87j5v4xjxqo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 05:23:51 GMT"
+        },
+        {
+            "title": "The Papers: '£39bn new build' for affordable homes, and 'giant spending spree'",
+            "summary": "Wednesday's newspaper front pages largely focus on the chancellor's Spending Review.",
+            "link": "https://www.bbc.com/news/articles/c4grklle7zyo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 05:32:16 GMT"
+        },
+        {
+            "title": "'Un-American' or 'necessary'? Voters divided on Trump's LA protest crackdown",
+            "summary": "Six Americans tell the BBC that there's clearly a problem in Los Angeles - they just don't agree with who's at fault.",
+            "link": "https://www.bbc.com/news/articles/cj93x2egd0jo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 03:41:14 GMT"
+        }
+    ]
 }
