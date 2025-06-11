@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Brian Wilson, co-creator of iconic 1960s band The Beach Boys, dies aged 82",
+            "summary": "His songs including Surfin' USA, California Girls and God Only Knows have become pop music classics.",
+            "link": "https://www.bbc.com/news/articles/cg71xrxrn8go",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 17:47:25 GMT"
+        },
+        {
+            "title": "Police deploy more officers after Ballymena 'mob violence'",
+            "summary": "This comes after two days of violence, in which 32 officers were injured and six people arrested.",
+            "link": "https://www.bbc.com/news/articles/cjdzv79l1emo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 16:53:23 GMT"
+        },
+        {
+            "title": "How a peaceful protest descended into hate-filled violence",
+            "summary": "Why did a peaceful protest in a County Antrim town end up in two nights of attacks on police?",
+            "link": "https://www.bbc.com/news/articles/cr7zyv8xgxeo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 16:12:33 GMT"
+        },
+        {
+            "title": "UK agrees post-Brexit deal over Gibraltar",
+            "summary": "Talks on rules governing the border of Spain and Gibraltar have been ongoing since Britain left the EU.",
+            "link": "https://www.bbc.com/news/articles/cd903neydwjo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 17:12:30 GMT"
+        },
+        {
+            "title": "Bomb attack plans found at Austria gunman's home",
+            "summary": "Police say they also found a non-functional pipe bomb and a \"farewell letter\" during a search.",
+            "link": "https://www.bbc.com/news/articles/cm2kdy74v7go",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 17:16:35 GMT"
+        },
+        {
+            "title": "Video shows crowds in Gaza scale fence to rush for aid",
+            "summary": "Palestinians can be seen climbing over fences and running to get humanitarian aid in the footage.",
+            "link": "https://www.bbc.com/news/videos/c14k60lzv00o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 16:47:52 GMT"
+        },
+        {
+            "title": "First view of the Sun's south pole filmed by spacecraft",
+            "summary": "Never before seen pictures will help scientists learn how the Sun's activity changes from stormy to quiet periods",
+            "link": "https://www.bbc.com/news/articles/clyqry9ppl9o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 14:00:18 GMT"
+        },
+        {
+            "title": "Child Q strip-search officer admits failings",
+            "summary": "One of the police officers who carried out the search tells a hearing it should not have happened.",
+            "link": "https://www.bbc.com/news/articles/c4gr1eyrg63o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 14:30:01 GMT"
+        },
+        {
+            "title": "First heat-health alerts issued for 2025 while storms bring flood risk",
+            "summary": "Lightning, hail, gusty winds and flash flooding are likely to affect parts of the UK over the next few days.",
+            "link": "https://www.bbc.com/weather/articles/c4grkg27269o",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 12:10:16 GMT"
+        },
+        {
+            "title": "WhatsApp tells BBC it backs Apple in legal row with UK over user data",
+            "summary": "The messaging app says the UK government's demands over data access could set a \"dangerous precedent.\"",
+            "link": "https://www.bbc.com/news/articles/cgmjrn42wdwo",
+            "source": "BBC News",
+            "publication_date": "Wed, 11 Jun 2025 16:01:09 GMT"
+        }
+    ]
 }
