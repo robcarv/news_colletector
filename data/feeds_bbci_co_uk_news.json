@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Chris Mason: Spending Review is a gamble on patience in an era of impatience",
+            "summary": "The big bet for the government remains on economic growth - finding it and sustaining it.",
+            "link": "https://www.bbc.com/news/articles/cj09lz0q5pno",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 01:06:50 GMT"
+        },
+        {
+            "title": "Fire at leisure centre as Northern Ireland violence erupts for third night",
+            "summary": "The worst of the disorder is in Ballymena, but unrest spread to other towns on Wednesday evening.",
+            "link": "https://www.bbc.com/news/articles/cjdzv79l1emo",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 02:18:19 GMT"
+        },
+        {
+            "title": "These touts made millions - and claimed staff at big ticketing firms helped",
+            "summary": "The touts alleged staff at resale sites Ticketmaster once owned helped them trade in bulk, the BBC reveals.",
+            "link": "https://www.bbc.com/news/articles/ce3vrw4v3q2o",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 05:14:50 GMT"
+        },
+        {
+            "title": "Jesús polished luxury vehicles at an LA car wash for years. Then ICE showed up",
+            "summary": "The BBC obtained CCTV of the raid that shows how President Trump's immigration crackdown has ramped up.",
+            "link": "https://www.bbc.com/news/articles/czxylvq392xo",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 02:19:16 GMT"
+        },
+        {
+            "title": "'No closure' for Leon Brittan's widow after he was falsely accused of sex abuse",
+            "summary": "Lady Diana Brittan says her falsely accused late husband's legacy has been permanently tarnished.",
+            "link": "https://www.bbc.com/news/articles/c4g21m8py12o",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 04:56:55 GMT"
+        },
+        {
+            "title": "New species of dinosaur discovered that 'rewrites' T.rex family tree",
+            "summary": "The dinosaur skeletons, found hidden in a museum collection in Mongolia, is an ancestor of the mighty tyrannosaurs.",
+            "link": "https://www.bbc.com/news/articles/cy8dzv3vp5jo",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 00:31:20 GMT"
+        },
+        {
+            "title": "US reviewing Aukus submarine pact as part of 'America First' agenda",
+            "summary": "It comes as Australia faces pressure from the White House to dramatically lift its military spending.",
+            "link": "https://www.bbc.com/news/articles/cy8d3d5l9l1o",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 01:43:24 GMT"
+        },
+        {
+            "title": "Beach Boys lead tributes to 'genius' Brian Wilson",
+            "summary": "His songs including Surfin' USA, California Girls and God Only Knows have become pop music classics.",
+            "link": "https://www.bbc.com/news/articles/cg71xrxrn8go",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 04:42:49 GMT"
+        },
+        {
+            "title": "US to partially evacuate embassy in Iraq as Iran tensions rise",
+            "summary": "The move comes as US talks over Iran's nuclear programme appear to have stalled in recent days.",
+            "link": "https://www.bbc.com/news/articles/c629yk5z07vo",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 04:13:39 GMT"
+        },
+        {
+            "title": "'Brave and beautiful people' remembered in Aids quilt display",
+            "summary": "The UK Aids memorial quilt goes on display in full for the first time in 30 years at London's Tate Modern.",
+            "link": "https://www.bbc.com/news/articles/cgmjrm0m20mo",
+            "source": "BBC News",
+            "publication_date": "Thu, 12 Jun 2025 05:04:12 GMT"
+        }
+    ]
 }
