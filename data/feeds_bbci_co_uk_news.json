@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Watch: Footage shows explosions and buildings ablaze in Tehran",
+            "summary": "Israel says it has carried out strikes on Iran's nuclear programme, with blasts and fires seen in Tehran.",
+            "link": "https://www.bbc.com/news/videos/c20qw0xjp10o",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 02:33:00 GMT"
+        },
+        {
+            "title": "What we know about Israel's attacks on Iran",
+            "summary": "Iranian state media reported Revolutionary Guards chief Hossein Salami was among those killed.",
+            "link": "https://www.bbc.com/news/articles/cdj9vj8glg2o",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 05:46:51 GMT"
+        },
+        {
+            "title": "Analysis: Israel chose to act now, whether Trump likes it or not",
+            "summary": "There has been a growing tension between the leaders over Iran - now the US is distancing itself from Israel's \"unilateral action\".",
+            "link": "https://www.bbc.com/news/articles/cwyw04x1kqpo",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 04:54:09 GMT"
+        },
+        {
+            "title": "US says it was not involved in Israel's military strikes",
+            "summary": "Secretary of State Marco Rubio says Israel took \"unilateral action\" and warns Iran not to retaliate against US forces.",
+            "link": "https://www.bbc.com/news/articles/cm2kd2k3mv7o",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 03:34:01 GMT"
+        },
+        {
+            "title": "World-first blood cancer therapy to be given on NHS",
+            "summary": "It sneaks toxic drugs inside cancer cells to hit them hard while minimising side-effects.",
+            "link": "https://www.bbc.com/news/articles/ckg4kj2nxjgo",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 00:05:15 GMT"
+        },
+        {
+            "title": "Trump administration blocked from  deploying National Guard to LA",
+            "summary": "A judge's order that Trump return control of California's National Guard will not go into effect immediately.",
+            "link": "https://www.bbc.com/news/articles/cd62d8jp046o",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 01:26:10 GMT"
+        },
+        {
+            "title": "'My kids are the reason I'm alive': Backstage with Shakira",
+            "summary": "Shakira says the situation facing immigrants in the US is \"painful\" as she talks to the BBC in Miami.",
+            "link": "https://www.bbc.com/news/articles/cn056ky4d00o",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 05:09:45 GMT"
+        },
+        {
+            "title": "Watch: Mel Stride pushed to say sorry for Liz Truss's mini-budget",
+            "summary": "Watch: Mel Stride pushed to say sorry for Liz Truss's mini-budget",
+            "link": "https://www.bbc.com/news/videos/cvgq707q82jo",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 05:13:57 GMT"
+        },
+        {
+            "title": "Brit School receives funds for building repairs",
+            "summary": "The Brit School in Croydon has taught many students who would go on to superstardom.",
+            "link": "https://www.bbc.com/news/articles/c5yxn2qzx3qo",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 05:27:45 GMT"
+        },
+        {
+            "title": "Scheffler and McIlroy off pace at bruising US Open",
+            "summary": "Rory McIlroy and Scottie Scheffler are among many to find  Oakmont Country Club a bruising challenge as JJ Spaun sets the pace on day one at the US Open.",
+            "link": "https://www.bbc.com/sport/golf/articles/c0qgkywg22no",
+            "source": "BBC News",
+            "publication_date": "Fri, 13 Jun 2025 00:20:31 GMT"
+        }
+    ]
 }
