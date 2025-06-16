@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Trump told Israel not to kill Iran's supreme leader - report",
+            "summary": "Trump told Israeli Prime Minister Benjamin Netanyahu that assassinating Khamenei was not a good idea, according to CBS.",
+            "link": "https://www.bbc.com/news/articles/ckg7gl4zegyo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 00:27:42 GMT"
+        },
+        {
+            "title": "Police operation to target grooming gangs nationwide",
+            "summary": "The National Crime Agency will target grooming gang predators in a new operation, the Home Office says.",
+            "link": "https://www.bbc.com/news/articles/c70601550rro",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 05:01:56 GMT"
+        },
+        {
+            "title": "‘I broke my jaw in half’: Accidents raise questions about funfair safety",
+            "summary": "Hundreds injured by funfair rides over the past decade, a Panorama investigation has found.",
+            "link": "https://www.bbc.com/news/articles/cg5vjn604qqo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 05:03:05 GMT"
+        },
+        {
+            "title": "MI6 appoints first female chief in 116-year history",
+            "summary": "Blaise Metreweli joined the Secret Intelligence Service (MI6) in 1999 and will become its 18th chief.",
+            "link": "https://www.bbc.com/news/articles/czxyx04dv1wo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 01:44:31 GMT"
+        },
+        {
+            "title": "G7 summit is a big moment for Canada's PM Carney. Here are five things to watch",
+            "summary": "The gathering of leaders in Alberta will be a big test for Canada's new leader. We break down his challenges.",
+            "link": "https://www.bbc.com/news/articles/clyg07jj17eo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 01:38:53 GMT"
+        },
+        {
+            "title": "Truckloads of Scotland's rubbish will be sent to England, experts say",
+            "summary": "Up to 100 trucks a day could take Scotland's waste to England once a landfill ban comes in at the end of the year.",
+            "link": "https://www.bbc.com/news/articles/c0r1de24pdgo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 05:15:38 GMT"
+        },
+        {
+            "title": "Watch: Moment people flee church as earthquake interrupts mass in Peru",
+            "summary": "The 5.6 magnitude earthquake struck near Lima, Peru on Sunday morning, causing panic at the city's cathedral.",
+            "link": "https://www.bbc.com/news/videos/cvgvgz3z3w2o",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 02:34:20 GMT"
+        },
+        {
+            "title": "Son of Estee Lauder, who took the brand global, dies aged 92",
+            "summary": "Leonard Lauder joined his parents' company in 1958 and served as chief executive for 17 years.",
+            "link": "https://www.bbc.com/news/articles/c70n0d8q892o",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 01:51:15 GMT"
+        },
+        {
+            "title": "Hospices are at centre of debate over assisted dying bill - what do they think?",
+            "summary": "As MPs debate whether to legalise assisted dying, we speak to those providing end-of-life care.",
+            "link": "https://www.bbc.com/news/articles/c3wdg8z8ywwo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 04:30:03 GMT"
+        },
+        {
+            "title": "The Papers:  'Retreat over grooming gangs' and 'Say sorry for delay'",
+            "summary": "The prime minister's new call for a national inquiry into grooming gangs features in the papers.",
+            "link": "https://www.bbc.com/news/articles/c8d1d08gj1zo",
+            "source": "BBC News",
+            "publication_date": "Mon, 16 Jun 2025 04:14:11 GMT"
+        }
+    ]
 }
