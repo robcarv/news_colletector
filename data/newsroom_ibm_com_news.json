@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "IBM Study: Profit-Driven CMOs See AI as Growth Driver, but Operational Hurdles Slow Them Down",
+            "summary": "•\t54% of surveyed executives underestimated the operational complexity of translating AI strategies into outcomes.",
+            "link": "https://newsroom.ibm.com/2025-06-17-ibm-study-profit-driven-cmos-see-ai-as-growth-driver,-but-operational-hurdles-slow-them-down",
+            "source": "IBM - Announcements",
+            "publication_date": "Tue, 17 Jun 2025 00:10:00 -0400"
+        },
+        {
+            "title": "The All England Lawn Tennis Club and IBM Launch New AI Features for Real-Time Wimbledon Fan Engagement",
+            "summary": "- New 'Match Chat' assistant allows tennis fans to ask for and receive real-time insights and analysis during ladies' and gentlemen's singles matches",
+            "link": "https://newsroom.ibm.com/2025-06-17-the-all-england-lawn-tennis-club-and-ibm-launch-new-ai-features-for-real-time-wimbledon-fan-engagement",
+            "source": "IBM - Announcements",
+            "publication_date": "Tue, 17 Jun 2025 00:01:00 -0400"
+        }
+    ]
 }
