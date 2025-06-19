@@ -1,4 +1,68 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Trump approves Iran attack plan but has not made final decision, reports say",
+            "summary": "US president says \"nobody knows what I'm going to do\" as he weighs strike on Iran.",
+            "link": "https://www.bbc.com/news/articles/c4g8r8rj87vo",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 04:02:42 GMT"
+        },
+        {
+            "title": "Huge Roman 'jigsaw' reveals 2,000-year-old wall paintings",
+            "summary": "Thousands of fragments of plaster are pieced together to reveal frescos from a Roman London villa.",
+            "link": "https://www.bbc.com/news/articles/c5y5w1ldz8do",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 05:23:43 GMT"
+        },
+        {
+            "title": "Three years left to limit warming to 1.5C, leading scientists warn",
+            "summary": "The Earth could be doomed to breach a key climate target in as little as three years, scientists warn.",
+            "link": "https://www.bbc.com/news/articles/cn4l927dj5zo",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 00:04:28 GMT"
+        },
+        {
+            "title": "Be ready to be shocked and offended at university, students told",
+            "summary": "Guidance has been published by the Office for Students on new free speech rules coming into force this year.",
+            "link": "https://www.bbc.com/news/articles/c74z8l8vkx3o",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 00:01:02 GMT"
+        },
+        {
+            "title": "Film-maker Danny Boyle talks Covid, horror, and making 28 Years Later",
+            "summary": "The British director of 28 Years Later speaks alongside star Jodie Comer about returning to horror.",
+            "link": "https://www.bbc.com/news/articles/c8rpx03zxgjo",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 00:11:33 GMT"
+        },
+        {
+            "title": "'Trump keeps world waiting' and 'ArmageDon'",
+            "summary": "Speculation over whether Donald Trump will join the conflict in the Middle East dominates Thursday's papers.",
+            "link": "https://www.bbc.com/news/articles/cn86j48evv9o",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 03:37:27 GMT"
+        },
+        {
+            "title": "How 3D-printed guns are spreading online",
+            "summary": "The BBC contacted a seller on social media. Within an hour 'Jessy' offered to sell two different guns.",
+            "link": "https://www.bbc.com/news/articles/cvg84rke4ejo",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 00:17:34 GMT"
+        },
+        {
+            "title": "New Zealand halts Cook Islands funding over China deals",
+            "summary": "Wellington says the Cook Islands must take concrete steps to \"repair\" their relationship.",
+            "link": "https://www.bbc.com/news/articles/cy4n30y75n0o",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 05:07:01 GMT"
+        },
+        {
+            "title": "Pope, Bumrah, Bashir - how England v India will be won and lost",
+            "summary": "BBC Sport and data analysts CricViz look at the key battles that could decide the outcome of the England v India Test series.",
+            "link": "https://www.bbc.com/sport/cricket/articles/ce8z1jd5pq7o",
+            "source": "BBC News",
+            "publication_date": "Thu, 19 Jun 2025 05:28:38 GMT"
+        }
+    ]
 }
