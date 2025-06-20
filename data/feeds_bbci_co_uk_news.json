@@ -1,4 +1,68 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "UK may see record for this year's hottest day broken",
+            "summary": "Temperatures could peak at 33C on Friday, breaking Thursday's record for hottest day of the year.",
+            "link": "https://www.bbc.com/news/articles/cg5z78nyglpo",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 02:35:29 GMT"
+        },
+        {
+            "title": "Government whip quits over disability benefit cuts",
+            "summary": "The Labour MP says she could not vote for the welfare bill published by the government earlier this week.",
+            "link": "https://www.bbc.com/news/articles/cpd1qgpw08do",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 03:53:41 GMT"
+        },
+        {
+            "title": "Telegram boss says he has fathered more than 100 children",
+            "summary": "The tech tycoon says all of his offspring will share his estimated $13.9bn fortune.",
+            "link": "https://www.bbc.com/news/articles/c77v4x8g7pro",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 04:13:07 GMT"
+        },
+        {
+            "title": "Public don't back aid spending any more, says minister",
+            "summary": "Douglas Alexander, a former international development secretary, says the argument for aid has been \"lost\".",
+            "link": "https://www.bbc.com/news/articles/cn4lygdx95vo",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 05:03:14 GMT"
+        },
+        {
+            "title": "China criticises UK warship's patrol in Taiwan Strait",
+            "summary": "China said the HMS Spey's transit \"undermines peace and stability\" in the region.",
+            "link": "https://www.bbc.com/news/articles/ckg3rrz94nzo",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 04:57:53 GMT"
+        },
+        {
+            "title": "Screen children in schools to find lazy eyes early, experts warn",
+            "summary": "The British and Irish Orthoptic Society is calling for screening to take place in all schools in England.",
+            "link": "https://www.bbc.com/news/articles/cgq78y8w234o",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 05:02:33 GMT"
+        },
+        {
+            "title": "Adorable or just weird? How Labubu dolls conquered the world",
+            "summary": "The dolls have almost tripled their maker's profits - and, according to some, energised Chinese soft power.",
+            "link": "https://www.bbc.com/news/articles/cy4ydxlm9n9o",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 02:59:16 GMT"
+        },
+        {
+            "title": "The Papers: 'A good death' and 'Royal AscHot'",
+            "summary": "The looming vote on the assisted dying bill features prominently on the front pages of Friday's papers.",
+            "link": "https://www.bbc.com/news/articles/cgq78x78w2go",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 04:08:11 GMT"
+        },
+        {
+            "title": "'He's got such an aura' - Farrell's rise to Lions top job",
+            "summary": "As he prepares to take charge for the first time, BBC Sport looks at Andy Farrell's journey to becoming British and Irish Lions head coach.",
+            "link": "https://www.bbc.com/sport/rugby-union/articles/clylwkrrz6ro",
+            "source": "BBC News",
+            "publication_date": "Fri, 20 Jun 2025 05:16:24 GMT"
+        }
+    ]
 }

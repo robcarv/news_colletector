@@ -1,4 +1,33 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Amaarae Announces New Album Black Star, Shares Video for New Song “S.M.O.”: Watch",
+            "summary": "The Fountain Baby follow-up arrives August 8",
+            "link": "https://pitchfork.com/news/amaarae-announces-new-album-black-star-shares-video-for-new-song-smo-watch",
+            "source": "RSS: News",
+            "publication_date": "Fri, 20 Jun 2025 04:15:07 +0000"
+        },
+        {
+            "title": "Cardi B Shares New Song “Outside”: Listen",
+            "summary": "Her first solo single since “Enough (Miami)”",
+            "link": "https://pitchfork.com/news/cardi-b-shares-new-song-outside-listen",
+            "source": "RSS: News",
+            "publication_date": "Fri, 20 Jun 2025 04:12:33 +0000"
+        },
+        {
+            "title": "Lorde Shares New Song “Hammer”: Listen",
+            "summary": "The final preview of Virgin before the new album comes out next Friday",
+            "link": "https://pitchfork.com/news/lorde-shares-new-song-hammer-watch-the-video",
+            "source": "RSS: News",
+            "publication_date": "Fri, 20 Jun 2025 04:06:44 +0000"
+        },
+        {
+            "title": "Haim Release New Album I Quit: Listen and Read the Full Credits",
+            "summary": "Alana, Danielle, and Este Haim made their follow-up to 2020’s Women in Music Pt. III with Rostam Batmanglij, Tobias Jesso Jr., Bon Iver’s Justin Vernon, and others",
+            "link": "https://pitchfork.com/news/haim-release-new-album-i-quit-listen-and-read-the-full-credits",
+            "source": "RSS: News",
+            "publication_date": "Fri, 20 Jun 2025 04:01:32 +0000"
+        }
+    ]
 }
