@@ -1,4 +1,47 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Four killed in Kyiv in new Russian aerial attack",
+            "summary": "Russian missiles and drones hit residential areas and hospitals in Ukraine's capital, the interior minister says.",
+            "link": "https://www.bbc.com/news/articles/c0k7vll16l3o",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 04:52:35 GMT"
+        },
+        {
+            "title": "First celestial image unveiled from revolutionary telescope",
+            "summary": "The telescope should detect killer asteroids and may even find the ninth planet in our solar system.",
+            "link": "https://www.bbc.com/news/articles/cj3rmjjgx6xo",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 04:01:51 GMT"
+        },
+        {
+            "title": "Our sister died because of our mum's cancer conspiracy theories, say brothers",
+            "summary": "Paloma Shemirani’s brothers say she refused chemotherapy because of their mother’s beliefs.",
+            "link": "https://www.bbc.com/news/articles/crenzwyvpn1o",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 05:00:05 GMT"
+        },
+        {
+            "title": "Could Ketamine on the NHS help treat severe depression?",
+            "summary": "Ketamine is linked to serious health problems but some believe it can be used to treat depression.",
+            "link": "https://www.bbc.com/news/articles/cyvjy7m3vmdo",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 05:13:13 GMT"
+        },
+        {
+            "title": "The Papers: 'Iran vows revenge' and 'Stick it up your bunker'",
+            "summary": "US strikes on nuclear sites in Iran dominate Monday's front pages.",
+            "link": "https://www.bbc.com/news/articles/cm2le5x25vlo",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 04:11:52 GMT"
+        },
+        {
+            "title": "Bride shot dead in attack on French wedding party",
+            "summary": "A suspected attacker is also killed in an apparent exchange of fire during the incident in a village near Avignon.",
+            "link": "https://www.bbc.com/news/articles/cn0q8pypxwxo",
+            "source": "BBC News",
+            "publication_date": "Mon, 23 Jun 2025 00:50:23 GMT"
+        }
+    ]
 }
