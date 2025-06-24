@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "With possible ceasefire, Trump's high-risk strikes may pay off",
+            "summary": "Trump seems inclined to hold his fire as Iran's attack on US troops in Qatar caused no damage or casualties.",
+            "link": "https://www.bbc.com/news/articles/cdr3yxgjd6ro",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 02:01:57 GMT"
+        },
+        {
+            "title": "Labour MPs mount major bid to block benefits changes",
+            "summary": "MPs including senior Labour figures sign an amendment that could sink the welfare reform bill.",
+            "link": "https://www.bbc.com/news/articles/c8d6947ej5ro",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 02:20:01 GMT"
+        },
+        {
+            "title": "Queen Elizabeth memorial to include Prince Philip",
+            "summary": "Lord Foster's winning design includes memories of Prince Philip and a bridge in the shape of a tiara.",
+            "link": "https://www.bbc.com/news/articles/cy8g98zxgg6o",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 01:26:28 GMT"
+        },
+        {
+            "title": "Florida building 'Alligator Alcatraz' migrant detention centre in Everglades",
+            "summary": "The facility could be completed within months and have the capacity to hold around 1,000 people.",
+            "link": "https://www.bbc.com/news/articles/c0rvq1eg8w9o",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 02:13:37 GMT"
+        },
+        {
+            "title": "International law 'at heart' of Starmer's foreign policy, says Hermer",
+            "summary": "Lord Richard Hermer said that the government was determined to \"lead on international law issues\" globally.",
+            "link": "https://www.bbc.com/news/articles/c3354d5j8jzo",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 01:44:17 GMT"
+        },
+        {
+            "title": "Singer Jessie J undergoes surgery for breast cancer",
+            "summary": "The singer reveals she has undergone surgery and is now resting at home awaiting her results.",
+            "link": "https://www.bbc.com/news/articles/c78nw73yez6o",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 02:33:39 GMT"
+        },
+        {
+            "title": "Glastonbury Festival: Five newcomers you don't want to miss",
+            "summary": "Some of music's best new acts will play at Glastonbury. Here's who to see before they get too big.",
+            "link": "https://www.bbc.com/news/articles/c994v28mezlo",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 00:37:25 GMT"
+        },
+        {
+            "title": "'Idyllic' island with ruined castle goes on sale for first time in 80 years",
+            "summary": "The Island of Shuna, which includes a ruined castle, working farm and a holiday accommodation business, is on sale for £5.5m.",
+            "link": "https://www.bbc.com/news/articles/c4gkwd8wl81o",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 05:16:08 GMT"
+        },
+        {
+            "title": "'I applied for 646 jobs after uni until I got one'",
+            "summary": "Caitlin Morgan doubted if her degree was worth it as competition for graduate jobs hit record high.",
+            "link": "https://www.bbc.com/news/articles/clygj739dmvo",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 05:06:03 GMT"
+        },
+        {
+            "title": "The Papers: 'Ceasefire agreed with Iran' and 'war games'",
+            "summary": "Trump's declaration of a ceasefire with Iran after its missile strikes in the Middle East makes front page news.",
+            "link": "https://www.bbc.com/news/articles/cgjg2l64e2yo",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 01:21:08 GMT"
+        }
+    ]
 }
