@@ -1,4 +1,54 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "TV on the Radio Enlist Flying Lotus, Sudan Archives, Moor Mother, and Spellling for Brooklyn Mini-Festival",
+            "summary": "The special event, called There Goes the Neighborhood, takes place at Under the K Bridge Park in September",
+            "link": "https://pitchfork.com/news/tv-on-the-radio-enlist-flying-lotus-sudan-archives-moor-mother-and-spellling-for-brooklyn-mini-festival",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 16:46:10 +0000"
+        },
+        {
+            "title": "Watch Mavi and Smino’s Video for New Song “Potluck”",
+            "summary": "Another new collaborative effort from Mavi, following “Landgrab,” his recent team-up with Earl Sweatshirt",
+            "link": "https://pitchfork.com/news/watch-mavi-and-smino-video-for-new-song-potluck",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 16:09:01 +0000"
+        },
+        {
+            "title": "Paramore’s Zac Farro Announces Debut Solo Album, Shares New Song: Listen",
+            "summary": "After years of making music in the side project Halfnoise, Farro is releasing Operator under his own name",
+            "link": "https://pitchfork.com/news/paramore-zac-farro-announces-debut-solo-album-shares-new-song-listen",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 15:38:19 +0000"
+        },
+        {
+            "title": "The Beths Announce New Album, Share Video for New Song: Watch",
+            "summary": "Straight Line Was a Lie follows the New Zealand indie-rock band’s 2022 full-length Expert in a Dying Field",
+            "link": "https://pitchfork.com/news/the-beths-announce-new-album-share-video-for-new-song-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 15:29:01 +0000"
+        },
+        {
+            "title": "Radiohead and the Smile’s Thom Yorke Shares New Video for “Dialing In”: Watch",
+            "summary": "The collaboration with Weirdcore is tied to the upcoming Apple TV+ series Smoke",
+            "link": "https://pitchfork.com/news/radiohead-and-the-smile-thom-yorke-shares-new-video-for-dialing-in-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 15:20:05 +0000"
+        },
+        {
+            "title": "Brandy and Monica Announce Co-Headlining Tour",
+            "summary": "The beloved R&B duo heads out on its first-ever joint tour this autumn, with support from Kelly Rowland, Muni Long, and Jamal Roberts",
+            "link": "https://pitchfork.com/news/brandy-and-monica-announce-co-headlining-tour",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 14:04:59 +0000"
+        },
+        {
+            "title": "Mac DeMarco Announces New Album Guitar, Shares Video for New Song “Home”: Watch",
+            "summary": "The Canadian musician wrote, recorded, produced, and mixed his follow-up to 2023’s Five Easy Hot Dogs and One Wayne G",
+            "link": "https://pitchfork.com/news/mac-demarco-announces-new-album-guitar-shares-video-for-new-song-home-watch",
+            "source": "RSS: News",
+            "publication_date": "Tue, 24 Jun 2025 13:17:06 +0000"
+        }
+    ]
 }
