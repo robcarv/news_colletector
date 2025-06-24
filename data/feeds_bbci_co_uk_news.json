@@ -2,53 +2,60 @@
     "language": "en",
     "news": [
         {
-            "title": "With possible ceasefire, Trump's high-risk strikes may pay off",
-            "summary": "Trump seems inclined to hold his fire as Iran's attack on US troops in Qatar caused no damage or casualties.",
+            "title": "What we know about the ceasefire",
+            "summary": "Donald Trump accuses both sides of breaking the ceasefire and urges them to \"calm down\".",
+            "link": "https://www.bbc.com/news/articles/czjk3kxr3zno",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 11:48:24 GMT"
+        },
+        {
+            "title": "If Iran and Israel do stop firing, Trump's high-risk strikes may pay off",
+            "summary": "If the US president has helped to end the fighting it would mark a significant step back from the brink of a regional conflict.",
             "link": "https://www.bbc.com/news/articles/cdr3yxgjd6ro",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 02:01:57 GMT"
+            "publication_date": "Tue, 24 Jun 2025 08:31:54 GMT"
+        },
+        {
+            "title": "First evacuation flight from Israel lands in the UK",
+            "summary": "Israeli airspace has been closed for more than a week - leaving thousands of Britons stranded.",
+            "link": "https://www.bbc.com/news/articles/cr4w63244pgo",
+            "source": "BBC News",
+            "publication_date": "Tue, 24 Jun 2025 09:36:19 GMT"
         },
         {
             "title": "Labour MPs mount major bid to block benefits changes",
             "summary": "MPs including senior Labour figures sign an amendment that could sink the welfare reform bill.",
             "link": "https://www.bbc.com/news/articles/c8d6947ej5ro",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 02:20:01 GMT"
+            "publication_date": "Tue, 24 Jun 2025 09:50:24 GMT"
         },
         {
-            "title": "Queen Elizabeth memorial to include Prince Philip",
-            "summary": "Lord Foster's winning design includes memories of Prince Philip and a bridge in the shape of a tiara.",
-            "link": "https://www.bbc.com/news/articles/cy8g98zxgg6o",
+            "title": "Starmer vows to spend 5% of GDP on national security by 2035",
+            "summary": "The announcement comes ahead of a two-day Nato summit in the Netherlands.",
+            "link": "https://www.bbc.com/news/articles/c07dk90d94vo",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 01:26:28 GMT"
+            "publication_date": "Tue, 24 Jun 2025 10:41:32 GMT"
         },
         {
-            "title": "Florida building 'Alligator Alcatraz' migrant detention centre in Everglades",
-            "summary": "The facility could be completed within months and have the capacity to hold around 1,000 people.",
-            "link": "https://www.bbc.com/news/articles/c0rvq1eg8w9o",
+            "title": "Google may be forced to link to rival search platforms in the UK",
+            "summary": "The Competition and Markets Authority says it wants to open up the UK search market.",
+            "link": "https://www.bbc.com/news/articles/cy4ym77rkgeo",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 02:13:37 GMT"
+            "publication_date": "Tue, 24 Jun 2025 09:02:12 GMT"
         },
         {
-            "title": "International law 'at heart' of Starmer's foreign policy, says Hermer",
-            "summary": "Lord Richard Hermer said that the government was determined to \"lead on international law issues\" globally.",
-            "link": "https://www.bbc.com/news/articles/c3354d5j8jzo",
+            "title": "'I applied for 647 jobs after uni until I got one'",
+            "summary": "Caitlin Morgan doubted if her degree was worth it as competition for graduate jobs hit record high.",
+            "link": "https://www.bbc.com/news/articles/clygj739dmvo",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 01:44:17 GMT"
+            "publication_date": "Tue, 24 Jun 2025 10:49:05 GMT"
         },
         {
-            "title": "Singer Jessie J undergoes surgery for breast cancer",
-            "summary": "The singer reveals she has undergone surgery and is now resting at home awaiting her results.",
-            "link": "https://www.bbc.com/news/articles/c78nw73yez6o",
+            "title": "Bears raid honey store after enclosure escape sparks wildlife park evacuation",
+            "summary": "Two brown bears escape from their enclosure and eat a \"week's worth of honey\" in the food store.",
+            "link": "https://www.bbc.com/news/articles/cgrxn4x7yx2o",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 02:33:39 GMT"
-        },
-        {
-            "title": "Glastonbury Festival: Five newcomers you don't want to miss",
-            "summary": "Some of music's best new acts will play at Glastonbury. Here's who to see before they get too big.",
-            "link": "https://www.bbc.com/news/articles/c994v28mezlo",
-            "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 00:37:25 GMT"
+            "publication_date": "Tue, 24 Jun 2025 09:00:12 GMT"
         },
         {
             "title": "'Idyllic' island with ruined castle goes on sale for first time in 80 years",
@@ -58,18 +65,11 @@
             "publication_date": "Tue, 24 Jun 2025 05:16:08 GMT"
         },
         {
-            "title": "'I applied for 646 jobs after uni until I got one'",
-            "summary": "Caitlin Morgan doubted if her degree was worth it as competition for graduate jobs hit record high.",
-            "link": "https://www.bbc.com/news/articles/clygj739dmvo",
+            "title": "Queen Elizabeth memorial to include bridge inspired by her tiara",
+            "summary": "Lord Foster's winning design also includes a statue of the Queen with Prince Philip.",
+            "link": "https://www.bbc.com/news/articles/cy8g98zxgg6o",
             "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 05:06:03 GMT"
-        },
-        {
-            "title": "The Papers: 'Ceasefire agreed with Iran' and 'war games'",
-            "summary": "Trump's declaration of a ceasefire with Iran after its missile strikes in the Middle East makes front page news.",
-            "link": "https://www.bbc.com/news/articles/cgjg2l64e2yo",
-            "source": "BBC News",
-            "publication_date": "Tue, 24 Jun 2025 01:21:08 GMT"
+            "publication_date": "Tue, 24 Jun 2025 09:15:15 GMT"
         }
     ]
 }

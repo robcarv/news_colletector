@@ -2,6 +2,13 @@
     "language": "en",
     "news": [
         {
+            "title": "Parsons Corporation is Ready Now to Build America’s Brand New, State Of-The-Art Air Traffic Control System",
+            "summary": "Parsons and IBM join forces to propose solutions for new national airspace system",
+            "link": "https://newsroom.ibm.com/2025-06-24-parsons-corporation-is-ready-now-to-build-americas-brand-new,-state-of-the-art-air-traffic-control-system",
+            "source": "IBM - Announcements",
+            "publication_date": "Tue, 24 Jun 2025 07:02:00 -0400"
+        },
+        {
             "title": "IBM and RIKEN Unveil First IBM Quantum System Two Outside of the U.S.",
             "summary": "IBM's next-generation quantum computer, now online in Japan, is also connected to the supercomputer Fugaku to accelerate quantum computational power and accuracy",
             "link": "https://newsroom.ibm.com/2025-06-23-ibm-and-riken-unveil-first-ibm-quantum-system-two-outside-of-the-u-s",
