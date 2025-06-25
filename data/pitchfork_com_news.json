@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Bob Dylan Announces Art Book Point Blank (Quick Studies)",
+            "summary": "The Simon & Schuster collection features approximately one hundred drawings alongside “prose vignettes” by Eddie Gorodetsky, Jackie Hamilton, and Lucy Sante",
+            "link": "https://pitchfork.com/news/bob-dylan-announces-art-book-point-blank-quick-studies",
+            "source": "RSS: News",
+            "publication_date": "Wed, 25 Jun 2025 00:10:41 +0000"
+        }
+    ]
 }
