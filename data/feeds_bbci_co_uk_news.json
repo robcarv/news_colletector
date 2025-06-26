@@ -2,6 +2,13 @@
     "language": "en",
     "news": [
         {
+            "title": "Starmer confirms talks with Labour rebels over welfare cuts concessions",
+            "summary": "The prime minister said talks would continue in the \"coming days\" with Labour MPs who oppose the plans.",
+            "link": "https://www.bbc.com/news/articles/c8731w0d8yvo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 11:33:11 GMT"
+        },
+        {
             "title": "My wife and daughters left behind a legacy of love, John Hunt tells BBC",
             "summary": "The racing commentator, speaking for the first time since the murder of his wife and two daughters, says their love has helped sustain him through grief.",
             "link": "https://www.bbc.com/news/articles/cy5wk716pzdo",
@@ -9,60 +16,53 @@
             "publication_date": "Thu, 26 Jun 2025 05:00:08 GMT"
         },
         {
-            "title": "Watch: John and Amy Hunt's interview with BBC's Victoria Derbyshire",
+            "title": "'They were the best of us': John and Amy Hunt speak for first time about murders of their loved ones",
             "summary": "BBC racing commentator John Hunt has spoken for the first time since the murder of his wife and two daughters, in July last year.",
             "link": "https://www.bbc.com/news/videos/cp82l17397jo",
             "source": "BBC News",
             "publication_date": "Thu, 26 Jun 2025 05:00:13 GMT"
         },
         {
-            "title": "New test could identify women at higher risk of miscarriage",
-            "summary": "The test can measure whether an abnormal reaction in the womb could make pregnancy loss more likely.",
-            "link": "https://www.bbc.com/news/articles/c39zvjmmwndo",
+            "title": "Amber heat health alerts issued as temperatures to soar",
+            "summary": "The alerts warn of increased pressure on health and social care services as temperatures climb.",
+            "link": "https://www.bbc.com/news/articles/c79q8y84exdo",
             "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 00:01:55 GMT"
+            "publication_date": "Thu, 26 Jun 2025 11:10:27 GMT"
         },
         {
-            "title": "Touts employ overseas workers to bulk-buy gig tickets",
-            "summary": "An undercover probe finds workers help touts make money from gigs including Oasis and Taylor Swift.",
-            "link": "https://www.bbc.com/news/articles/c04e9k1vllro",
-            "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 05:06:31 GMT"
-        },
-        {
-            "title": "Gaza mediators intensifying ceasefire efforts, Hamas official says",
-            "summary": "It comes as US President Donald Trump says \"great progress\" is being made since Israel and Iran ended their 12-day war.",
-            "link": "https://www.bbc.com/news/articles/clylzlv91pro",
-            "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 01:00:42 GMT"
-        },
-        {
-            "title": "Denis Villeneuve announced as director of new James Bond film",
-            "summary": "The Oscar-nominated filmmaker says he is a \"die-hard\" Bond fan and will \"honor the tradition\" of the franchise.",
+            "title": "What might James Bond be like under new director Denis Villeneuve?",
+            "summary": "The Oscar-nominated Dune film-maker says he is a \"die-hard\" Bond fan and will \"honour\" the franchise.",
             "link": "https://www.bbc.com/news/articles/cn41yddj4m1o",
             "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 03:49:44 GMT"
+            "publication_date": "Thu, 26 Jun 2025 08:44:13 GMT"
         },
         {
-            "title": "Work begins to create artificial human DNA from scratch",
-            "summary": "Scientists start a controversial project to create the building blocks of human life, in what is thought to be a world first.",
-            "link": "https://www.bbc.com/news/articles/c6256wpn97ro",
+            "title": "One child in every classroom is IVF baby, new research suggests",
+            "summary": "Around one in 32 UK births in 2023 was as a result of IVF, a new report has shown.",
+            "link": "https://www.bbc.com/news/articles/c3en42pwdwyo",
             "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 00:09:45 GMT"
+            "publication_date": "Thu, 26 Jun 2025 10:58:31 GMT"
         },
         {
-            "title": "'A kind of magic': Emily Eavis on Glastonbury's Thursday feeling",
-            "summary": "Before the music starts, an indescribable atmosphere descends on Glastonbury. Ros Atkins finds out more.",
-            "link": "https://www.bbc.com/news/articles/cnvmq6l2q0eo",
+            "title": "Three Palestinians killed during Israeli settler attack on West Bank village",
+            "summary": "Israel's military says its forces returned fire after being shot at by Palestinians, but the Palestinian foreign ministry blames settlers for the deaths.",
+            "link": "https://www.bbc.com/news/articles/cz9knl5w529o",
             "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 00:14:08 GMT"
+            "publication_date": "Thu, 26 Jun 2025 11:11:27 GMT"
         },
         {
-            "title": "The Papers: Starmer 'in denial' and 'from Russia with shove'",
-            "summary": "The rebellion against the prime minister's proposed welfare cuts grows and The Sun claims Russia is influencing small boat crossings.",
-            "link": "https://www.bbc.com/news/articles/cj617y6lzzeo",
+            "title": "Pornhub to introduce 'government approved' age checks in UK",
+            "summary": "It is one of a number of porn sites which regulator Ofcom says will bring in tougher age verification for users.",
+            "link": "https://www.bbc.com/news/articles/cr5v2lz5vl6o",
             "source": "BBC News",
-            "publication_date": "Thu, 26 Jun 2025 05:10:31 GMT"
+            "publication_date": "Thu, 26 Jun 2025 09:56:58 GMT"
+        },
+        {
+            "title": "Reform UK council boss quits, leaving 18-year-old in charge",
+            "summary": "Rob Howard leaves his position as leader of Warwickshire County Council, citing health concerns.",
+            "link": "https://www.bbc.com/news/articles/c93knke95peo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 10:57:25 GMT"
         },
         {
             "title": "'I don't want to live on benefits, I want to work'",
