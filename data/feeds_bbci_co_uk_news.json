@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "My wife and daughters left behind a legacy of love, John Hunt tells BBC",
+            "summary": "The racing commentator, speaking for the first time since the murder of his wife and two daughters, says their love has helped sustain him through grief.",
+            "link": "https://www.bbc.com/news/articles/cy5wk716pzdo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 05:00:08 GMT"
+        },
+        {
+            "title": "Watch: John and Amy Hunt's interview with BBC's Victoria Derbyshire",
+            "summary": "BBC racing commentator John Hunt has spoken for the first time since the murder of his wife and two daughters, in July last year.",
+            "link": "https://www.bbc.com/news/videos/cp82l17397jo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 05:00:13 GMT"
+        },
+        {
+            "title": "New test could identify women at higher risk of miscarriage",
+            "summary": "The test can measure whether an abnormal reaction in the womb could make pregnancy loss more likely.",
+            "link": "https://www.bbc.com/news/articles/c39zvjmmwndo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 00:01:55 GMT"
+        },
+        {
+            "title": "Touts employ overseas workers to bulk-buy gig tickets",
+            "summary": "An undercover probe finds workers help touts make money from gigs including Oasis and Taylor Swift.",
+            "link": "https://www.bbc.com/news/articles/c04e9k1vllro",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 05:06:31 GMT"
+        },
+        {
+            "title": "Gaza mediators intensifying ceasefire efforts, Hamas official says",
+            "summary": "It comes as US President Donald Trump says \"great progress\" is being made since Israel and Iran ended their 12-day war.",
+            "link": "https://www.bbc.com/news/articles/clylzlv91pro",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 01:00:42 GMT"
+        },
+        {
+            "title": "Denis Villeneuve announced as director of new James Bond film",
+            "summary": "The Oscar-nominated filmmaker says he is a \"die-hard\" Bond fan and will \"honor the tradition\" of the franchise.",
+            "link": "https://www.bbc.com/news/articles/cn41yddj4m1o",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 03:49:44 GMT"
+        },
+        {
+            "title": "Work begins to create artificial human DNA from scratch",
+            "summary": "Scientists start a controversial project to create the building blocks of human life, in what is thought to be a world first.",
+            "link": "https://www.bbc.com/news/articles/c6256wpn97ro",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 00:09:45 GMT"
+        },
+        {
+            "title": "'A kind of magic': Emily Eavis on Glastonbury's Thursday feeling",
+            "summary": "Before the music starts, an indescribable atmosphere descends on Glastonbury. Ros Atkins finds out more.",
+            "link": "https://www.bbc.com/news/articles/cnvmq6l2q0eo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 00:14:08 GMT"
+        },
+        {
+            "title": "The Papers: Starmer 'in denial' and 'from Russia with shove'",
+            "summary": "The rebellion against the prime minister's proposed welfare cuts grows and The Sun claims Russia is influencing small boat crossings.",
+            "link": "https://www.bbc.com/news/articles/cj617y6lzzeo",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 05:10:31 GMT"
+        },
+        {
+            "title": "'I don't want to live on benefits, I want to work'",
+            "summary": "Young disabled people may soon see their Universal Credit top-up cut as part of wider welfare reforms.",
+            "link": "https://www.bbc.com/news/articles/c5y9mm333p2o",
+            "source": "BBC News",
+            "publication_date": "Thu, 26 Jun 2025 05:31:36 GMT"
+        }
+    ]
 }
