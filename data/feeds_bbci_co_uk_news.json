@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Four arrested after RAF Brize Norton break-in",
+            "summary": "Counter-terrorism police arrest four people after pro-Palestine activists claim they sprayed paint on planes.",
+            "link": "https://www.bbc.com/news/articles/cq6m79n6q65o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 11:13:12 GMT"
+        },
+        {
+            "title": "Lyse Doucet: Tehran is coming back to life, but its residents are deeply shaken",
+            "summary": "As Iran's capital resumes its old rhythms, the BBC's Lyse Doucet meets locals who wonder if peace will last.",
+            "link": "https://www.bbc.com/news/articles/c939k3n41g4o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 10:15:17 GMT"
+        },
+        {
+            "title": "A month into Gaza's new aid system - gunfire and chaos are routine",
+            "summary": "A month into the resumption of aid distribution in Gaza there have been repeated reports of killings, with a BBC Verify analysis of dozens of videos showing chaos and panic as people head to get aid.",
+            "link": "https://www.bbc.com/news/articles/cwygezz3gx7o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 10:05:12 GMT"
+        },
+        {
+            "title": "Health alerts come into force ahead of second heatwave",
+            "summary": "The UK could see its hottest day of the year on Monday, as a likely heatwave coincides with Glastonbury and Wimbledon.",
+            "link": "https://www.bbc.com/news/articles/cy4y8exrw0zo",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 11:32:51 GMT"
+        },
+        {
+            "title": "Beaver activists secretly releasing them into wild say they're 'doing God's work'",
+            "summary": "An underground network illegally releases beavers but farmers say it can lead to trouble.",
+            "link": "https://www.bbc.com/news/articles/clygl4dv4rno",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 05:05:50 GMT"
+        },
+        {
+            "title": "Man who stabbed wife as she pushed their baby in pram guilty of murder",
+            "summary": "Habibur Masum had tracked his wife to a refuge before stabbing her in the street at least 25 times.",
+            "link": "https://www.bbc.com/news/articles/c9qxj5d4jdro",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 11:21:25 GMT"
+        },
+        {
+            "title": "MrBeast removes YouTube AI tool after backlash",
+            "summary": "The world's most subscribed YouTuber admits he \"missed the mark\" after releasing the tool last week.",
+            "link": "https://www.bbc.com/news/articles/c15wvvjv402o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 09:44:24 GMT"
+        },
+        {
+            "title": "What are the Pip and universal credit changes?",
+            "summary": "The planned changes to the benefits system will affect future claimants, not current claimants.",
+            "link": "https://www.bbc.com/news/articles/cj924xvzrr2o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 11:33:52 GMT"
+        },
+        {
+            "title": "Chris Mason: A hat-trick of U-turns – and this is the most awkward of the lot",
+            "summary": "The BBC's political editor Chris Mason gives his analysis of what the climbdown over the welfare bill means for the prime minister.",
+            "link": "https://www.bbc.com/news/articles/cx240n632z3o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 06:17:38 GMT"
+        },
+        {
+            "title": "Faisal Islam: How much will changes to disability benefits cost?",
+            "summary": "The changes could cost up to £3bn which will have to come from higher taxes or cuts elsewhere, given the chancellor's self-imposed borrowing rules.",
+            "link": "https://www.bbc.com/news/articles/c9dgjjnvw54o",
+            "source": "BBC News",
+            "publication_date": "Fri, 27 Jun 2025 11:43:15 GMT"
+        }
+    ]
 }

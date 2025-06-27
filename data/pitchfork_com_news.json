@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Alex G Adds Tour Dates, Shares Video for New Song “June Guitar”: Watch",
+            "summary": "The Philadelphia musician will support new album Headlights with newly announced shows in Europe and the United Kingdom",
+            "link": "https://pitchfork.com/news/alex-g-adds-tour-dates-shares-video-for-new-song-june-guitar-watch",
+            "source": "RSS: News",
+            "publication_date": "Fri, 27 Jun 2025 04:01:48 +0000"
+        },
+        {
+            "title": "Lorde Releases New Album Virgin: Listen and Read the Full Credits",
+            "summary": "Lorde worked on her fourth studio album with Jim-E Stack, Fabiana Palladino, Daniel Nigro, Rob Moose, Blood Orange’s Devonté Hyves, Bon Iver’s Justin Vernon, and others",
+            "link": "https://pitchfork.com/news/lorde-releases-new-album-virgin-listen-and-read-the-full-credits",
+            "source": "RSS: News",
+            "publication_date": "Fri, 27 Jun 2025 04:00:24 +0000"
+        }
+    ]
 }
