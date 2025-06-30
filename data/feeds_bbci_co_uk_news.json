@@ -1,4 +1,75 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Two US firefighters shot dead in 'total ambush', police say",
+            "summary": "The suspect has been found dead after the firefighters were killed with a high-powered weapon, authorities say.",
+            "link": "https://www.bbc.com/news/articles/c9vrg9g2ll7o",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 02:32:52 GMT"
+        },
+        {
+            "title": "Glastonbury's best bits: Capaldi's comeback, celebrity sightings and lots of spoons",
+            "summary": "The UK's biggest festival is over for another year and here is what made it so memorable.",
+            "link": "https://www.bbc.com/news/articles/c0l4033xe22o",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 00:08:07 GMT"
+        },
+        {
+            "title": "After five years in Belarus jail, opposition figure Tikhanovsky says he's not broken",
+            "summary": "Sergei Tikhanovsky was kept isolated in bare, tiny cells and tells the BBC that Belarus must free other political prisoners.",
+            "link": "https://www.bbc.com/news/articles/czey1y6x6zzo",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 05:26:50 GMT"
+        },
+        {
+            "title": "Covid inquiry to look at impact on care services",
+            "summary": "The Covid inquiry will examine the impact of the pandemic on care services, starting on Monday.",
+            "link": "https://www.bbc.com/news/articles/c62dg6xvy6no",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 01:10:05 GMT"
+        },
+        {
+            "title": "Jury retires in mushroom murder trial in Australia",
+            "summary": "They will decide whether Erin Patterson murdered relatives with beef Wellingtons laced with toxic mushrooms.",
+            "link": "https://www.bbc.com/news/articles/cn86y31vql5o",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 03:06:18 GMT"
+        },
+        {
+            "title": "Olivia Rodrigo leaves Glastonbury on a high",
+            "summary": "The pop star delivered the weekend's most compelling, hit-packed headline slot as the festival ends.",
+            "link": "https://www.bbc.com/news/articles/c2lekyx02j4o",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 00:02:33 GMT"
+        },
+        {
+            "title": "In pictures: Sunday at Glastonbury Festival",
+            "summary": "The final day saw a headline set from Olivia Rodrigo and performances including The Prodigy and Sir Rod Stewart.",
+            "link": "https://www.bbc.com/news/articles/c3r9p7n5n3eo",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 00:27:05 GMT"
+        },
+        {
+            "title": "'Why did BBC not pull plug' and 'Meltdown Monday'",
+            "summary": "The papers ask why the BBC aired \"death to the IDF\" Glastonbury chants and look ahead to 35C temperatures.",
+            "link": "https://www.bbc.com/news/articles/cr79zx34xp2o",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 04:02:10 GMT"
+        },
+        {
+            "title": "Williams ruled out of Lions tour as White called up",
+            "summary": "Tomos Williams is ruled out of the rest of the British and Irish Lions tour of Australia with a hamstring injury.",
+            "link": "https://www.bbc.com/sport/rugby-union/articles/c74zqwpjdgko",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 01:18:44 GMT"
+        },
+        {
+            "title": "What are main questions facing England before Euros?",
+            "summary": "With six days to go until England kick off the defence of their European title, manager Sarina Wiegman has given a strong hint to her first-choice XI.",
+            "link": "https://www.bbc.com/sport/football/articles/c3d1kj2n7myo",
+            "source": "BBC News",
+            "publication_date": "Mon, 30 Jun 2025 05:20:49 GMT"
+        }
+    ]
 }
