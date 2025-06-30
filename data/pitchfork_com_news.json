@@ -1,4 +1,26 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Listen to Foo Fighters’ Cover of Minor Threat’s “I Don’t Wanna Hear It”",
+            "summary": "A hardcore cover 30 years in the making",
+            "link": "https://pitchfork.com/news/listen-to-foo-fighters-cover-of-minor-threat-i-dont-wanna-hear-it",
+            "source": "RSS: News",
+            "publication_date": "Mon, 30 Jun 2025 15:36:59 +0000"
+        },
+        {
+            "title": "Crushed, Underscores, Jonah Yano, and More: This Week’s Pitchfork Selects Playlist",
+            "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+            "link": "https://pitchfork.com/news/crushed-underscores-jonah-yano-this-week-pitchfork-selects-playlist",
+            "source": "RSS: News",
+            "publication_date": "Mon, 30 Jun 2025 15:31:18 +0000"
+        },
+        {
+            "title": "Deerhoof to Remove Music From Spotify",
+            "summary": "The long-running indie-rock band is protesting chief executive Daniel Ek’s military investments and also said the company “is flushing itself down the toilet”",
+            "link": "https://pitchfork.com/news/deerhoof-to-remove-music-from-spotify",
+            "source": "RSS: News",
+            "publication_date": "Mon, 30 Jun 2025 13:59:46 +0000"
+        }
+    ]
 }
