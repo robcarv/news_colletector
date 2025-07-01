@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Cloudflare will now block AI crawlers by default",
+            "summary": "Cloudflare will block known AI web crawlers by default to prevent them from “accessing content without permission or compensation,” according to an announcement on Tuesday. The company will start asking new domain owners whether they want to allow AI scrapers, and will even let some publishers implement them.",
+            "link": "https://www.theverge.com/news/695501/cloudflare-block-ai-crawlers-default",
+            "source": "The Verge",
+            "publication_date": "2025-07-01T06:00:00-04:00"
+        },
+        {
+            "title": "Tinder’s mandatory facial recognition check comes to the US",
+            "summary": "Tinder is trialing mandatory facial recognition security features in the US to verify profiles and crack down on impersonation and fake accounts. New users in California are now required to provide a biometric ‘Face Check’ scan.",
+            "link": "https://www.theverge.com/news/695582/tinder-facial-recognition-us-california-test",
+            "source": "The Verge",
+            "publication_date": "2025-07-01T05:10:31-04:00"
+        }
+    ]
 }
