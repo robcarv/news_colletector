@@ -1,4 +1,40 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Chris Mason: Labour still has a big persuasion job ahead",
+            "summary": "Ministers hope a partial U-turn will win over Labour rebels when MPs vote on welfare changes later.",
+            "link": "https://www.bbc.com/news/articles/czjkkmdv33mo",
+            "source": "BBC News",
+            "publication_date": "Tue, 01 Jul 2025 01:17:27 GMT"
+        },
+        {
+            "title": "Guilty plea expected over 2022 murders of four Idaho students",
+            "summary": "Relatives of one victim posted on Facebook that the state had failed them by allowing a plea deal.",
+            "link": "https://www.bbc.com/news/articles/c3r994xvj42o",
+            "source": "BBC News",
+            "publication_date": "Tue, 01 Jul 2025 01:13:58 GMT"
+        },
+        {
+            "title": "US-Israeli backed Gaza aid group must be shut down, say 130 charities",
+            "summary": "The call from some of the world's top aid organisations and charities comes after reports of soldiers killing hundreds of of Palestinians at aid sites.",
+            "link": "https://www.bbc.com/news/articles/cn5kk1w00xyo",
+            "source": "BBC News",
+            "publication_date": "Tue, 01 Jul 2025 05:02:06 GMT"
+        },
+        {
+            "title": "Father and daughter plucked from sea after cruise ship drama",
+            "summary": "Crew members were able to quickly rescue the pair, who were on the last day of a Disney cruise to the Bahamas.",
+            "link": "https://www.bbc.com/news/articles/c6288v6j4y0o",
+            "source": "BBC News",
+            "publication_date": "Tue, 01 Jul 2025 02:56:13 GMT"
+        },
+        {
+            "title": "US Senate holds marathon vote on Trump's 'big beautiful bill'",
+            "summary": "Senators are debating a nearly 1,000-page bill that is pivotal to President Donald Trump's domestic agenda.",
+            "link": "https://www.bbc.com/news/articles/czjkkdyplymo",
+            "source": "BBC News",
+            "publication_date": "Tue, 01 Jul 2025 05:57:20 GMT"
+        }
+    ]
 }
