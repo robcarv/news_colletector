@@ -1,12 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Microsoft says AI system better than doctors at diagnosing complex health conditions",
-            "summary": "Firm says results of research create ‘path to medical superintelligence’ but plays down job implications. Firm’s AI unit, which is led by the  British tech pioneer Mustafa Suleyman, has developed a system that imitates a panel of expert physicians.",
-            "link": "https://www.theguardian.com/technology/2025/jun/30/microsoft-ai-system-better-doctors-diagnosing-health-conditions-research",
-            "source": "Technology | The Guardian",
-            "publication_date": "Mon, 30 Jun 2025 14:00:44 GMT"
-        }
-    ]
+    "news": []
 }
