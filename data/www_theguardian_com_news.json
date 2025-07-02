@@ -1,19 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Tech firms suggested placing trackers under offenders’ skin at meeting with justice secretary",
-            "summary": "Ministers are gathering ideas to tackle the crisis in the UK justice system. Shabana Mahmood told companies she wanted ‘deeper collaboration’",
-            "link": "https://www.theguardian.com/society/2025/jul/01/tech-firms-suggested-placing-trackers-under-offenders-skin-at-meeting-with-justice-secretary",
-            "source": "Technology | The Guardian",
-            "publication_date": "Tue, 01 Jul 2025 05:00:07 GMT"
-        },
-        {
-            "title": "Moonlight Peaks: your chance to live as a tiny vegan vampire",
-            "summary": "Gen Z-coded, achingly TikTok-ready supernatural life sim. Dracula’s daughter seeks a more peaceful life making plant-based blood substitutes. Stardew-Valley-inspired, gently creepy farming game.",
-            "link": "https://www.theguardian.com/games/2025/jul/01/moonlight-peaks-vegan-vampire-dracula-daughter-stardew-valley",
-            "source": "Technology | The Guardian",
-            "publication_date": "Tue, 01 Jul 2025 09:00:02 GMT"
-        }
-    ]
+    "news": []
 }

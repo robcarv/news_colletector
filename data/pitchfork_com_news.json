@@ -1,26 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Eiko Ishibashi and Jim O’Rourke Announce New Album Pareidolia, Share Video: Watch",
-            "summary": "The full-length arrives in August via Drag City",
-            "link": "https://pitchfork.com/news/eiko-ishibashi-and-jim-orourke-announce-new-album-pareidolia-share-video-watch",
-            "source": "RSS: News",
-            "publication_date": "Tue, 01 Jul 2025 15:34:12 +0000"
-        },
-        {
-            "title": "New Music Releases and Upcoming Albums in 2025",
-            "summary": "A regularly updated guide to the new albums, EPs, mixtapes, and projects getting released in the coming weeks and months",
-            "link": "https://pitchfork.com/news/new-album-releases",
-            "source": "RSS: News",
-            "publication_date": "Tue, 01 Jul 2025 12:24:46 +0000"
-        },
-        {
-            "title": "Jenny Hval Cancels 2025 North American Tour Dates",
-            "summary": "The Norwegian artist was set to perform in major cities across the United States and Canada this September",
-            "link": "https://pitchfork.com/news/jenny-hval-cancels-2025-north-american-tour-dates",
-            "source": "RSS: News",
-            "publication_date": "Tue, 01 Jul 2025 00:24:31 +0000"
-        }
-    ]
+    "news": []
 }

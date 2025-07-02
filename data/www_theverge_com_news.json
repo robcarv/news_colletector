@@ -1,40 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Laptop Mag is shutting down",
-            "summary": "Laptop Mag is shutting down after nearly 35 years of providing consumers with in-depth information about laptops and other technology. In a staff meeting seen by The Verge, Faisal Alani said, “After careful consideration and a review of our long-term strategy, we’ve made the decision’",
-            "link": "https://www.theverge.com/news/695969/laptop-mag-shutdown-future-plc",
-            "source": "The Verge",
-            "publication_date": "2025-07-01T13:42:19-04:00"
-        },
-        {
-            "title": "Nothing Headphone 1 review: head-turning",
-            "summary": "Nothing's first pair of over-the-ear headphones has arrived, bearing the company's signature retro-transparent design. With the $299 Nothing Headphone 1, you have to commit to having that aesthetic wrapped around your ears.",
-            "link": "https://www.theverge.com/headphone-review/695609/nothing-headphone-1-review",
-            "source": "The Verge",
-            "publication_date": "2025-07-01T13:30:00-04:00"
-        },
-        {
-            "title": "Nothing’s over-ear headphones are all about the buttons",
-            "summary": "Nothing has launched its first pair of over-ear headphones, imaginatively named the Headphone 1. At $299, these are priced to compete with flagship fare, distinguished by their distinctive Nothing design language.",
-            "link": "https://www.theverge.com/news/695787/nothing-headphone-1-launch-news-specs-price",
-            "source": "The Verge",
-            "publication_date": "2025-07-01T13:30:00-04:00"
-        },
-        {
-            "title": "Nothing’s ‘first true flagship’ phone plays it a little safe",
-            "summary": "The Nothing Phone 3 lets you play Spin the Bottle on the back of the phone. “The Glyph interface is not a gimmick,” Nothing founder and CEO Carl Pei says.",
-            "link": "https://www.theverge.com/news/695788/nothing-phone-3-launch-news-specs-price",
-            "source": "The Verge",
-            "publication_date": "2025-07-01T13:30:00-04:00"
-        },
-        {
-            "title": "Here are the best AirPods deals you can get right now",
-            "summary": "If you know where to look, you can often score discounts on Apple’s ever-expanding AirPods lineup. Both the newer AirPod Max and Airpods 4 (with and without ANC) now consistently receive discounts.",
-            "link": "https://www.theverge.com/21302051/best-apple-airpods-deals",
-            "source": "The Verge",
-            "publication_date": "2025-07-01T13:26:19-04:00"
-        }
-    ]
+    "news": []
 }
