@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Google Photos sees several app improvements",
+            "summary": "The Google Photos app has been updated to make it easier to navigate your gallery and view image information. Google says the photo view has been redesigned to provide a “simpler, more modern, and more intuitive UI’",
+            "link": "https://www.theverge.com/news/696480/google-photos-sees-several-app-improvements",
+            "source": "The Verge",
+            "publication_date": "2025-07-02T07:43:37-04:00"
+        },
+        {
+            "title": "Paramount agrees to pay Trump $16 million, clearing way for multibillion-dollar merger",
+            "summary": "Paramount has agreed to pay $16 million to resolve President Donald Trump's lawsuit against its subsidiary CBS. The settlement payment is inclusive of Trump’s legal fees and costs, Paramount said.",
+            "link": "https://www.theverge.com/news/696422/paramount-settlement-trump-cbs-lawsuit",
+            "source": "The Verge",
+            "publication_date": "2025-07-02T05:59:29-04:00"
+        }
+    ]
 }
