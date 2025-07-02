@@ -1,0 +1,153 @@
+=== INÍCIO DA EXECUÇÃO: Wed  2 Jul 13:00:01 IST 2025 ===
+INFO:__main__:🧹 Limpando pasta: ./data
+INFO:__main__:📁 Pasta não existe: ./data/audio
+INFO:__main__:🚀 Executando rss_collector.py...
+INFO:__main__:✅ Configuração de feeds carregada com sucesso.
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml (Idioma: pt)
+INFO:__main__:
+🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+INFO:__main__:📰 Total de entradas encontradas: 100
+INFO:__main__:✅ Notícia 1 adicionada: 'Espero que haja pausa para reflexão', diz Gilmar Mendes sobre crise do IOF
+INFO:__main__:✅ Notícia 2 adicionada: Aeroporto de Viracopos é fechado por mais de 4 horas após morte de funcionário na pista
+INFO:__main__:✅ Notícia 3 adicionada: Com tempero brasileiro, 'Pipistrello and the Cursed Yoyo' vai além do saudosismo
+INFO:__main__:✅ Notícia 4 adicionada: As freiras que conquistam fiéis com música e dança
+INFO:__main__:✅ Notícia 5 adicionada: Brasileiro é fiel a marcas de café mesmo com inflação, diz diretora da Pilão
+INFO:__main__:🚫 Limite de 5 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 5
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.nintendo.com/en-gb/news.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.nintendo.com/en-gb/news.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.nintendo.com/en-gb/news.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_nintendo_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://newsroom.ibm.com/announcements?pagetemplate=rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+INFO:__main__:📰 Total de entradas encontradas: 5
+INFO:__main__:📥 Total de notícias coletadas de https://newsroom.ibm.com/announcements?pagetemplate=rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/newsroom_ibm_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
+INFO:__main__:📰 Total de entradas encontradas: 26
+INFO:__main__:✅ Notícia 1 adicionada: Heathrow considering legal action against National Grid over fire that caused closure
+INFO:__main__:✅ Notícia 2 adicionada: Prosecutors consider further charges against Lucy Letby
+INFO:__main__:✅ Notícia 3 adicionada: Scorching European heatwave turns deadly in Spain and France
+INFO:__main__:✅ Notícia 4 adicionada: Bob Vylan dropped from music festivals after Glastonbury controversy
+INFO:__main__:✅ Notícia 5 adicionada: Diddy jury are deadlocked on racketeering charge - but what is it?
+INFO:__main__:🚫 Limite de 5 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 5
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_bbci_co_uk_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-news/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
+INFO:__main__:📰 Total de entradas encontradas: 30
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
+INFO:__main__:📰 Total de entradas encontradas: 25
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theverge.com/rss/index.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:✅ Notícia 1 adicionada: Google Photos sees several app improvements
+INFO:__main__:✅ Notícia 2 adicionada: Paramount agrees to pay Trump $16 million, clearing way for multibillion-dollar merger
+INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 2
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/world/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/world/rss
+INFO:__main__:📰 Total de entradas encontradas: 45
+INFO:__main__:✅ Notícia 6 adicionada: ‘The ground shook’: drone attacks help Haitian government wrest control of capital from criminal gangs
+INFO:__main__:✅ Notícia 7 adicionada: Judge blocks Kristi Noem from ending temporary protected status for Haitians
+INFO:__main__:✅ Notícia 16 adicionada: NSW weather: storm brings 13-metre high waves and wild winds as BoM warns of ‘second surge’
+INFO:__main__:✅ Notícia 17 adicionada: Gender balance in Liberal party should be based on ‘merit’ not ‘quotas’, says new senator Jess Collins
+INFO:__main__:✅ Notícia 18 adicionada: Kanye West barred from entering Australia over Hitler song, Tony Burke says
+INFO:__main__:🚫 Limite de 5 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/world/rss: 5
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/uk/rss
+INFO:__main__:📰 Total de entradas encontradas: 138
+INFO:__main__:✅ Notícia 1 adicionada: Choose comfort, ditch boring and prioritise pleasure – how to find the perfect beach read
+INFO:__main__:✅ Notícia 2 adicionada: Caution has turned to cowardice – the BBC is failing viewers with its Gaza coverage | Karishma Patel
+INFO:__main__:✅ Notícia 3 adicionada: ‘He looks like a potato’: every major Gallagher feud since Oasis split in 2009
+INFO:__main__:✅ Notícia 4 adicionada: Frittata, ‘egg and chips’ and a bean feast: Sami Tamimi’s brunch recipes from Palestine
+INFO:__main__:✅ Notícia 5 adicionada: Poorly led, strategically inept and shorn of democracy. Now I truly fear for this Labour government | John McDonnell
+INFO:__main__:🚫 Limite de 5 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 5
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/us/rss
+INFO:__main__:📰 Total de entradas encontradas: 101
+INFO:__main__:✅ Notícia 1 adicionada: Who are Bob Vylan? The British punks who had their US visas revoked for anti-IDF chants
+INFO:__main__:✅ Notícia 2 adicionada: The supreme court is cracking down on judges – and letting Trump run wild | Steven Greenhouse
+INFO:__main__:✅ Notícia 3 adicionada: Choose comfort, ditch boring and prioritise pleasure – how to find the perfect beach read
+INFO:__main__:✅ Notícia 4 adicionada: ‘The ground shook’: drone attacks help Haitian government wrest control of capital from criminal gangs
+INFO:__main__:✅ Notícia 5 adicionada: ‘He looks like a potato’: every major Gallagher feud since Oasis split in 2009
+INFO:__main__:🚫 Limite de 5 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 5
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/technology/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/technology/rss
+INFO:__main__:📰 Total de entradas encontradas: 24
+INFO:__main__:✅ Notícia 3 adicionada: Google undercounts its carbon emissions, report finds
+INFO:__main__:✅ Notícia 8 adicionada: ‘I was constantly scared of what she was going to do’: the troubled life and shocking death of Immy Nunn
+INFO:__main__:✅ Notícia 9 adicionada: Women behind the lens: bending over backwards for luck
+INFO:__main__:✅ Notícia 20 adicionada: Donkey Kong Bananza: gorilla finds his groove with Mariah Carey on his shoulder
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 4
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:✅ rss_collector.py executado com sucesso.
+INFO:__main__:🚀 Executando summarizer.py...
+Device set to use cpu
+Device set to use cpu
+INFO:__main__:🌐 Processando arquivo: newsroom_ibm_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/newsroom_ibm_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:📝 Sumarizando notícia 2...
+INFO:__main__:📝 Sumarizando notícia 3...
+INFO:__main__:📝 Sumarizando notícia 4...
+INFO:__main__:📝 Sumarizando notícia 5...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
+INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+Your max_length is set to 100, but your input_length is only 66. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=33)
+INFO:__main__:📝 Sumarizando notícia 2...
+Your max_length is set to 100, but your input_length is only 78. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=39)
+INFO:__main__:✅ Sumarização concluída para ./data/www_theverge_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theguardian_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:📝 Sumarizando notícia 2...
+INFO:__main__:📝 Sumarizando notícia 3...
+INFO:__main__:📝 Sumarizando notícia 4...
+INFO:__main__:✅ Sumarização concluída para ./data/www_theguardian_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_folha_uol_com_br_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:📝 Sumarizando notícia 2...
+INFO:__main__:📝 Sumarizando notícia 3...
+INFO:__main__:📝 Sumarizando notícia 4...
+INFO:__main__:📝 Sumarizando notícia 5...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_folha_uol_com_br_news.json.
+INFO:__main__:🌐 Processando arquivo: www_nintendo_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_nintendo_com_news.json.
+INFO:__main__:✅ summarizer.py executado com sucesso.
+INFO:__main__:🚀 Executando text_to_speech.py...
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Newsroom Ibm Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Newsroom Ibm Com
+ERROR:__main__:❌ Erro ao executar text_to_speech.py: Command '['python3', 'text_to_speech.py']' died with <Signals.SIGKILL: 9>.
+INFO:__main__:🎉 Todos os scripts foram executados com sucesso.
+=== FIM DA EXECUÇÃO: Wed  2 Jul 17:23:03 IST 2025 ===
+STATUS DE SAÍDA: 0

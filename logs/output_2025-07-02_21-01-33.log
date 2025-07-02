@@ -1,0 +1,110 @@
+=== INÍCIO DA EXECUÇÃO: Wed  2 Jul 21:01:33 IST 2025 ===
+INFO:__main__:🧹 Limpando pasta: ./data
+INFO:__main__:📁 Pasta não existe: ./data/audio
+INFO:__main__:🚀 Executando rss_collector.py...
+INFO:__main__:✅ Configuração de feeds carregada com sucesso.
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml (Idioma: pt)
+INFO:__main__:
+🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+INFO:__main__:📰 Total de entradas encontradas: 100
+INFO:__main__:✅ Notícia 1 adicionada: Gestão Nunes quer pagar R$ 1.000 para GCM que recuperar moto roubada em SP
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.nintendo.com/en-gb/news.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.nintendo.com/en-gb/news.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.nintendo.com/en-gb/news.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_nintendo_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://newsroom.ibm.com/announcements?pagetemplate=rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+INFO:__main__:📰 Total de entradas encontradas: 5
+INFO:__main__:✅ Notícia 1 adicionada: Deutsche Telekom Selects IBM Concert to Accelerate IT Processes with AI-Powered Automation
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://newsroom.ibm.com/announcements?pagetemplate=rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/newsroom_ibm_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
+INFO:__main__:📰 Total de entradas encontradas: 33
+INFO:__main__:✅ Notícia 1 adicionada: No 10 backs Chancellor Rachel Reeves after tearful Commons appearance
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_bbci_co_uk_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-news/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
+INFO:__main__:📰 Total de entradas encontradas: 30
+INFO:__main__:✅ Notícia 1 adicionada: Blue Lake Announces New Album The Animal, Shares New Song “Cut Paper”: Listen
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
+INFO:__main__:📰 Total de entradas encontradas: 25
+INFO:__main__:✅ Notícia 1 adicionada: KING CRIMSON & TOOL Supergroup BEAT Announces Beat Live Album
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theverge.com/rss/index.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:✅ Notícia 1 adicionada: How Nintendo locked down the Switch 2’s USB-C port and broke third-party docking
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/world/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/world/rss
+INFO:__main__:📰 Total de entradas encontradas: 45
+INFO:__main__:✅ Notícia 1 adicionada: Skeleton found in pot is first ancient Egyptian to undergo whole genome analysis
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/world/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/uk/rss
+INFO:__main__:📰 Total de entradas encontradas: 139
+INFO:__main__:✅ Notícia 1 adicionada: Unhappy birthday? Labour in turmoil after one year in government – Politics Weekly UK
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/us/rss
+INFO:__main__:📰 Total de entradas encontradas: 109
+INFO:__main__:✅ Notícia 1 adicionada: ‘Shar-pei sex’, swinging, and 10 orgasms in an afternoon: This is sex after 60
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/technology/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/technology/rss
+INFO:__main__:📰 Total de entradas encontradas: 24
+INFO:__main__:✅ Notícia 2 adicionada: Fears AI factcheckers on X could increase promotion of conspiracy theories
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:✅ rss_collector.py executado com sucesso.
+INFO:__main__:🚀 Executando summarizer.py...
+Device set to use cpu
+Device set to use cpu
+INFO:__main__:🌐 Processando arquivo: newsroom_ibm_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/newsroom_ibm_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
+INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+Your max_length is set to 100, but your input_length is only 78. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=39)

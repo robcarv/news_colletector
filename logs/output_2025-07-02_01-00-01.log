@@ -1,0 +1,115 @@
+=== INÍCIO DA EXECUÇÃO: Wed  2 Jul 01:00:01 IST 2025 ===
+INFO:__main__:🧹 Limpando pasta: ./data
+INFO:__main__:📁 Pasta não existe: ./data/audio
+INFO:__main__:🚀 Executando rss_collector.py...
+INFO:__main__:✅ Configuração de feeds carregada com sucesso.
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml (Idioma: pt)
+INFO:__main__:
+🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+INFO:__main__:📰 Total de entradas encontradas: 100
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.nintendo.com/en-gb/news.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.nintendo.com/en-gb/news.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.nintendo.com/en-gb/news.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_nintendo_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://newsroom.ibm.com/announcements?pagetemplate=rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+INFO:__main__:📰 Total de entradas encontradas: 5
+INFO:__main__:📥 Total de notícias coletadas de https://newsroom.ibm.com/announcements?pagetemplate=rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/newsroom_ibm_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
+INFO:__main__:📰 Total de entradas encontradas: 34
+INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_bbci_co_uk_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-news/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
+INFO:__main__:📰 Total de entradas encontradas: 30
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
+INFO:__main__:📰 Total de entradas encontradas: 25
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theverge.com/rss/index.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/world/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/world/rss
+INFO:__main__:📰 Total de entradas encontradas: 45
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/world/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/uk/rss
+INFO:__main__:📰 Total de entradas encontradas: 140
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/us/rss
+INFO:__main__:📰 Total de entradas encontradas: 103
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/technology/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/technology/rss
+INFO:__main__:📰 Total de entradas encontradas: 24
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:✅ rss_collector.py executado com sucesso.
+INFO:__main__:🚀 Executando summarizer.py...
+Device set to use cpu
+Device set to use cpu
+INFO:__main__:🌐 Processando arquivo: newsroom_ibm_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/newsroom_ibm_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
+INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_theverge_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theguardian_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_theguardian_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_folha_uol_com_br_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_folha_uol_com_br_news.json.
+INFO:__main__:🌐 Processando arquivo: www_nintendo_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_nintendo_com_news.json.
+INFO:__main__:✅ summarizer.py executado com sucesso.
+INFO:__main__:🚀 Executando text_to_speech.py...
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Newsroom Ibm Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Newsroom Ibm Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Feeds Bbci Co Uk
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Feeds Bbci Co Uk
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Pitchfork Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Pitchfork Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Feeds Feedburner Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Feeds Feedburner Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Theverge Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Theverge Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Theguardian Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Theguardian Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Nintendo Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Nintendo Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Feeds Folha Uol Com Br
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Feeds Folha Uol Com Br
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_en.xml
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_pt.xml
+INFO:__main__:✅ text_to_speech.py executado com sucesso.
+INFO:__main__:🎉 Todos os scripts foram executados com sucesso.
+=== FIM DA EXECUÇÃO: Wed  2 Jul 01:00:53 IST 2025 ===
+STATUS DE SAÍDA: 0

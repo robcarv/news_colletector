@@ -3,38 +3,10 @@
     "news": [
         {
             "title": "Fears AI factcheckers on X could increase promotion of conspiracy theories",
-            "summary": "Former UK minister says platform is ‘leaving it to bots to edit the news’ Elon Musk’s X social media platform to enlist artificial intelligence chatbots to draft factchecks.",
+            "summary": "Former UK minister says platform, which will use AI to draft community notes, is ‘leaving it to bots to edit the news’ A decision by Elon Musk’s X social media platform to enlist artificial intelligence chatbots to draft factchecks risks increasing the promotion of “lies and conspiracy theories”, a former UK technology minister has warned. Damian Collins accused Musk’s firm of “leaving it to bots to edit the news” after X announced on Tuesday that it would allow large language models to write community notes to clarify or correct contentious posts, before users approve them for publication. The notes have previously been written by humans.   Continue reading...",
             "link": "https://www.theguardian.com/technology/2025/jul/02/fears-ai-factcheckers-on-x-could-increase-promotion-of-conspiracy-theories",
             "source": "Technology | The Guardian",
             "publication_date": "Wed, 02 Jul 2025 16:20:01 GMT"
-        },
-        {
-            "title": "Tesla vehicle deliveries drop sharply as Musk backlash affects demand",
-            "summary": "Tesla said it delivered 384,122 vehicles in the second quarter, down 13.5% from 443,956 units a year ago. Analysts had expected it to report deliveries of about 394,378 vehicles.",
-            "link": "https://www.theguardian.com/technology/2025/jul/02/tesla-delivery-demand-drop-elon-musk",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 16:17:49 GMT"
-        },
-        {
-            "title": "AI helps find formula for paint to keep buildings cooler",
-            "summary": "New coatings can keep buildings between 5C and 20C cooler than normal paint. They could also be applied to cars, trains, electrical equipment and other objects that will require more cooling.",
-            "link": "https://www.theguardian.com/technology/2025/jul/02/ai-helps-find-formula-for-paint-to-keep-buildings-cooler",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 14:00:02 GMT"
-        },
-        {
-            "title": "Google undercounts its carbon emissions, report finds",
-            "summary": "Research says Google’s carbon emissions went up by 65% between 2019-2024, not 51% as the tech giant had claimed. Google set a lofty goal of achieving net-zero carbon emissions by 2030. Yet in the years since then, the company has moved in the opposite direction as it invests in energy-intensive artificial intelligence.",
-            "link": "https://www.theguardian.com/technology/2025/jul/02/google-carbon-emissions-report",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 10:00:00 GMT"
-        },
-        {
-            "title": "Women behind the lens: bending over backwards for luck",
-            "summary": "Colombian artist and photographer Isabella Madrid explores the ‘click to be saved’ economy of hope in her project, Lucky Girl Syndrome.",
-            "link": "https://www.theguardian.com/global-development/2025/jul/02/women-behind-the-lens-bending-over-backwards-for-luck-isabella-madrid",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 06:00:10 GMT"
         }
     ]
 }
