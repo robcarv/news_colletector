@@ -2,18 +2,39 @@
     "language": "en",
     "news": [
         {
-            "title": "Google Photos sees several app improvements",
-            "summary": "The Google Photos app has been updated to make it easier to navigate your gallery and view image information. Google says the photo view has been redesigned to provide a “simpler, more modern, and more intuitive UI’",
-            "link": "https://www.theverge.com/news/696480/google-photos-sees-several-app-improvements",
+            "title": "Microsoft cancels its Perfect Dark and Everwild Xbox games",
+            "summary": "Microsoft is canceling its Perfect Dark and Everwild games as part of sweeping cuts to its Xbox division. Matt Booty, Xbox president of game content and studios, revealed that Microsoft will be closing The Initiative.",
+            "link": "https://www.theverge.com/news/696877/xbox-perfect-dark-everwild-cancelled-the-initiative-layoffs",
             "source": "The Verge",
-            "publication_date": "2025-07-02T07:43:37-04:00"
+            "publication_date": "2025-07-02T13:18:38-04:00"
         },
         {
-            "title": "Paramount agrees to pay Trump $16 million, clearing way for multibillion-dollar merger",
-            "summary": "Paramount has agreed to pay $16 million to resolve President Donald Trump's lawsuit against its subsidiary CBS. The settlement payment is inclusive of Trump’s legal fees and costs, Paramount said.",
-            "link": "https://www.theverge.com/news/696422/paramount-settlement-trump-cbs-lawsuit",
+            "title": "Microsoft&#8217;s Forza Motorsport developer hit hard by Xbox cuts",
+            "summary": "More than 70 people will be let go at Forza Motorsport developer Turn 10 Studios. The cuts were made on a call with Microsoft HR representatives this morning.",
+            "link": "https://www.theverge.com/news/696676/microsoft-forza-motorsport-turn-10-studios-layoffs-xbox-cuts",
             "source": "The Verge",
-            "publication_date": "2025-07-02T05:59:29-04:00"
+            "publication_date": "2025-07-02T13:08:25-04:00"
+        },
+        {
+            "title": "Lorde’s new CD is so transparent that stereos can’t even read it",
+            "summary": "Lorde fans are struggling to play the CD version of her new album. Customers who purchased the special edition of Virgin released on a transparent plastic disc are reporting on Reddit and TikTok that many CD players, car stereos, and other sound systems are unable to play it.",
+            "link": "https://www.theverge.com/news/696805/lorde-virgin-album-transparent-cd-wont-play",
+            "source": "The Verge",
+            "publication_date": "2025-07-02T12:47:57-04:00"
+        },
+        {
+            "title": "Jurassic World Rebirth needs some more time in the incubator",
+            "summary": "The entire point of Jurassic World Rebirth is to get the franchise back into audiences' good graces. All the same ingredients are there - dinosaurs running amok in a tropical paradise.",
+            "link": "https://www.theverge.com/movie-reviews/695918/jurassic-world-rebirth-review",
+            "source": "The Verge",
+            "publication_date": "2025-07-02T12:17:35-04:00"
+        },
+        {
+            "title": "Amazon’s Echo Hub has plunged to a new low price ahead of Prime Day",
+            "summary": "Prime Day kicks off on July 8th. Right now, Prime members can grab an Amazon Echo Hub at Amazon for just $119.99.",
+            "link": "https://www.theverge.com/tech/696656/amazon-echo-hub-prime-day-apple-pencil-pro-deal-sale",
+            "source": "The Verge",
+            "publication_date": "2025-07-02T12:09:05-04:00"
         }
     ]
 }

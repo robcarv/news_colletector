@@ -2,6 +2,27 @@
     "language": "en",
     "news": [
         {
+            "title": "Fears AI factcheckers on X could increase promotion of conspiracy theories",
+            "summary": "Former UK minister says platform is ‘leaving it to bots to edit the news’ Elon Musk’s X social media platform to enlist artificial intelligence chatbots to draft factchecks.",
+            "link": "https://www.theguardian.com/technology/2025/jul/02/fears-ai-factcheckers-on-x-could-increase-promotion-of-conspiracy-theories",
+            "source": "Technology | The Guardian",
+            "publication_date": "Wed, 02 Jul 2025 16:20:01 GMT"
+        },
+        {
+            "title": "Tesla vehicle deliveries drop sharply as Musk backlash affects demand",
+            "summary": "Tesla said it delivered 384,122 vehicles in the second quarter, down 13.5% from 443,956 units a year ago. Analysts had expected it to report deliveries of about 394,378 vehicles.",
+            "link": "https://www.theguardian.com/technology/2025/jul/02/tesla-delivery-demand-drop-elon-musk",
+            "source": "Technology | The Guardian",
+            "publication_date": "Wed, 02 Jul 2025 16:17:49 GMT"
+        },
+        {
+            "title": "AI helps find formula for paint to keep buildings cooler",
+            "summary": "New coatings can keep buildings between 5C and 20C cooler than normal paint. They could also be applied to cars, trains, electrical equipment and other objects that will require more cooling.",
+            "link": "https://www.theguardian.com/technology/2025/jul/02/ai-helps-find-formula-for-paint-to-keep-buildings-cooler",
+            "source": "Technology | The Guardian",
+            "publication_date": "Wed, 02 Jul 2025 14:00:02 GMT"
+        },
+        {
             "title": "Google undercounts its carbon emissions, report finds",
             "summary": "Research says Google’s carbon emissions went up by 65% between 2019-2024, not 51% as the tech giant had claimed. Google set a lofty goal of achieving net-zero carbon emissions by 2030. Yet in the years since then, the company has moved in the opposite direction as it invests in energy-intensive artificial intelligence.",
             "link": "https://www.theguardian.com/technology/2025/jul/02/google-carbon-emissions-report",
@@ -9,25 +30,11 @@
             "publication_date": "Wed, 02 Jul 2025 10:00:00 GMT"
         },
         {
-            "title": "‘I was constantly scared of what she was going to do’: the troubled life and shocking death of Immy Nunn",
-            "summary": "Immy Nunn, known as Deaf Immy, had nearly 800,000 followers on TikTok. She was attracted by her honest and often funny videos about her deafness and her mental health. Two years after her death, her mother Louise is still trying to understand how she found her way to a pro-suicide forum.",
-            "link": "https://www.theguardian.com/society/2025/jul/02/the-troubled-life-and-shocking-death-of-immy-nunn",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 09:00:11 GMT"
-        },
-        {
             "title": "Women behind the lens: bending over backwards for luck",
             "summary": "Colombian artist and photographer Isabella Madrid explores the ‘click to be saved’ economy of hope in her project, Lucky Girl Syndrome.",
             "link": "https://www.theguardian.com/global-development/2025/jul/02/women-behind-the-lens-bending-over-backwards-for-luck-isabella-madrid",
             "source": "Technology | The Guardian",
             "publication_date": "Wed, 02 Jul 2025 06:00:10 GMT"
-        },
-        {
-            "title": "Donkey Kong Bananza: gorilla finds his groove with Mariah Carey on his shoulder",
-            "summary": "Bananza is built to let you pulverise its destructible environments as you see fit. Bored with jumping through a cave? Batter your way through the wall instead. There’s a cathartic mindlessness to smashing seven shades of stone out of every inch of the ground beneath you.",
-            "link": "https://www.theguardian.com/games/2025/jul/02/donkey-kong-bananza-nintendo-switch-2",
-            "source": "Technology | The Guardian",
-            "publication_date": "Wed, 02 Jul 2025 09:00:12 GMT"
         }
     ]
 }
