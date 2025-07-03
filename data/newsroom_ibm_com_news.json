@@ -1,12 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "Deutsche Telekom Selects IBM Concert to Accelerate IT Processes with AI-Powered Automation",
-            "summary": "The AI-powered solution IBM Concert enables intelligent automation in patch management and the orchestration of security-related activities",
-            "link": "https://newsroom.ibm.com/2025-07-02-deutsche-telekom-selects-ibm-concert-to-accelerate-it-processes-with-ai-powered-automation",
-            "source": "IBM - Announcements",
-            "publication_date": "Wed, 02 Jul 2025 13:44:00 -0400"
-        }
-    ]
+    "news": []
 }
