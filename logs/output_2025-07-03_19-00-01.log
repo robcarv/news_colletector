@@ -1,0 +1,219 @@
+======== INÍCIO DA EXECUÇÃO =========
+Data: Thu  3 Jul 19:00:01 IST 2025
+Log: /home/robert/Documents/vscode_projects/news_colletector/logs/output_2025-07-03_19-00-01.log
+==== PRE-HOOK para main.py ====
+Verificando dependências do main.py...
+Uso de recursos pré-execucao:
+Mem: 1.0Gi/7.9Gi
+============================
+▶️  Executando: python3 main.py 
+INFO:__main__:🧹 Limpando pasta: ./data
+INFO:__main__:📁 Pasta não existe: ./data/audio
+INFO:__main__:🚀 Executando rss_collector.py...
+INFO:__main__:✅ Configuração de feeds carregada com sucesso.
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml (Idioma: pt)
+INFO:__main__:
+🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+INFO:__main__:📰 Total de entradas encontradas: 100
+INFO:__main__:✅ Notícia 1 adicionada: Morre Michael Madsen, ator de 'Cães de Aluguel' e 'Kill Bill', aos 67 anos
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.nintendo.com/en-gb/news.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.nintendo.com/en-gb/news.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.nintendo.com/en-gb/news.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_nintendo_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://newsroom.ibm.com/announcements?pagetemplate=rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+INFO:__main__:📰 Total de entradas encontradas: 5
+INFO:__main__:📥 Total de notícias coletadas de https://newsroom.ibm.com/announcements?pagetemplate=rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/newsroom_ibm_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
+INFO:__main__:📰 Total de entradas encontradas: 33
+INFO:__main__:✅ Notícia 1 adicionada: Watch Jota's best career moments
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_bbci_co_uk_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-news/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
+INFO:__main__:📰 Total de entradas encontradas: 30
+INFO:__main__:✅ Notícia 1 adicionada: Chance the Rapper, Lil Wayne, and Smino Link Up for New Song and Video “Tree”: Watch
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
+INFO:__main__:📰 Total de entradas encontradas: 25
+INFO:__main__:✅ Notícia 1 adicionada: BLACKBRAID Unleashes New Single & Video "The Dying Breath Of A Sacred Stag"
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theverge.com/rss/index.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:✅ Notícia 1 adicionada: E Ink is turning the laptop touchpad into an e-reader for AI apps
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/world/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/world/rss
+INFO:__main__:📰 Total de entradas encontradas: 45
+INFO:__main__:✅ Notícia 1 adicionada: Two tourists from UK and New Zealand killed by elephant, Zambian police say
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/world/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/uk/rss
+INFO:__main__:📰 Total de entradas encontradas: 139
+INFO:__main__:✅ Notícia 1 adicionada: Will it be rowdier than the rugby? Cardiff gears up for Oasis reunion opening night
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/us/rss
+INFO:__main__:📰 Total de entradas encontradas: 107
+INFO:__main__:✅ Notícia 1 adicionada: My co-worker thinks her single friend should lose weight. Is not caring about looks ‘giving up’?
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/technology/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/technology/rss
+INFO:__main__:📰 Total de entradas encontradas: 24
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:✅ rss_collector.py executado com sucesso.
+INFO:__main__:🚀 Executando summarizer.py...
+Device set to use cpu
+Device set to use cpu
+INFO:__main__:🌐 Processando arquivo: newsroom_ibm_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/newsroom_ibm_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
+INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+Your max_length is set to 100, but your input_length is only 75. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=37)
+INFO:__main__:✅ Sumarização concluída para ./data/www_theverge_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theguardian_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_theguardian_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_folha_uol_com_br_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_folha_uol_com_br_news.json.
+INFO:__main__:🌐 Processando arquivo: www_nintendo_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_nintendo_com_news.json.
+INFO:__main__:✅ summarizer.py executado com sucesso.
+INFO:__main__:🚀 Executando text_to_speech.py...
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Newsroom Ibm Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Newsroom Ibm Com
+GPT2InferenceModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Theguardian Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Theguardian Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Nintendo Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Nintendo Com
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_en.xml
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_pt.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Watch Jota's best career moments", "Diogo Jota's life and career are being celebrated after his death the age of 28 - here are some of his best on-pitch moments.", 'Fonte: BBC News']
+ > Processing time: 123.21538972854614
+ > Real-time factor: 8.448490420899182
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Watch Jota's best career moments"]
+ > Processing time: 24.60376214981079
+ > Real-time factor: 8.407403846443838
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Chance the Rapper, Lil Wayne, and Smino Link Up for New Song and Video “Tree”: Watch', 'Chance directed the visual for his new song, which extols the virtues of smoking weed', 'Fonte: RSS: News']
+ > Processing time: 164.9906780719757
+ > Real-time factor: 8.508692071172456
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Chance the Rapper Lil Wayne and Smino Link Up for New Song and Video “Tree” Watch']
+ > Processing time: 61.22292923927307
+ > Real-time factor: 8.477127434730553
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['BLACKBRAID Unleashes New Single & Video "The Dying Breath Of A Sacred Stag"', 'Blackbraid III is set for independent release on August 8.', 'The post  BLACKBRAID Unleashes New Single & Video "The Dying Breath Of A Sacred Stag"  appeared first on  Metal Injection .', 'Fonte: Metal Injection']
+ > Processing time: 209.27190685272217
+ > Real-time factor: 8.509466736439506
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['BLACKBRAID Unleashes New Single & Video "The Dying Breath Of A Sacred Stag"']
+ > Processing time: 60.72691345214844
+ > Real-time factor: 8.46286556792821
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['E Ink is turning the laptop touchpad into an e-reader for AI apps', 'E Ink has developed a new touchpad for laptops featuring the same electronic paper technology found in e-readers.', 'Instead of serving as a second smaller screen for the computer’s OS, E Ink is […]', 'Fonte: The Verge']
+ > Processing time: 211.26441931724548
+ > Real-time factor: 8.643533365146032
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['E Ink is turning the laptop touchpad into an e-reader for AI apps']
+ > Processing time: 51.04935121536255
+ > Real-time factor: 8.503854362827452
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Morre Michael Madsen, ator de 'Cães de Aluguel' e 'Kill Bill', aos 67 anos", 'Michael Madsen , ator reconhecido por seus papéis em filmes do diretor  Quentin Tarantino  como "Kill Bill" e "Cães de Aluguel", morreu nesta quinta-feira (3) aos 67 anos.', 'Leia mais  (07/03/2025 - 14h52)', 'Fonte: Folha de S.Paulo - Em cima da hora - Principal']
+ > Processing time: 307.9157180786133
+ > Real-time factor: 8.737878860412835
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Morre Michael Madsen ator de 'Cães de Aluguel' e 'Kill Bill' aos 67 anos"]
+ > Processing time: 61.00787591934204
+ > Real-time factor: 8.699066632316942
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_pt.xml
+INFO:__main__:✅ text_to_speech.py executado com sucesso.
+INFO:__main__:🎉 Todos os scripts foram executados com sucesso.
+ℹ️  Status de saída: 0
+✅ Sucesso
+========= FIM DA EXECUÇÃO =========
+Iniciando upload para GitHub...
+[2025-07-03 19:32:43] [INFO] [0;34m[1m=== Starting GitHub upload process ===[0m[0m
+[2025-07-03 19:32:43] [INFO] [0;34mSyncing with remote repository...[0m
+[2025-07-03 19:32:44] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
+[2025-07-03 19:32:45] [GIT] [0mFrom github.com:robcarv/news_colletector[0m
+[2025-07-03 19:32:45] [GIT] [0m* branch            main       -> FETCH_HEAD[0m
+[2025-07-03 19:32:45] [GIT] [0mAlready up to date.[0m
+[2025-07-03 19:32:45] [INFO] [0;34mAdded 8 JSON files[0m
