@@ -50,3 +50,7 @@ dist/
 # Ignorar arquivos de sistema
 .DS_Store
 Thumbs.db
+
+logs/*.log
+!logs/*ERROR*.log
+!logs/output_*.log
