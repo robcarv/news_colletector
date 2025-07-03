@@ -1,0 +1,219 @@
+======== INÍCIO DA EXECUÇÃO =========
+Data: Thu  3 Jul 17:51:01 IST 2025
+Log: /home/robert/Documents/vscode_projects/news_colletector/logs/output_2025-07-03_17-51-01.log
+==== PRE-HOOK para main.py ====
+Verificando dependências do main.py...
+Uso de recursos pré-execucao:
+Mem: 2.2Gi/7.9Gi
+============================
+▶️  Executando: python3 main.py 
+INFO:__main__:🧹 Limpando pasta: ./data
+INFO:__main__:📁 Pasta não existe: ./data/audio
+INFO:__main__:🚀 Executando rss_collector.py...
+INFO:__main__:✅ Configuração de feeds carregada com sucesso.
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml (Idioma: pt)
+INFO:__main__:
+🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+INFO:__main__:📰 Total de entradas encontradas: 100
+INFO:__main__:✅ Notícia 1 adicionada: Teles antecipam metas de cobertura 5G, mas uso ainda é restrito
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.nintendo.com/en-gb/news.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.nintendo.com/en-gb/news.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:📥 Total de notícias coletadas de https://www.nintendo.com/en-gb/news.xml: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_nintendo_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://newsroom.ibm.com/announcements?pagetemplate=rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+INFO:__main__:📰 Total de entradas encontradas: 5
+INFO:__main__:📥 Total de notícias coletadas de https://newsroom.ibm.com/announcements?pagetemplate=rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/newsroom_ibm_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
+INFO:__main__:📰 Total de entradas encontradas: 34
+INFO:__main__:✅ Notícia 1 adicionada: Diogo Jota's best Premier League goals
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_bbci_co_uk_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-news/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
+INFO:__main__:📰 Total de entradas encontradas: 30
+INFO:__main__:✅ Notícia 1 adicionada: Chance the Rapper, Lil Wayne, and Smino Link Up for New Song and Video “Tree”: Watch
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
+INFO:__main__:📰 Total de entradas encontradas: 25
+INFO:__main__:✅ Notícia 1 adicionada: DAX RIGGS: "ACID BATH Won't Make New Music"
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theverge.com/rss/index.xml
+INFO:__main__:📰 Total de entradas encontradas: 10
+INFO:__main__:✅ Notícia 1 adicionada: Paramount Plus slashes prices to $2 for two months
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/world/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/world/rss
+INFO:__main__:📰 Total de entradas encontradas: 45
+INFO:__main__:✅ Notícia 6 adicionada: Trinidad and Tobago’s move to honor Indian PM Modi divides opinion
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/world/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/uk/rss
+INFO:__main__:📰 Total de entradas encontradas: 137
+INFO:__main__:✅ Notícia 1 adicionada: ‘People pay to be told lies’: the rise and fall of the world’s first ayahuasca multinational
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/us/rss
+INFO:__main__:📰 Total de entradas encontradas: 105
+INFO:__main__:✅ Notícia 1 adicionada: Not ‘giving up’: is there another way to describe accepting how I look as I age?
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 1
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/technology/rss (Idioma: en)
+INFO:__main__:
+🔍 Processando feed: https://www.theguardian.com/technology/rss
+INFO:__main__:📰 Total de entradas encontradas: 24
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 0
+INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
+INFO:__main__:✅ rss_collector.py executado com sucesso.
+INFO:__main__:🚀 Executando summarizer.py...
+Device set to use cpu
+Device set to use cpu
+INFO:__main__:🌐 Processando arquivo: newsroom_ibm_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/newsroom_ibm_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
+INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+Your max_length is set to 100, but your input_length is only 74. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=37)
+INFO:__main__:✅ Sumarização concluída para ./data/www_theverge_com_news.json.
+INFO:__main__:🌐 Processando arquivo: www_theguardian_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_theguardian_com_news.json.
+INFO:__main__:🌐 Processando arquivo: feeds_folha_uol_com_br_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+INFO:__main__:✅ Sumarização concluída para ./data/feeds_folha_uol_com_br_news.json.
+INFO:__main__:🌐 Processando arquivo: www_nintendo_com_news.json
+INFO:__main__:✅ Sumarização concluída para ./data/www_nintendo_com_news.json.
+INFO:__main__:✅ summarizer.py executado com sucesso.
+INFO:__main__:🚀 Executando text_to_speech.py...
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Newsroom Ibm Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Newsroom Ibm Com
+GPT2InferenceModel has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Theguardian Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Theguardian Com
+WARNING:services.audio_generator:⚠️ Nenhum título encontrado para o feed: Www Nintendo Com
+WARNING:__main__:⚠️ Nenhum áudio compilado para: Www Nintendo Com
+ERROR:__main__:❌ Erro ao gerar o feed RSS.
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_en.xml
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/services/rss_feeds/news_pt.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Diogo Jota's best Premier League goals", "Watch seven of Diogo Jota's best goals in the Premier League for Wolverhampton Wanderers and Liverpool.", 'Fonte: BBC News']
+ > Processing time: 118.06254601478577
+ > Real-time factor: 8.601900408492025
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+["Diogo Jota's best Premier League goals"]
+ > Processing time: 33.60581088066101
+ > Real-time factor: 8.76974211700643
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Chance the Rapper, Lil Wayne, and Smino Link Up for New Song and Video “Tree”: Watch', 'Chance directed the visual for his new song, which extols the virtues of smoking weed', 'Fonte: RSS: News']
+ > Processing time: 134.7934410572052
+ > Real-time factor: 8.560865060922666
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Chance the Rapper Lil Wayne and Smino Link Up for New Song and Video “Tree” Watch']
+ > Processing time: 54.870368242263794
+ > Real-time factor: 8.68675775231129
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['DAX RIGGS: "ACID BATH Won\'t Make New Music"', "At least you can see 'em live.", 'The post  DAX RIGGS: "ACID BATH Won\'t Make New Music"  appeared first on  Metal Injection .', 'Fonte: Metal Injection']
+ > Processing time: 130.96719622612
+ > Real-time factor: 8.34825010634235
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['DAX RIGGS "ACID BATH Won\'t Make New Music"']
+ > Processing time: 33.35796856880188
+ > Real-time factor: 8.06941380268213
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Paramount Plus slashes prices to $2 for two months', 'Paramount Plus has a deal worth checking out.', 'New subscribers can enjoy two months of\xa0 Paramount Plus Premium (normally $12.99 per month)', 'Fonte: The Verge']
+ > Processing time: 156.85582971572876
+ > Real-time factor: 8.421651095799778
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Paramount Plus slashes prices to $2 for two months']
+ > Processing time: 36.917550802230835
+ > Real-time factor: 8.322754735698409
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_en.xml
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Teles antecipam metas de cobertura 5G, mas uso ainda é restrito', 'O  5G  completou  três anos de operação no Brasil .', 'Desde então, 1.025 municípios receberam a nova  tecnologia , que está disponível para 70% da população.', 'No entanto, somente 47,2 milhões de clientes (21% da população) usam o serviço.', 'Leia mais  (07/03/2025 - 13h36)', 'Fonte: Folha de S.Paulo - Em cima da hora - Principal']
+ > Processing time: 345.43575716018677
+ > Real-time factor: 8.519518465878923
+ > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+ > Using model: xtts
+ > Text splitted to sentences.
+['Teles antecipam metas de cobertura 5G mas uso ainda é restrito']
+ > Processing time: 53.51538920402527
+ > Real-time factor: 8.41041119247318
+RSS gerado: /home/robert/Documents/vscode_projects/news_colletector/data/news_pt.xml
+INFO:__main__:✅ text_to_speech.py executado com sucesso.
+INFO:__main__:🎉 Todos os scripts foram executados com sucesso.
+ℹ️  Status de saída: 0
+✅ Sucesso
+========= FIM DA EXECUÇÃO =========
+Iniciando upload para GitHub...
+[2025-07-03 18:21:29] [INFO] [0;34m[1m=== Starting GitHub upload process ===[0m[0m
+[2025-07-03 18:21:29] [INFO] [0;34mSyncing with remote repository...[0m
+[2025-07-03 18:21:30] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
+[2025-07-03 18:21:31] [GIT] [0mFrom github.com:robcarv/news_colletector[0m
+[2025-07-03 18:21:31] [GIT] [0m* branch            main       -> FETCH_HEAD[0m
+[2025-07-03 18:21:31] [GIT] [0mAlready up to date.[0m
+[2025-07-03 18:21:31] [INFO] [0;34mAdded 8 JSON files[0m
