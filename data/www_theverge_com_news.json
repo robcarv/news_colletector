@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "New Galaxy Z Fold 7 leaks may give first real look at Samsung’s slimmer foldable",
+            "summary": "A trio of images posted by leaker @Jukanlosreve seemingly show what the next-gen Galaxy foldable will look like in the real world from a few different angles. The new photographs mostly line up with previous hands-on photos.",
+            "link": "https://www.theverge.com/news/698372/samsung-galaxy-z-fold-7-photo-leaks",
+            "source": "The Verge",
+            "publication_date": "2025-07-04T07:56:52-04:00"
+        }
+    ]
 }
