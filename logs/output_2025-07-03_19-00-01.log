@@ -217,3 +217,17 @@ Iniciando upload para GitHub...
 [2025-07-03 19:32:45] [GIT] [0m* branch            main       -> FETCH_HEAD[0m
 [2025-07-03 19:32:45] [GIT] [0mAlready up to date.[0m
 [2025-07-03 19:32:45] [INFO] [0;34mAdded 8 JSON files[0m
+[2025-07-03 19:32:45] [INFO] [0;34mAdded 6 log files[0m
+[2025-07-03 19:32:45] [INFO] [0;34mCreating commit...[0m
+[2025-07-03 19:32:45] [GIT] [0m[main 2a6e88a] Auto-update: 03/07/2025 19:32:45[0m
+[2025-07-03 19:32:45] [GIT] [0m5 files changed, 235 insertions(+), 16 deletions(-)[0m
+[2025-07-03 19:32:45] [GIT] [0mcreate mode 100644 logs/output_2025-07-03_19-00-01.log[0m
+[2025-07-03 19:32:45] [INFO] [0;34mPushing to GitHub...[0m
+[2025-07-03 19:32:45] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
+[2025-07-03 19:32:46] [GIT] [0mTo github.com:robcarv/news_colletector.git[0m
+[2025-07-03 19:32:46] [GIT] [0m7ab8852..2a6e88a  main -> main[0m
+[2025-07-03 19:32:46] [SUCCESS] [0;32m[0;32mSuccessfully pushed data and logs to GitHub![0m[0m
+[2025-07-03 19:32:46] [INFO] [0;34mCleaning old log files (keeping 5 newest)...[0m
+[2025-07-03 19:32:46] [INFO] [0;34mRemoving old log: output_2025-07-02_21-01-33.log[0m
+[2025-07-03 19:32:46] [INFO] [0;34m[1m=== Upload process completed ===[0m[0m
+✅ Upload concluído

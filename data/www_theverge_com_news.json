@@ -1,12 +1,4 @@
 {
     "language": "en",
-    "news": [
-        {
-            "title": "E Ink is turning the laptop touchpad into an e-reader for AI apps",
-            "summary": "E Ink has developed a new touchpad for laptops featuring the same electronic paper technology found in e-readers. Instead of serving as a second smaller screen for the computer’s OS, E Ink is […]",
-            "link": "https://www.theverge.com/news/697688/eink-epaper-touchpad-laptop-intel-ai-pcs",
-            "source": "The Verge",
-            "publication_date": "2025-07-03T13:37:33-04:00"
-        }
-    ]
+    "news": []
 }
