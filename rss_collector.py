@@ -32,7 +32,7 @@ def extract_text_from_html(html_content):
         return ""
 
 # Função para coletar notícias de um feed
-def collect_news(feed_url, max_news=1):
+def collect_news(feed_url, max_news=5):
     feed = feedparser.parse(feed_url)
     news_items = []
     logger.info(f"\n🔍 Processando feed: {feed_url}")

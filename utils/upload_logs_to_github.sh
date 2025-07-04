@@ -1,5 +1,5 @@
 #!/bin/bash
-# upload_logs_to_github.sh - Complete version with robust log handling
+# upload_logs_to_github.sh - Version with 5 most recent logs retention
 
 # Color definitions
 RED='\033[0;31m'
@@ -31,7 +31,7 @@ REPO_DIR="/home/robert/Documents/vscode_projects/news_colletector"
 DATA_DIR="${REPO_DIR}/data"
 LOG_DIR="${REPO_DIR}/logs"
 BRANCH="main"
-MAX_LOG_FILES=5
+MAX_LOG_FILES=5  # Number of latest logs to keep on GitHub
 
 # Git configuration
 export GIT_SSH_COMMAND="ssh -i /home/robert/.ssh/id_rsa -o StrictHostKeyChecking=no"
@@ -40,15 +40,32 @@ export GIT_AUTHOR_EMAIL="robert_carvalho@hotmail.com"
 export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
-# Clean old logs function
-clean_old_logs() {
-    log "INFO" "Cleaning old log files (keeping ${MAX_LOG_FILES} newest)..."
-    cd "$LOG_DIR" || return
+# Function to manage log files
+manage_logs() {
+    cd "$REPO_DIR" || return
     
-    # Keep only the newest log files
-    ls -t output_*.log 2>/dev/null | tail -n +$(($MAX_LOG_FILES + 1)) | while read -r old_log; do
-        log "INFO" "Removing old log: $old_log"
-        rm -f "$old_log"
+    # Get list of all current logs in the repository
+    current_logs=$(git ls-files "logs/output_*.log" 2>/dev/null)
+    
+    # Get list of 5 newest logs in local directory
+    newest_logs=$(ls -t "$LOG_DIR"/output_*.log 2>/dev/null | head -n $MAX_LOG_FILES)
+    
+    # Remove old logs from Git tracking if they're not in the newest list
+    for log in $current_logs; do
+        log_basename=$(basename "$log")
+        if ! echo "$newest_logs" | grep -q "$log_basename"; then
+            log "INFO" "Removing old log from Git: $log_basename"
+            git rm "$log" >/dev/null
+        fi
+    done
+    
+    # Add only the newest logs
+    for log in $newest_logs; do
+        log_basename=$(basename "$log")
+        if ! echo "$current_logs" | grep -q "$log_basename"; then
+            log "INFO" "Adding new log to Git: $log_basename"
+            git add "$log"
+        fi
     done
     
     cd - >/dev/null || return
@@ -84,10 +101,11 @@ upload_to_github() {
         git add "$LOG_DIR"/.gitkeep
     fi
 
-    # Add all modified files
-    local changes=false
-    
+    # Manage log files (keeps only 5 newest)
+    manage_logs
+
     # Add JSON files
+    local changes=false
     if [ -d "$DATA_DIR" ]; then
         json_files=($(find "$DATA_DIR" -maxdepth 1 -name "*.json"))
         if [ ${#json_files[@]} -gt 0 ]; then
@@ -97,17 +115,9 @@ upload_to_github() {
         fi
     fi
     
-    # Add log files (force add to override .gitignore if needed)
-    if [ -d "$LOG_DIR" ]; then
-        log_files=($(find "$LOG_DIR" -maxdepth 1 -name "output_*.log"))
-        if [ ${#log_files[@]} -gt 0 ]; then
-            git add -f "logs/"output_*.log
-            changes=true
-            log "INFO" "Added ${#log_files[@]} log files"
-        fi
-    fi
-    
-    if ! $changes; then
+    # Check if there are any changes (logs or JSON)
+    git diff --cached --quiet && ! $changes
+    if [ $? -eq 0 ]; then
         log "WARNING" "No changes detected to commit"
         return 0
     fi
@@ -131,7 +141,13 @@ Files updated:"
     log "INFO" "Pushing to GitHub..."
     if git push origin "$BRANCH" 2>&1 | while read -r line; do log "GIT" "$line"; done; then
         log "SUCCESS" "${GREEN}Successfully pushed data and logs to GitHub!${NC}"
-        clean_old_logs
+        
+        # Clean up local logs (keep only 5 newest)
+        log "INFO" "Cleaning local log files (keeping ${MAX_LOG_FILES} newest)..."
+        ls -t "$LOG_DIR"/output_*.log 2>/dev/null | tail -n +$(($MAX_LOG_FILES + 1)) | while read -r old_log; do
+            log "INFO" "Removing old local log: $(basename "$old_log")"
+            rm -f "$old_log"
+        done
     else
         log "ERROR" "Push failed. Attempting recovery..."
         git pull --rebase origin "$BRANCH" && git push origin "$BRANCH" || {

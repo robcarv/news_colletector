@@ -1,83 +1,114 @@
 import os
 import json
 import logging
+import time
+import resource
 from datetime import datetime, timezone
 from services.audio_generator import generate_audio_for_article, compile_audio_for_feed, cleanup_and_wait
 from services.telegram_service import send_to_telegram
-from services.rss_generator import generate_rss_feed  # Importação do gerador de RSS
+from services.rss_generator import generate_rss_feed
 
 # Configuração de logs
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Caminho da pasta de dados
-script_dir = os.path.dirname(os.path.abspath(__file__))
-input_folder = os.path.join(script_dir, 'data')
-audio_folder = os.path.join(input_folder, 'audio')
+# Limites de recursos (ajuste conforme seu hardware)
+MAX_CPU_USAGE = 70  # % máxima de uso da CPU
+MEMORY_LIMIT = 512  # MB máximo por processo
+COOLDOWN_INTERVAL = 3  # segundos entre artigos
 
-# Cria a pasta de áudio se não existir
-os.makedirs(audio_folder, exist_ok=True)
+def set_memory_limit():
+    """Limita o uso de memória do processo"""
+    resource.setrlimit(
+        resource.RLIMIT_AS,
+        (MEMORY_LIMIT * 1024 * 1024, MEMORY_LIMIT * 1024 * 1024)
+    )
+    logger.info(f"🔒 Limite de memória definido para {MEMORY_LIMIT}MB")
+
+def check_system_resources():
+    """Verifica se há recursos suficientes antes de continuar"""
+    try:
+        # Simples verificação de carga da CPU
+        with open('/proc/loadavg', 'r') as f:
+            load = float(f.read().split()[0])
+            if load > MAX_CPU_USAGE / 100 * os.cpu_count():
+                time.sleep(COOLDOWN_INTERVAL * 2)
+                logger.warning("⏳ CPU sobrecarregada - pausa estendida")
+    except Exception as e:
+        logger.warning(f"⚠️ Não foi possível verificar recursos: {e}")
 
 def process_news(language="en"):
+    set_memory_limit()  # Aplica limite para todo o processo
+    
     try:
+        input_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
+        audio_folder = os.path.join(input_folder, 'audio')
+        os.makedirs(audio_folder, exist_ok=True)
+
         json_files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
         if not json_files:
             raise FileNotFoundError(f"❌ Nenhum arquivo JSON encontrado em: {input_folder}")
         
-        for json_file in json_files:
+        for json_file in json_files[:3]:  # Limita a 3 arquivos por execução
+            check_system_resources()
+            
             json_path = os.path.join(input_folder, json_file)
-            logger.info(f"📂 Carregando o arquivo JSON: {json_file}")
+            logger.info(f"📂 Processando: {json_file}")
             
             with open(json_path, 'r', encoding='utf-8') as file:
                 json_data = json.load(file)
                 
-            if not (isinstance(json_data, dict) and "news" in json_data and isinstance(json_data["news"], list)):
-                logger.error(f"❌ O arquivo JSON {json_file} não contém uma lista de notícias na chave 'news'.")
+            if not isinstance(json_data.get("news"), list):
                 continue
-            
+                
             if json_data.get("language", "en") != language:
-                logger.info(f"⚠️ Ignorando {json_file} (idioma '{json_data.get('language')}' não é '{language}').")
                 continue
-            
-            news_data = json_data["news"]
-            feed_name = json_file.replace("_news.json", "").replace("_", " ").title()
+                
+            news_data = json_data["news"][:5]  # Limita a 5 artigos por arquivo
             audio_files = []
             
-            for i, article in enumerate(news_data):
-                title, summary, source, source_link = article.get('title', ''), article.get('summary', ''), article.get('source', ''), article.get('link', '#')
+            for article in news_data:
+                start_time = time.time()
                 
-                if title and summary:
-                    audio_path = generate_audio_for_article(title, summary, source, audio_folder, language=language)
-                    if audio_path:
-                        audio_files.append(audio_path)
-                        send_to_telegram(title, summary, source, source_link, audio_path)
-                        cleanup_and_wait()
+                # Processamento com verificação de recursos
+                check_system_resources()
+                audio_path = generate_audio_for_article(
+                    article.get('title', ''),
+                    article.get('summary', ''),
+                    article.get('source', ''),
+                    audio_folder,
+                    language=language
+                )
+                
+                if audio_path:
+                    audio_files.append(audio_path)
+                    send_to_telegram(
+                        article.get('title', ''),
+                        article.get('summary', ''),
+                        article.get('source', ''),
+                        article.get('link', '#'),
+                        audio_path
+                    )
+                    
+                    # Pausa estratégica
+                    processing_time = time.time() - start_time
+                    cooldown = max(COOLDOWN_INTERVAL, processing_time * 0.5)
+                    time.sleep(cooldown)
+                    cleanup_and_wait()
             
-            compiled_audio_path = compile_audio_for_feed(news_data, feed_name, audio_folder, language=language)
-            
-            if compiled_audio_path:
-                logger.info(f"🔗 Gerando feed RSS para: {feed_name}...")
-                episode = {
-                    "title": f"Resumo das Notícias - {feed_name}",
-                    "description": f"Resumo das notícias de {feed_name}.",
-                    "link": f"https://seusite.com/{language}/{feed_name}_compiled.mp3",
-                    "audio_url": f"https://seusite.com/{language}/{feed_name}_compiled.mp3",
-                    "file_size": os.path.getsize(compiled_audio_path),
-                    "pub_date": datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT"),
-                    "duration": "30:00"
-                }
-                rss_file_path = generate_rss_feed(language, audio_folder, input_folder)
-
-                if rss_file_path:
-                    logger.info(f"✅ Feed RSS gerado: {rss_file_path}")
-                else:
-                    logger.error("❌ Erro ao gerar o feed RSS.")
-            else:
-                logger.warning(f"⚠️ Nenhum áudio compilado para: {feed_name}")
+            # Processamento final com intervalo
+            time.sleep(COOLDOWN_INTERVAL)
+            compile_audio_for_feed(news_data, json_file.replace("_news.json", ""), audio_folder, language)
+            generate_rss_feed(language, audio_folder, input_folder)
     
     except Exception as e:
-        logger.error(f"❌ Erro no processamento ({language}): {e}", exc_info=True)
+        logger.error(f"❌ Erro crítico: {e}", exc_info=True)
+    finally:
+        logger.info("♻️  Liberando recursos...")
+        time.sleep(COOLDOWN_INTERVAL)
 
 if __name__ == "__main__":
+    # Processa um idioma por vez com intervalo
     process_news("en")
+    time.sleep(10)
     process_news("pt")
