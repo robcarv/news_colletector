@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Minister demands overhaul of UK’s leading AI institute",
+            "summary": "Technology secretary calls for overhaul of UK's leading artificial intelligence institute. Peter Kyle calls for switch in focus to defence and national security. Calls for leadership changes at Alan Turing Institute.",
+            "link": "https://www.theguardian.com/technology/2025/jul/04/minister-demands-overhaul-of-uks-leading-ai-institute-alan-turing",
+            "source": "Technology | The Guardian",
+            "publication_date": "Fri, 04 Jul 2025 09:57:31 GMT"
+        }
+    ]
 }

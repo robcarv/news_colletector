@@ -1,10 +1,10 @@
 ======== INÍCIO DA EXECUÇÃO =========
-Data: Fri  4 Jul 13:00:01 IST 2025
-Log: /home/robert/Documents/vscode_projects/news_colletector/logs/output_2025-07-04_13-00-01.log
+Data: Fri  4 Jul 19:00:01 IST 2025
+Log: /home/robert/Documents/vscode_projects/news_colletector/logs/output_2025-07-04_19-00-01.log
 ==== PRE-HOOK para main.py ====
 Verificando dependências do main.py...
 Uso de recursos pré-execucao:
-Mem: 4.4Gi/7.9Gi
+Mem: 4.5Gi/7.9Gi
 ============================
 ▶️  Executando: python3 main.py 
 INFO:__main__:🧹 Limpando pasta: ./data
@@ -15,7 +15,7 @@ INFO:__main__:🌐 Coletando notícias do feed: https://feeds.folha.uol.com.br/e
 INFO:__main__:
 🔍 Processando feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
 INFO:__main__:📰 Total de entradas encontradas: 100
-INFO:__main__:✅ Notícia 1 adicionada: Polícia de São Paulo prende suspeito de participar de ataque hacker a empresa que opera Pix
+INFO:__main__:✅ Notícia 1 adicionada: Haddad defende reverter 'redução muito grande' de impostos dos super-ricos
 INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
 INFO:__main__:📥 Total de notícias coletadas de https://feeds.folha.uol.com.br/emcimadahora/rss091.xml: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_folha_uol_com_br_news.json
@@ -34,7 +34,7 @@ INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/ne
 INFO:__main__:🌐 Coletando notícias do feed: http://feeds.bbci.co.uk/news/rss.xml (Idioma: en)
 INFO:__main__:
 🔍 Processando feed: http://feeds.bbci.co.uk/news/rss.xml
-INFO:__main__:📰 Total de entradas encontradas: 32
+INFO:__main__:📰 Total de entradas encontradas: 31
 INFO:__main__:✅ Notícia 1 adicionada: BBC on French beach as police slash migrant 'taxi-boat' heading to UK
 INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
 INFO:__main__:📥 Total de notícias coletadas de http://feeds.bbci.co.uk/news/rss.xml: 1
@@ -43,19 +43,23 @@ INFO:__main__:🌐 Coletando notícias do feed: https://pitchfork.com/feed/feed-
 INFO:__main__:
 🔍 Processando feed: https://pitchfork.com/feed/feed-news/rss
 INFO:__main__:📰 Total de entradas encontradas: 30
-INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 0
+INFO:__main__:✅ Notícia 1 adicionada: 6 New Albums You Should Listen to Now: Kesha, Nilüfer Yanya, and More
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://pitchfork.com/feed/feed-news/rss: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/pitchfork_com_news.json
 INFO:__main__:🌐 Coletando notícias do feed: https://feeds.feedburner.com/metalinjection.xml (Idioma: en)
 INFO:__main__:
 🔍 Processando feed: https://feeds.feedburner.com/metalinjection.xml
 INFO:__main__:📰 Total de entradas encontradas: 25
-INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 0
+INFO:__main__:✅ Notícia 1 adicionada: DEMON HUNTER Unleashes New Single & Music Video "Sorrow Light The Way" Ahead Of 2025 Festival Dates
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://feeds.feedburner.com/metalinjection.xml: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/feeds_feedburner_com_news.json
 INFO:__main__:🌐 Coletando notícias do feed: https://www.theverge.com/rss/index.xml (Idioma: en)
 INFO:__main__:
 🔍 Processando feed: https://www.theverge.com/rss/index.xml
 INFO:__main__:📰 Total de entradas encontradas: 10
-INFO:__main__:✅ Notícia 1 adicionada: New Galaxy Z Fold 7 leaks may give first real look at Samsung’s slimmer foldable
+INFO:__main__:✅ Notícia 1 adicionada: The best earbuds we’ve tested for 2025
 INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
 INFO:__main__:📥 Total de notícias coletadas de https://www.theverge.com/rss/index.xml: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theverge_com_news.json
@@ -70,16 +74,16 @@ INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/ne
 INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/uk/rss (Idioma: en)
 INFO:__main__:
 🔍 Processando feed: https://www.theguardian.com/uk/rss
-INFO:__main__:📰 Total de entradas encontradas: 139
-INFO:__main__:✅ Notícia 1 adicionada: ‘Their songs are rousing, trippy, witty, moronic. I’ve sung along to them all’: Simon Armitage hails the return of Oasis
+INFO:__main__:📰 Total de entradas encontradas: 138
+INFO:__main__:✅ Notícia 1 adicionada: ‘Graveyard spiral’: why Louisa Dunne cold case breakthrough may be a rare win
 INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
 INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/uk/rss: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
 INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/us/rss (Idioma: en)
 INFO:__main__:
 🔍 Processando feed: https://www.theguardian.com/us/rss
-INFO:__main__:📰 Total de entradas encontradas: 110
-INFO:__main__:✅ Notícia 1 adicionada: ‘Their songs are rousing, trippy, witty, moronic. I’ve sung along to them all’: Simon Armitage hails the return of Oasis
+INFO:__main__:📰 Total de entradas encontradas: 112
+INFO:__main__:✅ Notícia 1 adicionada: Oasis reunion tour: follow the first gig in Cardiff – live!
 INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
 INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/us/rss: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
@@ -87,7 +91,9 @@ INFO:__main__:🌐 Coletando notícias do feed: https://www.theguardian.com/tech
 INFO:__main__:
 🔍 Processando feed: https://www.theguardian.com/technology/rss
 INFO:__main__:📰 Total de entradas encontradas: 24
-INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 0
+INFO:__main__:✅ Notícia 1 adicionada: Minister demands overhaul of UK’s leading AI institute
+INFO:__main__:🚫 Limite de 1 notícias atingido para este feed.
+INFO:__main__:📥 Total de notícias coletadas de https://www.theguardian.com/technology/rss: 1
 INFO:__main__:✅ Notícias salvas em: /home/robert/Documents/vscode_projects/news_colletector/./data/www_theguardian_com_news.json
 INFO:__main__:✅ rss_collector.py executado com sucesso.
 INFO:__main__:🚀 Executando summarizer.py...
@@ -99,14 +105,18 @@ INFO:__main__:🌐 Processando arquivo: feeds_bbci_co_uk_news.json
 INFO:__main__:📝 Sumarizando notícia 1...
 INFO:__main__:✅ Sumarização concluída para ./data/feeds_bbci_co_uk_news.json.
 INFO:__main__:🌐 Processando arquivo: pitchfork_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
 INFO:__main__:✅ Sumarização concluída para ./data/pitchfork_com_news.json.
 INFO:__main__:🌐 Processando arquivo: feeds_feedburner_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
 INFO:__main__:✅ Sumarização concluída para ./data/feeds_feedburner_com_news.json.
 INFO:__main__:🌐 Processando arquivo: www_theverge_com_news.json
 INFO:__main__:📝 Sumarizando notícia 1...
-Your max_length is set to 100, but your input_length is only 79. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=39)
+Your max_length is set to 100, but your input_length is only 81. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=40)
 INFO:__main__:✅ Sumarização concluída para ./data/www_theverge_com_news.json.
 INFO:__main__:🌐 Processando arquivo: www_theguardian_com_news.json
+INFO:__main__:📝 Sumarizando notícia 1...
+Your max_length is set to 100, but your input_length is only 91. Since this is a summarization task, where outputs shorter than the input are typically wanted, you might consider decreasing max_length manually, e.g. summarizer('...', max_length=45)
 INFO:__main__:✅ Sumarização concluída para ./data/www_theguardian_com_news.json.
 INFO:__main__:🌐 Processando arquivo: feeds_folha_uol_com_br_news.json
 INFO:__main__:📝 Sumarizando notícia 1...
@@ -123,24 +133,10 @@ INFO:__main__:🎉 Todos os scripts foram executados com sucesso.
 ✅ Sucesso
 ========= FIM DA EXECUÇÃO =========
 Iniciando upload para GitHub...
-[2025-07-04 17:53:21] [INFO] [0;34m[1m=== Starting GitHub upload process ===[0m[0m
-[2025-07-04 17:53:21] [INFO] [0;34mSyncing with remote repository...[0m
-[2025-07-04 17:53:23] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
-[2025-07-04 17:53:25] [GIT] [0mFrom github.com:robcarv/news_colletector[0m
-[2025-07-04 17:53:25] [GIT] [0m* branch            main       -> FETCH_HEAD[0m
-[2025-07-04 17:53:25] [GIT] [0mAlready up to date.[0m
-[2025-07-04 17:53:25] [INFO] [0;34mAdded 8 JSON files[0m
-[2025-07-04 17:53:25] [INFO] [0;34mAdded 6 log files[0m
-[2025-07-04 17:53:25] [INFO] [0;34mCreating commit...[0m
-[2025-07-04 17:53:25] [GIT] [0m[main 627345a] Auto-update: 04/07/2025 17:53:25[0m
-[2025-07-04 17:53:25] [GIT] [0m5 files changed, 163 insertions(+), 9 deletions(-)[0m
-[2025-07-04 17:53:25] [GIT] [0mcreate mode 100644 logs/output_2025-07-04_13-00-01.log[0m
-[2025-07-04 17:53:25] [INFO] [0;34mPushing to GitHub...[0m
-[2025-07-04 17:53:25] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
-[2025-07-04 17:53:26] [GIT] [0mTo github.com:robcarv/news_colletector.git[0m
-[2025-07-04 17:53:26] [GIT] [0m2a3ca84..627345a  main -> main[0m
-[2025-07-04 17:53:26] [SUCCESS] [0;32m[0;32mSuccessfully pushed data and logs to GitHub![0m[0m
-[2025-07-04 17:53:26] [INFO] [0;34mCleaning old log files (keeping 5 newest)...[0m
-[2025-07-04 17:53:26] [INFO] [0;34mRemoving old log: output_2025-07-03_16-37-08.log[0m
-[2025-07-04 17:53:26] [INFO] [0;34m[1m=== Upload process completed ===[0m[0m
-✅ Upload concluído
+[2025-07-04 19:02:46] [INFO] [0;34m[1m=== Starting GitHub upload process ===[0m[0m
+[2025-07-04 19:02:46] [INFO] [0;34mSyncing with remote repository...[0m
+[2025-07-04 19:02:47] [GIT] [0mWarning: Identity file /home/robert/.ssh/id_rsa not accessible: No such file or directory.[0m
+[2025-07-04 19:02:48] [GIT] [0mFrom github.com:robcarv/news_colletector[0m
+[2025-07-04 19:02:48] [GIT] [0m* branch            main       -> FETCH_HEAD[0m
+[2025-07-04 19:02:48] [GIT] [0mAlready up to date.[0m
+[2025-07-04 19:02:48] [INFO] [0;34mAdded 8 JSON files[0m
