@@ -1,4 +1,19 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "Aziya: When I was kid, there weren’t many young women of colour making alternative music, but now there’s loads. We’re all trying to create a world where that’s the norm\"",
+            "summary": "Part of a new wave of female artists who are killing it in the UK, Aziya also stunned last month at the Mallorca Live Festival where talked punk heroes A-List admirers, the BRIT school, modelling adventures and wild London nights out with a Factor 50-slathered Stuart Clark.",
+            "link": "https://www.hotpress.com/music/aziya-when-i-was-kid-there-werent-many-young-women-of-colour-making-alternative-music-but-now-theres-loads-were-all-trying-to-create-a-world-where-thats-the-nor-23100622",
+            "source": "Hotpress",
+            "publication_date": "Mon, 04 Aug 2025 11:00:20 +0100"
+        },
+        {
+            "title": "Oasis in '95: \"It might seem that we’re a bunch of ramshackle pissed-up drug addicts but we’re actually pretty organised and when things get done, they get done well\"",
+            "summary": "Ahead of Oasis’s sold-out Croke Park shows on August 16 & 17, we’re taking a deep-dive into the <i>Hot Press</i> archives – to hear Liam and Noel's incredible story in their own words...",
+            "link": "https://www.hotpress.com/music/oasis-in-95-it-might-seem-that-were-a-bunch-of-ramshackle-pissed-up-drug-addicts-but-were-actually-pretty-organised-and-when-things-get-done-they-get-done-well-23099466",
+            "source": "Hotpress",
+            "publication_date": "Mon, 04 Aug 2025 09:00:26 +0100"
+        }
+    ]
 }
