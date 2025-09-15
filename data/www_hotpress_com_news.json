@@ -1,4 +1,47 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "<i>Adolescence</i> star Owen Cooper becomes youngest-ever best supporting actor in a limited series winner at Emmys 2025",
+            "summary": "14 at the time of filming. Cooper had never landed a professional role before the series.",
+            "link": "https://www.hotpress.com/film-tv/adolescence-star-owen-cooper-becomes-youngest-ever-best-supporting-actor-in-a-limited-series-winner-at-emmys-2025-23108579",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 12:53:31 +0100"
+        },
+        {
+            "title": "Myles O’Reilly on <i>Against All Certainty:</i> “Until I actually sat in front of the President, I didn’t think it was going to happen. I thought it was all a dream...\"",
+            "summary": "Myles O’Reilly on why he was the right person to provide the musical backdrop to the voice of Michael D. Higgins, visiting the Áras, and how a near-death experience contributed to his love of ambient sounds.",
+            "link": "https://www.hotpress.com/culture/myles-oreilly-on-against-all-certainty-until-i-actually-sat-in-front-of-the-president-i-didnt-think-it-was-going-to-happen-i-thought-it-was-all-a-dream-23108578",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 12:49:12 +0100"
+        },
+        {
+            "title": "Tarach Ó Snodaigh on Palestine: \"You could see how the occupation is strangling communities\"",
+            "summary": "A member of the band Grooveline, Tarach Ó Snodaigh recently spent two weeks in the Aida refugee camp in the occupied West Bank. He reflects on an experience that offered a sometimes harrowing insight into the plight of the Palestinian people – but also provided evidence of their incredible spirit and resilience.",
+            "link": "https://www.hotpress.com/opinion/tarach-o-snodaigh-on-palestine-you-could-see-how-the-occupation-is-strangling-communities-23108568",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 11:54:27 +0100"
+        },
+        {
+            "title": "The Rest Is History podcast announces live shows in Belfast, Dublin and Cork",
+            "summary": "The award-winning podcast will go on the road with a special deep dive on The Titanic.",
+            "link": "https://www.hotpress.com/culture/the-rest-is-history-podcast-announces-live-shows-in-belfast-dublin-and-cork-23108554",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 11:13:06 +0100"
+        },
+        {
+            "title": "Dublin Beer Festival (Photos)",
+            "summary": "",
+            "link": "https://www.hotpress.com/pics-vids/dublin-beer-festival-photos-23108522",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 10:46:04 +0100"
+        },
+        {
+            "title": "Lewis Capaldi announces Limerick, Dublin and Belfast outdoor summer gigs",
+            "summary": "He will play Marlay Park, Thomond Park and Belfast Vital across June and August 2026.",
+            "link": "https://www.hotpress.com/music/lewis-capaldi-announces-limerick-dublin-and-belfast-outdoor-summer-gigs-23108536",
+            "source": "Hotpress",
+            "publication_date": "Mon, 15 Sep 2025 10:39:22 +0100"
+        }
+    ]
 }
