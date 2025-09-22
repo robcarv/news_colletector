@@ -1,4 +1,12 @@
 {
     "language": "en",
-    "news": []
+    "news": [
+        {
+            "title": "More Britons view AI as economic risk than opportunity, Tony Blair thinktank finds",
+            "summary": "TBI says poll data threatens Keir Starmer’s ambition for UK to become artificial intelligence ‘superpower’ Nearly twice as many Britons view artificial intelligence as a risk to the economy than regard it as an opportunity, according to Tony Blair’s thinktank. The Tony Blair Institute warned that the poll findings threatened Keir Starmer’s ambition for the UK to become an AI “superpower” and urged the government to convince the public of the technology’s benefits.   Continue reading...",
+            "link": "https://www.theguardian.com/technology/2025/sep/22/more-britons-view-ai-as-economic-risk-than-opportunity-tony-blair-thinktank-finds",
+            "source": "Technology | The Guardian",
+            "publication_date": "Mon, 22 Sep 2025 05:00:04 GMT"
+        }
+    ]
 }
