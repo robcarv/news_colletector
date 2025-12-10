@@ -1,75 +1,79 @@
-# main.py
-import os
-import subprocess
-import shutil
 import logging
+import time
+import os
+from src.config import Config
+from src.collector import collect_feed_data
+from src.processor import summarize_content
+from src.audio import generate_audio_file
+from src.notifier import send_telegram_audio, send_telegram_message
 
-# Configuração de logs
-logging.basicConfig(level=logging.INFO)
+# Configuração do Logger
 logger = logging.getLogger(__name__)
 
-# Lista de scripts a serem executados
-scripts = [
-    "rss_collector.py",  # Coleta as notícias dos feeds RSS
-    "summarizer.py",     # Sumariza as notícias coletadas
-    # "text_to_speech_en.py", # Gera áudios e envia para o Telegram e Anchor
-    # "text_to_speech_pt.py"
-    "text_to_speech.py"
-]
-
-# Função para limpar o conteúdo de uma pasta
-def clean_folder(folder_path):
-    """
-    Limpa o conteúdo de uma pasta.
-    :param folder_path: Caminho da pasta a ser limpa.
-    """
-    if os.path.exists(folder_path):
-        logger.info(f"🧹 Limpando pasta: {folder_path}")
-        for filename in os.listdir(folder_path):
-            file_path = os.path.join(folder_path, filename)
-            try:
-                if os.path.isfile(file_path) or os.path.islink(file_path):
-                    os.unlink(file_path)  # Remove arquivos e links simbólicos
-                elif os.path.isdir(file_path):
-                    shutil.rmtree(file_path)  # Remove subpastas e seu conteúdo
-            except Exception as e:
-                logger.error(f"❌ Falha ao deletar {file_path}. Motivo: {e}")
-    else:
-        logger.info(f"📁 Pasta não existe: {folder_path}")
-
-# Função para executar um script
-def run_script(script_name):
-    """
-    Executa um script Python.
-    :param script_name: Nome do script a ser executado.
-    """
-    try:
-        logger.info(f"🚀 Executando {script_name}...")
-        subprocess.run(["python3", script_name], check=True)
-        logger.info(f"✅ {script_name} executado com sucesso.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"❌ Erro ao executar {script_name}: {e}")
-
-# Função principal
-def main():
-    """
-    Função principal que orquestra a execução dos scripts.
-    """
-    # Navega até a pasta scripts (se necessário)
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
-    # Limpa as pastas data e audio antes de executar os scripts
-    data_folder = "./data"
-    audio_folder = os.path.join(data_folder, "audio")
+def process_feed(feed_config):
+    """Processa um único feed de notícias"""
+    url = feed_config.get('url')
+    lang = feed_config.get('language', 'pt')
     
-    clean_folder(data_folder)  # Limpa a pasta data
-    clean_folder(audio_folder)  # Limpa a pasta audio (se existir)
+    logger.info(f"--- Iniciando Feed: {url} ---")
+    
+    # 1. Coleta
+    news_items = collect_feed_data(url, limit=3) # Limite baixo para teste
+    
+    for item in news_items:
+        title = item['title']
+        raw_summary = item['raw_summary']
+        
+        # Cria um ID único baseado no título para o nome do arquivo
+        safe_title = "".join([c if c.isalnum() else "_" for c in title])[:50]
+        audio_filename = f"{safe_title}.mp3"
+        audio_path = str(Config.AUDIO_DIR / audio_filename)
+        
+        # Verifica se já processamos essa notícia hoje (opcional, simples verificação de arquivo)
+        if os.path.exists(audio_path):
+            logger.info(f"⏭️ Notícia já processada (arquivo existe): {title}")
+            continue
 
-    # Executa cada script na ordem
-    for script in scripts:
-        run_script(script)
+        try:
+            # 2. Sumarização
+            logger.info(f"📖 Lendo: {title}")
+            summary = summarize_content(raw_summary, language=lang)
+            
+            # Texto que será falado (Título + Pausa + Resumo)
+            text_to_speak = f"{title}... {summary}"
+            
+            # 3. Geração de Áudio
+            generated_path = generate_audio_file(text_to_speak, audio_filename, language=lang)
+            
+            if generated_path:
+                # 4. Envio para Telegram
+                sent = send_telegram_audio(title, summary, generated_path)
+                
+                if sent:
+                    logger.info("✅ Ciclo completo com sucesso!")
+                
+                # Pequena pausa para não floodar a API do Telegram
+                time.sleep(2)
+                
+        except Exception as e:
+            logger.error(f"Erro ao processar item '{title}': {e}")
 
-    logger.info("🎉 Todos os scripts foram executados com sucesso.")
+def main():
+    Config.setup_folders()
+    logger.info("🚀 Iniciando News Bot V2.0 (Low Memory Edition)")
+    
+    # Notifica início (opcional)
+    # send_telegram_message("🤖 Robô de Notícias V2 iniciado no Raspberry Pi!")
+    
+    feeds = Config.load_feeds()
+    if not feeds:
+        logger.error("Nenhum feed configurado em feeds_config.json")
+        return
+
+    for feed in feeds:
+        process_feed(feed)
+    
+    logger.info("🏁 Execução finalizada.")
 
 if __name__ == "__main__":
     main()

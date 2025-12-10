@@ -1,4 +1,0 @@
- > tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
- > Using model: xtts
- > Available language ids: (Set --language_idx flag to one of these values to use the multi-lingual model.
-['en', 'es', 'fr', 'de', 'it', 'pt', 'pl', 'tr', 'ru', 'nl', 'cs', 'ar', 'zh-cn', 'hu', 'ko', 'ja', 'hi']
