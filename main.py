@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """
-News Collector v3.0 — Consolidated Edition
-===========================================
-Baixa RSS feeds, sumariza, gera 1 áudio por feed, envia para Telegram.
-Fluxo otimizado para Raspberry Pi (leve, cron-friendly, com histórico).
+News Collector v3.1 — Audio por Idioma + Resumo Completo
+=========================================================
+- PT: edge-tts (voz natural AntonioNeural)
+- EN: Piper (offline, rápido)
+- Áudio: apenas headlines (curto e direto)
+- Mensagem Telegram: resumo completo + links
 
 Uso:
     python main.py                    # Execução normal
@@ -14,11 +16,9 @@ Uso:
 import argparse
 import json
 import logging
-import os
 import sys
 import time
 from datetime import datetime
-from pathlib import Path
 
 from src.config import Config
 from src.collector import collect_feed_data
@@ -31,7 +31,6 @@ logger = logging.getLogger(__name__)
 # ─── Histórico ─────────────────────────────────────────────────────────────
 
 def load_history():
-    """Carrega histórico de títulos já processados."""
     if Config.HISTORY_FILE.exists():
         try:
             with open(Config.HISTORY_FILE, 'r') as f:
@@ -41,24 +40,21 @@ def load_history():
     return []
 
 def save_history(history):
-    """Salva histórico, limitando ao máximo."""
     history = history[-Config.MAX_HISTORY:]
     Config.HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(Config.HISTORY_FILE, 'w') as f:
         json.dump(history, f, ensure_ascii=False)
 
 def is_duplicate(title, history):
-    """Verifica se título já está no histórico (similaridade simples)."""
     clean = clean_html(title).strip().lower()[:80]
     for h in history:
         if clean in h.lower() or h.lower() in clean:
             return True
     return False
 
-# ─── Limpeza de áudios antigos ────────────────────────────────────────────
+# ─── Limpeza ───────────────────────────────────────────────────────────────
 
 def cleanup_old_audio():
-    """Remove áudios com mais de RETENTION_DAYS dias."""
     import time as t
     now = t.time()
     cutoff = now - (Config.RETENTION_DAYS * 86400)
@@ -68,135 +64,154 @@ def cleanup_old_audio():
             f.unlink(missing_ok=True)
             removed += 1
     if removed:
-        logger.info(f"🧹 Limpeza: {removed} áudios antigos removidos.")
+        logger.info(f"🧹 {removed} áudios antigos removidos.")
 
-# ─── Processamento de um feed → 1 resumo + 1 áudio + 1 mensagem ──────────
+# ─── Processamento do feed ─────────────────────────────────────────────────
 
 def process_feed(feed_config, dry_run=False):
     """
     Processa um feed RSS:
       1. Coleta notícias
-      2. Filtra duplicatas (histórico)
-      3. Gera resumo consolidado do feed
-      4. Converte resumo em áudio (Piper TTS)
-      5. Envia para Telegram como áudio com legenda
-      6. Retorna lista de títulos novos para o histórico
+      2. Filtra duplicatas
+      3. Gera:
+         - Texto CURTO para áudio (só headlines)
+         - Texto LONGO para Telegram (resumo + links)
+      4. Gera áudio (edge-tts para PT, Piper para EN)
+      5. Envia para Telegram: áudio + mensagem com resumo completo
     """
     url = feed_config.get('url')
     lang = feed_config.get('language', 'en')
     name = feed_config.get('name', url.split('/')[2] if '/' in url else url)
 
-    logger.info(f"📰 Processando feed: {name} ({lang})")
+    logger.info(f"📰 Processando: {name} ({lang})")
     history = load_history()
 
     # 1. Coleta
     news_items = collect_feed_data(url, limit=Config.MAX_ITEMS_PER_FEED)
     if not news_items:
-        logger.info(f"⏭️  Nenhuma notícia nova em: {name}")
+        logger.info(f"⏭️  {name}: sem notícias")
         return []
 
-    # 2. Filtra duplicatas e prepara texto consolidado
-    new_titles = []
-    consolidated_text = f"News from {name}.\n\n"
-
+    # 2. Processa cada notícia
+    new_items = []  # (title, summary, link)
     for item in news_items:
         title = item['title']
         raw = item.get('raw_summary', '')
         link = item.get('link', '')
 
         if is_duplicate(title, history):
-            logger.info(f"⏭️  Já processado: {title[:60]}...")
+            logger.info(f"⏭️  Já vista: {title[:60]}...")
             continue
 
         summary = summarize_content(raw, language=lang)
-        consolidated_text += f"{title}. {summary}\n\n"
-        new_titles.append(title)
+        new_items.append((title, summary, link))
         logger.info(f"📖 + {title[:70]}...")
 
-    if not new_titles:
-        logger.info(f"✅ {name}: Nada novo.")
+    if not new_items:
+        logger.info(f"✅ {name}: nada novo.")
         return []
 
-    logger.info(f"📝 {name}: {len(new_titles)} notícias novas para processar.")
+    logger.info(f"📝 {name}: {len(new_items)} notícia(s) nova(s)")
 
-    # 3. Gera um resumo geral do feed (se有很多 notícias)
-    if len(new_titles) > 1:
-        final_text = f"Today's headlines from {name}.\n\n"
-        for i, title in enumerate(new_titles, 1):
-            final_text += f"Story {i}: {title}.\n"
+    # ─── 3a. Texto para ÁUDIO (só headlines, curto) ───────────────
+    if lang == 'pt':
+        audio_text = f"Notícias de {name}.\n\n"
+        audio_text += "\n".join(f"{i}. {t}" for i, (t, s, l) in enumerate(new_items, 1))
     else:
-        final_text = consolidated_text
+        audio_text = f"News from {name}.\n\n"
+        audio_text += "\n".join(f"{i}. {t}" for i, (t, s, l) in enumerate(new_items, 1))
 
-    # Limita o tamanho do texto para o áudio (Piper é rápido mas vamos ser gentis)
-    if len(final_text) > Config.MAX_AUDIO_CHARS:
-        final_text = final_text[:Config.MAX_AUDIO_CHARS] + "..."
+    # Limita tamanho do áudio a ~2000 chars (cabe em ~1min)
+    if len(audio_text) > Config.MAX_AUDIO_CHARS:
+        audio_text = audio_text[:Config.MAX_AUDIO_CHARS] + "..."
+
+    # ─── 3b. Texto para TELEGRAM (resumo completo, maior) ──────────
+    if lang == 'pt':
+        msg = f"📰 *{name}*\n📅 {datetime.now():%d/%m/%Y}\n━━━━━━━━━━━━━━\n\n"
+    else:
+        msg = f"📰 *{name}*\n📅 {datetime.now():%d/%m/%Y}\n━━━━━━━━━━━━━━\n\n"
+
+    for i, (title, summary, link) in enumerate(new_items, 1):
+        # Título em negrito
+        msg += f"**{i}. {title}**\n"
+        # Resumo (se houver)
+        if summary:
+            # Limita resumo a ~400 chars por notícia
+            short_summary = summary[:400] + "..." if len(summary) > 400 else summary
+            msg += f"{short_summary}\n"
+        # Link (se houver)
+        if link:
+            msg += f"[🔗 Ler mais]({link})\n"
+        msg += "\n"
+
+    # Rodapé
+    total_news = len(new_items)
+    if lang == 'pt':
+        msg += f"━━━━━━━━━━━━━━\n🎧 Ouça o resumo no áudio acima\n🤖 NewsBot v3.1"
+    else:
+        msg += f"━━━━━━━━━━━━━━\n🎧 Listen to the summary above\n🤖 NewsBot v3.1"
+
+    # Telegram limita caption a 1024 chars. Se passar, envia como mensagem separada
+    caption_for_audio = msg
+    if len(caption_for_audio) > 1000:
+        caption_for_audio = msg[:997] + "..."
 
     if dry_run:
-        logger.info(f"🔍 [DRY-RUN] Simulação completa para {name}")
-        logger.info(f"    Texto do áudio ({len(final_text)} chars):")
-        for line in final_text.split('\n')[:5]:
-            logger.info(f"    | {line.strip()}")
-        logger.info(f"    Títulos: {new_titles}")
-        return new_titles
+        logger.info(f"🔍 [DRY-RUN] {name}")
+        logger.info(f"    Áudio ({len(audio_text)} chars): {audio_text[:150]}...")
+        logger.info(f"    Mensagem ({len(msg)} chars): {len(new_items)} notícias")
+        return [t for t, s, l in new_items]
 
-    # 4. Gera áudio
+    # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
     audio_file = f"{safe_name}_{datetime.now():%Y%m%d}.wav"
-    audio_path = generate_audio_file(final_text, audio_file, language=lang)
+    audio_path = generate_audio_file(audio_text, audio_file, language=lang)
 
-    if not audio_path:
-        logger.error(f"❌ Falha ao gerar áudio para {name}")
-        # Fallback: envia só a mensagem de texto
-        msg = f"📰 *{name}*\n\n"
-        for t in new_titles:
-            msg += f"• {t}\n"
-        msg += f"\n🤖 Gerado em {datetime.now():%d/%m/%Y %H:%M}"
-        send_telegram_message(msg)
-        return new_titles
-
-    # 5. Monta legenda amigável
-    caption = f"📰 *{name}*\n📅 {datetime.now():%d/%m/%Y}\n\n"
-    for t in new_titles:
-        # Limita título a 80 chars na legenda
-        short = t[:80] + "..." if len(t) > 80 else t
-        caption += f"▸ {short}\n"
-
-    # Adiciona info no final
-    caption += f"\n🎙️ {len(new_titles)} notícias | 🤖 NewsBot v3"
-
-    # Limita a 1000 chars (limite do Telegram)
-    if len(caption) > 1000:
-        caption = caption[:997] + "..."
-
-    # 6. Envia para Telegram
-    sent = send_telegram_audio(audio_path, caption)
-    if sent:
-        logger.info(f"✅ {name}: Áudio + resumo enviados para Telegram!")
+    # ─── 5. Envia para Telegram ────────────────────────────────────
+    if audio_path:
+        # Áudio + legenda curta (headlines)
+        sent = send_telegram_audio(audio_path, caption_for_audio)
+        if sent:
+            logger.info(f"✅ {name}: áudio enviado!")
+        else:
+            logger.warning(f"⚠️  {name}: áudio não enviado")
+            # Fallback: envia só texto
+            if len(msg) > 1000:
+                send_telegram_message(msg[:4000])
+            return [t for t, s, l in new_items]
     else:
-        logger.warning(f"⚠️  {name}: Falha no envio Telegram")
+        logger.warning(f"⚠️  {name}: sem áudio, enviando só texto")
+        if len(msg) > 1000:
+            send_telegram_message(msg[:4000])
+        return [t for t, s, l in new_items]
 
-    return new_titles
+    # Se a mensagem for maior que 1000 chars, envia o texto completo separadamente
+    if len(msg) > 1000 and len(msg) <= 4000:
+        # Envia o texto completo como mensagem de texto
+        send_telegram_message(msg)
+        logger.info(f"📝 {name}: texto completo enviado ({len(msg)} chars)")
+
+    return [t for t, s, l in new_items]
+
 
 # ─── Main ─────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="News Collector v3")
+    parser = argparse.ArgumentParser(description="News Collector v3.1")
     parser.add_argument('--feed', type=int, default=None,
-                        help='Processar apenas um feed específico (índice)')
+                        help='Processar apenas um feed (índice)')
     parser.add_argument('--dry-run', action='store_true',
-                        help='Apenas simular, não enviar nada')
+                        help='Apenas simular')
     args = parser.parse_args()
 
     Config.setup_folders()
-    logger.info("🚀 News Collector v3.0 iniciado")
+    logger.info("🚀 News Collector v3.1 iniciado")
 
-    # Limpeza de áudios antigos (1x por execução)
     cleanup_old_audio()
 
-    # Carrega feeds
     feeds = Config.load_feeds()
     if not feeds:
-        logger.error("❌ Nenhum feed configurado em feeds_config.json")
+        logger.error("❌ Nenhum feed configurado")
         sys.exit(1)
 
     logger.info(f"📚 {len(feeds)} feeds carregados")
@@ -205,33 +220,33 @@ def main():
     for idx, feed in enumerate(feeds):
         if args.feed is not None and idx != args.feed:
             continue
-
         try:
             new_titles = process_feed(feed, dry_run=args.dry_run)
             all_new_titles.extend(new_titles)
-            # Pequena pausa entre feeds
             if not args.dry_run and new_titles:
                 time.sleep(3)
         except Exception as e:
             logger.error(f"❌ Erro no feed {idx}: {e}")
             continue
 
-    # Atualiza histórico
+    # Histórico
     if all_new_titles:
         history = load_history()
         history.extend(all_new_titles)
         save_history(history)
-        logger.info(f"💾 Histórico atualizado: {len(all_new_titles)} novos títulos")
+        logger.info(f"💾 Histórico: {len(all_new_titles)} novos títulos")
 
+    # Resumo final (só se enviou algo)
     if not args.dry_run and all_new_titles:
-        # Mensagem de resumo final
-        summary = (f"✅ *NewsBot - Resumo*\n"
-                   f"📰 {len(all_new_titles)} notícias de "
-                   f"{len([f for f in feeds if args.feed is None or True])} feeds\n"
+        # Conta quantos feeds com notícias
+        feed_count = len([f for f in feeds if args.feed is None])
+        summary = (f"✅ *NewsBot - Resumo do Dia*\n"
+                   f"📰 {len(all_new_titles)} notícias de {feed_count} feeds\n"
                    f"⏰ {datetime.now():%d/%m/%Y %H:%M}")
         send_telegram_message(summary)
+        logger.info(f"📊 Resumo enviado: {len(all_new_titles)} notícias")
 
-    logger.info(f"🏁 Execução finalizada. {len(all_new_titles)} notícias novas.")
+    logger.info(f"🏁 Finalizado. {len(all_new_titles)} notícias novas.")
 
 
 if __name__ == "__main__":
