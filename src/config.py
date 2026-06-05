@@ -21,13 +21,19 @@ class Config:
     TELEGRAM_CHAT_ID = os.getenv("CHAT_ID")
 
     # --- Configurações de Comportamento ---
-    # Edge-TTS Vozes
-    VOICE_PT = "pt-BR-AntonioNeural" # Outra opção: pt-BR-AntonioNeural
-    VOICE_EN = "en-US-ChristopherNeural" # Outra opção: en-US-AriaNeural
+    # Piper TTS Vozes (offline, leve)
+    VOICE_PT = "pt-BR-AntonioNeural"    # não usado (piper só tem EN)
+    VOICE_EN = "en_US-amy"              # modelo piper para inglês
     
     # Limites
-    MAX_SUMMARY_SENTENCES = 3  # Quantas sentenças o Sumy vai gerar
-    RETENTION_DAYS = 2         # Dias para manter arquivos de áudio antes de apagar
+    MAX_SUMMARY_SENTENCES = 3     # Quantas sentenças o Sumy vai gerar
+    MAX_ITEMS_PER_FEED = 3        # Máximo de notícias por feed por execução
+    RETENTION_DAYS = 3            # Dias para manter áudios antes de apagar
+    MAX_AUDIO_CHARS = 2000        # Máximo de caracteres para gerar áudio (cabe em ~1min)
+    
+    # Histórico (evita re-enviar notícias)
+    HISTORY_FILE = BASE_DIR / "history.json"
+    MAX_HISTORY = 100             # Máximo de títulos no histórico
 
     @staticmethod
     def setup_folders():

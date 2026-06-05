@@ -1,25 +1,28 @@
 #!/bin/bash
+# =============================================================================
+# News Collector - Sync GitHub
+# =============================================================================
+# Sincroniza logs, histórico e config com o GitHub.
+# Chamado pelo cron após cada execução.
+# =============================================================================
 
-# Caminho do projeto (Certifique-se que este é o caminho correto!)
+set -e
+
 PROJECT_DIR="/home/robert/Documents/vscode_projects/news_colletector"
-cd "$PROJECT_DIR" || exit
+cd "$PROJECT_DIR" || { echo "❌ Diretório não encontrado: $PROJECT_DIR"; exit 1; }
 
-# Data atual para o commit
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
+LOG_DIR="$PROJECT_DIR/logs"
 
-# 1. Adiciona os arquivos novos (Logs e Áudios .wav)
-# A pasta data/audio pode crescer, se quiser economizar espaço no Git, remova esta linha:
-git add data/audio/*.wav
+# Verificar se tem algo para commitar
+git add -A
+if git diff --cached --quiet; then
+    echo "📭 Nada novo para commitar em $DATE"
+    exit 0
+fi
 
-# Adiciona o log principal (vai ser gerado pelo Cron)
-git add logs/*.log 
+# Commit e push
+git commit -m "Auto-update: NewsBot v3 - $DATE" -q
+git push origin main -q
 
-# Adiciona quaisquer arquivos modificados, como o log principal
-git add main.py
-
-# 2. Commit e Push
-# A flag -q silencia o output do git, mas é bom para o Cron
-git commit -q -m "Auto-update: Logs e Áudios de $DATE"
-git push -q origin main
-
-echo "✅ Sincronização com GitHub concluída em $DATE"
+echo "✅ GitHub sync concluído em $DATE"

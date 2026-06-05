@@ -29,9 +29,14 @@ def send_telegram_message(message):
         logger.error(f"❌ Erro ao enviar mensagem Telegram: {e}")
         return False
 
-def send_telegram_audio(title, summary, audio_path):
+def send_telegram_audio(audio_path, caption, title=None):
     """
-    Envia o arquivo MP3 com o Título e Resumo na legenda.
+    Envia o arquivo de áudio com legenda formatada para o Telegram.
+    
+    Args:
+        audio_path: Caminho do arquivo .wav
+        caption: Texto da legenda (já formatado)
+        title: Título opcional (se não fornecido, usa caption)
     """
     if not os.path.exists(audio_path):
         logger.error(f"Arquivo de áudio não encontrado para envio: {audio_path}")
@@ -39,9 +44,11 @@ def send_telegram_audio(title, summary, audio_path):
 
     url = f"https://api.telegram.org/bot{Config.TELEGRAM_TOKEN}/sendAudio"
     
-    # Prepara a legenda (Caption)
-    # O Telegram limita a legenda a 1024 caracteres
-    caption = f"*{title}*\n\n{summary}"
+    # Se title não foi fornecido, usa o caption como título
+    if not title:
+        title = caption.split('\n')[0].replace('*', '').strip()[:256]
+    
+    # Limita caption a 1024 caracteres (limite do Telegram)
     if len(caption) > 1000:
         caption = caption[:997] + "..."
 
