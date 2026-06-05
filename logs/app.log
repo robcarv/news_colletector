@@ -3075,3 +3075,131 @@
 2026-06-05 18:40:32,141 - INFO - 💾 Histórico: 32 novos títulos
 2026-06-05 18:40:32,243 - INFO - 📊 Resumo enviado: 32 notícias
 2026-06-05 18:40:32,243 - INFO - 🏁 Finalizado. 32 notícias novas.
+2026-06-05 20:00:02,048 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 20:00:02,055 - INFO - 📚 17 feeds carregados
+2026-06-05 20:00:02,055 - INFO - 📰 Processando: Folha de S.Paulo (pt)
+2026-06-05 20:00:02,055 - INFO - 🔄 Conectando ao feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+2026-06-05 20:00:03,751 - INFO - ⚠️  Aviso de formato (ignorado): document declared as us-ascii, but parsed as iso-8859-1
+2026-06-05 20:00:03,751 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:03,864 - INFO - 📖 + Jogadores da seleção do Irã receberam vistos para entrar nos EUA, diz ...
+2026-06-05 20:00:03,932 - INFO - 📖 + Trump diz esperar queda de juros nos EUA, mas que deixará decisão para...
+2026-06-05 20:00:03,932 - INFO - 📝 Folha de S.Paulo: 2 notícia(s) nova(s)
+2026-06-05 20:00:03,932 - INFO - ⏭️  Áudio em cache: Folha_de_S_Paulo_20260605.wav
+2026-06-05 20:00:03,932 - INFO - 📤 Enviando áudio (74KB)...
+2026-06-05 20:00:04,343 - INFO - ✅ Folha de S.Paulo: áudio enviado!
+2026-06-05 20:00:04,528 - INFO - 📝 Folha de S.Paulo: texto completo enviado (1206 chars)
+2026-06-05 20:00:06,528 - INFO - 📰 Processando: Nintendo (en)
+2026-06-05 20:00:06,528 - INFO - 🔄 Conectando ao feed: https://www.nintendo.com/en-gb/news.xml
+2026-06-05 20:00:06,716 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:06,716 - INFO - ⏭️  Já vista: Nintendo eShop Highlights – 04/06/2026...
+2026-06-05 20:00:06,716 - INFO - ⏭️  Já vista: Aim for the horizon in the first Mario Kart World global onl...
+2026-06-05 20:00:06,716 - INFO - ✅ Nintendo: nada novo.
+2026-06-05 20:00:06,716 - INFO - 📰 Processando: IBM (en)
+2026-06-05 20:00:06,717 - INFO - 🔄 Conectando ao feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+2026-06-05 20:00:06,921 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:06,921 - INFO - ⏭️  Já vista: IBM and Google Cloud Announce Strategic Partnership to Scale...
+2026-06-05 20:00:06,921 - INFO - ⏭️  Já vista: IBM Launches Global AI Builders Challenge With IBM Bob for U...
+2026-06-05 20:00:06,921 - INFO - ✅ IBM: nada novo.
+2026-06-05 20:00:06,921 - INFO - 📰 Processando: BBC News (en)
+2026-06-05 20:00:06,922 - INFO - 🔄 Conectando ao feed: http://feeds.bbci.co.uk/news/rss.xml
+2026-06-05 20:00:07,102 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:07,102 - INFO - ⏭️  Já vista: Rapist Paul Quinn's 24-year sentence an insult, says wrongly...
+2026-06-05 20:00:07,103 - INFO - 📖 + Buffy and Ted Lasso star Anthony Head dies at 72...
+2026-06-05 20:00:07,103 - INFO - 📝 BBC News: 1 notícia(s) nova(s)
+2026-06-05 20:00:07,103 - INFO - ⏭️  Áudio em cache: BBC_News_20260605.wav
+2026-06-05 20:00:07,103 - INFO - 📤 Enviando áudio (626KB)...
+2026-06-05 20:00:07,473 - INFO - ✅ BBC News: áudio enviado!
+2026-06-05 20:00:09,500 - INFO - 📰 Processando: Pitchfork (en)
+2026-06-05 20:00:09,501 - INFO - 🔄 Conectando ao feed: https://pitchfork.com/feed/feed-news/rss
+2026-06-05 20:00:09,653 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:09,653 - INFO - ⏭️  Já vista: Navy Blue’s New Album Features Ka, Earl Sweatshirt, and Jame...
+2026-06-05 20:00:09,653 - INFO - ⏭️  Já vista: Phoebe Bridgers Is Going on Tour...
+2026-06-05 20:00:09,653 - INFO - ✅ Pitchfork: nada novo.
+2026-06-05 20:00:09,653 - INFO - 📰 Processando: Metal Injection (en)
+2026-06-05 20:00:09,653 - INFO - 🔄 Conectando ao feed: https://feeds.feedburner.com/metalinjection.xml
+2026-06-05 20:00:09,914 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:09,914 - INFO - ⏭️  Já vista: JACK OWEN Explains Why Butchered At Birth Is His Least Favor...
+2026-06-05 20:00:09,914 - INFO - ⏭️  Já vista: TROY THE BAND Gets Trippy & Loud On New Single "Journey's En...
+2026-06-05 20:00:09,914 - INFO - ✅ Metal Injection: nada novo.
+2026-06-05 20:00:09,914 - INFO - 📰 Processando: Irish Independent (en)
+2026-06-05 20:00:09,914 - INFO - 🔄 Conectando ao feed: https://www.independent.ie/rss/
+2026-06-05 20:00:10,094 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:10,095 - INFO - 📖 + Robbie Keane set for disappointment as reports emerge of one-year deal...
+2026-06-05 20:00:10,095 - INFO - 📖 + Ireland v Netherlands: Can Carla Ward’s Girls in Green turn tables on ...
+2026-06-05 20:00:10,095 - INFO - 📝 Irish Independent: 2 notícia(s) nova(s)
+2026-06-05 20:00:10,095 - INFO - ⏭️  Áudio em cache: Irish_Independent_20260605.wav
+2026-06-05 20:00:10,095 - INFO - 📤 Enviando áudio (687KB)...
+2026-06-05 20:00:10,857 - INFO - ✅ Irish Independent: áudio enviado!
+2026-06-05 20:00:12,895 - INFO - 📰 Processando: Hot Press (Ireland) (en)
+2026-06-05 20:00:12,895 - INFO - 🔄 Conectando ao feed: https://www.hotpress.com/feed
+2026-06-05 20:00:13,348 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:13,376 - INFO - 📖 + Katie Taylor Finally Secures Croke Park Battle...
+2026-06-05 20:00:13,376 - INFO - 📖 + Modest Mouse release new album <i>An Eraser and a Maze</i>...
+2026-06-05 20:00:13,376 - INFO - 📝 Hot Press (Ireland): 2 notícia(s) nova(s)
+2026-06-05 20:00:13,376 - INFO - ⏭️  Áudio em cache: Hot_Press__Ireland__20260605.wav
+2026-06-05 20:00:13,376 - INFO - 📤 Enviando áudio (579KB)...
+2026-06-05 20:00:13,660 - INFO - ✅ Hot Press (Ireland): áudio enviado!
+2026-06-05 20:00:15,661 - INFO - 📰 Processando: The Guardian UK (en)
+2026-06-05 20:00:15,661 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/uk/rss
+2026-06-05 20:00:16,065 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:16,072 - INFO - ⏭️  Já vista: Britain is a swamp of lies and disinformation – and we got h...
+2026-06-05 20:00:16,072 - INFO - ⏭️  Já vista: ‘I would draw blood’: Jemaine Clement and Nicola Walker’s wi...
+2026-06-05 20:00:16,072 - INFO - ✅ The Guardian UK: nada novo.
+2026-06-05 20:00:16,072 - INFO - 📰 Processando: The Guardian US (en)
+2026-06-05 20:00:16,072 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/us/rss
+2026-06-05 20:00:16,451 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:16,452 - INFO - ⏭️  Já vista: Why US diplomats tweet from the hip in response to Henry Now...
+2026-06-05 20:00:16,452 - INFO - ⏭️  Já vista: Age gaps, swag gaps and Claude gaps – are they really such a...
+2026-06-05 20:00:16,452 - INFO - ✅ The Guardian US: nada novo.
+2026-06-05 20:00:16,479 - INFO - 📰 Processando: The Guardian Tech (en)
+2026-06-05 20:00:16,480 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/technology/rss
+2026-06-05 20:00:16,812 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:16,812 - INFO - ⏭️  Já vista: New claimants seek to sue Elon Musk’s xAI after Labour MP’s ...
+2026-06-05 20:00:16,812 - INFO - ⏭️  Já vista: A disease of deforestation: how Ebola is linked to the smart...
+2026-06-05 20:00:16,812 - INFO - ✅ The Guardian Tech: nada novo.
+2026-06-05 20:00:16,812 - INFO - 📰 Processando: Tenho Mais Discos Que Amigos (Brasil) (pt)
+2026-06-05 20:00:16,812 - INFO - 🔄 Conectando ao feed: https://www.tenhomaisdiscosqueamigos.com/feed/
+2026-06-05 20:00:18,558 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:18,604 - INFO - 📖 + 10 músicos que odiavam os Beatles...
+2026-06-05 20:00:18,654 - INFO - 📖 + Zacky Vengeance, do Avenged Sevenfold, escolhe clássico do Indie como ...
+2026-06-05 20:00:18,654 - INFO - 📝 Tenho Mais Discos Que Amigos (Brasil): 2 notícia(s) nova(s)
+2026-06-05 20:00:18,654 - INFO - ⏭️  Áudio em cache: Tenho_Mais_Discos_Que_Amigos___20260605.wav
+2026-06-05 20:00:18,654 - INFO - 📤 Enviando áudio (96KB)...
+2026-06-05 20:00:21,056 - INFO - ✅ Tenho Mais Discos Que Amigos (Brasil): áudio enviado!
+2026-06-05 20:00:23,057 - INFO - 📰 Processando: MusicRadar (UK) (en)
+2026-06-05 20:00:23,057 - INFO - 🔄 Conectando ao feed: https://www.musicradar.com/feeds/all
+2026-06-05 20:00:23,463 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:23,464 - INFO - ⏭️  Já vista: “Ibanez serves up another RG that’s built for stunt guitar, ...
+2026-06-05 20:00:23,464 - INFO - ⏭️  Já vista: Confused by guitar tabs and notation? Use this complete guid...
+2026-06-05 20:00:23,464 - INFO - ✅ MusicRadar (UK): nada novo.
+2026-06-05 20:00:23,493 - INFO - 📰 Processando: NME Music (UK) (en)
+2026-06-05 20:00:23,494 - INFO - 🔄 Conectando ao feed: https://www.nme.com/music/rss
+2026-06-05 20:00:23,835 - INFO - ✅ 0 notícias coletadas
+2026-06-05 20:00:23,835 - INFO - ⏭️  NME Music (UK): sem notícias
+2026-06-05 20:00:23,835 - INFO - 📰 Processando: Rolling Stone Music (US) (en)
+2026-06-05 20:00:23,836 - INFO - 🔄 Conectando ao feed: https://www.rollingstone.com/music/music-news/feed/
+2026-06-05 20:00:24,432 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:24,433 - INFO - 📖 + Marilyn Manson Loses Latest Bid to Toss Ex-Assistant’s Sex Assault Law...
+2026-06-05 20:00:24,463 - INFO - 📖 + Shakira Shuts Down ‘Fake’ Campaign Images Supporting Colombia Presiden...
+2026-06-05 20:00:24,463 - INFO - 📝 Rolling Stone Music (US): 2 notícia(s) nova(s)
+2026-06-05 20:00:24,463 - INFO - ⏭️  Áudio em cache: Rolling_Stone_Music__US__20260605.wav
+2026-06-05 20:00:24,464 - INFO - 📤 Enviando áudio (737KB)...
+2026-06-05 20:00:24,816 - INFO - ✅ Rolling Stone Music (US): áudio enviado!
+2026-06-05 20:00:26,817 - INFO - 📰 Processando: GoldenPlec (Ireland Music) (en)
+2026-06-05 20:00:26,817 - INFO - 🔄 Conectando ao feed: https://www.goldenplec.com/feed/
+2026-06-05 20:00:27,003 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:27,003 - INFO - ⏭️  Já vista: RTÉ Choice Music Prize 2025...
+2026-06-05 20:00:27,004 - INFO - ⏭️  Já vista: Gurriers at The Button Factory, Dublin...
+2026-06-05 20:00:27,004 - INFO - ✅ GoldenPlec (Ireland Music): nada novo.
+2026-06-05 20:00:27,031 - INFO - 📰 Processando: Consequence of Sound (US) (en)
+2026-06-05 20:00:27,031 - INFO - 🔄 Conectando ao feed: https://consequence.net/feed/
+2026-06-05 20:00:27,270 - INFO - ✅ 2 notícias coletadas
+2026-06-05 20:00:27,301 - INFO - 📖 + Mastodon Debut “Your Ghost Again” Live with Dedication to Brent Hinds:...
+2026-06-05 20:00:27,301 - INFO - ⏭️  Já vista: Electric Callboy and The Offspring Join Forces on “Let the G...
+2026-06-05 20:00:27,301 - INFO - 📝 Consequence of Sound (US): 1 notícia(s) nova(s)
+2026-06-05 20:00:27,301 - INFO - ⏭️  Áudio em cache: Consequence_of_Sound__US__20260605.wav
+2026-06-05 20:00:27,302 - INFO - 📤 Enviando áudio (722KB)...
+2026-06-05 20:00:27,685 - INFO - ✅ Consequence of Sound (US): áudio enviado!
+2026-06-05 20:00:29,685 - INFO - 💾 Histórico: 12 novos títulos
+2026-06-05 20:00:29,805 - INFO - 📊 Resumo enviado: 12 notícias
+2026-06-05 20:00:29,805 - INFO - 🏁 Finalizado. 12 notícias novas.
