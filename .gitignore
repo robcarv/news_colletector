@@ -1,56 +1,20 @@
-# Ignorar arquivos de configuração sensíveis
-.env
-*.env
-
-# Ignorar pastas de dependências
-venv/
-env/
-.venv/
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pyc
-*.pyo
-*.pyd
-*.db
-*.sqlite3
-
-# Ignorar pastas de dados e áudios
-/data/audio/
-
-# Ignorar arquivos de IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.sublime-workspace
-*.sublime-project
-
-# Ignorar logs
-*.log
-*.txt
-logs/
-
-# Ignorar arquivos temporários
-*.tmp
-*.temp
-
-# Ignorar arquivos de cache
-.cache/
-.pytest_cache/
-
-# Ignorar arquivos de build e distribuição
-build/
-dist/
+*.py[cod]
+*$py.class
+venv/
+.venv/
 *.egg-info/
-*.egg
-*.whl
 
-# Ignorar arquivos de sistema
-.DS_Store
-Thumbs.db
+# Dados gerados
+data/audio/
+*.wav
+*.mp3
+logs/newsbot_*.log
+logs/cron.log
 
-logs/*.log
-!logs/*ERROR*.log
-!logs/output_*.log
+# Historico (mantem estado local)
+history.json
+
+# Config local
+.env
