@@ -14,6 +14,7 @@ Uso:
 """
 
 import argparse
+import gc
 import json
 import logging
 import sys
@@ -224,7 +225,11 @@ def main():
             new_titles = process_feed(feed, dry_run=args.dry_run)
             all_new_titles.extend(new_titles)
             if not args.dry_run and new_titles:
-                time.sleep(3)
+                time.sleep(2)  # pausa reduzida de 3s para 2s
+            # Garbage collection periódico para não acumular memória
+            if idx > 0 and idx % Config.GC_INTERVAL == 0:
+                collected = gc.collect()
+                logger.debug(f"🧹 GC: {collected} objetos coletados após feed {idx}")
         except Exception as e:
             logger.error(f"❌ Erro no feed {idx}: {e}")
             continue

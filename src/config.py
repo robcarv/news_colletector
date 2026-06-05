@@ -25,15 +25,20 @@ class Config:
     VOICE_PT = "pt-BR-AntonioNeural"    # não usado (piper só tem EN)
     VOICE_EN = "en_US-amy"              # modelo piper para inglês
     
-    # Limites
+    # Limites (modo leve para Raspberry Pi)
     MAX_SUMMARY_SENTENCES = 3     # Quantas sentenças o Sumy vai gerar
-    MAX_ITEMS_PER_FEED = 3        # Máximo de notícias por feed por execução
+    MAX_ITEMS_PER_FEED = 2        # Máximo de notícias por feed (reduzido de 3 para 2)
     RETENTION_DAYS = 3            # Dias para manter áudios antes de apagar
-    MAX_AUDIO_CHARS = 2000        # Máximo de caracteres para gerar áudio (cabe em ~1min)
+    MAX_AUDIO_CHARS = 1200        # Máximo de caracteres para áudio (reduzido)
     
-    # Histórico (evita re-enviar notícias)
+    # Otimizações de desempenho (Raspberry Pi)
+    DOWNLOAD_TIMEOUT = 15         # Timeout para download RSS (segundos)
+    TELEGRAM_TIMEOUT = 30         # Timeout para API Telegram (segundos)
+    GC_INTERVAL = 3               # Executar garbage collection a cada N feeds
+    
+    # Histórico
     HISTORY_FILE = BASE_DIR / "history.json"
-    MAX_HISTORY = 100             # Máximo de títulos no histórico
+    MAX_HISTORY = 200             # Máximo de títulos no histórico
 
     @staticmethod
     def setup_folders():

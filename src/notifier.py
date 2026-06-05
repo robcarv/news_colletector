@@ -1,18 +1,42 @@
-import requests
 import logging
 import os
+import requests
 from .config import Config
 
 logger = logging.getLogger(__name__)
 
+# ─── Sessão HTTP reutilizável (conexão persistente, mais rápido) ──────────
+_session = requests.Session()
+# Timeout é passado em cada chamada, não na session
+
+def _telegram_request(method, url, **kwargs):
+    """Wrapper para chamadas à API do Telegram com tratamento de erro."""
+    try:
+        resp = _session.request(method, url, timeout=Config.TELEGRAM_TIMEOUT, **kwargs)
+        resp.raise_for_status()
+        return True
+    except requests.exceptions.Timeout:
+        logger.error("⏱️  Timeout na API Telegram")
+        return False
+    except requests.exceptions.ConnectionError:
+        logger.error("🔌 Erro de conexão com Telegram")
+        return False
+    except Exception as e:
+        logger.error(f"❌ Erro Telegram: {e}")
+        return False
+
+
 def send_telegram_message(message):
     """
-    Envia uma mensagem de texto simples para o Telegram.
-    Útil para avisar que o sistema iniciou ou terminou.
+    Envia uma mensagem de texto para o Telegram.
     """
     if not Config.TELEGRAM_TOKEN or not Config.TELEGRAM_CHAT_ID:
         logger.warning("Credenciais do Telegram não configuradas.")
         return False
+
+    # Telegram tem limite de 4096 chars por mensagem
+    if len(message) > 4000:
+        message = message[:3997] + "..."
 
     url = f"https://api.telegram.org/bot{Config.TELEGRAM_TOKEN}/sendMessage"
     payload = {
@@ -21,34 +45,23 @@ def send_telegram_message(message):
         "parse_mode": "Markdown"
     }
     
-    try:
-        response = requests.post(url, data=payload, timeout=10)
-        response.raise_for_status()
-        return True
-    except Exception as e:
-        logger.error(f"❌ Erro ao enviar mensagem Telegram: {e}")
-        return False
+    return _telegram_request("POST", url, data=payload)
+
 
 def send_telegram_audio(audio_path, caption, title=None):
     """
-    Envia o arquivo de áudio com legenda formatada para o Telegram.
-    
-    Args:
-        audio_path: Caminho do arquivo .wav
-        caption: Texto da legenda (já formatado)
-        title: Título opcional (se não fornecido, usa caption)
+    Envia arquivo de áudio com legenda para o Telegram.
+    Usa sessão reutilizável para evitar overhead de conexão.
     """
     if not os.path.exists(audio_path):
-        logger.error(f"Arquivo de áudio não encontrado para envio: {audio_path}")
+        logger.error(f"Arquivo não encontrado: {audio_path}")
         return False
 
     url = f"https://api.telegram.org/bot{Config.TELEGRAM_TOKEN}/sendAudio"
     
-    # Se title não foi fornecido, usa o caption como título
     if not title:
         title = caption.split('\n')[0].replace('*', '').strip()[:256]
     
-    # Limita caption a 1024 caracteres (limite do Telegram)
     if len(caption) > 1000:
         caption = caption[:997] + "..."
 
@@ -58,15 +71,11 @@ def send_telegram_audio(audio_path, caption, title=None):
             data = {
                 'chat_id': Config.TELEGRAM_CHAT_ID,
                 'caption': caption,
-                'parse_mode': 'Markdown'
+                'parse_mode': 'Markdown',
+                'title': title[:256],
             }
-            
-            logger.info(f"📤 Enviando para Telegram: {title}")
-            response = requests.post(url, files=files, data=data, timeout=60)
-            response.raise_for_status()
-            
-            return True
-            
+            logger.info(f"📤 Enviando áudio ({os.path.getsize(audio_path)//1024}KB)...")
+            return _telegram_request("POST", url, files=files, data=data)
     except Exception as e:
-        logger.error(f"❌ Erro ao enviar áudio Telegram: {e}")
+        logger.error(f"❌ Erro ao enviar áudio: {e}")
         return False

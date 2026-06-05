@@ -2636,3 +2636,442 @@
 2026-06-05 18:33:25,034 - INFO - 💾 Histórico: 3 novos títulos
 2026-06-05 18:33:25,267 - INFO - 📊 Resumo enviado: 3 notícias
 2026-06-05 18:33:25,268 - INFO - 🏁 Finalizado. 3 notícias novas.
+2026-06-05 18:38:19,140 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:38:19,140 - INFO - 📚 17 feeds carregados
+2026-06-05 18:38:19,141 - INFO - 📰 Processando: Folha de S.Paulo (pt)
+2026-06-05 18:38:19,141 - INFO - 🔄 Conectando ao feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+2026-06-05 18:38:20,539 - INFO - ⚠️  Aviso de formato (ignorado): document declared as us-ascii, but parsed as iso-8859-1
+2026-06-05 18:38:20,539 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:20,624 - INFO - 📖 + Alzira E leva show 'Senhora do Tempo' a Portugal...
+2026-06-05 18:38:20,711 - INFO - 📖 + Governadora de PE dá sinais de apoio a ex-prefeito de Petrolina para d...
+2026-06-05 18:38:20,711 - INFO - 📝 Folha de S.Paulo: 2 notícia(s) nova(s)
+2026-06-05 18:38:20,711 - INFO - 🔍 [DRY-RUN] Folha de S.Paulo
+2026-06-05 18:38:20,711 - INFO -     Áudio (170 chars): Notícias de Folha de S.Paulo.
+
+1. Alzira E leva show 'Senhora do Tempo' a Portugal
+2. Governadora de PE dá sinais de apoio a ex-prefeito de Petrolina ...
+2026-06-05 18:38:20,711 - INFO -     Mensagem (1181 chars): 2 notícias
+2026-06-05 18:38:20,711 - INFO - 📰 Processando: Nintendo (en)
+2026-06-05 18:38:20,711 - INFO - 🔄 Conectando ao feed: https://www.nintendo.com/en-gb/news.xml
+2026-06-05 18:38:20,841 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:20,841 - INFO - 📖 + Nintendo eShop Highlights – 04/06/2026...
+2026-06-05 18:38:20,841 - INFO - 📖 + Aim for the horizon in the first Mario Kart World global online event!...
+2026-06-05 18:38:20,841 - INFO - 📝 Nintendo: 2 notícia(s) nova(s)
+2026-06-05 18:38:20,841 - INFO - 🔍 [DRY-RUN] Nintendo
+2026-06-05 18:38:20,841 - INFO -     Áudio (136 chars): News from Nintendo.
+
+1. Nintendo eShop Highlights – 04/06/2026
+2. Aim for the horizon in the first Mario Kart World global online event!...
+2026-06-05 18:38:20,841 - INFO -     Mensagem (721 chars): 2 notícias
+2026-06-05 18:38:20,841 - INFO - 📰 Processando: IBM (en)
+2026-06-05 18:38:20,841 - INFO - 🔄 Conectando ao feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+2026-06-05 18:38:21,205 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:21,205 - INFO - 📖 + IBM and Google Cloud Announce Strategic Partnership to Scale AI with H...
+2026-06-05 18:38:21,232 - INFO - 📖 + IBM Launches Global AI Builders Challenge With IBM Bob for University ...
+2026-06-05 18:38:21,232 - INFO - 📝 IBM: 2 notícia(s) nova(s)
+2026-06-05 18:38:21,233 - INFO - 🔍 [DRY-RUN] IBM
+2026-06-05 18:38:21,233 - INFO -     Áudio (292 chars): News from IBM.
+
+1. IBM and Google Cloud Announce Strategic Partnership to Scale AI with Human Expertise and AI‑Powered Delivery
+2. IBM Launches Global...
+2026-06-05 18:38:21,233 - INFO -     Mensagem (1047 chars): 2 notícias
+2026-06-05 18:38:21,233 - INFO - 📰 Processando: BBC News (en)
+2026-06-05 18:38:21,233 - INFO - 🔄 Conectando ao feed: http://feeds.bbci.co.uk/news/rss.xml
+2026-06-05 18:38:21,406 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:21,407 - INFO - 📖 + Rapist Paul Quinn's 24-year sentence an insult, says wrongly convicted...
+2026-06-05 18:38:21,436 - INFO - 📖 + Ex-Channel 4 News host Jon Snow reveals he has Alzheimer's...
+2026-06-05 18:38:21,436 - INFO - 📝 BBC News: 2 notícia(s) nova(s)
+2026-06-05 18:38:21,436 - INFO - 🔍 [DRY-RUN] BBC News
+2026-06-05 18:38:21,436 - INFO -     Áudio (173 chars): News from BBC News.
+
+1. Rapist Paul Quinn's 24-year sentence an insult, says wrongly convicted Andrew Malkinson
+2. Ex-Channel 4 News host Jon Snow rev...
+2026-06-05 18:38:21,436 - INFO -     Mensagem (646 chars): 2 notícias
+2026-06-05 18:38:21,465 - INFO - 📰 Processando: Pitchfork (en)
+2026-06-05 18:38:21,465 - INFO - 🔄 Conectando ao feed: https://pitchfork.com/feed/feed-news/rss
+2026-06-05 18:38:21,593 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:21,593 - INFO - 📖 + Navy Blue’s New Album Features Ka, Earl Sweatshirt, and James Earl Jon...
+2026-06-05 18:38:21,593 - INFO - 📖 + Phoebe Bridgers Is Going on Tour...
+2026-06-05 18:38:21,593 - INFO - 📝 Pitchfork: 2 notícia(s) nova(s)
+2026-06-05 18:38:21,593 - INFO - 🔍 [DRY-RUN] Pitchfork
+2026-06-05 18:38:21,593 - INFO -     Áudio (133 chars): News from Pitchfork.
+
+1. Navy Blue’s New Album Features Ka, Earl Sweatshirt, and James Earl Jones
+2. Phoebe Bridgers Is Going on Tour...
+2026-06-05 18:38:21,593 - INFO -     Mensagem (582 chars): 2 notícias
+2026-06-05 18:38:21,593 - INFO - 📰 Processando: Metal Injection (en)
+2026-06-05 18:38:21,593 - INFO - 🔄 Conectando ao feed: https://feeds.feedburner.com/metalinjection.xml
+2026-06-05 18:38:21,907 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:21,940 - INFO - 📖 + JACK OWEN Explains Why Butchered At Birth Is His Least Favorite Of The...
+2026-06-05 18:38:21,974 - INFO - 📖 + TROY THE BAND Gets Trippy & Loud On New Single "Journey's End"...
+2026-06-05 18:38:21,974 - INFO - 📝 Metal Injection: 2 notícia(s) nova(s)
+2026-06-05 18:38:21,974 - INFO - 🔍 [DRY-RUN] Metal Injection
+2026-06-05 18:38:21,974 - INFO -     Áudio (197 chars): News from Metal Injection.
+
+1. JACK OWEN Explains Why Butchered At Birth Is His Least Favorite Of The Early CANNIBAL CORPSE Records
+2. TROY THE BAND G...
+2026-06-05 18:38:21,974 - INFO -     Mensagem (1115 chars): 2 notícias
+2026-06-05 18:38:21,974 - INFO - 📰 Processando: Irish Independent (en)
+2026-06-05 18:38:21,974 - INFO - 🔄 Conectando ao feed: https://www.independent.ie/rss/
+2026-06-05 18:38:22,117 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:22,117 - INFO - 📖 + Cork’s Denis Coughlan, one of the GAA’s greatest dual stars, dies aged...
+2026-06-05 18:38:22,118 - INFO - 📖 + Boy brought to Ireland by father without mother’s consent can stay in ...
+2026-06-05 18:38:22,118 - INFO - 📝 Irish Independent: 2 notícia(s) nova(s)
+2026-06-05 18:38:22,118 - INFO - 🔍 [DRY-RUN] Irish Independent
+2026-06-05 18:38:22,118 - INFO -     Áudio (209 chars): News from Irish Independent.
+
+1. Cork’s Denis Coughlan, one of the GAA’s greatest dual stars, dies aged 80
+2. Boy brought to Ireland by father without...
+2026-06-05 18:38:22,118 - INFO -     Mensagem (612 chars): 2 notícias
+2026-06-05 18:38:22,147 - INFO - 📰 Processando: Hot Press (Ireland) (en)
+2026-06-05 18:38:22,147 - INFO - 🔄 Conectando ao feed: https://www.hotpress.com/feed
+2026-06-05 18:38:22,344 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:22,344 - INFO - 📖 + Modest Mouse release new album <i>An Eraser and a Maze</i>...
+2026-06-05 18:38:22,344 - INFO - 📖 + Trump cancels concert to mark the 250th birthday of the US...
+2026-06-05 18:38:22,344 - INFO - 📝 Hot Press (Ireland): 2 notícia(s) nova(s)
+2026-06-05 18:38:22,344 - INFO - 🔍 [DRY-RUN] Hot Press (Ireland)
+2026-06-05 18:38:22,344 - INFO -     Áudio (155 chars): News from Hot Press (Ireland).
+
+1. Modest Mouse release new album <i>An Eraser and a Maze</i>
+2. Trump cancels concert to mark the 250th birthday of t...
+2026-06-05 18:38:22,344 - INFO -     Mensagem (606 chars): 2 notícias
+2026-06-05 18:38:22,344 - INFO - 📰 Processando: The Guardian UK (en)
+2026-06-05 18:38:22,344 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/uk/rss
+2026-06-05 18:38:22,757 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:22,794 - INFO - 📖 + Britain is a swamp of lies and disinformation – and we got here on the...
+2026-06-05 18:38:22,829 - INFO - 📖 + ‘I would draw blood’: Jemaine Clement and Nicola Walker’s wild wrongco...
+2026-06-05 18:38:22,829 - INFO - 📝 The Guardian UK: 2 notícia(s) nova(s)
+2026-06-05 18:38:22,829 - INFO - 🔍 [DRY-RUN] The Guardian UK
+2026-06-05 18:38:22,829 - INFO -     Áudio (230 chars): News from The Guardian UK.
+
+1. Britain is a swamp of lies and disinformation – and we got here on the Brexit bus | Jonathan Freedland
+2. ‘I would draw...
+2026-06-05 18:38:22,829 - INFO -     Mensagem (1379 chars): 2 notícias
+2026-06-05 18:38:22,829 - INFO - 📰 Processando: The Guardian US (en)
+2026-06-05 18:38:22,829 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/us/rss
+2026-06-05 18:38:23,263 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:23,298 - INFO - 📖 + Why US diplomats tweet from the hip in response to Henry Nowak murder...
+2026-06-05 18:38:23,333 - INFO - 📖 + Age gaps, swag gaps and Claude gaps – are they really such a big deal ...
+2026-06-05 18:38:23,333 - INFO - 📝 The Guardian US: 2 notícia(s) nova(s)
+2026-06-05 18:38:23,333 - INFO - 🔍 [DRY-RUN] The Guardian US
+2026-06-05 18:38:23,333 - INFO -     Áudio (191 chars): News from The Guardian US.
+
+1. Why US diplomats tweet from the hip in response to Henry Nowak murder
+2. Age gaps, swag gaps and Claude gaps – are they...
+2026-06-05 18:38:23,333 - INFO -     Mensagem (1301 chars): 2 notícias
+2026-06-05 18:38:23,365 - INFO - 📰 Processando: The Guardian Tech (en)
+2026-06-05 18:38:23,365 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/technology/rss
+2026-06-05 18:38:23,737 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:23,777 - INFO - 📖 + New claimants seek to sue Elon Musk’s xAI after Labour MP’s test case...
+2026-06-05 18:38:23,819 - INFO - 📖 + A disease of deforestation: how Ebola is linked to the smartphone in y...
+2026-06-05 18:38:23,819 - INFO - 📝 The Guardian Tech: 2 notícia(s) nova(s)
+2026-06-05 18:38:23,819 - INFO - 🔍 [DRY-RUN] The Guardian Tech
+2026-06-05 18:38:23,819 - INFO -     Áudio (186 chars): News from The Guardian Tech.
+
+1. New claimants seek to sue Elon Musk’s xAI after Labour MP’s test case
+2. A disease of deforestation: how Ebola is lin...
+2026-06-05 18:38:23,819 - INFO -     Mensagem (1296 chars): 2 notícias
+2026-06-05 18:38:23,820 - INFO - 📰 Processando: Tenho Mais Discos Que Amigos (Brasil) (pt)
+2026-06-05 18:38:23,820 - INFO - 🔄 Conectando ao feed: https://www.tenhomaisdiscosqueamigos.com/feed/
+2026-06-05 18:38:26,219 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:26,263 - INFO - 📖 + Guns N’ Roses toca música de seu primeiro disco com Slash e Duff pela ...
+2026-06-05 18:38:26,307 - INFO - 📖 + O desabafo de Canisso sobre a situação do Raimundos ao final de sua vi...
+2026-06-05 18:38:26,308 - INFO - 📝 Tenho Mais Discos Que Amigos (Brasil): 2 notícia(s) nova(s)
+2026-06-05 18:38:26,308 - INFO - 🔍 [DRY-RUN] Tenho Mais Discos Que Amigos (Brasil)
+2026-06-05 18:38:26,308 - INFO -     Áudio (230 chars): Notícias de Tenho Mais Discos Que Amigos (Brasil).
+
+1. Guns N’ Roses toca música de seu primeiro disco com Slash e Duff pela primeira vez em quase 40 ...
+2026-06-05 18:38:26,308 - INFO -     Mensagem (1099 chars): 2 notícias
+2026-06-05 18:38:26,308 - INFO - 📰 Processando: MusicRadar (UK) (en)
+2026-06-05 18:38:26,308 - INFO - 🔄 Conectando ao feed: https://www.musicradar.com/feeds/all
+2026-06-05 18:38:26,705 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:26,739 - INFO - 📖 + “Ibanez serves up another RG that’s built for stunt guitar, priced for...
+2026-06-05 18:38:26,739 - INFO - 📖 + Confused by guitar tabs and notation? Use this complete guide to readi...
+2026-06-05 18:38:26,739 - INFO - 📝 MusicRadar (UK): 2 notícia(s) nova(s)
+2026-06-05 18:38:26,739 - INFO - 🔍 [DRY-RUN] MusicRadar (UK)
+2026-06-05 18:38:26,739 - INFO -     Áudio (311 chars): News from MusicRadar (UK).
+
+1. “Ibanez serves up another RG that’s built for stunt guitar, priced for virtuosos-in-training, and with enough sounds to...
+2026-06-05 18:38:26,739 - INFO -     Mensagem (906 chars): 2 notícias
+2026-06-05 18:38:26,769 - INFO - 📰 Processando: NME Music (UK) (en)
+2026-06-05 18:38:26,769 - INFO - 🔄 Conectando ao feed: https://www.nme.com/music/rss
+2026-06-05 18:38:27,660 - INFO - ✅ 0 notícias coletadas
+2026-06-05 18:38:27,660 - INFO - ⏭️  NME Music (UK): sem notícias
+2026-06-05 18:38:27,660 - INFO - 📰 Processando: Rolling Stone Music (US) (en)
+2026-06-05 18:38:27,660 - INFO - 🔄 Conectando ao feed: https://www.rollingstone.com/music/music-news/feed/
+2026-06-05 18:38:27,837 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:27,868 - INFO - 📖 + See Bruce Springsteen Play With Kenny Chesney, Dropkick Murphy’s at ‘M...
+2026-06-05 18:38:27,899 - INFO - 📖 + Florida Senator Urges Stadium to Cancel Kanye West Concerts Over ‘Cons...
+2026-06-05 18:38:27,899 - INFO - 📝 Rolling Stone Music (US): 2 notícia(s) nova(s)
+2026-06-05 18:38:27,899 - INFO - 🔍 [DRY-RUN] Rolling Stone Music (US)
+2026-06-05 18:38:27,899 - INFO -     Áudio (232 chars): News from Rolling Stone Music (US).
+
+1. See Bruce Springsteen Play With Kenny Chesney, Dropkick Murphy’s at ‘Music America’ Concert
+2. Florida Senator...
+2026-06-05 18:38:27,899 - INFO -     Mensagem (915 chars): 2 notícias
+2026-06-05 18:38:27,899 - INFO - 📰 Processando: Irish Times Music (en)
+2026-06-05 18:38:27,899 - INFO - 🔄 Conectando ao feed: https://www.irishtimes.com/arc/outboundfeeds/music/rss/
+2026-06-05 18:38:28,509 - WARNING - ⚠️  Erro no feed https://www.irishtimes.com/arc/outboundfeeds/music/rss/: <unknown>:2:0: syntax error
+2026-06-05 18:38:28,509 - INFO - ⏭️  Irish Times Music: sem notícias
+2026-06-05 18:38:28,538 - INFO - 📰 Processando: Consequence of Sound (US) (en)
+2026-06-05 18:38:28,538 - INFO - 🔄 Conectando ao feed: https://consequence.net/feed/
+2026-06-05 18:38:28,772 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:28,804 - INFO - 📖 + Electric Callboy and The Offspring Join Forces on “Let the Good Times ...
+2026-06-05 18:38:28,839 - INFO - 📖 + Stream On This Week: A Tight Little Thriller, a Cute Little Rom-Com, a...
+2026-06-05 18:38:28,839 - INFO - 📝 Consequence of Sound (US): 2 notícia(s) nova(s)
+2026-06-05 18:38:28,839 - INFO - 🔍 [DRY-RUN] Consequence of Sound (US)
+2026-06-05 18:38:28,839 - INFO -     Áudio (229 chars): News from Consequence of Sound (US).
+
+1. Electric Callboy and The Offspring Join Forces on “Let the Good Times Roll”: Stream
+2. Stream On This Week: A...
+2026-06-05 18:38:28,839 - INFO -     Mensagem (917 chars): 2 notícias
+2026-06-05 18:38:28,842 - INFO - 💾 Histórico: 30 novos títulos
+2026-06-05 18:38:28,843 - INFO - 🏁 Finalizado. 30 notícias novas.
+2026-06-05 18:38:43,994 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:38:43,994 - INFO - 📚 17 feeds carregados
+2026-06-05 18:38:43,994 - INFO - 📰 Processando: Rolling Stone Music (US) (en)
+2026-06-05 18:38:43,994 - INFO - 🔄 Conectando ao feed: https://www.rollingstone.com/music/music-news/feed/
+2026-06-05 18:38:44,135 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:44,204 - INFO - 📖 + See Bruce Springsteen Play With Kenny Chesney, Dropkick Murphy’s at ‘M...
+2026-06-05 18:38:44,228 - INFO - 📖 + Florida Senator Urges Stadium to Cancel Kanye West Concerts Over ‘Cons...
+2026-06-05 18:38:44,229 - INFO - 📝 Rolling Stone Music (US): 2 notícia(s) nova(s)
+2026-06-05 18:38:44,229 - INFO - 🔍 [DRY-RUN] Rolling Stone Music (US)
+2026-06-05 18:38:44,229 - INFO -     Áudio (232 chars): News from Rolling Stone Music (US).
+
+1. See Bruce Springsteen Play With Kenny Chesney, Dropkick Murphy’s at ‘Music America’ Concert
+2. Florida Senator...
+2026-06-05 18:38:44,229 - INFO -     Mensagem (915 chars): 2 notícias
+2026-06-05 18:38:44,229 - INFO - 💾 Histórico: 2 novos títulos
+2026-06-05 18:38:44,229 - INFO - 🏁 Finalizado. 2 notícias novas.
+2026-06-05 18:38:44,713 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:38:44,714 - INFO - 📚 17 feeds carregados
+2026-06-05 18:38:44,714 - INFO - 📰 Processando: Consequence of Sound (US) (en)
+2026-06-05 18:38:44,714 - INFO - 🔄 Conectando ao feed: https://consequence.net/feed/
+2026-06-05 18:38:44,889 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:44,960 - INFO - 📖 + Electric Callboy and The Offspring Join Forces on “Let the Good Times ...
+2026-06-05 18:38:44,985 - INFO - 📖 + Stream On This Week: A Tight Little Thriller, a Cute Little Rom-Com, a...
+2026-06-05 18:38:44,985 - INFO - 📝 Consequence of Sound (US): 2 notícia(s) nova(s)
+2026-06-05 18:38:44,985 - INFO - 🔍 [DRY-RUN] Consequence of Sound (US)
+2026-06-05 18:38:44,985 - INFO -     Áudio (229 chars): News from Consequence of Sound (US).
+
+1. Electric Callboy and The Offspring Join Forces on “Let the Good Times Roll”: Stream
+2. Stream On This Week: A...
+2026-06-05 18:38:44,985 - INFO -     Mensagem (917 chars): 2 notícias
+2026-06-05 18:38:44,985 - INFO - 💾 Histórico: 2 novos títulos
+2026-06-05 18:38:44,985 - INFO - 🏁 Finalizado. 2 notícias novas.
+2026-06-05 18:38:49,701 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:38:49,702 - INFO - 📚 17 feeds carregados
+2026-06-05 18:38:49,703 - INFO - 📰 Processando: State Magazine (Ireland Music) (en)
+2026-06-05 18:38:49,703 - INFO - 🔄 Conectando ao feed: https://www.state.ie/feed
+2026-06-05 18:38:49,797 - WARNING - ⚠️  Erro no feed https://www.state.ie/feed: <urlopen error [Errno 113] No route to host>
+2026-06-05 18:38:49,797 - INFO - ⏭️  State Magazine (Ireland Music): sem notícias
+2026-06-05 18:38:49,823 - INFO - 🏁 Finalizado. 0 notícias novas.
+2026-06-05 18:38:56,949 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:38:56,950 - INFO - 📚 17 feeds carregados
+2026-06-05 18:38:56,950 - INFO - 📰 Processando: GoldenPlec (Ireland Music) (en)
+2026-06-05 18:38:56,950 - INFO - 🔄 Conectando ao feed: https://www.goldenplec.com/feed/
+2026-06-05 18:38:57,103 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:38:57,174 - INFO - 📖 + RTÉ Choice Music Prize 2025...
+2026-06-05 18:38:57,201 - INFO - 📖 + Gurriers at The Button Factory, Dublin...
+2026-06-05 18:38:57,201 - INFO - 📝 GoldenPlec (Ireland Music): 2 notícia(s) nova(s)
+2026-06-05 18:38:57,201 - INFO - 🔍 [DRY-RUN] GoldenPlec (Ireland Music)
+2026-06-05 18:38:57,201 - INFO -     Áudio (111 chars): News from GoldenPlec (Ireland Music).
+
+1. RTÉ Choice Music Prize 2025
+2. Gurriers at The Button Factory, Dublin...
+2026-06-05 18:38:57,201 - INFO -     Mensagem (919 chars): 2 notícias
+2026-06-05 18:38:57,229 - INFO - 💾 Histórico: 2 novos títulos
+2026-06-05 18:38:57,229 - INFO - 🏁 Finalizado. 2 notícias novas.
+2026-06-05 18:39:04,924 - INFO - 🚀 News Collector v3.1 iniciado
+2026-06-05 18:39:04,925 - INFO - 📚 17 feeds carregados
+2026-06-05 18:39:04,925 - INFO - 📰 Processando: Folha de S.Paulo (pt)
+2026-06-05 18:39:04,925 - INFO - 🔄 Conectando ao feed: https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+2026-06-05 18:39:06,086 - INFO - ⚠️  Aviso de formato (ignorado): document declared as us-ascii, but parsed as iso-8859-1
+2026-06-05 18:39:06,087 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:06,174 - INFO - 📖 + Alzira E leva show 'Senhora do Tempo' a Portugal...
+2026-06-05 18:39:06,241 - INFO - 📖 + Governadora de PE dá sinais de apoio a ex-prefeito de Petrolina para d...
+2026-06-05 18:39:06,241 - INFO - 📝 Folha de S.Paulo: 2 notícia(s) nova(s)
+2026-06-05 18:39:06,241 - INFO - 🎙️  Gerando áudio (PT): Folha_de_S_Paulo_20260605.wav...
+2026-06-05 18:39:06,241 - INFO -    Engine: Edge-TTS (pt-BR-AntonioNeural)
+2026-06-05 18:39:07,286 - INFO - ✅ Edge-TTS (pt-BR-AntonioNeural): Folha_de_S_Paulo_20260605.wav (74KB)
+2026-06-05 18:39:07,287 - INFO - 📤 Enviando áudio (74KB)...
+2026-06-05 18:39:07,571 - INFO - ✅ Folha de S.Paulo: áudio enviado!
+2026-06-05 18:39:07,657 - INFO - 📝 Folha de S.Paulo: texto completo enviado (1181 chars)
+2026-06-05 18:39:09,657 - INFO - 📰 Processando: Nintendo (en)
+2026-06-05 18:39:09,657 - INFO - 🔄 Conectando ao feed: https://www.nintendo.com/en-gb/news.xml
+2026-06-05 18:39:09,767 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:09,767 - INFO - 📖 + Nintendo eShop Highlights – 04/06/2026...
+2026-06-05 18:39:09,767 - INFO - 📖 + Aim for the horizon in the first Mario Kart World global online event!...
+2026-06-05 18:39:09,767 - INFO - 📝 Nintendo: 2 notícia(s) nova(s)
+2026-06-05 18:39:09,767 - INFO - 🎙️  Gerando áudio (EN): Nintendo_20260605.wav...
+2026-06-05 18:39:09,767 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:12,184 - INFO - ✅ Piper: Nintendo_20260605.wav (596KB)
+2026-06-05 18:39:12,184 - INFO - 📤 Enviando áudio (596KB)...
+2026-06-05 18:39:12,513 - INFO - ✅ Nintendo: áudio enviado!
+2026-06-05 18:39:14,513 - INFO - 📰 Processando: IBM (en)
+2026-06-05 18:39:14,513 - INFO - 🔄 Conectando ao feed: https://newsroom.ibm.com/announcements?pagetemplate=rss
+2026-06-05 18:39:14,647 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:14,647 - INFO - 📖 + IBM and Google Cloud Announce Strategic Partnership to Scale AI with H...
+2026-06-05 18:39:14,676 - INFO - 📖 + IBM Launches Global AI Builders Challenge With IBM Bob for University ...
+2026-06-05 18:39:14,676 - INFO - 📝 IBM: 2 notícia(s) nova(s)
+2026-06-05 18:39:14,676 - INFO - 🎙️  Gerando áudio (EN): IBM_20260605.wav...
+2026-06-05 18:39:14,677 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:18,592 - INFO - ✅ Piper: IBM_20260605.wav (973KB)
+2026-06-05 18:39:18,592 - INFO - 📤 Enviando áudio (973KB)...
+2026-06-05 18:39:19,103 - INFO - ✅ IBM: áudio enviado!
+2026-06-05 18:39:19,253 - INFO - 📝 IBM: texto completo enviado (1047 chars)
+2026-06-05 18:39:21,253 - INFO - 📰 Processando: BBC News (en)
+2026-06-05 18:39:21,253 - INFO - 🔄 Conectando ao feed: http://feeds.bbci.co.uk/news/rss.xml
+2026-06-05 18:39:21,427 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:21,428 - INFO - 📖 + Rapist Paul Quinn's 24-year sentence an insult, says wrongly convicted...
+2026-06-05 18:39:21,456 - INFO - 📖 + Ex-Channel 4 News host Jon Snow reveals he has Alzheimer's...
+2026-06-05 18:39:21,456 - INFO - 📝 BBC News: 2 notícia(s) nova(s)
+2026-06-05 18:39:21,457 - INFO - 🎙️  Gerando áudio (EN): BBC_News_20260605.wav...
+2026-06-05 18:39:21,457 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:24,370 - INFO - ✅ Piper: BBC_News_20260605.wav (626KB)
+2026-06-05 18:39:24,370 - INFO - 📤 Enviando áudio (626KB)...
+2026-06-05 18:39:24,732 - INFO - ✅ BBC News: áudio enviado!
+2026-06-05 18:39:26,772 - INFO - 📰 Processando: Pitchfork (en)
+2026-06-05 18:39:26,772 - INFO - 🔄 Conectando ao feed: https://pitchfork.com/feed/feed-news/rss
+2026-06-05 18:39:26,912 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:26,912 - INFO - 📖 + Navy Blue’s New Album Features Ka, Earl Sweatshirt, and James Earl Jon...
+2026-06-05 18:39:26,912 - INFO - 📖 + Phoebe Bridgers Is Going on Tour...
+2026-06-05 18:39:26,912 - INFO - 📝 Pitchfork: 2 notícia(s) nova(s)
+2026-06-05 18:39:26,912 - INFO - 🎙️  Gerando áudio (EN): Pitchfork_20260605.wav...
+2026-06-05 18:39:26,912 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:28,906 - INFO - ✅ Piper: Pitchfork_20260605.wav (477KB)
+2026-06-05 18:39:28,906 - INFO - 📤 Enviando áudio (477KB)...
+2026-06-05 18:39:29,194 - INFO - ✅ Pitchfork: áudio enviado!
+2026-06-05 18:39:31,194 - INFO - 📰 Processando: Metal Injection (en)
+2026-06-05 18:39:31,194 - INFO - 🔄 Conectando ao feed: https://feeds.feedburner.com/metalinjection.xml
+2026-06-05 18:39:31,530 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:31,567 - INFO - 📖 + JACK OWEN Explains Why Butchered At Birth Is His Least Favorite Of The...
+2026-06-05 18:39:31,604 - INFO - 📖 + TROY THE BAND Gets Trippy & Loud On New Single "Journey's End"...
+2026-06-05 18:39:31,604 - INFO - 📝 Metal Injection: 2 notícia(s) nova(s)
+2026-06-05 18:39:31,605 - INFO - 🎙️  Gerando áudio (EN): Metal_Injection_20260605.wav...
+2026-06-05 18:39:31,605 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:34,061 - INFO - ✅ Piper: Metal_Injection_20260605.wav (607KB)
+2026-06-05 18:39:34,061 - INFO - 📤 Enviando áudio (607KB)...
+2026-06-05 18:39:34,354 - INFO - ✅ Metal Injection: áudio enviado!
+2026-06-05 18:39:34,455 - INFO - 📝 Metal Injection: texto completo enviado (1115 chars)
+2026-06-05 18:39:36,456 - INFO - 📰 Processando: Irish Independent (en)
+2026-06-05 18:39:36,456 - INFO - 🔄 Conectando ao feed: https://www.independent.ie/rss/
+2026-06-05 18:39:36,601 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:36,602 - INFO - 📖 + Cork’s Denis Coughlan, one of the GAA’s greatest dual stars, dies aged...
+2026-06-05 18:39:36,602 - INFO - 📖 + Boy brought to Ireland by father without mother’s consent can stay in ...
+2026-06-05 18:39:36,602 - INFO - 📝 Irish Independent: 2 notícia(s) nova(s)
+2026-06-05 18:39:36,602 - INFO - 🎙️  Gerando áudio (EN): Irish_Independent_20260605.wav...
+2026-06-05 18:39:36,602 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:39,535 - INFO - ✅ Piper: Irish_Independent_20260605.wav (687KB)
+2026-06-05 18:39:39,535 - INFO - 📤 Enviando áudio (687KB)...
+2026-06-05 18:39:39,968 - INFO - ✅ Irish Independent: áudio enviado!
+2026-06-05 18:39:42,001 - INFO - 📰 Processando: Hot Press (Ireland) (en)
+2026-06-05 18:39:42,001 - INFO - 🔄 Conectando ao feed: https://www.hotpress.com/feed
+2026-06-05 18:39:42,197 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:42,197 - INFO - 📖 + Modest Mouse release new album <i>An Eraser and a Maze</i>...
+2026-06-05 18:39:42,198 - INFO - 📖 + Trump cancels concert to mark the 250th birthday of the US...
+2026-06-05 18:39:42,198 - INFO - 📝 Hot Press (Ireland): 2 notícia(s) nova(s)
+2026-06-05 18:39:42,198 - INFO - 🎙️  Gerando áudio (EN): Hot_Press__Ireland__20260605.wav...
+2026-06-05 18:39:42,198 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:44,669 - INFO - ✅ Piper: Hot_Press__Ireland__20260605.wav (579KB)
+2026-06-05 18:39:44,669 - INFO - 📤 Enviando áudio (579KB)...
+2026-06-05 18:39:44,972 - INFO - ✅ Hot Press (Ireland): áudio enviado!
+2026-06-05 18:39:46,973 - INFO - 📰 Processando: The Guardian UK (en)
+2026-06-05 18:39:46,973 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/uk/rss
+2026-06-05 18:39:47,423 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:47,457 - INFO - 📖 + Britain is a swamp of lies and disinformation – and we got here on the...
+2026-06-05 18:39:47,492 - INFO - 📖 + ‘I would draw blood’: Jemaine Clement and Nicola Walker’s wild wrongco...
+2026-06-05 18:39:47,493 - INFO - 📝 The Guardian UK: 2 notícia(s) nova(s)
+2026-06-05 18:39:47,493 - INFO - 🎙️  Gerando áudio (EN): The_Guardian_UK_20260605.wav...
+2026-06-05 18:39:47,493 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:50,274 - INFO - ✅ Piper: The_Guardian_UK_20260605.wav (692KB)
+2026-06-05 18:39:50,274 - INFO - 📤 Enviando áudio (692KB)...
+2026-06-05 18:39:50,602 - INFO - ✅ The Guardian UK: áudio enviado!
+2026-06-05 18:39:50,786 - INFO - 📝 The Guardian UK: texto completo enviado (1379 chars)
+2026-06-05 18:39:52,787 - INFO - 📰 Processando: The Guardian US (en)
+2026-06-05 18:39:52,787 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/us/rss
+2026-06-05 18:39:53,217 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:53,250 - INFO - 📖 + Why US diplomats tweet from the hip in response to Henry Nowak murder...
+2026-06-05 18:39:53,282 - INFO - 📖 + Age gaps, swag gaps and Claude gaps – are they really such a big deal ...
+2026-06-05 18:39:53,282 - INFO - 📝 The Guardian US: 2 notícia(s) nova(s)
+2026-06-05 18:39:53,282 - INFO - 🎙️  Gerando áudio (EN): The_Guardian_US_20260605.wav...
+2026-06-05 18:39:53,282 - INFO -    Engine: Piper (offline)
+2026-06-05 18:39:55,789 - INFO - ✅ Piper: The_Guardian_US_20260605.wav (618KB)
+2026-06-05 18:39:55,789 - INFO - 📤 Enviando áudio (618KB)...
+2026-06-05 18:39:56,152 - INFO - ✅ The Guardian US: áudio enviado!
+2026-06-05 18:39:56,380 - INFO - 📝 The Guardian US: texto completo enviado (1301 chars)
+2026-06-05 18:39:58,419 - INFO - 📰 Processando: The Guardian Tech (en)
+2026-06-05 18:39:58,419 - INFO - 🔄 Conectando ao feed: https://www.theguardian.com/technology/rss
+2026-06-05 18:39:58,791 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:39:58,828 - INFO - 📖 + New claimants seek to sue Elon Musk’s xAI after Labour MP’s test case...
+2026-06-05 18:39:58,862 - INFO - 📖 + A disease of deforestation: how Ebola is linked to the smartphone in y...
+2026-06-05 18:39:58,862 - INFO - 📝 The Guardian Tech: 2 notícia(s) nova(s)
+2026-06-05 18:39:58,862 - INFO - 🎙️  Gerando áudio (EN): The_Guardian_Tech_20260605.wav...
+2026-06-05 18:39:58,862 - INFO -    Engine: Piper (offline)
+2026-06-05 18:40:01,869 - INFO - ✅ Piper: The_Guardian_Tech_20260605.wav (607KB)
+2026-06-05 18:40:01,870 - INFO - 📤 Enviando áudio (607KB)...
+2026-06-05 18:40:02,230 - INFO - ✅ The Guardian Tech: áudio enviado!
+2026-06-05 18:40:02,317 - INFO - 📝 The Guardian Tech: texto completo enviado (1296 chars)
+2026-06-05 18:40:04,318 - INFO - 📰 Processando: Tenho Mais Discos Que Amigos (Brasil) (pt)
+2026-06-05 18:40:04,318 - INFO - 🔄 Conectando ao feed: https://www.tenhomaisdiscosqueamigos.com/feed/
+2026-06-05 18:40:04,467 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:40:04,513 - INFO - 📖 + Guns N’ Roses toca música de seu primeiro disco com Slash e Duff pela ...
+2026-06-05 18:40:04,556 - INFO - 📖 + O desabafo de Canisso sobre a situação do Raimundos ao final de sua vi...
+2026-06-05 18:40:04,557 - INFO - 📝 Tenho Mais Discos Que Amigos (Brasil): 2 notícia(s) nova(s)
+2026-06-05 18:40:04,557 - INFO - 🎙️  Gerando áudio (PT): Tenho_Mais_Discos_Que_Amigos___20260605.wav...
+2026-06-05 18:40:04,557 - INFO -    Engine: Edge-TTS (pt-BR-AntonioNeural)
+2026-06-05 18:40:05,917 - INFO - ✅ Edge-TTS (pt-BR-AntonioNeural): Tenho_Mais_Discos_Que_Amigos___20260605.wav (96KB)
+2026-06-05 18:40:05,917 - INFO - 📤 Enviando áudio (96KB)...
+2026-06-05 18:40:06,275 - INFO - ✅ Tenho Mais Discos Que Amigos (Brasil): áudio enviado!
+2026-06-05 18:40:06,444 - INFO - 📝 Tenho Mais Discos Que Amigos (Brasil): texto completo enviado (1099 chars)
+2026-06-05 18:40:08,444 - INFO - 📰 Processando: MusicRadar (UK) (en)
+2026-06-05 18:40:08,445 - INFO - 🔄 Conectando ao feed: https://www.musicradar.com/feeds/all
+2026-06-05 18:40:08,772 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:40:08,807 - INFO - 📖 + “Ibanez serves up another RG that’s built for stunt guitar, priced for...
+2026-06-05 18:40:08,807 - INFO - 📖 + Confused by guitar tabs and notation? Use this complete guide to readi...
+2026-06-05 18:40:08,807 - INFO - 📝 MusicRadar (UK): 2 notícia(s) nova(s)
+2026-06-05 18:40:08,807 - INFO - 🎙️  Gerando áudio (EN): MusicRadar__UK__20260605.wav...
+2026-06-05 18:40:08,807 - INFO -    Engine: Piper (offline)
+2026-06-05 18:40:12,871 - INFO - ✅ Piper: MusicRadar__UK__20260605.wav (998KB)
+2026-06-05 18:40:12,871 - INFO - 📤 Enviando áudio (998KB)...
+2026-06-05 18:40:13,476 - INFO - ✅ MusicRadar (UK): áudio enviado!
+2026-06-05 18:40:15,509 - INFO - 📰 Processando: NME Music (UK) (en)
+2026-06-05 18:40:15,510 - INFO - 🔄 Conectando ao feed: https://www.nme.com/music/rss
+2026-06-05 18:40:15,715 - INFO - ✅ 0 notícias coletadas
+2026-06-05 18:40:15,715 - INFO - ⏭️  NME Music (UK): sem notícias
+2026-06-05 18:40:15,715 - INFO - 📰 Processando: Rolling Stone Music (US) (en)
+2026-06-05 18:40:15,715 - INFO - 🔄 Conectando ao feed: https://www.rollingstone.com/music/music-news/feed/
+2026-06-05 18:40:15,860 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:40:15,892 - INFO - 📖 + See Bruce Springsteen Play With Kenny Chesney, Dropkick Murphy’s at ‘M...
+2026-06-05 18:40:15,924 - INFO - 📖 + Florida Senator Urges Stadium to Cancel Kanye West Concerts Over ‘Cons...
+2026-06-05 18:40:15,924 - INFO - 📝 Rolling Stone Music (US): 2 notícia(s) nova(s)
+2026-06-05 18:40:15,924 - INFO - 🎙️  Gerando áudio (EN): Rolling_Stone_Music__US__20260605.wav...
+2026-06-05 18:40:15,924 - INFO -    Engine: Piper (offline)
+2026-06-05 18:40:18,886 - INFO - ✅ Piper: Rolling_Stone_Music__US__20260605.wav (737KB)
+2026-06-05 18:40:18,886 - INFO - 📤 Enviando áudio (737KB)...
+2026-06-05 18:40:19,489 - INFO - ✅ Rolling Stone Music (US): áudio enviado!
+2026-06-05 18:40:21,490 - INFO - 📰 Processando: GoldenPlec (Ireland Music) (en)
+2026-06-05 18:40:21,490 - INFO - 🔄 Conectando ao feed: https://www.goldenplec.com/feed/
+2026-06-05 18:40:21,607 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:40:21,637 - INFO - 📖 + RTÉ Choice Music Prize 2025...
+2026-06-05 18:40:21,667 - INFO - 📖 + Gurriers at The Button Factory, Dublin...
+2026-06-05 18:40:21,667 - INFO - 📝 GoldenPlec (Ireland Music): 2 notícia(s) nova(s)
+2026-06-05 18:40:21,668 - INFO - 🎙️  Gerando áudio (EN): GoldenPlec__Ireland_Music__20260605.wav...
+2026-06-05 18:40:21,668 - INFO -    Engine: Piper (offline)
+2026-06-05 18:40:24,051 - INFO - ✅ Piper: GoldenPlec__Ireland_Music__20260605.wav (464KB)
+2026-06-05 18:40:24,052 - INFO - 📤 Enviando áudio (464KB)...
+2026-06-05 18:40:24,542 - INFO - ✅ GoldenPlec (Ireland Music): áudio enviado!
+2026-06-05 18:40:26,574 - INFO - 📰 Processando: Consequence of Sound (US) (en)
+2026-06-05 18:40:26,574 - INFO - 🔄 Conectando ao feed: https://consequence.net/feed/
+2026-06-05 18:40:26,753 - INFO - ✅ 2 notícias coletadas
+2026-06-05 18:40:26,783 - INFO - 📖 + Electric Callboy and The Offspring Join Forces on “Let the Good Times ...
+2026-06-05 18:40:26,818 - INFO - 📖 + Stream On This Week: A Tight Little Thriller, a Cute Little Rom-Com, a...
+2026-06-05 18:40:26,818 - INFO - 📝 Consequence of Sound (US): 2 notícia(s) nova(s)
+2026-06-05 18:40:26,819 - INFO - 🎙️  Gerando áudio (EN): Consequence_of_Sound__US__20260605.wav...
+2026-06-05 18:40:26,819 - INFO -    Engine: Piper (offline)
+2026-06-05 18:40:29,672 - INFO - ✅ Piper: Consequence_of_Sound__US__20260605.wav (722KB)
+2026-06-05 18:40:29,672 - INFO - 📤 Enviando áudio (722KB)...
+2026-06-05 18:40:30,141 - INFO - ✅ Consequence of Sound (US): áudio enviado!
+2026-06-05 18:40:32,141 - INFO - 💾 Histórico: 32 novos títulos
+2026-06-05 18:40:32,243 - INFO - 📊 Resumo enviado: 32 notícias
+2026-06-05 18:40:32,243 - INFO - 🏁 Finalizado. 32 notícias novas.

@@ -1,46 +1,87 @@
 [
     {
         "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
-        "language": "pt"
+        "language": "pt",
+        "name": "Folha de S.Paulo"
     },
     {
         "url": "https://www.nintendo.com/en-gb/news.xml",
-        "language": "en"
+        "language": "en",
+        "name": "Nintendo"
     },
     {
         "url": "https://newsroom.ibm.com/announcements?pagetemplate=rss",
-        "language": "en"
+        "language": "en",
+        "name": "IBM"
     },
     {
         "url": "http://feeds.bbci.co.uk/news/rss.xml",
-        "language": "en"
+        "language": "en",
+        "name": "BBC News"
     },
     {
         "url": "https://pitchfork.com/feed/feed-news/rss",
-        "language": "en"
-    } ,
+        "language": "en",
+        "name": "Pitchfork"
+    },
     {
         "url": "https://feeds.feedburner.com/metalinjection.xml",
-        "language": "en"
+        "language": "en",
+        "name": "Metal Injection"
     },
     {
         "url": "https://www.independent.ie/rss/",
-        "language": "en"
+        "language": "en",
+        "name": "Irish Independent"
     },
     {
         "url": "https://www.hotpress.com/feed",
-        "language": "en"
+        "language": "en",
+        "name": "Hot Press (Ireland)"
     },
     {
         "url": "https://www.theguardian.com/uk/rss",
-        "language": "en"
+        "language": "en",
+        "name": "The Guardian UK"
     },
     {
         "url": "https://www.theguardian.com/us/rss",
-        "language": "en"
+        "language": "en",
+        "name": "The Guardian US"
     },
     {
         "url": "https://www.theguardian.com/technology/rss",
-        "language": "en"
+        "language": "en",
+        "name": "The Guardian Tech"
+    },
+    {
+        "url": "https://www.tenhomaisdiscosqueamigos.com/feed/",
+        "language": "pt",
+        "name": "Tenho Mais Discos Que Amigos (Brasil)"
+    },
+    {
+        "url": "https://www.musicradar.com/feeds/all",
+        "language": "en",
+        "name": "MusicRadar (UK)"
+    },
+    {
+        "url": "https://www.nme.com/music/rss",
+        "language": "en",
+        "name": "NME Music (UK)"
+    },
+    {
+        "url": "https://www.rollingstone.com/music/music-news/feed/",
+        "language": "en",
+        "name": "Rolling Stone Music (US)"
+    },
+    {
+        "url": "https://www.goldenplec.com/feed/",
+        "language": "en",
+        "name": "GoldenPlec (Ireland Music)"
+    },
+    {
+        "url": "https://consequence.net/feed/",
+        "language": "en",
+        "name": "Consequence of Sound (US)"
     }
 ]
