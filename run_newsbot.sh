@@ -49,11 +49,7 @@ EXIT_CODE=$?
 
 echo "📊 Código de saída: $EXIT_CODE" | tee -a "$LOG_FILE"
 
-# 2.5. Envia metadados enriquecidos da música atual para o Telegram
-echo "🎵 Enviando metadados da rádio..." | tee -a "$LOG_FILE"
-nice -n 19 ionice -c 2 -n 7 \
-    timeout 30 "$VENV_DIR/bin/python" "$PROJECT_DIR/azura_telegram_metadata.py" --once >> "$LOG_FILE" 2>&1
-echo "✅ Metadados processados" | tee -a "$LOG_FILE"
+# (AzuraCast radio metadata removed — was in azura_telegram_metadata.py)
 
 # 3. SEMPRE sincroniza com GitHub (mesmo se houve erro, para registrar o log)
 echo "🔄 Sincronizando com GitHub..." | tee -a "$LOG_FILE"

@@ -10,9 +10,11 @@ Coleta RSS feeds de notícias, sumariza com LSA, gera áudio com TTS (Edge-TTS p
 - **Áudio por idioma**: PT → Edge-TTS AntonioNeural (voz natural), EN → Piper Amy (offline)
 - **Resumo consolidado**: 1 áudio (headlines) + 1 mensagem (resumo completo com links) por feed
 - **Cache**: Evita reenviar a mesma notícia (history.json)
-- **Metadados da rádio** (AzuraCast): integração opcional que enriquece a música tocando com Last.fm/MusicBrainz
 - **Cron**: 08:00 e 20:00 todos os dias
-- **Git push automático**: logs e histórico enviados para o GitHub
+- **Git push automático**: código e configurações sincronizados
+
+> ⚠️ **Segurança**: Tokens e secrets (BOT_TOKEN, CHAT_ID) ficam apenas no `.env` local.
+> O `.env` está no `.gitignore` — jamais é commitado. Use `.env.example` como template.
 
 ---
 
@@ -34,6 +36,8 @@ Coleta RSS feeds de notícias, sumariza com LSA, gera áudio com TTS (Edge-TTS p
 ### Instalação
 ```bash
 cd news_colletector
+cp .env.example .env
+nano .env   # Preencha BOT_TOKEN e CHAT_ID
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -53,12 +57,6 @@ pip install edge-tts
 
 # Feed específico (0 = Folha, 3 = BBC, etc.)
 ./run_newsbot.sh --feed 3
-
-# Envio de metadados da música atual da rádio
-./venv/bin/python azura_telegram_metadata.py --once
-
-# Modo teste dos metadados
-./venv/bin/python azura_telegram_metadata.py --test
 ```
 
 ---
@@ -69,8 +67,8 @@ pip install edge-tts
 news_colletector/
 ├── main.py                    # Orquestrador principal
 ├── run_newsbot.sh             # Wrapper para cron (nice, timeout, git push)
-├── sync_git.sh                # Git push automático
-├── azura_telegram_metadata.py # Metadados enriquecidos da rádio
+├── sync_git.sh                # Git push automático (só código, sem tokens/logs)
+├── .env.example               # Template para tokens (copie para .env)
 ├── feeds_config.json          # Lista de feeds RSS
 ├── history.json               # Histórico de notícias já enviadas
 ├── .env                       # Tokens (BOT_TOKEN, CHAT_ID) — não comitar

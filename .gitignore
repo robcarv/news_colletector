@@ -10,11 +10,15 @@ venv/
 data/audio/
 *.wav
 *.mp3
-logs/newsbot_*.log
-logs/cron.log
+logs/
+*.log
 
-# Historico (mantem estado local)
+# Histórico de notícias (mantém estado local, não enviar para GitHub)
 history.json
 
 # Config local
 .env
+.env.local
+
+# AzuraCast radio metadata — apenas local
+azura_telegram_metadata.py

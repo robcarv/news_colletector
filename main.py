@@ -244,9 +244,9 @@ def main():
     # Resumo final (só se enviou algo)
     if not args.dry_run and all_new_titles:
         # Conta quantos feeds com notícias
-        feed_count = len([f for f in feeds if args.feed is None])
+        feed_count = len([f for f in feeds if args.feed is None or f == feeds[args.feed]])
         summary = (f"✅ *NewsBot - Resumo do Dia*\n"
-                   f"📰 {len(all_new_titles)} notícias de {feed_count} feeds\n"
+                   f"📰 {len(all_new_titles)} notícias de {len(feeds)} feeds\n"
                    f"⏰ {datetime.now():%d/%m/%Y %H:%M}")
         send_telegram_message(summary)
         logger.info(f"📊 Resumo enviado: {len(all_new_titles)} notícias")
