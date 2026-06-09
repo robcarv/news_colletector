@@ -15,7 +15,7 @@ cd "$PROJECT_DIR" || { echo "❌ Diretório não encontrado: $PROJECT_DIR"; exit
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
 
 # Configura git para commits automáticos
-export GIT_SSH_COMMAND="ssh -i /home/robert/.ssh/id_rsa -o StrictHostKeyChecking=no"
+export GIT_SSH_COMMAND="ssh -i /home/robert/.ssh/id_ed25519 -o StrictHostKeyChecking=no"
 export GIT_AUTHOR_NAME="robcarv"
 export GIT_AUTHOR_EMAIL="robert_carvalho@hotmail.com"
 export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
