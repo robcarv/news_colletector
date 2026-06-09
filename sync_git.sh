@@ -21,14 +21,15 @@ export GIT_AUTHOR_EMAIL="robert_carvalho@hotmail.com"
 export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
-# Adiciona apenas arquivos relevantes (não logs, áudio, .env)
+# Adiciona apenas arquivos relevantes (exceto .env, audio)
 git add -A
-git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ history.json 2>/dev/null || true
+git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ 2>/dev/null || true
 
 # Verifica se tem algo para commitar
 if git diff --cached --quiet; then
-    echo "📭 Nada novo para commitar em $DATE"
-    exit 0
+    # Força um commit vazio para registrar timestamp mesmo sem noticias
+    git commit --allow-empty -m "NewsBot: heartbeat $(date '+%d/%m/%Y %H:%M')" > /dev/null 2>&1 || true
+    echo "📭 Heartbeat commit em $DATE (sem noticias novas)"
 fi
 
 # Pega um resumo das mudanças para a mensagem de commit
