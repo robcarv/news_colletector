@@ -51,6 +51,44 @@ echo "📊 Código de saída: $EXIT_CODE" | tee -a "$LOG_FILE"
 
 # (AzuraCast radio metadata removed — was in azura_telegram_metadata.py)
 
+# Export news.json for portfolio
+echo "📰 Exportando notícias para o portfolio..." | tee -a "$LOG_FILE"
+$VENV_DIR/bin/python -c "
+import json, os
+news_file = '$PROJECT_DIR/history.json'
+portfolio_file = '/home/robert/Documents/portfolio-html/news.json'
+if os.path.exists(news_file):
+    with open(news_file) as f:
+        data = json.load(f)
+    if isinstance(data, list):
+        raw = data[-15:]
+    elif isinstance(data, dict):
+        raw = data.get('history', [])[-15:]
+    else:
+        raw = []
+    items = []
+    for item in raw:
+        if isinstance(item, str):
+            items.append({'title': item, 'source': 'RSS', 'link': '', 'summary': '', 'date': ''})
+        elif isinstance(item, dict):
+            items.append({
+                'title': item.get('title', ''),
+                'source': item.get('source', 'RSS'),
+                'link': item.get('link', ''),
+                'summary': item.get('summary', ''),
+                'date': item.get('date', '')
+            })
+        else:
+            items.append({'title': str(item), 'source': 'RSS', 'link': '', 'summary': '', 'date': ''})
+    output = {'updated': '$(date -Iseconds)', 'items': items}
+    with open(portfolio_file, 'w') as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+    print(f'  {len(items)} noticias exportadas para portfolio')
+else:
+    print('  history.json nao encontrado')
+    open(portfolio_file, 'w').write(json.dumps({'updated': '$(date -Iseconds)', 'items': []}))
+" >> "$LOG_FILE" 2>&1
+
 # 3. SEMPRE sincroniza com GitHub (mesmo se houve erro, para registrar o log)
 echo "🔄 Sincronizando com GitHub..." | tee -a "$LOG_FILE"
 bash "$PROJECT_DIR/sync_git.sh" >> "$LOG_FILE" 2>&1

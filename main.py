@@ -49,7 +49,8 @@ def save_history(history):
 def is_duplicate(title, history):
     clean = clean_html(title).strip().lower()[:80]
     for h in history:
-        if clean in h.lower() or h.lower() in clean:
+        h_title = h if isinstance(h, str) else h.get('title', '')
+        if clean in h_title.lower() or h_title.lower() in clean:
             return True
     return False
 
@@ -161,7 +162,7 @@ def process_feed(feed_config, dry_run=False):
         logger.info(f"🔍 [DRY-RUN] {name}")
         logger.info(f"    Áudio ({len(audio_text)} chars): {audio_text[:150]}...")
         logger.info(f"    Mensagem ({len(msg)} chars): {len(new_items)} notícias")
-        return [t for t, s, l in new_items]
+        return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
 
     # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
@@ -179,12 +180,12 @@ def process_feed(feed_config, dry_run=False):
             # Fallback: envia só texto
             if len(msg) > 1000:
                 send_telegram_message(msg[:4000])
-            return [t for t, s, l in new_items]
+            return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
     else:
         logger.warning(f"⚠️  {name}: sem áudio, enviando só texto")
         if len(msg) > 1000:
             send_telegram_message(msg[:4000])
-        return [t for t, s, l in new_items]
+        return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
 
     # Se a mensagem for maior que 1000 chars, envia o texto completo separadamente
     if len(msg) > 1000 and len(msg) <= 4000:
@@ -192,7 +193,7 @@ def process_feed(feed_config, dry_run=False):
         send_telegram_message(msg)
         logger.info(f"📝 {name}: texto completo enviado ({len(msg)} chars)")
 
-    return [t for t, s, l in new_items]
+    return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────
