@@ -53,6 +53,11 @@ echo "📊 Código de saída: $EXIT_CODE" | tee -a "$LOG_FILE"
 
 # Export news.json for portfolio
 echo "📰 Exportando notícias para o portfolio..." | tee -a "$LOG_FILE"
+
+# Também atualiza metadados da rádio
+echo "🎵 Atualizando metadados da rádio..." | tee -a "$LOG_FILE"
+$VENV_DIR/bin/python3 /home/robert/Documents/portfolio-html/scripts/azura_metadata.py >> "$LOG_FILE" 2>&1
+
 $VENV_DIR/bin/python -c "
 import json, os
 news_file = '$PROJECT_DIR/history.json'
