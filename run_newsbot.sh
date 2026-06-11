@@ -76,7 +76,8 @@ if os.path.exists(news_file):
                 'source': item.get('source', 'RSS'),
                 'link': item.get('link', ''),
                 'summary': item.get('summary', ''),
-                'date': item.get('date', '')
+                'date': item.get('date', ''),
+                'image': item.get('image', '')
             })
         else:
             items.append({'title': str(item), 'source': 'RSS', 'link': '', 'summary': '', 'date': ''})

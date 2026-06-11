@@ -95,18 +95,21 @@ def process_feed(feed_config, dry_run=False):
         return []
 
     # 2. Processa cada notícia
-    new_items = []  # (title, summary, link)
+    new_items = []  # (title, summary, link, source, published, image)
     for item in news_items:
         title = item['title']
         raw = item.get('raw_summary', '')
         link = item.get('link', '')
+        published = item.get('published_at', datetime.now())
+        image = item.get('image', '')
+        source = name
 
         if is_duplicate(title, history):
             logger.info(f"⏭️  Já vista: {title[:60]}...")
             continue
 
         summary = summarize_content(raw, language=lang)
-        new_items.append((title, summary, link))
+        new_items.append((title, summary, link, source, published, image))
         logger.info(f"📖 + {title[:70]}...")
 
     if not new_items:
@@ -118,10 +121,10 @@ def process_feed(feed_config, dry_run=False):
     # ─── 3a. Texto para ÁUDIO (só headlines, curto) ───────────────
     if lang == 'pt':
         audio_text = f"Notícias de {name}.\n\n"
-        audio_text += "\n".join(f"{i}. {t}" for i, (t, s, l) in enumerate(new_items, 1))
+        audio_text += "\\n".join(f"{i}. {t}" for i, (t, s, l, src, pub, img) in enumerate(new_items, 1))
     else:
-        audio_text = f"News from {name}.\n\n"
-        audio_text += "\n".join(f"{i}. {t}" for i, (t, s, l) in enumerate(new_items, 1))
+        audio_text = f"News from {name}.\\n\\n"
+        audio_text += "\\n".join(f"{i}. {t}" for i, (t, s, l, src, pub, img) in enumerate(new_items, 1))
 
     # Limita tamanho do áudio a ~2000 chars (cabe em ~1min)
     if len(audio_text) > Config.MAX_AUDIO_CHARS:
@@ -133,7 +136,7 @@ def process_feed(feed_config, dry_run=False):
     else:
         msg = f"📰 *{name}*\n📅 {datetime.now():%d/%m/%Y}\n━━━━━━━━━━━━━━\n\n"
 
-    for i, (title, summary, link) in enumerate(new_items, 1):
+    for i, (title, summary, link, src, pub, img) in enumerate(new_items, 1):
         # Título em negrito
         msg += f"**{i}. {title}**\n"
         # Resumo (se houver)
@@ -162,7 +165,7 @@ def process_feed(feed_config, dry_run=False):
         logger.info(f"🔍 [DRY-RUN] {name}")
         logger.info(f"    Áudio ({len(audio_text)} chars): {audio_text[:150]}...")
         logger.info(f"    Mensagem ({len(msg)} chars): {len(new_items)} notícias")
-        return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
+        return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
 
     # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
@@ -180,12 +183,12 @@ def process_feed(feed_config, dry_run=False):
             # Fallback: envia só texto
             if len(msg) > 1000:
                 send_telegram_message(msg[:4000])
-            return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
+            return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
     else:
         logger.warning(f"⚠️  {name}: sem áudio, enviando só texto")
         if len(msg) > 1000:
             send_telegram_message(msg[:4000])
-        return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
+        return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
 
     # Se a mensagem for maior que 1000 chars, envia o texto completo separadamente
     if len(msg) > 1000 and len(msg) <= 4000:
@@ -193,7 +196,7 @@ def process_feed(feed_config, dry_run=False):
         send_telegram_message(msg)
         logger.info(f"📝 {name}: texto completo enviado ({len(msg)} chars)")
 
-    return [{'title': t, 'summary': s, 'link': l, 'source': name, 'date': datetime.now().isoformat()} for t, s, l in new_items]
+    return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────
