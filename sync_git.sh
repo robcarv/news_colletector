@@ -25,12 +25,11 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git add -A
 git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ 2>/dev/null || true
 
-# Também faz push do news.json no repositorio do portfolio
-if [ -f /home/robert/Documents/portfolio-html/news.json ]; then
+# Também faz push do news.json e health.json no repositorio do portfolio
+if [ -f /home/robert/Documents/portfolio-html/news.json ] || ssh -o StrictHostKeyChecking=no robert@192.168.68.108 'cat /home/robert/health_reports/health.json' 2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
     cd /home/robert/Documents/portfolio-html
-    git add news.json
+    git add news.json health.json
     # Força GitHub Pages a reconstruir tocando o HTML
-    # Isso garante que o site sempre reflita as últimas notícias
     touch index.html
     git add index.html
     git commit -m "news: update feed $(date '+%d/%m/%Y %H:%M')" -q || true
