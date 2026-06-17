@@ -1,18 +1,22 @@
 #!/bin/bash
 # =============================================================================
-# News Collector - Sync GitHub v2
+# News Collector - Sync GitHub v3
 # =============================================================================
-# Sincroniza logs, histórico, config e feeds com o GitHub.
-# Chamado pelo cron após cada execução.
-# Sempre faz push mesmo se não houver mudanças (força update do log).
+# Sincroniza o repositorio news_colletector com o GitHub.
+# E tambem faz push do portfolio (robcarv.github.io) via sync_portfolio.sh
 # =============================================================================
-
-set -e
+# Melhorias v3:
+#  - sem 'set -e' (nao trava em erros parciais)
+#  - portfolio sync separado em script proprio
+#  - logging mais claro com timestamps
+#  - health.json agora via script dedicado
+# =============================================================================
 
 PROJECT_DIR="/home/robert/Documents/vscode_projects/news_colletector"
-cd "$PROJECT_DIR" || { echo "❌ Diretório não encontrado: $PROJECT_DIR"; exit 1; }
+cd "$PROJECT_DIR" || { echo "[ERRO] Diretorio nao encontrado: $PROJECT_DIR"; exit 1; }
 
 DATE=$(date '+%Y-%m-%d %H:%M:%S')
+echo "=== sync_git.sh v3 - $DATE ==="
 
 # Configura git para commits automáticos
 export GIT_SSH_COMMAND="ssh -i /home/robert/.ssh/id_ed25519 -o StrictHostKeyChecking=no"
@@ -21,45 +25,64 @@ export GIT_AUTHOR_EMAIL="robert_carvalho@hotmail.com"
 export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
-# Adiciona apenas arquivos relevantes (exceto .env, audio)
+# ─── 1. Push news_colletector ───────────────────────────────────────────────
+
+echo "[1/3] Sincronizando news_colletector..."
+
+# Adiciona apenas arquivos relevantes (exceto .env, audio, logs)
 git add -A
 git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ 2>/dev/null || true
-
-# Também faz push do news.json e health.json no repositorio do portfolio
-if [ -f /home/robert/Documents/portfolio-html/news.json ] || ssh -o StrictHostKeyChecking=no robert@192.168.68.108 'cat /home/robert/health_reports/health.json' 2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
-    cd /home/robert/Documents/portfolio-html
-    git add news.json health.json
-    # Força GitHub Pages a reconstruir tocando o HTML
-    touch index.html
-    git add index.html
-    git commit -m "news: update feed $(date '+%d/%m/%Y %H:%M')" -q || true
-    git push origin main -q 2>/dev/null || true
-    cd "$PROJECT_DIR"
-fi
 
 # Verifica se tem algo para commitar
 if git diff --cached --quiet; then
     # Força um commit vazio para registrar timestamp mesmo sem noticias
     git commit --allow-empty -m "NewsBot: heartbeat $(date '+%d/%m/%Y %H:%M')" > /dev/null 2>&1 || true
-    echo "📭 Heartbeat commit em $DATE (sem noticias novas)"
+    echo "  Heartbeat commit (sem noticias novas)"
 fi
 
-# Pega um resumo das mudanças para a mensagem de commit
+# Pega resumo das mudancas para o commit
 SUMMARY=$(git diff --cached --name-only | head -10)
 NEWS_COUNT=$(git diff --cached -- '*.json' | grep '"title"' | wc -l)
-
 COMMIT_MSG="NewsBot: $(date '+%d/%m/%Y %H:%M') - ${NEWS_COUNT} noticias
 
 Arquivos alterados:
 $(echo "$SUMMARY" | sed 's/^/  - /')"
 
-git commit -m "$COMMIT_MSG" -q
+git commit -m "$COMMIT_MSG" -q 2>/dev/null || true
 
 if git push origin main -q 2>&1; then
-    echo "✅ GitHub sync concluído em $DATE"
+    echo "  OK news_colletector -> GitHub"
 else
-    echo "⚠️  Falha no push, tentando pull + rebase..."
-    git pull --rebase origin main -q && git push origin main -q && \
-        echo "✅ GitHub sync (com rebase) concluído" || \
-        echo "❌ Falha definitiva no GitHub push"
+    echo "  Falha no push, tentando pull + rebase..."
+    if git pull --rebase origin main -q && git push origin main -q 2>&1; then
+        echo "  OK news_colletector (com rebase)"
+    else
+        echo "  ERRO Falha definitiva no push do news_colletector"
+    fi
 fi
+
+# ─── 2. Push portfolio (robcarv.github.io) via script dedicado ───────────────
+
+echo "[2/3] Sincronizando portfolio (robcarv.github.io)..."
+SCRIPT="$PROJECT_DIR/sync_portfolio.sh"
+if [ -f "$SCRIPT" ]; then
+    bash "$SCRIPT"
+    echo "  Portfolio sync exit code: $?"
+else
+    echo "  Aviso: $SCRIPT nao encontrado, pulando"
+fi
+
+# ─── 3. Health check via SSH do Pi5 (se disponivel) ──────────────────────────
+# Opcional — nao falha se o Pi5 estiver offline
+
+echo "[3/3] Atualizando health.json (Pi5)..."
+if ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no \
+    robert@192.168.68.108 \
+    'cat /home/robert/health_reports/health.json' \
+    2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
+    echo "  OK health.json atualizado do Pi5"
+else
+    echo "  Pi5 offline ou health.json indisponivel (ignorado)"
+fi
+
+echo "=== sync_git.sh concluido ==="

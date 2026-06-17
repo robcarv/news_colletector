@@ -51,17 +51,22 @@ echo "📊 Código de saída: $EXIT_CODE" | tee -a "$LOG_FILE"
 
 # (AzuraCast radio metadata removed — was in azura_telegram_metadata.py)
 
-# Export news.json for portfolio
+# Export news.json for portfolio (com data real, nao string literal)
 echo "📰 Exportando notícias para o portfolio..." | tee -a "$LOG_FILE"
 
-# Também atualiza metadados da rádio
+# Atualiza metadados da rádio
 echo "🎵 Atualizando metadados da rádio..." | tee -a "$LOG_FILE"
 $VENV_DIR/bin/python3 /home/robert/Documents/portfolio-html/scripts/azura_metadata.py >> "$LOG_FILE" 2>&1
 
-$VENV_DIR/bin/python -c "
+# Gera news.json com a data/hora atual em Python (nao shell, para evitar bug de expansao)
+$VENV_DIR/bin/python3 -c "
 import json, os
+from datetime import datetime, timezone
+
 news_file = '$PROJECT_DIR/history.json'
 portfolio_file = '/home/robert/Documents/portfolio-html/news.json'
+now_iso = datetime.now(timezone.utc).astimezone().isoformat()
+
 if os.path.exists(news_file):
     with open(news_file) as f:
         data = json.load(f)
@@ -86,13 +91,14 @@ if os.path.exists(news_file):
             })
         else:
             items.append({'title': str(item), 'source': 'RSS', 'link': '', 'summary': '', 'date': ''})
-    output = {'updated': '$(date -Iseconds)', 'items': items}
+    output = {'updated': now_iso, 'items': items}
     with open(portfolio_file, 'w') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     print(f'  {len(items)} noticias exportadas para portfolio')
 else:
     print('  history.json nao encontrado')
-    open(portfolio_file, 'w').write(json.dumps({'updated': '$(date -Iseconds)', 'items': []}))
+    with open(portfolio_file, 'w') as f:
+        json.dump({'updated': now_iso, 'items': []}, f, indent=2, ensure_ascii=False)
 " >> "$LOG_FILE" 2>&1
 
 # 3. SEMPRE sincroniza com GitHub (mesmo se houve erro, para registrar o log)
