@@ -21,7 +21,7 @@ echo "=== sync_git.sh v3 - $DATE ==="
 # Configura git para commits automáticos
 export GIT_SSH_COMMAND="ssh -i /home/robert/.ssh/id_ed25519 -o StrictHostKeyChecking=no"
 export GIT_AUTHOR_NAME="robcarv"
-export GIT_AUTHOR_EMAIL="robert_carvalho@hotmail.com"
+export GIT_AUTHOR_EMAIL="noreply@robcarv.dev"
 export GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
@@ -76,13 +76,19 @@ fi
 # Opcional — nao falha se o Pi5 estiver offline
 
 echo "[3/3] Atualizando health.json (Pi5)..."
-if ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no \
-    robert@192.168.68.108 \
-    'cat /home/robert/health_reports/health.json' \
-    2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
-    echo "  OK health.json atualizado do Pi5"
+# IP resolved via /etc/hosts (pi5=192.168.68.108), never hardcoded in public repos
+PI5_HOST=$(getent hosts pi5 2>/dev/null | awk '{print $1}')
+if [ -z "$PI5_HOST" ]; then
+    echo "  pi5 nao resolvido em /etc/hosts, pulando health check"
 else
-    echo "  Pi5 offline ou health.json indisponivel (ignorado)"
+    if ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no \
+        robert@pi5 \
+        'cat /home/robert/health_reports/health.json' \
+        2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
+        echo "  OK health.json atualizado do Pi5"
+    else
+        echo "  Pi5 offline ou health.json indisponivel (ignorado)"
+    fi
 fi
 
 echo "=== sync_git.sh concluido ==="

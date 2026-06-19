@@ -39,7 +39,7 @@ if _env_path.exists():
         pass
 
 TELEGRAM_TOKEN = os.getenv("BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.getenv("CHAT_ID", "1585519868")
+TELEGRAM_CHAT_ID = os.getenv("CHAT_ID")
 
 # Cache de capas para não sobrecarregar
 CACHE_FILE = Path("/tmp/azura_cache.json")
@@ -151,7 +151,7 @@ def search_musicbrainz(artist, title):
     """Busca informações adicionais no MusicBrainz."""
     try:
         url = "https://musicbrainz.org/ws/2/recording/"
-        headers = {'User-Agent': 'DublinCallingBot/1.0 ( robert_carvalho@hotmail.com )'}
+        headers = {'User-Agent': 'DublinCallingBot/1.0'}
         params = {
             'query': f'artist:"{artist}" AND recording:"{title}"',
             'fmt': 'json',
