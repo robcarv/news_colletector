@@ -207,7 +207,7 @@ def process_feed(feed_config, dry_run=False):
 # ─── Main ─────────────────────────────────────────────────────────────────
 
 def _generate_jingle(lang_feeds, all_feeds, language):
-    """Gera jingle monolíngue natural — PT ou EN, com 'Dublin Calling' em GB."""
+    """Gera jingle de ~10 minutos — notícias completas com resumos, pausas naturais."""
     try:
         from datetime import datetime
         import tempfile, shutil
@@ -215,19 +215,19 @@ def _generate_jingle(lang_feeds, all_feeds, language):
         if not lang_feeds:
             return
 
-        # Coleta todos os títulos (já filtrados por idioma)
+        # Coleta todas as notícias com resumo
         items = []
         seen = set()
         for name, feed_items in lang_feeds.items():
             for item in feed_items:
                 title = item.get('title', '') if isinstance(item, dict) else str(item[0])
+                summary = item.get('summary', '') if isinstance(item, dict) else ''
                 if not title or title in seen:
                     continue
                 seen.add(title)
-                clean = title.strip().rstrip('.')
-                # Simplifica nome da fonte
+                clean_title = title.strip().rstrip('.')
                 short = name.replace(' (Brasil)', '').replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').replace('Brasil ', '').strip()
-                items.append((clean, short))
+                items.append((clean_title, short, summary))
 
         if not items:
             return
@@ -239,17 +239,18 @@ def _generate_jingle(lang_feeds, all_feeds, language):
         if is_pt:
             saudacao = "Boa noite" if hora >= 18 or hora < 6 else "Boa tarde" if hora >= 12 else "Bom dia"
             flag = "do Brasil"
+            target_chars = 8000  # ~10 minutos em PT (~13 chars/s)
         else:
             saudacao = "Good evening" if hora >= 18 or hora < 6 else "Good afternoon" if hora >= 12 else "Good morning"
             flag = "from around the world"
+            target_chars = 9000  # ~10 minutos em EN (~15 chars/s)
 
         tmp_dir = Path(tempfile.mkdtemp(prefix=f"jingle_{language}_"))
         audio_files = []
 
-        # ── "Dublin Calling" (GB, gerado 1x, usado 2x) ──
+        # ── "Dublin Calling" (GB) ──
         dc_path = tmp_dir / "00_dc.wav"
         if not generate_audio_file("Dublin Calling.", str(dc_path), "gb", force=True):
-            logger.warning(f"Jingle {language}: falha DC GB")
             shutil.rmtree(tmp_dir, ignore_errors=True)
             return
 
@@ -260,39 +261,81 @@ def _generate_jingle(lang_feeds, all_feeds, language):
             audio_files.append((language, p))
             audio_files.append(("dc", dc_path))
 
-        # ── Headlines ──
-        lines = []
-        max_items = 10 if is_pt else 12
-        for title, source in items[:max_items]:
-            lines.append(f"{source}. {title}.")
-        body_text = " ".join(lines)
-        if len(body_text) > 3000:
-            body_text = body_text[:3000].rsplit('.', 1)[0] + "."
+        # ── Blocos de notícias (~60-90s cada, com resumos) ──
+        # Constrói texto rico: "Fonte. Título. Resumo de 2-3 frases."
+        all_lines = []
+        for title, source, summary in items:
+            line = f"{source}. {title}."
+            if summary and len(summary) > 30:
+                # Limpa e trunca resumo para ~200 chars (2-3 frases)
+                clean_summary = summary.strip().rstrip('.')
+                if len(clean_summary) > 250:
+                    clean_summary = clean_summary[:250].rsplit('.', 1)[0] + "."
+                line += f" {clean_summary}"
+            all_lines.append(line)
 
-        if body_text:
-            p = tmp_dir / "02_body.wav"
-            if generate_audio_file(body_text, str(p), language, force=True):
+        # Divide em blocos de ~1000 chars (~60s cada)
+        block_size = 1000
+        blocks = []
+        current_block = []
+        current_len = 0
+
+        for line in all_lines:
+            line_len = len(line) + 2  # +2 for ". " separator
+            if current_len + line_len > block_size and current_block:
+                blocks.append(" ".join(current_block))
+                current_block = []
+                current_len = 0
+            current_block.append(line)
+            current_len += line_len
+
+        if current_block:
+            blocks.append(" ".join(current_block))
+
+        # Se ainda não atingiu ~10 min, duplica alguns itens com "Em outras notícias..."
+        total_chars = sum(len(b) for b in blocks)
+        filler_idx = 0
+        while total_chars < target_chars and len(items) > 2:
+            # Adiciona bloco extra com as mesmas notícias mas fraseado diferente
+            if is_pt:
+                extra = "Em resumo. " + " ".join(f"{s}. {t}." for t, s, _ in items[min(filler_idx, len(items)-3):min(filler_idx+3, len(items))])
+            else:
+                extra = "In summary. " + " ".join(f"{s}. {t}." for t, s, _ in items[min(filler_idx, len(items)-3):min(filler_idx+3, len(items))])
+            blocks.append(extra)
+            total_chars += len(extra)
+            filler_idx = (filler_idx + 2) % max(1, len(items) - 2)
+            if len(blocks) > 15:  # safety
+                break
+
+        # Gera áudio para cada bloco
+        for i, block_text in enumerate(blocks):
+            p = tmp_dir / f"block_{i:02d}.wav"
+            if generate_audio_file(block_text, str(p), language, force=True):
                 audio_files.append((language, p))
 
         # ── Outro ──
         outro_text = "Essas foram as notícias. A sua rádio. Mais notícias em seis horas." if is_pt else "Those were the latest news. Your radio station. More news in six hours."
-        p = tmp_dir / "03_outro.wav"
+        p = tmp_dir / f"outro.wav"
         if generate_audio_file(outro_text, str(p), language, force=True):
             audio_files.append((language, p))
             audio_files.append(("dc", dc_path))
 
-        if len(audio_files) < 2:
+        if len(audio_files) < 3:
             shutil.rmtree(tmp_dir, ignore_errors=True)
             return
 
-        logger.info(f"  Jingle {language.upper()}: {len(items)} notícias → {len(audio_files)} segmentos")
+        total_items = len(items)
+        logger.info(f"  Jingle {language.upper()}: {total_items} notícias → {len(blocks)} blocos → {len(audio_files)} segmentos")
 
         # ── Concatena ──
-        silence_15 = tmp_dir / "s15.wav"
-        silence_08 = tmp_dir / "s08.wav"
-        silence_05 = tmp_dir / "s05.wav"
-        for dur, out in [(1.5, silence_15), (0.8, silence_08), (0.5, silence_05)]:
-            subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=22050:cl=mono", "-t", str(dur), str(out)], capture_output=True)
+        for dur, name in [(1.5, "s15"), (0.8, "s08"), (0.5, "s05")]:
+            out = tmp_dir / f"{name}.wav"
+            subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono",
+                           "-t", str(dur), str(out)], capture_output=True)
+
+        sl15 = tmp_dir / "s15.wav"
+        sl08 = tmp_dir / "s08.wav"
+        sl05 = tmp_dir / "s05.wav"
 
         concat_list = tmp_dir / "concat.txt"
         with open(concat_list, "w") as f:
@@ -301,17 +344,18 @@ def _generate_jingle(lang_feeds, all_feeds, language):
                 if i < len(audio_files) - 1:
                     next_tag = audio_files[i + 1][0]
                     if tag == "dc" or next_tag == "dc":
-                        f.write(f"file '{silence_05}'\n")
+                        f.write(f"file '{sl05}'\n")
                     elif tag == next_tag:
-                        f.write(f"file '{silence_08}'\n")
+                        # Blocos do mesmo idioma: pausa de 1.5s entre blocos
+                        f.write(f"file '{sl15}'\n")
                     else:
-                        f.write(f"file '{silence_15}'\n")
+                        f.write(f"file '{sl15}'\n")
 
         jingle_wav = Config.AUDIO_DIR / f"news_jingle_{language}.wav"
         result = subprocess.run(
             ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_list),
              "-ac", "1", "-ar", "22050", str(jingle_wav)],
-            capture_output=True, timeout=60
+            capture_output=True, timeout=120
         )
 
         if result.returncode != 0:
@@ -320,17 +364,20 @@ def _generate_jingle(lang_feeds, all_feeds, language):
             return
 
         size_kb = jingle_wav.stat().st_size // 1024
-        dur = float(subprocess.run(['ffprobe', '-v', 'quiet', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(jingle_wav)], capture_output=True, text=True).stdout.strip() or 0)
-        logger.info(f"  ✅ Jingle {language.upper()}: {size_kb}KB, {dur:.1f}s")
+        dur = float(subprocess.run(['ffprobe', '-v', 'quiet', '-show_entries', 'format=duration',
+                   '-of', 'csv=p=0', str(jingle_wav)], capture_output=True, text=True).stdout.strip() or 0)
+        minutes = int(dur // 60)
+        seconds = int(dur % 60)
+        logger.info(f"  ✅ Jingle {language.upper()}: {size_kb}KB, {minutes}:{seconds:02d}")
 
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
-        # Upload para AzuraCast
+        # Upload
         from src.azuracast_news import upload_jingle
         jingle_filename = f"news_jingle_{language}.mp3"
         if upload_jingle(str(jingle_wav), filename=jingle_filename):
             from src.notifier import send_telegram_message
-            send_telegram_message(f"📻 *News na rádio!* Jingle {language.upper()} com {len(items)} notícias")
+            send_telegram_message(f"📻 *News na rádio!* Jingle {language.upper()} com {total_items} notícias ({minutes}min)")
     except Exception as e:
         logger.warning(f"Jingle {language}: {e}", exc_info=True)
 
