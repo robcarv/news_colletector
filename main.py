@@ -202,15 +202,17 @@ def process_feed(feed_config, dry_run=False):
 # ─── Main ─────────────────────────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="News Collector v3.1")
+    parser = argparse.ArgumentParser(description="News Collector v4")
     parser.add_argument('--feed', type=int, default=None,
                         help='Processar apenas um feed (índice)')
     parser.add_argument('--dry-run', action='store_true',
                         help='Apenas simular')
+    parser.add_argument('--podcast', action='store_true',
+                        help='Gerar podcast diário com todas as notícias')
     args = parser.parse_args()
 
     Config.setup_folders()
-    logger.info("🚀 News Collector v3.1 iniciado")
+    logger.info("🚀 News Collector v4 iniciado")
 
     cleanup_old_audio()
 
@@ -222,12 +224,15 @@ def main():
     logger.info(f"📚 {len(feeds)} feeds carregados")
 
     all_new_titles = []
+    podcast_feeds = {}  # {feed_name: [items]} para podcast
     for idx, feed in enumerate(feeds):
         if args.feed is not None and idx != args.feed:
             continue
         try:
             new_titles = process_feed(feed, dry_run=args.dry_run)
             all_new_titles.extend(new_titles)
+            if new_titles:
+                podcast_feeds[feed.get('name', f'feed_{idx}')] = new_titles
             if not args.dry_run and new_titles:
                 time.sleep(2)  # pausa reduzida de 3s para 2s
             # Garbage collection periódico para não acumular memória
@@ -255,7 +260,21 @@ def main():
         send_telegram_message(summary)
         logger.info(f"📊 Resumo enviado: {len(all_new_titles)} notícias")
 
-    logger.info(f"🏁 Finalizado. {len(all_new_titles)} notícias novas.")
+    # Podcast diario (se flag --podcast)
+    if args.podcast and podcast_feeds and not args.dry_run:
+        try:
+            from src.podcast import generate_podcast
+            for lang in ['pt', 'en']:
+                lang_feeds = {k: v for k, v in podcast_feeds.items() 
+                             if any(f.get('language') == lang for f in feeds if f.get('name') == k)}
+                if lang_feeds:
+                    podcast_path = generate_podcast(lang_feeds, language=lang)
+                    if podcast_path:
+                        logger.info(f"Podcast {lang.upper()}: {podcast_path}")
+        except Exception as e:
+            logger.warning(f"Podcast nao gerado: {e}")
+
+    logger.info(f"Finalizado. {len(all_new_titles)} noticias novas.")
 
 
 if __name__ == "__main__":
