@@ -23,7 +23,7 @@ import requests
 logger = logging.getLogger(__name__)
 
 AZURACAST_URL = "https://dublincalling.duckdns.org/api"
-STATION_ID = 1  # ID da estação Dublin Calling (verificar no admin)
+STATION_ID = 2  # ID da estação dublincalling (verificado via API /stations)
 JINGLE_FOLDER = "news_jingles"
 JINGLE_FILENAME = "news_jingle.mp3"
 
@@ -73,38 +73,14 @@ def upload_jingle(audio_path):
             return False
         logger.info(f"  MP3: {mp3_path.stat().st_size // 1024}KB")
 
-    # 2. Lista arquivos existentes na pasta news_jingles
-    try:
-        r = requests.get(
-            f"{AZURACAST_URL}/station/{STATION_ID}/files",
-            headers=headers,
-            params={"path": JINGLE_FOLDER},
-            timeout=10
-        )
+    # 2. Skip listagem — muito lenta em estações com biblioteca grande.
+    #    Vamos direto pro upload (a API sobrescreve arquivo com mesmo nome).
 
-        # 3. Deleta jingle anterior (evita acumular arquivos)
-        if r.ok:
-            for f in r.json():
-                name = f.get("media_name", "")
-                if name.startswith("news_jingle") or name.startswith(JINGLE_FILENAME):
-                    logger.info(f"  Deletando jingle anterior: {name}")
-                    requests.delete(
-                        f"{AZURACAST_URL}/station/{STATION_ID}/files",
-                        headers=headers,
-                        json={"path": f"{JINGLE_FOLDER}/{name}"},
-                        timeout=10
-                    )
-                    break  # só deve ter 1 jingle por vez
-        else:
-            logger.warning(f"  List files: {r.status_code} (pasta pode não existir ainda)")
-    except Exception as e:
-        logger.warning(f"  List/delete: {e}")
-
-    # 4. Upload do novo jingle
+    # 3. Upload do novo jingle
     try:
         with open(mp3_path, "rb") as f:
             r = requests.post(
-                f"{AZURACAST_URL}/station/{STATION_ID}/files",
+                f"{AZURACAST_URL}/station/{STATION_ID}/files/upload",
                 headers=headers,
                 files={"file": (JINGLE_FILENAME, f, "audio/mpeg")},
                 data={"path": JINGLE_FOLDER},
