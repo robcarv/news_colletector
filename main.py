@@ -293,14 +293,27 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
             "Tecnologia": "In technology",
         }
 
-        # ─── Segmento 1: INTRO (PT) ───────────────────────────────────
-        intro_pt = f"Este é o Dublin Calling. Notícias da música, tecnologia e cultura. {saudacao_pt}."
-        
+        # ─── Segmentos de áudio (ordem de concatenação) ──────────────────
+        # "Dublin Calling" sempre em EN, inserido entre segmentos PT
+
+        tmp_dir = Path(tempfile.mkdtemp(prefix="jingle_"))
+
+        # ─── Segmento 0: "Dublin Calling" (EN, gerado 1x, usado 2x) ──
+        dc_path = tmp_dir / "00_dc.wav"
+        dc_ok = generate_audio_file("Dublin Calling.", str(dc_path), "en", force=True)
+        if not dc_ok:
+            logger.warning("Jingle: falha ao gerar 'Dublin Calling' EN")
+            shutil.rmtree(tmp_dir, ignore_errors=True)
+            return
+
+        # ─── Segmento 1: INTRO PT (sem "Dublin Calling") ──────────────
+        intro_pt = f"Este é o. Notícias da música, tecnologia e cultura. {saudacao_pt}."
+
         # ─── Segmento 2: BRASIL (PT) ──────────────────────────────────
         brasil_lines = []
         if pt_groups["Brasil"]:
             brasil_lines.append("No Brasil.")
-            for title, source in pt_groups["Brasil"][:6]:  # max 6 BR
+            for title, source in pt_groups["Brasil"][:6]:
                 short = source.replace(' (Brasil)', '').replace('Brasil ', '').strip()
                 brasil_lines.append(f"{short}. {title}.")
 
@@ -317,44 +330,44 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
                 short = source.replace(' (Ireland)', '').replace(' (UK)', '').replace(' (US)', '').strip()
                 en_lines.append(f"{short}. {title}.")
 
-        # ─── Segmento 4: OUTRO (PT) ───────────────────────────────────
-        outro_pt = "Essas foram as notícias da última hora. Dublin Calling, a sua rádio. Mais notícias em seis horas."
+        # ─── Segmento 4: OUTRO PT (sem "Dublin Calling") ──────────────
+        outro_pt = "Essas foram as notícias da última hora. A sua rádio. Mais notícias em seis horas."
 
-        # Limita tamanho dos segmentos (máx ~60s cada)
+        # Limita tamanho
         brasil_text = " ".join(brasil_lines) if brasil_lines else ""
         en_text = " ".join(en_lines) if en_lines else ""
-        
         max_seg = 2500
         if len(brasil_text) > max_seg:
             brasil_text = brasil_text[:max_seg].rsplit('.', 1)[0] + "."
         if len(en_text) > max_seg:
             en_text = en_text[:max_seg].rsplit('.', 1)[0] + "."
 
-        # ─── Gera áudios separados ────────────────────────────────────
-        tmp_dir = Path(tempfile.mkdtemp(prefix="jingle_"))
-        audio_files = []  # lista de paths na ordem
-        
-        # 1. Intro PT
+        # ─── Gera áudios ──────────────────────────────────────────────
+        audio_files = []  # (tag, path) — tag: pt/en/dc
+
+        # Intro: "Este é o" [DC-EN] "Notícias da música..."
         p = tmp_dir / "01_intro.wav"
         if generate_audio_file(intro_pt, str(p), "pt", force=True):
-            audio_files.append(p)
-        
-        # 2. Brasil PT
+            audio_files.append(("pt", p))
+            audio_files.append(("dc", dc_path))  # Dublin Calling EN
+
+        # Brasil
         if brasil_text:
             p = tmp_dir / "02_brasil.wav"
             if generate_audio_file(brasil_text, str(p), "pt", force=True):
-                audio_files.append(p)
-        
-        # 3. Internacional EN
+                audio_files.append(("pt", p))
+
+        # Internacional
         if en_text:
-            p = tmp_dir / "03_internacional.wav"
+            p = tmp_dir / "03_inter.wav"
             if generate_audio_file(en_text, str(p), "en", force=True):
-                audio_files.append(p)
-        
-        # 4. Outro PT
+                audio_files.append(("en", p))
+
+        # Outro: "Essas foram..." [DC-EN] "A sua rádio..."
         p = tmp_dir / "04_outro.wav"
         if generate_audio_file(outro_pt, str(p), "pt", force=True):
-            audio_files.append(p)
+            audio_files.append(("pt", p))
+            audio_files.append(("dc", dc_path))  # Dublin Calling EN de novo
 
         if len(audio_files) < 2:
             logger.warning("Jingle: poucos segmentos gerados, abortando")
@@ -363,23 +376,32 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
 
         logger.info(f"  Boletim bilíngue: {total} notícias → {len(audio_files)} segmentos de áudio")
         
-        # ─── Concatena com pausas (ffmpeg) ────────────────────────────
-        # Gera silêncio de 1.5s e 0.8s
-        silence_long = tmp_dir / "silence_1.5s.wav"
-        silence_short = tmp_dir / "silence_0.8s.wav"
+        # ─── Concatena com pausas inteligentes (ffmpeg) ──────────────────
+        # Gera silêncios de diferentes durações
+        silence_15 = tmp_dir / "silence_1.5s.wav"
+        silence_08 = tmp_dir / "silence_0.8s.wav"
+        silence_05 = tmp_dir / "silence_0.5s.wav"
         subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
-                        "-t", "1.5", str(silence_long)], capture_output=True)
+                        "-t", "1.5", str(silence_15)], capture_output=True)
         subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
-                        "-t", "0.8", str(silence_short)], capture_output=True)
+                        "-t", "0.8", str(silence_08)], capture_output=True)
+        subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
+                        "-t", "0.5", str(silence_05)], capture_output=True)
         
-        # Concatena todos: segmento + silêncio longo entre grupos
+        # Concatena com pausas contextuais
         concat_list = tmp_dir / "concat.txt"
         with open(concat_list, "w") as f:
-            for i, af in enumerate(audio_files):
+            for i, (tag, af) in enumerate(audio_files):
                 f.write(f"file '{af}'\n")
                 if i < len(audio_files) - 1:
-                    # Silêncio longo entre grupos de idioma diferente
-                    f.write(f"file '{silence_long}'\n")
+                    next_tag = audio_files[i + 1][0]
+                    # "dc" é Dublin Calling EN — pausa curta (faz parte da frase PT)
+                    if tag == "dc" or next_tag == "dc":
+                        f.write(f"file '{silence_05}'\n")
+                    elif tag == next_tag:
+                        f.write(f"file '{silence_08}'\n")  # mesmo idioma
+                    else:
+                        f.write(f"file '{silence_15}'\n")  # troca de idioma
         
         jingle_wav = Config.AUDIO_DIR / "news_jingle.wav"
         result = subprocess.run(
