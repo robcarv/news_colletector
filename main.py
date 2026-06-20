@@ -378,6 +378,10 @@ def _generate_jingle(lang_feeds, all_feeds, language):
         if upload_jingle(str(jingle_wav), filename=jingle_filename):
             from src.notifier import send_telegram_message
             send_telegram_message(f"📻 *News na rádio!* Jingle {language.upper()} com {total_items} notícias ({minutes}min)")
+        
+        # Compatibilidade: PT também sobe como news_jingle.mp3 (playlist legada)
+        if language == 'pt':
+            upload_jingle(str(jingle_wav), filename="news_jingle.mp3")
     except Exception as e:
         logger.warning(f"Jingle {language}: {e}", exc_info=True)
 
