@@ -235,6 +235,8 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
         from src.azuracast_news import upload_jingle
         if upload_jingle(jingle_path):
             logger.info("Jingle enviado para AzuraCast")
+            from src.notifier import send_telegram_message
+            send_telegram_message("📻 *News na rádio!* Jingle enviado — tocando na Dublin Calling a cada 30min")
         else:
             logger.info("Jingle gerado mas upload pulado (sem API key?)")
     except Exception as e:
@@ -253,6 +255,12 @@ def main():
 
     Config.setup_folders()
     logger.info("🚀 News Collector v4 iniciado")
+
+    # Alerta no celular: notificação Telegram de início
+    if not args.dry_run:
+        hora = datetime.now().strftime('%H:%M')
+        emoji = {0: '🌅', 6: '🌤️', 12: '☀️', 18: '🌆'}.get(datetime.now().hour, '🔔')
+        send_telegram_message(f"{emoji} *NewsBot iniciando* — coletando notícias... _{hora}_")
 
     cleanup_old_audio()
 
