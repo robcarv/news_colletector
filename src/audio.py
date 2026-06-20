@@ -11,8 +11,10 @@ logger = logging.getLogger(__name__)
 # ─── Caminhos do Piper (offline TTS para inglês) ──────────────────────────
 BASE_DIR = Config.BASE_DIR
 PIPER_EXEC = BASE_DIR / "piper" / "piper"
-PIPER_VOICE_MODEL = BASE_DIR / "piper_voices" / "en_US-amy.onnx"
-PIPER_VOICE_JSON = BASE_DIR / "piper_voices" / "en_US-amy.onnx.json"
+PIPER_VOICE_MODEL = BASE_DIR / "piper_voices" / "en_US-amy-medium.onnx"
+PIPER_VOICE_JSON = BASE_DIR / "piper_voices" / "en_US-amy-medium.onnx.json"
+PIPER_VOICE_PT = BASE_DIR / "piper_voices" / "pt_BR-faber-medium.onnx"
+PIPER_VOICE_PT_JSON = BASE_DIR / "piper_voices" / "pt_BR-faber-medium.onnx.json"
 
 # ─── Edge-TTS vozes (online, naturais) ────────────────────────────────────
 # PT-BR: Vozes neutras recomendadas
@@ -23,32 +25,38 @@ EDGE_VOICE_EN = "en-US-ChristopherNeural"   # Masculina, americana
 
 # ─── Helpers ───────────────────────────────────────────────────────────────
 
-def _check_piper():
-    """Verifica se Piper está instalado e funcional."""
+def _check_piper(model_path=None, config_path=None):
+    """Verifica se Piper está instalado e funcional para um modelo específico."""
+    if model_path is None:
+        model_path = PIPER_VOICE_MODEL
+    if config_path is None:
+        config_path = PIPER_VOICE_JSON
     if not os.path.exists(PIPER_EXEC):
-        logger.warning(f"Piper não encontrado em {PIPER_EXEC}")
         return False
     if not os.access(PIPER_EXEC, os.X_OK):
         try:
             os.chmod(PIPER_EXEC, 0o755)
         except Exception:
             return False
-    if not os.path.exists(PIPER_VOICE_MODEL):
-        logger.warning(f"Modelo Piper não encontrado: {PIPER_VOICE_MODEL}")
+    if not os.path.exists(model_path):
         return False
     return True
 
 
-def _generate_with_piper(text, output_path):
+def _generate_with_piper(text, output_path, model_path=None, config_path=None):
     """
-    Gera áudio usando Piper TTS (offline, inglês).
-    Roda em subprocesso — muito rápido (~0.15x real-time).
+    Gera áudio usando Piper TTS (offline).
+    Roda em subprocesso — muito rápido (~0.2x real-time).
     """
+    if model_path is None:
+        model_path = PIPER_VOICE_MODEL
+    if config_path is None:
+        config_path = PIPER_VOICE_JSON
     try:
         cmd = [
             str(PIPER_EXEC),
-            "--model", str(PIPER_VOICE_MODEL),
-            "--config", str(PIPER_VOICE_JSON),
+            "--model", str(model_path),
+            "--config", str(config_path),
             "--output_file", str(output_path),
         ]
         process = subprocess.run(
@@ -107,13 +115,23 @@ def generate_audio_file(text, filename, language='en'):
     Args:
         text: Texto a ser falado (headlines curto)
         filename: Nome do arquivo (ex: 'feed_20260605.wav')
-        language: 'pt' para português (edge-tts), 'en' para inglês (Piper)
+        language: 'pt' para português, 'en' para inglês
 
     Returns:
         Caminho do arquivo .wav ou None em caso de erro
     """
     if not text:
         return None
+
+    # Normaliza números e datas ANTES do TTS (voz mais natural)
+    try:
+        from .normalizer import normalize_pt, normalize_en
+        if language == 'pt':
+            text = normalize_pt(text)
+        else:
+            text = normalize_en(text)
+    except ImportError:
+        pass  # normalizer opcional, não quebra se ausente
 
     output_path = Config.AUDIO_DIR / filename
     # Garante extensão .wav
@@ -129,16 +147,19 @@ def generate_audio_file(text, filename, language='en'):
 
     # Decide qual engine usar baseado no idioma
     if language == 'pt':
-        # PT → Edge-TTS (voz natural)
-        logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_PT})")
-        success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_PT)
+        # PT → Piper offline (faber) primeiro, Edge-TTS fallback
+        if _check_piper(PIPER_VOICE_PT, PIPER_VOICE_PT_JSON):
+            logger.info("   Engine: Piper (offline, faber)")
+            success = _generate_with_piper(text, output_path, PIPER_VOICE_PT, PIPER_VOICE_PT_JSON)
+        else:
+            logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_PT})")
+            success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_PT)
     else:
-        # EN → Piper (offline, rápido)
+        # EN → Piper offline (amy) primeiro, Edge-TTS fallback
         if _check_piper():
-            logger.info("   Engine: Piper (offline)")
+            logger.info("   Engine: Piper (offline, amy)")
             success = _generate_with_piper(text, output_path)
         else:
-            # Fallback: Edge-TTS em inglês
             logger.warning("   Piper indisponível, fallback para Edge-TTS (EN)")
             success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
 
