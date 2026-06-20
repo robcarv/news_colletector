@@ -201,6 +201,46 @@ def process_feed(feed_config, dry_run=False):
 
 # ─── Main ─────────────────────────────────────────────────────────────────
 
+def _generate_azuracast_jingle(podcast_feeds, feeds):
+    """Gera jingle curto (45-60s) e envia para AzuraCast."""
+    try:
+        # Coleta 5 headlines principais (PT + EN misturados)
+        headlines = []
+        seen = set()
+        for name, items in podcast_feeds.items():
+            for item in items:
+                title = item.get('title', '') if isinstance(item, dict) else str(item[0])
+                if title and title not in seen:
+                    headlines.append(title[:80])
+                    seen.add(title)
+                    if len(headlines) >= 5:
+                        break
+            if len(headlines) >= 5:
+                break
+        
+        if not headlines:
+            return
+        
+        # Monta texto do jingle (~45s de fala)
+        jingle_text = "Dublin Calling News. " + " | ".join(headlines[:5])
+        jingle_text = jingle_text[:500]  # limita tamanho
+        
+        # Gera áudio
+        jingle_path = generate_audio_file(jingle_text, "news_jingle.wav", "pt")
+        if not jingle_path:
+            logger.warning("Jingle audio nao gerado")
+            return
+        
+        # Upload para AzuraCast
+        from src.azuracast_news import upload_jingle
+        if upload_jingle(jingle_path):
+            logger.info("Jingle enviado para AzuraCast")
+        else:
+            logger.info("Jingle gerado mas upload pulado (sem API key?)")
+    except Exception as e:
+        logger.warning(f"Jingle AzuraCast: {e}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="News Collector v4")
     parser.add_argument('--feed', type=int, default=None,
@@ -273,6 +313,10 @@ def main():
                         logger.info(f"Podcast {lang.upper()}: {podcast_path}")
         except Exception as e:
             logger.warning(f"Podcast nao gerado: {e}")
+
+    # Jingle para AzuraCast (news na radio) — todos os runs
+    if podcast_feeds and not args.dry_run:
+        _generate_azuracast_jingle(podcast_feeds, feeds)
 
     logger.info(f"Finalizado. {len(all_new_titles)} noticias novas.")
 
