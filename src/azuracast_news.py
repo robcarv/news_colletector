@@ -36,22 +36,23 @@ def _get_api_key():
     return key
 
 
-def upload_jingle(audio_path):
+def upload_jingle(audio_path, filename=None):
     """
     Faz upload do jingle de notícias para o AzuraCast.
 
     Fluxo:
     1. Converte WAV → MP3 (64kbps, menor tamanho)
-    2. Deleta jingle anterior (se existir)
-    3. Upload do novo jingle
-    4. AzuraCast AutoDJ automaticamente inclui na rotação
+    2. Upload do novo jingle (sobrescreve arquivo com mesmo nome)
+    3. AzuraCast AutoDJ automaticamente inclui na rotação
 
     Args:
         audio_path: Caminho do arquivo .wav gerado pelo TTS
+        filename: Nome do arquivo no AzuraCast (default: 'news_jingle.mp3')
 
     Returns:
         True se upload bem-sucedido, False caso contrário
     """
+    jingle_filename = filename or JINGLE_FILENAME
     api_key = _get_api_key()
     if not api_key:
         return False
@@ -82,13 +83,13 @@ def upload_jingle(audio_path):
             r = requests.post(
                 f"{AZURACAST_URL}/station/{STATION_ID}/files/upload",
                 headers=headers,
-                files={"file": (JINGLE_FILENAME, f, "audio/mpeg")},
+                files={"file": (jingle_filename, f, "audio/mpeg")},
                 data={"path": JINGLE_FOLDER},
                 timeout=30
             )
 
         if r.ok:
-            logger.info(f"  Jingle uploaded: {JINGLE_FILENAME}")
+            logger.info(f"  Jingle uploaded: {jingle_filename}")
         else:
             logger.error(f"  Upload failed: {r.status_code} {r.text[:200]}")
             return False
@@ -96,7 +97,7 @@ def upload_jingle(audio_path):
         # Backup: copia via SCP para a Samba HDRadio
         import subprocess as sp
         try:
-            target = f"robert@pi5:/mnt/radio_hdd/{JINGLE_FOLDER}/{JINGLE_FILENAME}"
+            target = f"robert@pi5:/mnt/radio_hdd/{JINGLE_FOLDER}/{jingle_filename}"
             sp.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
                     str(mp3_path), target],
                    capture_output=True, timeout=15)

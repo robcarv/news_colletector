@@ -206,231 +206,148 @@ def process_feed(feed_config, dry_run=False):
 
 # ─── Main ─────────────────────────────────────────────────────────────────
 
-def _generate_azuracast_jingle(podcast_feeds, feeds):
-    """Gera boletim bilíngue natural — PT para Brasil, EN para internacional, com pausas."""
+def _generate_jingle(lang_feeds, all_feeds, language):
+    """Gera jingle monolíngue natural — PT ou EN, com 'Dublin Calling' em GB."""
     try:
         from datetime import datetime
-        import tempfile
-        import shutil
+        import tempfile, shutil
 
-        # Agrupa notícias por região/categoria com fonte
-        pt_groups = {"Brasil": []}
-        en_groups = {
-            "Irlanda": [],
-            "Reino Unido": [],
-            "Estados Unidos": [],
-            "Tecnologia": [],
-        }
+        if not lang_feeds:
+            return
+
+        # Coleta todos os títulos (já filtrados por idioma)
+        items = []
         seen = set()
-
-        # Mapeia cada feed para seu grupo
-        feed_groups = {
-            "Folha de S.Paulo": "Brasil",
-            "Tenho Mais Discos Que Amigos (Brasil)": "Brasil",
-            "RockBizz (Brasil)": "Brasil",
-            "Rolling Stone Brasil": "Brasil",
-            "Correio Braziliense (Brasil)": "Brasil",
-            "Jornal do Commercio (Brasil)": "Brasil",
-            "UOL (Brasil)": "Brasil",
-            "Estado de Minas (Brasil)": "Brasil",
-            "O Tempo (Brasil)": "Brasil",
-            "Diário de Pernambuco (Brasil)": "Brasil",
-            "Irish Independent": "Irlanda",
-            "Hot Press (Ireland)": "Irlanda",
-            "GoldenPlec (Ireland Music)": "Irlanda",
-            "Dublin Live News": "Irlanda",
-            "Irish News Entertainment": "Irlanda",
-            "BBC News": "Reino Unido",
-            "The Guardian UK": "Reino Unido",
-            "NME Music (UK)": "Reino Unido",
-            "MusicRadar (UK)": "Reino Unido",
-            "NME News (UK)": "Reino Unido",
-            "Pitchfork": "Estados Unidos",
-            "Rolling Stone Music (US)": "Estados Unidos",
-            "Consequence of Sound (US)": "Estados Unidos",
-            "Billboard (US)": "Estados Unidos",
-            "Stereogum (US)": "Estados Unidos",
-            "BrooklynVegan (US)": "Estados Unidos",
-            "Loudwire (US)": "Estados Unidos",
-            "Spin Magazine (US)": "Estados Unidos",
-            "Metal Injection": "Estados Unidos",
-            "The Guardian US": "Estados Unidos",
-            "IBM": "Tecnologia",
-            "Nintendo": "Tecnologia",
-            "The Guardian Tech": "Tecnologia",
-            "TechCrunch": "Tecnologia",
-            "Ars Technica": "Tecnologia",
-        }
-
-        for name, items in podcast_feeds.items():
-            for item in items:
+        for name, feed_items in lang_feeds.items():
+            for item in feed_items:
                 title = item.get('title', '') if isinstance(item, dict) else str(item[0])
                 if not title or title in seen:
                     continue
                 seen.add(title)
-                group = feed_groups.get(name, "Estados Unidos")  # default EN
-                clean_title = title.strip().rstrip('.')
-                # Decide se vai pra PT ou EN
-                if group == "Brasil":
-                    pt_groups["Brasil"].append((clean_title, name))
-                else:
-                    en_groups.setdefault(group, []).append((clean_title, name))
+                clean = title.strip().rstrip('.')
+                # Simplifica nome da fonte
+                short = name.replace(' (Brasil)', '').replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').replace('Brasil ', '').strip()
+                items.append((clean, short))
 
-        total = sum(len(v) for v in pt_groups.values()) + sum(len(v) for v in en_groups.values())
-        if total == 0:
+        if not items:
             return
 
         hora = datetime.now().hour
-        saudacao_pt = "Boa noite" if hora >= 18 or hora < 6 else "Boa tarde" if hora >= 12 else "Bom dia"
-        # EN greeting adapts to time of day
-        greeting_en = "Good evening" if hora >= 18 or hora < 6 else "Good afternoon" if hora >= 12 else "Good morning"
+        is_pt = language == 'pt'
 
-        section_intros_pt = {"Brasil": "No Brasil"}
-        section_intros_en = {
-            "Irlanda": "In Ireland",
-            "Reino Unido": "In the United Kingdom",
-            "Estados Unidos": "In the United States",
-            "Tecnologia": "In technology",
-        }
+        # Saudações
+        if is_pt:
+            saudacao = "Boa noite" if hora >= 18 or hora < 6 else "Boa tarde" if hora >= 12 else "Bom dia"
+            flag = "do Brasil"
+        else:
+            saudacao = "Good evening" if hora >= 18 or hora < 6 else "Good afternoon" if hora >= 12 else "Good morning"
+            flag = "from around the world"
 
-        # ─── Segmentos de áudio (ordem de concatenação) ──────────────────
-        # "Dublin Calling" sempre em EN, inserido entre segmentos PT
+        tmp_dir = Path(tempfile.mkdtemp(prefix=f"jingle_{language}_"))
+        audio_files = []
 
-        tmp_dir = Path(tempfile.mkdtemp(prefix="jingle_"))
-
-        # ─── Segmento 0: "Dublin Calling" (EN, gerado 1x, usado 2x) ──
+        # ── "Dublin Calling" (GB, gerado 1x, usado 2x) ──
         dc_path = tmp_dir / "00_dc.wav"
-        dc_ok = generate_audio_file("Dublin Calling.", str(dc_path), "gb", force=True)
-        if not dc_ok:
-            logger.warning("Jingle: falha ao gerar 'Dublin Calling' EN")
+        if not generate_audio_file("Dublin Calling.", str(dc_path), "gb", force=True):
+            logger.warning(f"Jingle {language}: falha DC GB")
             shutil.rmtree(tmp_dir, ignore_errors=True)
             return
 
-        # ─── Segmento 1: INTRO PT (sem "Dublin Calling") ──────────────
-        intro_pt = f"Este é o. Notícias da música, tecnologia e cultura. {saudacao_pt}."
-
-        # ─── Segmento 2: BRASIL (PT) ──────────────────────────────────
-        brasil_lines = []
-        if pt_groups["Brasil"]:
-            brasil_lines.append("No Brasil.")
-            for title, source in pt_groups["Brasil"][:6]:
-                short = source.replace(' (Brasil)', '').replace('Brasil ', '').strip()
-                brasil_lines.append(f"{short}. {title}.")
-
-        # ─── Segmento 3: INTERNACIONAL (EN) ───────────────────────────
-        en_lines = []
-        section_order = ["Irlanda", "Reino Unido", "Estados Unidos", "Tecnologia"]
-        for group_name in section_order:
-            items = en_groups.get(group_name, [])
-            if not items:
-                continue
-            intro = section_intros_en.get(group_name, group_name)
-            en_lines.append(f"{intro}.")
-            for title, source in items:
-                short = source.replace(' (Ireland)', '').replace(' (UK)', '').replace(' (US)', '').strip()
-                en_lines.append(f"{short}. {title}.")
-
-        # ─── Segmento 4: OUTRO PT (sem "Dublin Calling") ──────────────
-        outro_pt = "Essas foram as notícias da última hora. A sua rádio. Mais notícias em seis horas."
-
-        # Limita tamanho
-        brasil_text = " ".join(brasil_lines) if brasil_lines else ""
-        en_text = " ".join(en_lines) if en_lines else ""
-        max_seg = 2500
-        if len(brasil_text) > max_seg:
-            brasil_text = brasil_text[:max_seg].rsplit('.', 1)[0] + "."
-        if len(en_text) > max_seg:
-            en_text = en_text[:max_seg].rsplit('.', 1)[0] + "."
-
-        # ─── Gera áudios ──────────────────────────────────────────────
-        audio_files = []  # (tag, path) — tag: pt/en/dc
-
-        # Intro: "Este é o" [DC-EN] "Notícias da música..."
+        # ── Intro ──
+        intro_text = f"Este é o. Notícias {flag}. {saudacao}." if is_pt else f"This is. News {flag}. {saudacao}."
         p = tmp_dir / "01_intro.wav"
-        if generate_audio_file(intro_pt, str(p), "pt", force=True):
-            audio_files.append(("pt", p))
-            audio_files.append(("dc", dc_path))  # Dublin Calling EN
+        if generate_audio_file(intro_text, str(p), language, force=True):
+            audio_files.append((language, p))
+            audio_files.append(("dc", dc_path))
 
-        # Brasil
-        if brasil_text:
-            p = tmp_dir / "02_brasil.wav"
-            if generate_audio_file(brasil_text, str(p), "pt", force=True):
-                audio_files.append(("pt", p))
+        # ── Headlines ──
+        lines = []
+        max_items = 10 if is_pt else 12
+        for title, source in items[:max_items]:
+            lines.append(f"{source}. {title}.")
+        body_text = " ".join(lines)
+        if len(body_text) > 3000:
+            body_text = body_text[:3000].rsplit('.', 1)[0] + "."
 
-        # Internacional
-        if en_text:
-            p = tmp_dir / "03_inter.wav"
-            if generate_audio_file(en_text, str(p), "en", force=True):
-                audio_files.append(("en", p))
+        if body_text:
+            p = tmp_dir / "02_body.wav"
+            if generate_audio_file(body_text, str(p), language, force=True):
+                audio_files.append((language, p))
 
-        # Outro: "Essas foram..." [DC-EN] "A sua rádio..."
-        p = tmp_dir / "04_outro.wav"
-        if generate_audio_file(outro_pt, str(p), "pt", force=True):
-            audio_files.append(("pt", p))
-            audio_files.append(("dc", dc_path))  # Dublin Calling EN de novo
+        # ── Outro ──
+        outro_text = "Essas foram as notícias. A sua rádio. Mais notícias em seis horas." if is_pt else "Those were the latest news. Your radio station. More news in six hours."
+        p = tmp_dir / "03_outro.wav"
+        if generate_audio_file(outro_text, str(p), language, force=True):
+            audio_files.append((language, p))
+            audio_files.append(("dc", dc_path))
 
         if len(audio_files) < 2:
-            logger.warning("Jingle: poucos segmentos gerados, abortando")
             shutil.rmtree(tmp_dir, ignore_errors=True)
             return
 
-        logger.info(f"  Boletim bilíngue: {total} notícias → {len(audio_files)} segmentos de áudio")
-        
-        # ─── Concatena com pausas inteligentes (ffmpeg) ──────────────────
-        # Gera silêncios de diferentes durações
-        silence_15 = tmp_dir / "silence_1.5s.wav"
-        silence_08 = tmp_dir / "silence_0.8s.wav"
-        silence_05 = tmp_dir / "silence_0.5s.wav"
-        subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
-                        "-t", "1.5", str(silence_15)], capture_output=True)
-        subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
-                        "-t", "0.8", str(silence_08)], capture_output=True)
-        subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono", 
-                        "-t", "0.5", str(silence_05)], capture_output=True)
-        
-        # Concatena com pausas contextuais
+        logger.info(f"  Jingle {language.upper()}: {len(items)} notícias → {len(audio_files)} segmentos")
+
+        # ── Concatena ──
+        silence_15 = tmp_dir / "s15.wav"
+        silence_08 = tmp_dir / "s08.wav"
+        silence_05 = tmp_dir / "s05.wav"
+        for dur, out in [(1.5, silence_15), (0.8, silence_08), (0.5, silence_05)]:
+            subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r=22050:cl=mono", "-t", str(dur), str(out)], capture_output=True)
+
         concat_list = tmp_dir / "concat.txt"
         with open(concat_list, "w") as f:
             for i, (tag, af) in enumerate(audio_files):
                 f.write(f"file '{af}'\n")
                 if i < len(audio_files) - 1:
                     next_tag = audio_files[i + 1][0]
-                    # "dc" é Dublin Calling EN — pausa curta (faz parte da frase PT)
                     if tag == "dc" or next_tag == "dc":
                         f.write(f"file '{silence_05}'\n")
                     elif tag == next_tag:
-                        f.write(f"file '{silence_08}'\n")  # mesmo idioma
+                        f.write(f"file '{silence_08}'\n")
                     else:
-                        f.write(f"file '{silence_15}'\n")  # troca de idioma
-        
-        jingle_wav = Config.AUDIO_DIR / "news_jingle.wav"
+                        f.write(f"file '{silence_15}'\n")
+
+        jingle_wav = Config.AUDIO_DIR / f"news_jingle_{language}.wav"
         result = subprocess.run(
             ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_list),
              "-ac", "1", "-ar", "22050", str(jingle_wav)],
             capture_output=True, timeout=60
         )
-        
+
         if result.returncode != 0:
-            logger.error(f"Ffmpeg concat erro: {result.stderr.decode()[-300:]}")
+            logger.error(f"Ffmpeg concat erro: {result.stderr.decode()[-200:]}")
             shutil.rmtree(tmp_dir, ignore_errors=True)
             return
-        
-        jingle_size = jingle_wav.stat().st_size if jingle_wav.exists() else 0
-        logger.info(f"  ✅ Jingle bilíngue: {jingle_size//1024}KB")
-        
-        # Limpa temporários
+
+        size_kb = jingle_wav.stat().st_size // 1024
+        dur = float(subprocess.run(['ffprobe', '-v', 'quiet', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(jingle_wav)], capture_output=True, text=True).stdout.strip() or 0)
+        logger.info(f"  ✅ Jingle {language.upper()}: {size_kb}KB, {dur:.1f}s")
+
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
         # Upload para AzuraCast
         from src.azuracast_news import upload_jingle
-        if upload_jingle(str(jingle_wav)):
-            logger.info("Boletim enviado para AzuraCast")
+        jingle_filename = f"news_jingle_{language}.mp3"
+        if upload_jingle(str(jingle_wav), filename=jingle_filename):
             from src.notifier import send_telegram_message
-            send_telegram_message(f"📻 *News na rádio!* Boletim bilíngue com {total} notícias — tocando na Dublin Calling a cada 30min")
-        else:
-            logger.info("Boletim gerado mas upload pulado (sem API key?)")
+            send_telegram_message(f"📻 *News na rádio!* Jingle {language.upper()} com {len(items)} notícias")
     except Exception as e:
-        logger.warning(f"Jingle AzuraCast: {e}", exc_info=True)
+        logger.warning(f"Jingle {language}: {e}", exc_info=True)
+
+
+
+def _generate_azuracast_jingle(podcast_feeds, feeds):
+    """Gera jingle bilíngue (legado — substituído por _generate_jingle por idioma)."""
+    # Divide por idioma e gera separadamente
+    pt_feeds = {k: v for k, v in podcast_feeds.items()
+                if any(f.get('language') == 'pt' for f in feeds if f.get('name') == k)}
+    en_feeds = {k: v for k, v in podcast_feeds.items()
+                if any(f.get('language') == 'en' for f in feeds if f.get('name') == k)}
+
+    if pt_feeds:
+        _generate_jingle(pt_feeds, feeds, 'pt')
+    if en_feeds:
+        _generate_jingle(en_feeds, feeds, 'en')
 
 
 def main():
