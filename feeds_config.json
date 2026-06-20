@@ -1,137 +1,43 @@
 [
-  {
-    "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
-    "language": "pt",
-    "name": "Folha de S.Paulo"
-  },
-  {
-    "url": "https://www.nintendo.com/en-gb/news.xml",
-    "language": "en",
-    "name": "Nintendo"
-  },
-  {
-    "url": "https://newsroom.ibm.com/announcements?pagetemplate=rss",
-    "language": "en",
-    "name": "IBM"
-  },
-  {
-    "url": "http://feeds.bbci.co.uk/news/rss.xml",
-    "language": "en",
-    "name": "BBC News"
-  },
-  {
-    "url": "https://pitchfork.com/feed/feed-news/rss",
-    "language": "en",
-    "name": "Pitchfork"
-  },
-  {
-    "url": "https://feeds.feedburner.com/metalinjection.xml",
-    "language": "en",
-    "name": "Metal Injection"
-  },
-  {
-    "url": "https://www.independent.ie/rss/",
-    "language": "en",
-    "name": "Irish Independent"
-  },
-  {
-    "url": "https://www.hotpress.com/feed",
-    "language": "en",
-    "name": "Hot Press (Ireland)"
-  },
-  {
-    "url": "https://www.theguardian.com/uk/rss",
-    "language": "en",
-    "name": "The Guardian UK"
-  },
-  {
-    "url": "https://www.theguardian.com/us/rss",
-    "language": "en",
-    "name": "The Guardian US"
-  },
-  {
-    "url": "https://www.theguardian.com/technology/rss",
-    "language": "en",
-    "name": "The Guardian Tech"
-  },
-  {
-    "url": "https://www.tenhomaisdiscosqueamigos.com/feed/",
-    "language": "pt",
-    "name": "Tenho Mais Discos Que Amigos (Brasil)"
-  },
-  {
-    "url": "https://www.musicradar.com/feeds/all",
-    "language": "en",
-    "name": "MusicRadar (UK)"
-  },
-  {
-    "url": "https://www.nme.com/music/rss",
-    "language": "en",
-    "name": "NME Music (UK)"
-  },
-  {
-    "url": "https://www.rollingstone.com/music/music-news/feed/",
-    "language": "en",
-    "name": "Rolling Stone Music (US)"
-  },
-  {
-    "url": "https://www.goldenplec.com/feed/",
-    "language": "en",
-    "name": "GoldenPlec (Ireland Music)"
-  },
-  {
-    "url": "https://consequence.net/feed/",
-    "language": "en",
-    "name": "Consequence of Sound (US)"
-  },
-  {
-    "name": "RockBizz (Brasil)",
-    "url": "https://www.rockbizz.com.br/feed/",
-    "language": "pt"
-  },
-  {
-    "name": "Rolling Stone Brasil",
-    "url": "https://rollingstone.uol.com.br/feed/",
-    "language": "pt"
-  },
-  {
-    "name": "Irish News Entertainment",
-    "url": "https://www.irishnews.com/entertainment/?service=rss",
-    "language": "en"
-  },
-  {
-    "name": "Dublin Live News",
-    "url": "https://www.dublinlive.ie/news/?service=rss",
-    "language": "en"
-  },
-  {
-    "name": "Billboard (US)",
-    "url": "https://www.billboard.com/feed/",
-    "language": "en"
-  },
-  {
-    "name": "Stereogum (US)",
-    "url": "https://www.stereogum.com/feed/",
-    "language": "en"
-  },
-  {
-    "name": "BrooklynVegan (US)",
-    "url": "https://www.brooklynvegan.com/feed/",
-    "language": "en"
-  },
-  {
-    "name": "Loudwire (US)",
-    "url": "https://loudwire.com/feed/",
-    "language": "en"
-  },
-  {
-    "name": "Spin Magazine (US)",
-    "url": "https://www.spin.com/feed/",
-    "language": "en"
-  },
-  {
-    "name": "NME News (UK)",
-    "url": "https://www.nme.com/news/music/feed",
-    "language": "en"
-  }
+  {"url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml", "language": "pt", "name": "Folha de S.Paulo"},
+  {"url": "https://g1.globo.com/rss/g1/", "language": "pt", "name": "G1 (Brasil)"},
+  {"url": "https://www.bbc.com/portuguese/index.xml", "language": "pt", "name": "BBC Brasil"},
+  {"url": "https://www.cnnbrasil.com.br/feed/", "language": "pt", "name": "CNN Brasil"},
+  {"url": "https://exame.com/feed/", "language": "pt", "name": "Exame (Brasil)"},
+  {"url": "https://www.cartacapital.com.br/feed/", "language": "pt", "name": "Carta Capital (Brasil)"},
+  {"url": "https://rss.tecmundo.com.br/feed", "language": "pt", "name": "TecMundo (Brasil)"},
+  {"url": "https://www.correiobraziliense.com.br/rss/noticia/brasil/rss.xml", "language": "pt", "name": "Correio Braziliense"},
+  {"url": "https://www.tenhomaisdiscosqueamigos.com/feed/", "language": "pt", "name": "Tenho Mais Discos Que Amigos (Brasil)"},
+  {"url": "https://www.rockbizz.com.br/feed/", "language": "pt", "name": "RockBizz (Brasil)"},
+  {"url": "https://rollingstone.uol.com.br/feed/", "language": "pt", "name": "Rolling Stone Brasil"},
+  {"url": "https://www.nintendo.com/en-gb/news.xml", "language": "en", "name": "Nintendo"},
+  {"url": "https://newsroom.ibm.com/announcements?pagetemplate=rss", "language": "en", "name": "IBM"},
+  {"url": "http://feeds.bbci.co.uk/news/rss.xml", "language": "en", "name": "BBC News"},
+  {"url": "https://techcrunch.com/feed/", "language": "en", "name": "TechCrunch"},
+  {"url": "https://feeds.arstechnica.com/arstechnica/index", "language": "en", "name": "Ars Technica"},
+  {"url": "https://www.theverge.com/rss/index.xml", "language": "en", "name": "The Verge"},
+  {"url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "language": "en", "name": "NYT World"},
+  {"url": "https://feeds.skynews.com/feeds/rss/uk.xml", "language": "en", "name": "Sky News (UK)"},
+  {"url": "https://feeds.npr.org/1001/rss.xml", "language": "en", "name": "NPR (US)"},
+  {"url": "https://variety.com/feed/", "language": "en", "name": "Variety (US)"},
+  {"url": "https://pitchfork.com/feed/feed-news/rss", "language": "en", "name": "Pitchfork"},
+  {"url": "https://feeds.feedburner.com/metalinjection.xml", "language": "en", "name": "Metal Injection"},
+  {"url": "https://www.independent.ie/rss/", "language": "en", "name": "Irish Independent"},
+  {"url": "https://www.hotpress.com/feed", "language": "en", "name": "Hot Press (Ireland)"},
+  {"url": "https://www.theguardian.com/uk/rss", "language": "en", "name": "The Guardian UK"},
+  {"url": "https://www.theguardian.com/us/rss", "language": "en", "name": "The Guardian US"},
+  {"url": "https://www.theguardian.com/technology/rss", "language": "en", "name": "The Guardian Tech"},
+  {"url": "https://www.musicradar.com/feeds/all", "language": "en", "name": "MusicRadar (UK)"},
+  {"url": "https://www.nme.com/music/rss", "language": "en", "name": "NME Music (UK)"},
+  {"url": "https://www.rollingstone.com/music/music-news/feed/", "language": "en", "name": "Rolling Stone Music (US)"},
+  {"url": "https://www.goldenplec.com/feed/", "language": "en", "name": "GoldenPlec (Ireland Music)"},
+  {"url": "https://consequence.net/feed/", "language": "en", "name": "Consequence of Sound (US)"},
+  {"url": "https://www.irishnews.com/entertainment/?service=rss", "language": "en", "name": "Irish News Entertainment"},
+  {"url": "https://www.dublinlive.ie/news/?service=rss", "language": "en", "name": "Dublin Live News"},
+  {"url": "https://www.billboard.com/feed/", "language": "en", "name": "Billboard (US)"},
+  {"url": "https://www.stereogum.com/feed/", "language": "en", "name": "Stereogum (US)"},
+  {"url": "https://www.brooklynvegan.com/feed/", "language": "en", "name": "BrooklynVegan (US)"},
+  {"url": "https://loudwire.com/feed/", "language": "en", "name": "Loudwire (US)"},
+  {"url": "https://www.spin.com/feed/", "language": "en", "name": "Spin Magazine (US)"},
+  {"url": "https://www.nme.com/news/music/feed", "language": "en", "name": "NME News (UK)"}
 ]

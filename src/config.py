@@ -27,7 +27,7 @@ class Config:
     
     # Limites (modo leve para Raspberry Pi)
     MAX_SUMMARY_SENTENCES = 3     # Quantas sentenças o Sumy vai gerar
-    MAX_ITEMS_PER_FEED = 4        # Máximo de notícias por feed (aumentado 2→4)
+    MAX_ITEMS_PER_FEED = 3        # 41 feeds × 3 = máximo 123 (jingle tem limite próprio)
     RETENTION_DAYS = 3            # Dias para manter áudios antes de apagar
     MAX_AUDIO_CHARS = 2500        # Máximo de caracteres para áudio (aumentado 1200→2500)
     
