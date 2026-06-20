@@ -300,7 +300,7 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
 
         # ─── Segmento 0: "Dublin Calling" (EN, gerado 1x, usado 2x) ──
         dc_path = tmp_dir / "00_dc.wav"
-        dc_ok = generate_audio_file("Dublin Calling.", str(dc_path), "en", force=True)
+        dc_ok = generate_audio_file("Dublin Calling.", str(dc_path), "gb", force=True)
         if not dc_ok:
             logger.warning("Jingle: falha ao gerar 'Dublin Calling' EN")
             shutil.rmtree(tmp_dir, ignore_errors=True)

@@ -15,6 +15,8 @@ PIPER_VOICE_MODEL = BASE_DIR / "piper_voices" / "en_US-amy-medium.onnx"
 PIPER_VOICE_JSON = BASE_DIR / "piper_voices" / "en_US-amy-medium.onnx.json"
 PIPER_VOICE_PT = BASE_DIR / "piper_voices" / "pt_BR-faber-medium.onnx"
 PIPER_VOICE_PT_JSON = BASE_DIR / "piper_voices" / "pt_BR-faber-medium.onnx.json"
+PIPER_VOICE_GB = BASE_DIR / "piper_voices" / "en_GB-aru-medium.onnx"
+PIPER_VOICE_GB_JSON = BASE_DIR / "piper_voices" / "en_GB-aru-medium.onnx.json"
 
 # ─── Edge-TTS vozes (online, naturais) ────────────────────────────────────
 # PT-BR: Vozes neutras recomendadas
@@ -155,6 +157,14 @@ def generate_audio_file(text, filename, language='en', force=False):
         else:
             logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_PT})")
             success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_PT)
+    elif language == 'gb':
+        # GB → Piper offline (aru, RP britânico) primeiro
+        if _check_piper(PIPER_VOICE_GB, PIPER_VOICE_GB_JSON):
+            logger.info("   Engine: Piper (offline, aru GB)")
+            success = _generate_with_piper(text, output_path, PIPER_VOICE_GB, PIPER_VOICE_GB_JSON)
+        else:
+            logger.warning("   Piper GB indisponível, fallback para Edge-TTS (EN)")
+            success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
     else:
         # EN → Piper offline (amy) primeiro, Edge-TTS fallback
         if _check_piper():

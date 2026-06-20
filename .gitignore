@@ -22,3 +22,4 @@ history.json
 
 # AzuraCast radio metadata — apenas local
 azura_telegram_metadata.py
+piper_voices/en_GB-aru-medium.*
