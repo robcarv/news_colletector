@@ -202,34 +202,63 @@ def process_feed(feed_config, dry_run=False):
 # ─── Main ─────────────────────────────────────────────────────────────────
 
 def _generate_azuracast_jingle(podcast_feeds, feeds):
-    """Gera jingle curto (45-60s) e envia para AzuraCast."""
+    """Gera jingle profissional (~50-60s) com intro, fontes e transições."""
     try:
-        # Coleta 5 headlines principais (PT + EN misturados)
-        headlines = []
+        # Separa notícias PT e EN com fonte
+        pt_items = []
+        en_items = []
         seen = set()
+
         for name, items in podcast_feeds.items():
+            source_lang = 'pt' if 'Brasil' in name or name in ['Folha de S.Paulo', 'Tenho Mais Discos Que Amigos (Brasil)', 'RockBizz (Brasil)', 'Rolling Stone Brasil'] else 'en'
             for item in items:
                 title = item.get('title', '') if isinstance(item, dict) else str(item[0])
+                source = item.get('source', name) if isinstance(item, dict) else name
                 if title and title not in seen:
-                    headlines.append(title[:80])
                     seen.add(title)
-                    if len(headlines) >= 5:
-                        break
-            if len(headlines) >= 5:
-                break
-        
-        if not headlines:
+                    entry = (title[:80], source, source_lang)
+                    if source_lang == 'pt':
+                        pt_items.append(entry)
+                    else:
+                        en_items.append(entry)
+
+        if not pt_items and not en_items:
             return
+
+        # Monta jingle profissional
+        parts = []
         
-        # Monta texto do jingle (~45s de fala)
-        jingle_text = "Dublin Calling News. " + " | ".join(headlines[:5])
-        jingle_text = jingle_text[:500]  # limita tamanho
+        # Intro
+        parts.append("Dublin Calling. Seu resumo de notícias.")
+        
+        # PT primeiro (se houver)
+        if pt_items:
+            parts.append("Do Brasil:")
+            for i, (title, source, _) in enumerate(pt_items[:3]):
+                # Simplifica nome da fonte
+                short_src = source.replace(' (Brasil)', '').replace(' (BR)', '').replace('Brasil ', '')
+                parts.append(f"{title}. Fonte: {short_src}.")
+        
+        # EN depois
+        if en_items:
+            parts.append("Internacional:")
+            for i, (title, source, _) in enumerate(en_items[:5]):
+                short_src = source.replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').strip()
+                parts.append(f"{title} Via {short_src}.")
+        
+        # Outro
+        parts.append("Notícias atualizadas a cada seis horas. Dublin Calling — a sua rádio.")
+        
+        jingle_text = " ".join(parts)
+        jingle_text = jingle_text[:1200]  # ~55-60 segundos de fala
         
         # Gera áudio
         jingle_path = generate_audio_file(jingle_text, "news_jingle.wav", "pt")
         if not jingle_path:
             logger.warning("Jingle audio nao gerado")
             return
+        
+        logger.info(f"  Jingle texto ({len(jingle_text)} chars): {jingle_text[:200]}...")
         
         # Upload para AzuraCast
         from src.azuracast_news import upload_jingle

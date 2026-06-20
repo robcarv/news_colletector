@@ -27,9 +27,9 @@ class Config:
     
     # Limites (modo leve para Raspberry Pi)
     MAX_SUMMARY_SENTENCES = 3     # Quantas sentenças o Sumy vai gerar
-    MAX_ITEMS_PER_FEED = 2        # Máximo de notícias por feed (reduzido de 3 para 2)
+    MAX_ITEMS_PER_FEED = 4        # Máximo de notícias por feed (aumentado 2→4)
     RETENTION_DAYS = 3            # Dias para manter áudios antes de apagar
-    MAX_AUDIO_CHARS = 1200        # Máximo de caracteres para áudio (reduzido)
+    MAX_AUDIO_CHARS = 2500        # Máximo de caracteres para áudio (aumentado 1200→2500)
     
     # Otimizações de desempenho (Raspberry Pi)
     DOWNLOAD_TIMEOUT = 15         # Timeout para download RSS (segundos)
