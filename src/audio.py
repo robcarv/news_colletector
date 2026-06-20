@@ -108,7 +108,7 @@ def _generate_with_edge_tts(text, output_path, voice):
 
 # ─── API pública ───────────────────────────────────────────────────────────
 
-def generate_audio_file(text, filename, language='en'):
+def generate_audio_file(text, filename, language='en', force=False):
     """
     Gera áudio TTS.
 
@@ -116,6 +116,7 @@ def generate_audio_file(text, filename, language='en'):
         text: Texto a ser falado (headlines curto)
         filename: Nome do arquivo (ex: 'feed_20260605.wav')
         language: 'pt' para português, 'en' para inglês
+        force: Se True, ignora cache e regenera sempre
 
     Returns:
         Caminho do arquivo .wav ou None em caso de erro
@@ -138,8 +139,8 @@ def generate_audio_file(text, filename, language='en'):
     if output_path.suffix.lower() not in ('.wav', '.mp3'):
         output_path = output_path.with_suffix('.wav')
 
-    # Cache: se já existe, retorna
-    if output_path.exists() and output_path.stat().st_size > 1000:
+    # Cache: se já existe, retorna (a menos que force=True)
+    if not force and output_path.exists() and output_path.stat().st_size > 1000:
         logger.info(f"⏭️  Áudio em cache: {output_path.name}")
         return str(output_path)
 

@@ -202,72 +202,150 @@ def process_feed(feed_config, dry_run=False):
 # ─── Main ─────────────────────────────────────────────────────────────────
 
 def _generate_azuracast_jingle(podcast_feeds, feeds):
-    """Gera jingle profissional (~50-60s) com intro, fontes e transições."""
+    """Gera boletim jornalístico natural — estilo telejornal, com todas as notícias."""
     try:
-        # Separa notícias PT e EN com fonte
-        pt_items = []
-        en_items = []
+        # Agrupa notícias por região/categoria com fonte
+        groups = {
+            "Brasil": [],
+            "Irlanda": [],
+            "Reino Unido": [],
+            "Estados Unidos": [],
+            "Tecnologia": [],
+        }
         seen = set()
 
+        # Mapeia cada feed para seu grupo
+        feed_groups = {
+            "Folha de S.Paulo": "Brasil",
+            "Tenho Mais Discos Que Amigos (Brasil)": "Brasil",
+            "RockBizz (Brasil)": "Brasil",
+            "Rolling Stone Brasil": "Brasil",
+            "Irish Independent": "Irlanda",
+            "Hot Press (Ireland)": "Irlanda",
+            "GoldenPlec (Ireland Music)": "Irlanda",
+            "Dublin Live News": "Irlanda",
+            "Irish News Entertainment": "Irlanda",
+            "BBC News": "Reino Unido",
+            "The Guardian UK": "Reino Unido",
+            "NME Music (UK)": "Reino Unido",
+            "MusicRadar (UK)": "Reino Unido",
+            "NME News (UK)": "Reino Unido",
+            "Pitchfork": "Estados Unidos",
+            "Rolling Stone Music (US)": "Estados Unidos",
+            "Consequence of Sound (US)": "Estados Unidos",
+            "Billboard (US)": "Estados Unidos",
+            "Stereogum (US)": "Estados Unidos",
+            "BrooklynVegan (US)": "Estados Unidos",
+            "Loudwire (US)": "Estados Unidos",
+            "Spin Magazine (US)": "Estados Unidos",
+            "Metal Injection": "Estados Unidos",
+            "IBM": "Tecnologia",
+            "Nintendo": "Tecnologia",
+            "The Guardian Tech": "Tecnologia",
+            "The Guardian US": "Estados Unidos",
+        }
+
         for name, items in podcast_feeds.items():
-            source_lang = 'pt' if 'Brasil' in name or name in ['Folha de S.Paulo', 'Tenho Mais Discos Que Amigos (Brasil)', 'RockBizz (Brasil)', 'Rolling Stone Brasil'] else 'en'
             for item in items:
                 title = item.get('title', '') if isinstance(item, dict) else str(item[0])
-                source = item.get('source', name) if isinstance(item, dict) else name
-                if title and title not in seen:
-                    seen.add(title)
-                    entry = (title[:80], source, source_lang)
-                    if source_lang == 'pt':
-                        pt_items.append(entry)
-                    else:
-                        en_items.append(entry)
+                summary = item.get('summary', '') if isinstance(item, dict) else ''
+                if not title or title in seen:
+                    continue
+                seen.add(title)
+                group = feed_groups.get(name, "Internacional")
+                # Limpa o título para leitura natural
+                clean_title = title.strip().rstrip('.')
+                groups[group].append((clean_title, name, summary))
 
-        if not pt_items and not en_items:
+        # Conta total
+        total = sum(len(v) for v in groups.values())
+        if total == 0:
             return
 
-        # Monta jingle profissional
-        parts = []
-        
-        # Intro
-        parts.append("Dublin Calling. Seu resumo de notícias.")
-        
-        # PT primeiro (se houver)
-        if pt_items:
-            parts.append("Do Brasil:")
-            for i, (title, source, _) in enumerate(pt_items[:3]):
+        # Monta o boletim no estilo telejornal
+        from datetime import datetime
+        hora = datetime.now().hour
+        saudacao = "Boa noite" if hora >= 18 or hora < 6 else "Boa tarde" if hora >= 12 else "Bom dia"
+
+        lines = []
+        lines.append(f"Este é o Dublin Calling. Notícias da música, tecnologia e cultura. {saudacao}.")
+
+        # Cada grupo vira uma seção do noticiário
+        section_intros = {
+            "Brasil": "No Brasil",
+            "Irlanda": "Na Irlanda",
+            "Reino Unido": "No Reino Unido",
+            "Estados Unidos": "Nos Estados Unidos",
+            "Tecnologia": "Em tecnologia",
+        }
+
+        for group_name, items in groups.items():
+            if not items:
+                continue
+            lines.append(f"{section_intros[group_name]}.")
+            for title, source, summary in items:
                 # Simplifica nome da fonte
-                short_src = source.replace(' (Brasil)', '').replace(' (BR)', '').replace('Brasil ', '')
-                parts.append(f"{title}. Fonte: {short_src}.")
-        
-        # EN depois
-        if en_items:
-            parts.append("Internacional:")
-            for i, (title, source, _) in enumerate(en_items[:5]):
-                short_src = source.replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').strip()
-                parts.append(f"{title} Via {short_src}.")
-        
-        # Outro
-        parts.append("Notícias atualizadas a cada seis horas. Dublin Calling — a sua rádio.")
-        
-        jingle_text = " ".join(parts)
-        jingle_text = jingle_text[:1200]  # ~55-60 segundos de fala
-        
-        # Gera áudio
-        jingle_path = generate_audio_file(jingle_text, "news_jingle.wav", "pt")
+                short = source.replace(' (Brasil)', '').replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').replace('Brasil ', '').strip()
+                # Formato: "Fonte: notícia."
+                if short in title[:30]:
+                    # Se o título já começa com a fonte, só lê o título
+                    lines.append(f"{title}.")
+                else:
+                    lines.append(f"{short}. {title}.")
+                # Inclui resumo se disponível e curto
+                if summary and len(summary) < 120:
+                    lines.append(f"{summary}.")
+
+        lines.append("Essas foram as notícias da última hora. Dublin Calling, a sua rádio. Mais notícias em seis horas.")
+
+        jingle_text = " ".join(lines)
+
+        # Limita a ~90 segundos (~4000 chars no Piper PT)
+        max_chars = 4000
+        if len(jingle_text) > max_chars:
+            # Trunca inteligentemente: remove grupos do fim até caber
+            while len(jingle_text) > max_chars:
+                # Remove o último grupo que ainda tem itens
+                for rev_group in reversed(list(groups.keys())):
+                    if groups[rev_group] and len(groups[rev_group]) > 1:
+                        groups[rev_group].pop()
+                        break
+                # Reconstrói
+                lines = [f"Este é o Dublin Calling. Notícias da música, tecnologia e cultura. {saudacao}."]
+                for gn, its in groups.items():
+                    if not its:
+                        continue
+                    lines.append(f"{section_intros[gn]}.")
+                    for title, source, summary in its:
+                        short = source.replace(' (Brasil)', '').replace(' (US)', '').replace(' (UK)', '').replace(' (Ireland)', '').replace('Brasil ', '').strip()
+                        if short in title[:30]:
+                            lines.append(f"{title}.")
+                        else:
+                            lines.append(f"{short}. {title}.")
+                        if summary and len(summary) < 120:
+                            lines.append(f"{summary}.")
+                lines.append("Essas foram as notícias da última hora. Dublin Calling, a sua rádio. Mais notícias em seis horas.")
+                jingle_text = " ".join(lines)
+
+        total_incluidas = sum(len(v) for v in groups.values())
+
+        # Gera áudio (force=True para ignorar cache e sempre usar o texto mais recente)
+        logger.info(f"  Boletim: {total_incluidas} notícias de {total} totais, {len(jingle_text)} chars (~{len(jingle_text)//60}s)")
+        jingle_path = generate_audio_file(jingle_text, "news_jingle.wav", "pt", force=True)
         if not jingle_path:
             logger.warning("Jingle audio nao gerado")
             return
-        
-        logger.info(f"  Jingle texto ({len(jingle_text)} chars): {jingle_text[:200]}...")
-        
+
+        logger.info(f"  Jingle texto: {jingle_text[:200]}...")
+
         # Upload para AzuraCast
         from src.azuracast_news import upload_jingle
         if upload_jingle(jingle_path):
-            logger.info("Jingle enviado para AzuraCast")
+            logger.info("Boletim enviado para AzuraCast")
             from src.notifier import send_telegram_message
-            send_telegram_message("📻 *News na rádio!* Jingle enviado — tocando na Dublin Calling a cada 30min")
+            send_telegram_message(f"📻 *News na rádio!* Boletim com {total_incluidas} notícias — tocando na Dublin Calling a cada 30min")
         else:
-            logger.info("Jingle gerado mas upload pulado (sem API key?)")
+            logger.info("Boletim gerado mas upload pulado (sem API key?)")
     except Exception as e:
         logger.warning(f"Jingle AzuraCast: {e}")
 

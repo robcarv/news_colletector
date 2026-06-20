@@ -89,13 +89,93 @@ def upload_jingle(audio_path):
 
         if r.ok:
             logger.info(f"  Jingle uploaded: {JINGLE_FILENAME}")
-            return True
         else:
             logger.error(f"  Upload failed: {r.status_code} {r.text[:200]}")
             return False
+
+        # Backup: copia via SCP para a Samba HDRadio
+        import subprocess as sp
+        try:
+            target = f"robert@pi5:/mnt/radio_hdd/{JINGLE_FOLDER}/{JINGLE_FILENAME}"
+            sp.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
+                    str(mp3_path), target],
+                   capture_output=True, timeout=15)
+            logger.info("  Copia Samba HDRadio OK")
+        except Exception:
+            logger.info("  Copia Samba pulada (Pi5 offline?)")
+
+        # Adiciona o jingle à playlist "News Jingles" (ID 34)
+        _add_to_playlist(headers, api_key)
+        return True
     except Exception as e:
         logger.error(f"  Upload erro: {e}")
         return False
+
+
+def _add_to_playlist(headers, api_key):
+    """Adiciona news_jingle.mp3 à playlist 'News Jingles' (ID 34)."""
+    try:
+        playlist_id = 34
+        
+        # Busca o media_id via path (endpoint rápido, só 1 arquivo)
+        r = requests.get(
+            f"{AZURACAST_URL}/station/{STATION_ID}/files",
+            params={"path": f"{JINGLE_FOLDER}/{JINGLE_FILENAME}"},
+            headers=headers,
+            timeout=20
+        )
+        
+        media_id = None
+        if r.ok:
+            data = r.json()
+            if isinstance(data, list) and len(data) > 0:
+                media_id = data[0].get('id')
+            elif isinstance(data, dict):
+                media_id = data.get('id')
+        
+        if not media_id:
+            # Fallback: procura por nome na resposta
+            logger.info(f"  Procurando media_id via search...")
+            r2 = requests.get(
+                f"{AZURACAST_URL}/station/{STATION_ID}/media",
+                params={"searchPhrase": JINGLE_FILENAME, "limit": 1},
+                headers=headers,
+                timeout=20
+            )
+            if r2.ok:
+                media_data = r2.json()
+                if isinstance(media_data, list) and media_data:
+                    media_id = media_data[0].get('id')
+        
+        if media_id:
+            # Adiciona à playlist via bulk endpoint
+            r3 = requests.post(
+                f"{AZURACAST_URL}/station/{STATION_ID}/playlist/{playlist_id}/bulk",
+                headers={**headers, "Content-Type": "application/json"},
+                json={"media_ids": [media_id]},
+                timeout=20
+            )
+            if r3.ok:
+                logger.info(f"  Jingle adicionado à playlist News Jingles (media_id={media_id})")
+            else:
+                logger.warning(f"  Erro ao adicionar à playlist: {r3.status_code}")
+        else:
+            logger.warning("  Nao foi possivel encontrar o media_id do jingle — adicione manualmente")
+        
+        # Sempre tenta marcar como jingle
+        r4 = requests.put(
+            f"{AZURACAST_URL}/station/{STATION_ID}/playlist/{playlist_id}",
+            headers={**headers, "Content-Type": "application/json"},
+            json={"is_jingle": True},
+            timeout=20
+        )
+        if r4.ok:
+            logger.info("  Playlist marcada como is_jingle=true")
+        else:
+            logger.info(f"  is_jingle update: {r4.status_code} (pode ja estar correto)")
+            
+    except Exception as e:
+        logger.warning(f"  Playlist update error (non-fatal): {e}")
 
 
 # Para testes locais, sem enviar para o AzuraCast real
