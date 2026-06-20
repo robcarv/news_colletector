@@ -77,7 +77,8 @@ def _date_natural(language='pt'):
 def _ffmpeg_concat(file_list, output_path):
     """Concatena arquivos de áudio usando ffmpeg concat demuxer."""
     # Cria arquivo de lista para ffmpeg
-    concat_file = output_path + '.txt'
+    output_path = Path(output_path)
+    concat_file = str(output_path) + '.txt'
     with open(concat_file, 'w') as f:
         for ftype, fpath in file_list:
             f.write(f"file '{fpath}'\n")
