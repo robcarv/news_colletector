@@ -29,6 +29,9 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 
 echo "[1/3] Sincronizando news_colletector..."
 
+# Fetch remoto primeiro para evitar divergencia
+git fetch origin main -q 2>/dev/null || true
+
 # Adiciona apenas arquivos relevantes (exceto .env, audio, logs)
 git add -A
 git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ 2>/dev/null || true
@@ -53,8 +56,10 @@ git commit -m "$COMMIT_MSG" -q 2>/dev/null || true
 if git push origin main -q 2>&1; then
     echo "  OK news_colletector -> GitHub"
 else
-    echo "  Falha no push, tentando pull + rebase..."
-    if git pull --rebase origin main -q && git push origin main -q 2>&1; then
+    echo "  Remote divergiu, tentando rebase..."
+    git stash -q 2>/dev/null || true
+    if git pull --rebase origin main -q 2>&1 && git push origin main -q 2>&1; then
+        git stash pop -q 2>/dev/null || true
         echo "  OK news_colletector (com rebase)"
     else
         echo "  ERRO Falha definitiva no push do news_colletector"
