@@ -25,7 +25,7 @@
 **torrent_health_cron.sh** — Executa `torrent_health.py` dentro do container qBittorrent.
 Verifica integridade dos torrents (trackers, seeds, peers).
 
-**torrent_antivirus.sh** — Scan ClamAV nos downloads completos em `/mnt/truenas_media/whisparr/downloads/complete/`. Log em `/home/robert/scripts/clamav_scan.log`. Alerta se encontrar virus.
+**torrent_antivirus.sh** — Scan ClamAV nos downloads completos em `/mnt/truenas_media/downloads/complete/`. Log em `/home/robert/scripts/clamav_scan.log`. Alerta se encontrar virus.
 
 **guardian.sh** — Monitora LOAD (>8.0), RAM (>85%), SWAP (>50%). Toma acao corretiva se thresholds excedidos. Log a cada 30min.
 

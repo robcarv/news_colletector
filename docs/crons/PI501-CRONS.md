@@ -27,6 +27,6 @@
 
 ### Docker Containers
 
-nhentai-frontend, nhentai-backend, uptime-kuma, changedetection (+2 browsers),
-whisparr, prowlarr, speedtest-tracker, Dashy, portainer_agent, wallos,
+gallery-frontend, gallery-backend, uptime-kuma, changedetection (+2 browsers),
+media-indexer, prowlarr, speedtest-tracker, Dashy, portainer_agent, wallos,
 glances, nginx-proxy-manager
