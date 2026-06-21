@@ -49,14 +49,11 @@ EXIT_CODE=$?
 
 echo "📊 Código de saída: $EXIT_CODE" | tee -a "$LOG_FILE"
 
-# (AzuraCast radio metadata removed — was in azura_telegram_metadata.py)
+# (AzuraCast radio metadata removed — was in azura_metadata.py, file never existed)
+# Radio data is now collected by portfolio_health_push.sh → health.json
 
 # Export news.json for portfolio (com data real, nao string literal)
 echo "📰 Exportando notícias para o portfolio..." | tee -a "$LOG_FILE"
-
-# Atualiza metadados da rádio
-echo "🎵 Atualizando metadados da rádio..." | tee -a "$LOG_FILE"
-$VENV_DIR/bin/python3 /home/robert/Documents/portfolio-html/scripts/azura_metadata.py >> "$LOG_FILE" 2>&1
 
 # Gera news.json com a data/hora atual em Python (nao shell, para evitar bug de expansao)
 $VENV_DIR/bin/python3 -c "
