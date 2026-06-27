@@ -202,22 +202,42 @@ def process_feed(feed_config, dry_run=False, global_seen=None):
 
     # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
-    audio_file = f"{safe_name}.wav"  # nome estatico — sobrescrito a cada run
-    audio_path = generate_audio_file(audio_text, audio_file, language=lang, force=True)
+    wav_name = f"{safe_name}.wav"
+    mp3_name = f"{safe_name}.mp3"
+    wav_path = generate_audio_file(audio_text, wav_name, language=lang, force=True)
+    
+    # Converte WAV → MP3 (64kbps mono, ~10x menor)
+    mp3_path = None
+    if wav_path:
+        mp3_full = Config.AUDIO_DIR / mp3_name
+        result = subprocess.run(
+            ["ffmpeg", "-y", "-i", str(wav_path), "-ac", "1", "-b:a", "64k", str(mp3_full)],
+            capture_output=True, timeout=15
+        )
+        if result.returncode == 0 and mp3_full.exists():
+            mp3_path = str(mp3_full)
+            # Remove WAV (so usa MP3)
+            try:
+                Path(wav_path).unlink(missing_ok=True)
+            except Exception:
+                pass
+        else:
+            mp3_path = wav_path  # fallback: usa WAV se ffmpeg falhar
+            logger.warning("ffmpeg WAV→MP3 falhou, usando WAV")
 
     # ─── 4b. Copia para Samba (radio) ──────────────────────────────
-    if audio_path and not dry_run:
+    if mp3_path and not dry_run:
         try:
-            import subprocess as sp
-            samba_target = f"robert@pi5:/mnt/radio_hdd/news_jingles/{Path(audio_path).name}"
-            sp.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
-                    audio_path, samba_target],
+            samba_target = f"robert@pi5:/mnt/radio_hdd/news_jingles/{mp3_name}"
+            subprocess.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
+                    mp3_path, samba_target],
                    capture_output=True, timeout=15)
-            logger.info(f"📻 Copia Samba: {Path(audio_path).name}")
+            logger.info(f"📻 Copia Samba: {mp3_name}")
         except Exception:
             pass  # Pi5 offline — nao critico
 
     # ─── 5. Envia para Telegram ────────────────────────────────────
+    audio_path = mp3_path or wav_path
     if audio_path:
         # Áudio + legenda curta (headlines)
         sent = send_telegram_audio(audio_path, caption_for_audio)
