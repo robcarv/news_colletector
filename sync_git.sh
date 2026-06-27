@@ -30,7 +30,7 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 echo "[1/3] Sincronizando news_colletector..."
 
 # Fetch remoto primeiro para evitar divergencia
-git fetch origin main -q 2>/dev/null || true
+git fetch origin v4 -q 2>/dev/null || true
 
 # Adiciona apenas arquivos relevantes (exceto .env, audio, logs)
 git add -A
@@ -53,12 +53,12 @@ $(echo "$SUMMARY" | sed 's/^/  - /')"
 
 git commit -m "$COMMIT_MSG" -q 2>/dev/null || true
 
-if git push origin main -q 2>&1; then
+if git push origin v4 -q 2>&1; then
     echo "  OK news_colletector -> GitHub"
 else
     echo "  Remote divergiu, tentando rebase..."
     git stash -q 2>/dev/null || true
-    if git pull --rebase origin main -q 2>&1 && git push origin main -q 2>&1; then
+    if git pull --rebase origin v4 -q 2>&1 && git push origin v4 -q 2>&1; then
         git stash pop -q 2>/dev/null || true
         echo "  OK news_colletector (com rebase)"
     else

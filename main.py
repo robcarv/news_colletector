@@ -51,11 +51,31 @@ def save_history(history):
         json.dump(history, f, ensure_ascii=False)
 
 def is_duplicate(title, history):
+    """Dedup por similaridade: compara titulos limpos (80 chars).
+    
+    So considera duplicata se:
+    1. Titulos sao EXATAMENTE iguais (limpos), OU
+    2. Overlap de palavras > 85% com diferenca de tamanho < 20%
+    
+    Evita falsos positivos como 'Tom Hardy' vs 'Tom Hardy Is Crossing Over...'
+    """
     clean = clean_html(title).strip().lower()[:80]
     for h in history:
         h_title = h if isinstance(h, str) else h.get('title', '')
-        if clean in h_title.lower() or h_title.lower() in clean:
+        h_clean = clean_html(h_title).strip().lower()[:80]
+        # Exato
+        if clean == h_clean:
             return True
+        # Fuzzy: overlap de palavras significativo (>85%)
+        # Tolerancia de tamanho: ate 50% de diferenca (titulo com/sem subtitulo)
+        len_diff = abs(len(clean) - len(h_clean)) / max(len(clean), len(h_clean), 1)
+        if len_diff < 0.5:
+            words_a = set(clean.split())
+            words_b = set(h_clean.split())
+            if words_a and words_b:
+                overlap = len(words_a & words_b) / min(len(words_a), len(words_b))
+                if overlap > 0.85:
+                    return True
     return False
 
 # ─── Limpeza ───────────────────────────────────────────────────────────────
@@ -74,11 +94,11 @@ def cleanup_old_audio():
 
 # ─── Processamento do feed ─────────────────────────────────────────────────
 
-def process_feed(feed_config, dry_run=False):
+def process_feed(feed_config, dry_run=False, global_seen=None):
     """
     Processa um feed RSS:
       1. Coleta notícias
-      2. Filtra duplicatas
+      2. Filtra duplicatas (historico + cross-feed)
       3. Gera:
          - Texto CURTO para áudio (só headlines)
          - Texto LONGO para Telegram (resumo + links)
@@ -112,8 +132,16 @@ def process_feed(feed_config, dry_run=False):
             logger.info(f"⏭️  Já vista: {title[:60]}...")
             continue
 
+        # Cross-feed dedup: evita mesma noticia em BBC + Guardian
+        title_key = clean_html(title).strip().lower()[:100]
+        if global_seen is not None and title_key in global_seen:
+            logger.info(f"⏭️  Cross-feed dup: {title[:60]}...")
+            continue
+
         summary = summarize_content(raw, language=lang)
         new_items.append((title, summary, link, source, published, image))
+        if global_seen is not None:
+            global_seen.add(title_key)
         logger.info(f"📖 + {title[:70]}...")
 
     if not new_items:
@@ -175,7 +203,7 @@ def process_feed(feed_config, dry_run=False):
     # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
     audio_file = f"{safe_name}_{datetime.now():%Y%m%d}.wav"
-    audio_path = generate_audio_file(audio_text, audio_file, language=lang)
+    audio_path = generate_audio_file(audio_text, audio_file, language=lang, force=True)
 
     # ─── 5. Envia para Telegram ────────────────────────────────────
     if audio_path:
@@ -255,7 +283,7 @@ def _generate_jingle(lang_feeds, all_feeds, language):
             return
 
         # ── Intro ──
-        intro_text = f"Este é o. Notícias {flag}. {saudacao}." if is_pt else f"This is. News {flag}. {saudacao}."
+        intro_text = f"Este é o Dublin Calling. Notícias {flag}. {saudacao}." if is_pt else f"This is Dublin Calling. News {flag}. {saudacao}."
         p = tmp_dir / "01_intro.wav"
         if generate_audio_file(intro_text, str(p), language, force=True):
             audio_files.append((language, p))
@@ -307,11 +335,29 @@ def _generate_jingle(lang_feeds, all_feeds, language):
             if len(blocks) > 15:  # safety
                 break
 
-        # Gera áudio para cada bloco
+        # ── Silencios (gerados antes dos blocos para fallback) ──
+        for dur, name in [(1.5, "s15"), (0.8, "s08"), (0.5, "s05")]:
+            out = tmp_dir / f"{name}.wav"
+            subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono",
+                           "-t", str(dur), str(out)], capture_output=True)
+
+        sl15 = tmp_dir / "s15.wav"
+        sl08 = tmp_dir / "s08.wav"
+        sl05 = tmp_dir / "s05.wav"
+
+        # Gera áudio para cada bloco com retry
         for i, block_text in enumerate(blocks):
             p = tmp_dir / f"block_{i:02d}.wav"
-            if generate_audio_file(block_text, str(p), language, force=True):
+            success = generate_audio_file(block_text, str(p), language, force=True)
+            if not success:
+                logger.warning(f"  Bloco {i} TTS falhou, retrying...")
+                success = generate_audio_file(block_text, str(p), language, force=True)
+            if success:
                 audio_files.append((language, p))
+            else:
+                logger.warning(f"  Bloco {i} ignorado apos falha de TTS")
+                # Adiciona silencio para nao quebrar o fluxo
+                audio_files.append(("silence", sl08))
 
         # ── Outro ──
         outro_text = "Essas foram as notícias. A sua rádio. Mais notícias em seis horas." if is_pt else "Those were the latest news. Your radio station. More news in six hours."
@@ -328,15 +374,7 @@ def _generate_jingle(lang_feeds, all_feeds, language):
         logger.info(f"  Jingle {language.upper()}: {total_items} notícias → {len(blocks)} blocos → {len(audio_files)} segmentos")
 
         # ── Concatena ──
-        for dur, name in [(1.5, "s15"), (0.8, "s08"), (0.5, "s05")]:
-            out = tmp_dir / f"{name}.wav"
-            subprocess.run(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=22050:cl=mono",
-                           "-t", str(dur), str(out)], capture_output=True)
-
-        sl15 = tmp_dir / "s15.wav"
-        sl08 = tmp_dir / "s08.wav"
-        sl05 = tmp_dir / "s05.wav"
-
+        # Silencios ja foram gerados antes do loop de blocos
         concat_list = tmp_dir / "concat.txt"
         with open(concat_list, "w") as f:
             for i, (tag, af) in enumerate(audio_files):
@@ -430,12 +468,13 @@ def main():
     logger.info(f"📚 {len(feeds)} feeds carregados")
 
     all_new_titles = []
+    global_seen_titles = set()  # cross-feed dedup pool
     podcast_feeds = {}  # {feed_name: [items]} para podcast
     for idx, feed in enumerate(feeds):
         if args.feed is not None and idx != args.feed:
             continue
         try:
-            new_titles = process_feed(feed, dry_run=args.dry_run)
+            new_titles = process_feed(feed, dry_run=args.dry_run, global_seen=global_seen_titles)
             all_new_titles.extend(new_titles)
             if new_titles:
                 podcast_feeds[feed.get('name', f'feed_{idx}')] = new_titles
