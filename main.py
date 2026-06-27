@@ -265,11 +265,9 @@ def _generate_jingle(lang_feeds, all_feeds, language):
         if is_pt:
             saudacao = "Boa noite" if hora >= 18 or hora < 6 else "Boa tarde" if hora >= 12 else "Bom dia"
             flag = "do Brasil"
-            target_chars = 8000  # ~10 minutos em PT (~13 chars/s)
         else:
             saudacao = "Good evening" if hora >= 18 or hora < 6 else "Good afternoon" if hora >= 12 else "Good morning"
             flag = "from around the world"
-            target_chars = 9000  # ~10 minutos em EN (~15 chars/s)
 
         tmp_dir = Path(tempfile.mkdtemp(prefix=f"jingle_{language}_"))
         audio_files = []
@@ -317,21 +315,6 @@ def _generate_jingle(lang_feeds, all_feeds, language):
 
         if current_block:
             blocks.append(" ".join(current_block))
-
-        # Se ainda não atingiu ~10 min, duplica alguns itens com "Em outras notícias..."
-        total_chars = sum(len(b) for b in blocks)
-        filler_idx = 0
-        while total_chars < target_chars and len(items) > 2:
-            # Adiciona bloco extra com as mesmas notícias mas fraseado diferente
-            if is_pt:
-                extra = "Em resumo. " + " ".join(f"{s}. {t}." for t, s, _ in items[min(filler_idx, len(items)-3):min(filler_idx+3, len(items))])
-            else:
-                extra = "In summary. " + " ".join(f"{s}. {t}." for t, s, _ in items[min(filler_idx, len(items)-3):min(filler_idx+3, len(items))])
-            blocks.append(extra)
-            total_chars += len(extra)
-            filler_idx = (filler_idx + 2) % max(1, len(items) - 2)
-            if len(blocks) > 15:  # safety
-                break
 
         # ── Silencios (gerados antes dos blocos para fallback) ──
         for dur, name in [(1.5, "s15"), (0.8, "s08"), (0.5, "s05")]:
@@ -437,6 +420,59 @@ def _generate_azuracast_jingle(podcast_feeds, feeds):
         _generate_jingle(en_feeds, feeds, 'en')
 
 
+def export_run_json(all_new_titles, feeds):
+    """Exporta news_run.json com noticias do run atual, agrupadas por idioma."""
+    if not all_new_titles:
+        return
+    from datetime import timezone
+    from pathlib import Path
+    
+    now_iso = datetime.now(timezone.utc).astimezone().isoformat()
+    pt_items = []
+    en_items = []
+    
+    # Build feed language lookup
+    feed_lang = {f.get('name', ''): f.get('language', 'en') for f in feeds}
+    
+    for item in all_new_titles:
+        if isinstance(item, dict):
+            lang = feed_lang.get(item.get('source', ''), 'en')
+            entry = {
+                'title': item.get('title', ''),
+                'summary': item.get('summary', ''),
+                'link': item.get('link', ''),
+                'source': item.get('source', ''),
+                'date': item.get('date', '')
+            }
+            if lang == 'pt':
+                pt_items.append(entry)
+            else:
+                en_items.append(entry)
+    
+    output = {
+        'updated': now_iso,
+        'total_pt': len(pt_items),
+        'total_en': len(en_items),
+        'pt': pt_items,
+        'en': en_items
+    }
+    
+    # Write to repo root
+    run_json = Config.BASE_DIR / 'news_run.json'
+    with open(run_json, 'w') as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+    
+    # Also copy to portfolio directory
+    portfolio_json = Path('/home/robert/Documents/portfolio-html/news.json')
+    try:
+        portfolio_json.parent.mkdir(parents=True, exist_ok=True)
+        with open(portfolio_json, 'w') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+        logger.info(f"📰 news_run.json exportado: {len(pt_items)} PT + {len(en_items)} EN → portfolio")
+    except Exception:
+        logger.info(f"📰 news_run.json exportado: {len(pt_items)} PT + {len(en_items)} EN")
+
+
 def main():
     parser = argparse.ArgumentParser(description="News Collector v4")
     parser.add_argument('--feed', type=int, default=None,
@@ -528,6 +564,9 @@ def main():
     # Jingle para AzuraCast (news na radio) — todos os runs
     if podcast_feeds and not args.dry_run:
         _generate_azuracast_jingle(podcast_feeds, feeds)
+
+    # Exporta news_run.json com noticias do run atual (PT + EN separados)
+    export_run_json(all_new_titles, feeds)
 
     # Health report
     elapsed = time.time() - stats['start']
