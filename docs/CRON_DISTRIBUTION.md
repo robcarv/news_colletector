@@ -31,7 +31,7 @@ Todos os jobs estão em `nice -n 19 ionice -c 2 -n 7`.
 | cve-scan | Hermes Cron | `0 2,8,14,20 * * *` | `~/.hermes/scripts/cve_scan_trigger.sh` | Scan de vulnerabilidades no Pi4 (4x/dia) |
 | backup-all | Hermes Cron | `0 1 * * *` | `~/.hermes/scripts/backup_pipeline.sh` | Backup completo (1x/dia às 01:00) |
 | cleanup | Hermes Cron | `0 4 * * *` | `~/.hermes/scripts/cleanup_all_nodes.sh` | Limpeza de logs/temp (1x/dia às 04:00) |
-| NewsBot | crontab | `15 0,6,12,18 * * *` | `run_newsbot.sh` | Coleta + exporta notícias (4x/dia) |
+| NewsBot | crontab | `15 0,4,8,12,16,20 * * *` | `run_newsbot.sh` | Coleta + exporta notícias (6x/dia) |
 | NewsBot+podcast | crontab | `15 0 * * *` | `run_newsbot.sh --podcast` | Podcast diário (1x/dia) |
 
 ### Pi5 (192.168.68.117) — Serviços

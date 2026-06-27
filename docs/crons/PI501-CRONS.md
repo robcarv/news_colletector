@@ -12,7 +12,7 @@
 
 | # | Nome | Schedule | Tipo | Origem | Descricao |
 |---|------|----------|------|--------|-----------|
-| 1 | NewsBot | 0,6,12,18 * * * | crontab user | news_colletector | Coleta RSS de 17 feeds, gera audio TTS, envia Telegram |
+| 1 | NewsBot | 0,4,8,12,16,20 * * * | crontab user | news_colletector | Coleta RSS de 41 feeds, gera audio TTS, envia Telegram |
 | 2 | komga-sync | every 30m | Hermes cron | no_agent script | Verifica downloads concluidos, cria CBZ, aciona scan Komga |
 | 3 | homelab-health | every 60m | Hermes cron | no_agent script | Health check de todos os servicos do homelab |
 | 4 | homelab-full-scan | every 360m (6h) | Hermes cron | no_agent script | Scan profundo + push health.json para GitHub Pages |
