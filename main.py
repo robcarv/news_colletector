@@ -202,7 +202,7 @@ def process_feed(feed_config, dry_run=False, global_seen=None):
 
     # ─── 4. Gera áudio (só headlines) ──────────────────────────────
     safe_name = "".join(c if c.isalnum() else "_" for c in name)[:30]
-    audio_file = f"{safe_name}_{datetime.now():%Y%m%d}.wav"
+    audio_file = f"{safe_name}.wav"  # nome estatico — sobrescrito a cada run
     audio_path = generate_audio_file(audio_text, audio_file, language=lang, force=True)
 
     # ─── 4b. Copia para Samba (radio) ──────────────────────────────
