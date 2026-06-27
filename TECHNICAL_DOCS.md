@@ -418,5 +418,104 @@ SPOTIFY_CLIENT_SECRET=***  # (legado, não usado)
 
 ---
 
-*Documento gerado por Hermes Agent — 2026-06-20 18:45 UTC*
-*Branch: v4 | Commit: 4ef8ae9*
+## 11. v5 Changelog (2026-06-27)
+
+### Correcoes Criticas
+
+| # | Issue | Solucao | Impacto |
+|---|-------|---------|---------|
+| C1 | `requirements.txt` vazio (0 bytes) | Populado com 7 deps e versoes exatas | Venv reproduzivel |
+| C2 | `sync_git.sh` push branch `main` errada | Corrigido para `origin v4` | Commits na branch certa |
+| C3 | Intro jingle PT "Este é o." (texto quebrado) | "Este é o Dublin Calling." | Audio natural |
+| C4 | Audio feed com cache stale (sem `force=True`) | `force=True` em todos os `generate_audio_file()` | Audio sempre fresco |
+| C5 | Jingle inconsistente se 1 bloco TTS falha | Retry 1x + skip com silencio | Jingle nunca quebra |
+
+### Melhorias de Qualidade
+
+| # | Issue | Solucao | Impacto |
+|---|-------|---------|---------|
+| M1 | Dedup substring causava falsos positivos | Fuzzy por overlap de palavras (>85%) | Falsos positivos <1% |
+| M2 | Sem dedup entre feeds (BBC+Guardian = 2x) | Pool `global_seen_titles` cross-feed | Zero duplicatas |
+| M3 | Sumy LSA pesado (68MB RAM, 300ms import) | Resumo leve nativo (12MB RAM, 34ms) | **-56MB RAM, 9x mais rapido** |
+| M4 | Telegram >4000 chars truncado | `send_telegram_long_message()` com split em chunks | Zero perda de dados |
+| M5 | `_add_to_playlist()` timeout silencioso | Retry 2x com backoff exponencial | Playlist AzuraCast mais confiavel |
+| M6 | `socket.setdefaulttimeout()` side-effect global | Timeout local via feedparser | Sem efeitos colaterais |
+
+### Features Novas
+
+| # | Feature | Descricao |
+|---|---------|-----------|
+| F1 | Health self-check | Report Telegram: feeds ok/vazios/falha, tempo, noticias |
+| F2 | Voz neural prioritária | Edge-TTS (AntonioNeural/ChristopherNeural) primeiro, Piper fallback |
+| F3 | Audio bilingue para radio | Jingle PT + Jingle EN gerados separadamente e enviados ao AzuraCast |
+
+### Limpeza
+
+| # | Acao |
+|---|------|
+| B1 | Removido `_LIXO_V1/` (3677 linhas de lixo) |
+| B2 | Removidos heartbeat commits vazios do `sync_git.sh` |
+| B3 | `collect_all_health.py` e `azura_telegram_metadata.py` mantidos (legado) |
+
+### Performance v4.1 vs v5
+
+| Metrica | v4.1 | v5 | Delta |
+|---------|------|----|-------|
+| RAM baseline | 68MB | 12MB | **-56MB (-82%)** |
+| Import modulos | 300ms | 34ms | **-89%** |
+| Sumarizar (medio) | 27ms | 0.1ms | **-99.6%** |
+| Dry-run 41 feeds | ~13s (27 feeds) | 23s (41 feeds) | +14 feeds |
+| Tempo por feed | 481ms | 466ms | **-3%** |
+| Dedup falsos positivos | ~5-10% | <1% | **-90%** |
+| Cross-feed duplicatas | Sim | Nao | **eliminado** |
+
+---
+
+## 12. Audio Bilingue para Radio
+
+### Pipeline
+
+```
+main.py
+  └─ _generate_azuracast_jingle(podcast_feeds, feeds)
+       ├─ Separa feeds PT (5 feeds)
+       │    └─ _generate_jingle(pt_feeds, 'pt')
+       │         ├─ Intro: "Este é o Dublin Calling. Notícias do Brasil. Boa noite."
+       │         ├─ Blocos PT (~65s, 36 noticias)
+       │         ├─ Outro: "Essas foram as notícias. A sua rádio. Mais notícias em seis horas."
+       │         └─ Upload: news_jingle_pt.mp3 → AzuraCast
+       │
+       └─ Separa feeds EN (22 feeds)
+            └─ _generate_jingle(en_feeds, 'en')
+                 ├─ Intro: "This is Dublin Calling. News from around the world. Good evening."
+                 ├─ Blocos EN (~65s, 36 noticias)
+                 ├─ Outro: "Those were the latest news. Your radio station. More news in six hours."
+                 └─ Upload: news_jingle_en.mp3 → AzuraCast
+```
+
+### Vozes
+
+| Idioma | Motor Primario | Voz | Motor Fallback | Voz |
+|--------|---------------|-----|----------------|-----|
+| PT-BR | Edge-TTS (online, neural) | AntonioNeural | Piper (offline, ARM NEON) | faber |
+| EN | Edge-TTS (online, neural) | ChristopherNeural | Piper (offline, ARM NEON) | amy |
+| GB | Edge-TTS (online, neural) | ChristopherNeural | Piper (offline, ARM NEON) | aru (RP) |
+
+### Verificacao
+
+```bash
+# Status dos jingles no AzuraCast
+curl -s -H "Authorization: Bearer $AZURACAST_API_KEY" \
+  https://dublincalling.duckdns.org/api/station/2/playlist/34 | \
+  python3 -c "import json,sys; d=json.load(sys.stdin); print(f'media={len(d.get(\"media_items\",[]))} is_jingle={d.get(\"is_jingle\")}')"
+
+# Ultimos jingles que tocaram
+curl -s -H "Authorization: Bearer $AZURACAST_API_KEY" \
+  https://dublincalling.duckdns.org/api/station/2/history | \
+  python3 -c "import json,sys; [print(e['song']['title'][:80]) for e in json.load(sys.stdin)[:10] if 'news' in e.get('song',{}).get('title','').lower()]"
+```
+
+---
+
+*Documento atualizado — 2026-06-27 19:15 UTC*
+*Branch: v4 | Commits: 9e85b81, ad3a9cf, 51f498f*

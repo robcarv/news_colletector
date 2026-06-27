@@ -149,30 +149,28 @@ def generate_audio_file(text, filename, language='en', force=False):
     logger.info(f"🎙️  Gerando áudio ({language.upper()}): {output_path.name}...")
 
     # Decide qual engine usar baseado no idioma
+    # Prioridade: Edge-TTS (voz neural natural, online) → Piper (offline, fallback)
     if language == 'pt':
-        # PT → Piper offline (faber) primeiro, Edge-TTS fallback
-        if _check_piper(PIPER_VOICE_PT, PIPER_VOICE_PT_JSON):
-            logger.info("   Engine: Piper (offline, faber)")
+        # PT → Edge-TTS (AntonioNeural) primeiro, Piper (faber) fallback
+        logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_PT})")
+        success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_PT)
+        if not success and _check_piper(PIPER_VOICE_PT, PIPER_VOICE_PT_JSON):
+            logger.info("   Fallback: Piper (offline, faber)")
             success = _generate_with_piper(text, output_path, PIPER_VOICE_PT, PIPER_VOICE_PT_JSON)
-        else:
-            logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_PT})")
-            success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_PT)
     elif language == 'gb':
-        # GB → Piper offline (aru, RP britânico) primeiro
-        if _check_piper(PIPER_VOICE_GB, PIPER_VOICE_GB_JSON):
-            logger.info("   Engine: Piper (offline, aru GB)")
+        # GB → Edge-TTS (EN) primeiro, Piper (aru) fallback
+        logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_EN})")
+        success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
+        if not success and _check_piper(PIPER_VOICE_GB, PIPER_VOICE_GB_JSON):
+            logger.info("   Fallback: Piper (offline, aru GB)")
             success = _generate_with_piper(text, output_path, PIPER_VOICE_GB, PIPER_VOICE_GB_JSON)
-        else:
-            logger.warning("   Piper GB indisponível, fallback para Edge-TTS (EN)")
-            success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
     else:
-        # EN → Piper offline (amy) primeiro, Edge-TTS fallback
-        if _check_piper():
-            logger.info("   Engine: Piper (offline, amy)")
+        # EN → Edge-TTS (ChristopherNeural) primeiro, Piper (amy) fallback
+        logger.info(f"   Engine: Edge-TTS ({EDGE_VOICE_EN})")
+        success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
+        if not success and _check_piper():
+            logger.info("   Fallback: Piper (offline, amy)")
             success = _generate_with_piper(text, output_path)
-        else:
-            logger.warning("   Piper indisponível, fallback para Edge-TTS (EN)")
-            success = _generate_with_edge_tts(text, output_path, EDGE_VOICE_EN)
 
     if success:
         return str(output_path)
