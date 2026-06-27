@@ -165,9 +165,9 @@ def generate_podcast(feed_items, output_filename=None, language='pt'):
 
     # 4. Encerramento
     if language == 'pt':
-        closing = "Noticiário encerrado. Novas notícias em seis horas. Dublin Calling."
+        closing = "Noticiário encerrado. Novas notícias em quatro horas. Dublin Calling."
     else:
-        closing = "That's all for now. More news in six hours. Dublin Calling."
+        closing = "That's all for now. More news in four hours. Dublin Calling."
     close_path = generate_audio_file(closing, "podcast_closing.wav", language)
     if close_path:
         segments.append(("file", close_path))

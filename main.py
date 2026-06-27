@@ -358,7 +358,7 @@ def _generate_jingle(lang_feeds, all_feeds, language):
                 audio_files.append(("silence", sl08))
 
         # ── Outro ──
-        outro_text = "Essas foram as notícias. A sua rádio. Mais notícias em seis horas." if is_pt else "Those were the latest news. Your radio station. More news in six hours."
+        outro_text = "Essas foram as notícias. A sua rádio. Mais notícias em quatro horas." if is_pt else "Those were the latest news. Your radio station. More news in four hours."
         p = tmp_dir / f"outro.wav"
         if generate_audio_file(outro_text, str(p), language, force=True):
             audio_files.append((language, p))

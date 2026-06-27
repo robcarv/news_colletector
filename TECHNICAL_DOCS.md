@@ -16,10 +16,10 @@
 │                   Pipeline Completo de Notícias                      │
 ├──────────────────────────────────────────────────────────────────────┤
 │                                                                      │
-│  CRON (4x/dia ── Pi501-117)                                         │
+│  CRON (6x/dia ── Pi501-117)                                         │
 │  ┌──────────┐    ┌──────────────┐    ┌─────────────────┐            │
-│  │ 00:00    │    │ 06/12/18     │    │ run_newsbot.sh   │            │
-│  │ --podcast│    │ normal       │    │ nice -n 19       │            │
+│  │ 00:00    │    │ 00/04/08     │    │ run_newsbot.sh   │            │
+│  │ --podcast│    │ 12/16/20     │    │ nice -n 19       │            │
 │  └────┬─────┘    └──────┬───────┘    │ ionice -c 2      │            │
 │       │                 │            │ timeout 600s     │            │
 │       └────────┬────────┘            └───────┬─────────┘            │
@@ -232,7 +232,7 @@ EN:    Piper voz "amy" (ARM NEON, offline)   → Edge-TTS "ChristopherNeural" (f
 ## 6. Diagrama de Fluxo do Jingle
 
 ```
-Cron dispara (00:00, 06:00, 12:00, 18:00)
+Cron dispara (00:00, 04:00, 08:00, 12:00, 16:00, 20:00)
     │
     ▼
 run_newsbot.sh
@@ -375,7 +375,7 @@ venv/bin/pip install -r requirements.txt
 - IP: 192.168.68.117
 - Crontab:
     0 0 * * *      run_newsbot.sh --podcast
-    0 6,12,18 * * * run_newsbot.sh
+    0 0,4,8,12,16,20 * * * run_newsbot.sh
 - SSH key para pi5 configurada (id_ed25519)
 - Dependências: Python 3.11, ffmpeg, Piper TTS
 ```
@@ -482,14 +482,14 @@ main.py
        │    └─ _generate_jingle(pt_feeds, 'pt')
        │         ├─ Intro: "Este é o Dublin Calling. Notícias do Brasil. Boa noite."
        │         ├─ Blocos PT (~65s, 36 noticias)
-       │         ├─ Outro: "Essas foram as notícias. A sua rádio. Mais notícias em seis horas."
+       │         ├─ Outro: "Essas foram as notícias. A sua rádio. Mais notícias em quatro horas."
        │         └─ Upload: news_jingle_pt.mp3 → AzuraCast
        │
        └─ Separa feeds EN (22 feeds)
             └─ _generate_jingle(en_feeds, 'en')
                  ├─ Intro: "This is Dublin Calling. News from around the world. Good evening."
                  ├─ Blocos EN (~65s, 36 noticias)
-                 ├─ Outro: "Those were the latest news. Your radio station. More news in six hours."
+                 ├─ Outro: "Those were the latest news. Your radio station. More news in four hours."
                  └─ Upload: news_jingle_en.mp3 → AzuraCast
 ```
 
