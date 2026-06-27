@@ -29,6 +29,7 @@ def _telegram_request(method, url, **kwargs):
 def send_telegram_message(message):
     """
     Envia uma mensagem de texto para o Telegram.
+    Para mensagens longas (>4000 chars), use send_telegram_long_message().
     """
     if not Config.TELEGRAM_TOKEN or not Config.TELEGRAM_CHAT_ID:
         logger.warning("Credenciais do Telegram não configuradas.")
@@ -36,6 +37,7 @@ def send_telegram_message(message):
 
     # Telegram tem limite de 4096 chars por mensagem
     if len(message) > 4000:
+        logger.warning(f"Mensagem longa ({len(message)} chars) — truncando. Use send_telegram_long_message().")
         message = message[:3997] + "..."
 
     url = f"https://api.telegram.org/bot{Config.TELEGRAM_TOKEN}/sendMessage"
@@ -46,6 +48,72 @@ def send_telegram_message(message):
     }
     
     return _telegram_request("POST", url, data=payload)
+
+
+def send_telegram_long_message(message, max_chunk=3800):
+    """
+    Envia mensagem longa em chunks numerados.
+    Split por quebras de linha duplas (paragrafos) para nao cortar no meio.
+    
+    Args:
+        message: Texto completo da mensagem
+        max_chunk: Tamanho maximo por chunk (default 3800, seguro para Markdown)
+    
+    Returns:
+        True se todos os chunks foram enviados
+    """
+    if not Config.TELEGRAM_TOKEN or not Config.TELEGRAM_CHAT_ID:
+        return False
+    
+    if len(message) <= max_chunk:
+        return send_telegram_message(message)
+    
+    # Split por paragrafos (double newlines)
+    paragraphs = message.split('\n\n')
+    chunks = []
+    current = ""
+    
+    for p in paragraphs:
+        # Se um unico paragrafo excede max_chunk, divide por linhas
+        if len(p) > max_chunk:
+            lines = p.split('\n')
+            for line in lines:
+                if len(current) + len(line) + 2 <= max_chunk:
+                    current += line + "\n" if current else line
+                else:
+                    if current:
+                        chunks.append(current.strip())
+                    current = line
+        elif len(current) + len(p) + 2 <= max_chunk:
+            current += p + "\n\n" if current else p
+        else:
+            if current:
+                chunks.append(current.strip())
+            current = p
+    
+    if current:
+        chunks.append(current.strip())
+    
+    # Fallback: se ainda tem chunks > max_chunk, split forcado
+    final_chunks = []
+    for chunk in chunks:
+        while len(chunk) > max_chunk:
+            final_chunks.append(chunk[:max_chunk])
+            chunk = chunk[max_chunk:]
+        if chunk:
+            final_chunks.append(chunk)
+    
+    total = len(final_chunks)
+    success = True
+    for i, chunk in enumerate(final_chunks, 1):
+        prefix = f"({i}/{total}) " if total > 1 else ""
+        if not send_telegram_message(prefix + chunk):
+            success = False
+            logger.error(f"Falha ao enviar chunk {i}/{total}")
+        else:
+            logger.info(f"📤 Chunk {i}/{total} enviado ({len(chunk)} chars)")
+    
+    return success
 
 
 def send_telegram_audio(audio_path, caption, title=None):

@@ -114,42 +114,66 @@ def upload_jingle(audio_path, filename=None):
 
 
 def _add_to_playlist(headers, api_key):
-    """Adiciona news_jingle.mp3 à playlist 'News Jingles' (ID 34)."""
+    """Adiciona news_jingle.mp3 à playlist 'News Jingles' (ID 34).
+    
+    Com retry e backoff exponencial nos endpoints que podem timeoutar
+    em bibliotecas grandes (>1000 musicas).
+    """
+    import time as _time
+    playlist_id = 34
+    max_retries = 2
+    
     try:
-        playlist_id = 34
-        
-        # Busca o media_id via path (endpoint rápido, só 1 arquivo)
-        r = requests.get(
-            f"{AZURACAST_URL}/station/{STATION_ID}/files",
-            params={"path": f"{JINGLE_FOLDER}/{JINGLE_FILENAME}"},
-            headers=headers,
-            timeout=20
-        )
-        
+        # Busca o media_id via path (endpoint rapido, so 1 arquivo)
         media_id = None
-        if r.ok:
-            data = r.json()
-            if isinstance(data, list) and len(data) > 0:
-                media_id = data[0].get('id')
-            elif isinstance(data, dict):
-                media_id = data.get('id')
+        for attempt in range(max_retries + 1):
+            try:
+                r = requests.get(
+                    f"{AZURACAST_URL}/station/{STATION_ID}/files",
+                    params={"path": f"{JINGLE_FOLDER}/{JINGLE_FILENAME}"},
+                    headers=headers,
+                    timeout=20
+                )
+                if r.ok:
+                    data = r.json()
+                    if isinstance(data, list) and len(data) > 0:
+                        media_id = data[0].get('id')
+                    elif isinstance(data, dict):
+                        media_id = data.get('id')
+                break
+            except requests.exceptions.Timeout:
+                if attempt < max_retries:
+                    _time.sleep(2 ** attempt)
+                    logger.info(f"  Retry files lookup ({attempt + 1}/{max_retries})...")
+                else:
+                    logger.info("  Files lookup timeout apos retries")
+            except requests.exceptions.ConnectionError:
+                if attempt < max_retries:
+                    _time.sleep(2 ** attempt)
         
         if not media_id:
             # Fallback: procura por nome na resposta
             logger.info(f"  Procurando media_id via search...")
-            r2 = requests.get(
-                f"{AZURACAST_URL}/station/{STATION_ID}/media",
-                params={"searchPhrase": JINGLE_FILENAME, "limit": 1},
-                headers=headers,
-                timeout=20
-            )
-            if r2.ok:
-                media_data = r2.json()
-                if isinstance(media_data, list) and media_data:
-                    media_id = media_data[0].get('id')
+            for attempt in range(max_retries + 1):
+                try:
+                    r2 = requests.get(
+                        f"{AZURACAST_URL}/station/{STATION_ID}/media",
+                        params={"searchPhrase": JINGLE_FILENAME, "limit": 1},
+                        headers=headers,
+                        timeout=20
+                    )
+                    if r2.ok:
+                        media_data = r2.json()
+                        if isinstance(media_data, list) and media_data:
+                            media_id = media_data[0].get('id')
+                    break
+                except (requests.exceptions.Timeout, requests.exceptions.ConnectionError):
+                    if attempt < max_retries:
+                        _time.sleep(2 ** attempt)
+                        logger.info(f"  Retry media search ({attempt + 1}/{max_retries})...")
         
         if media_id:
-            # Adiciona à playlist via bulk endpoint
+            # Adiciona a playlist via bulk endpoint
             r3 = requests.post(
                 f"{AZURACAST_URL}/station/{STATION_ID}/playlist/{playlist_id}/bulk",
                 headers={**headers, "Content-Type": "application/json"},
@@ -157,9 +181,9 @@ def _add_to_playlist(headers, api_key):
                 timeout=20
             )
             if r3.ok:
-                logger.info(f"  Jingle adicionado à playlist News Jingles (media_id={media_id})")
+                logger.info(f"  Jingle adicionado a playlist News Jingles (media_id={media_id})")
             else:
-                logger.warning(f"  Erro ao adicionar à playlist: {r3.status_code}")
+                logger.warning(f"  Erro ao adicionar a playlist: {r3.status_code}")
         else:
             logger.warning("  Nao foi possivel encontrar o media_id do jingle — adicione manualmente")
         

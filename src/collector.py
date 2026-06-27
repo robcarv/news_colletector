@@ -1,6 +1,5 @@
 import feedparser
 import logging
-import socket
 from datetime import datetime
 from time import mktime
 
@@ -8,8 +7,8 @@ from .config import Config
 
 logger = logging.getLogger(__name__)
 
-# Timeout global para conexões de rede
-socket.setdefaulttimeout(Config.DOWNLOAD_TIMEOUT)
+# Timeout via feedparser (parametro nativo, sem side-effect global)
+# feedparser 6.0+ aceita timeout= como kwarg
 
 def collect_feed_data(feed_url, limit=5):
     """
@@ -51,9 +50,6 @@ def collect_feed_data(feed_url, limit=5):
         logger.info(f"✅ {len(news_items)} notícias coletadas")
         return news_items
 
-    except socket.timeout:
-        logger.error(f"❌ Timeout ao conectar em {feed_url} ({Config.DOWNLOAD_TIMEOUT}s)")
-        return []
     except Exception as e:
         logger.error(f"❌ Erro ao coletar {feed_url}: {e}")
         return []

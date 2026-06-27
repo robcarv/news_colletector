@@ -29,7 +29,7 @@ from src.config import Config
 from src.collector import collect_feed_data
 from src.processor import summarize_content, clean_html
 from src.audio import generate_audio_file
-from src.notifier import send_telegram_audio, send_telegram_message
+from src.notifier import send_telegram_audio, send_telegram_message, send_telegram_long_message
 
 logger = logging.getLogger(__name__)
 
@@ -213,20 +213,18 @@ def process_feed(feed_config, dry_run=False, global_seen=None):
             logger.info(f"✅ {name}: áudio enviado!")
         else:
             logger.warning(f"⚠️  {name}: áudio não enviado")
-            # Fallback: envia só texto
-            if len(msg) > 1000:
-                send_telegram_message(msg[:4000])
+            # Fallback: envia só texto (split se longo)
+            send_telegram_long_message(msg)
             return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
     else:
         logger.warning(f"⚠️  {name}: sem áudio, enviando só texto")
-        if len(msg) > 1000:
-            send_telegram_message(msg[:4000])
+        send_telegram_long_message(msg)
         return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
 
     # Se a mensagem for maior que 1000 chars, envia o texto completo separadamente
-    if len(msg) > 1000 and len(msg) <= 4000:
-        # Envia o texto completo como mensagem de texto
-        send_telegram_message(msg)
+    if len(msg) > 1000:
+        # Envia o texto completo como mensagem (split automatico se >4000)
+        send_telegram_long_message(msg)
         logger.info(f"📝 {name}: texto completo enviado ({len(msg)} chars)")
 
     return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
@@ -470,22 +468,30 @@ def main():
     all_new_titles = []
     global_seen_titles = set()  # cross-feed dedup pool
     podcast_feeds = {}  # {feed_name: [items]} para podcast
+    
+    # Health tracking
+    stats = {'feeds_ok': 0, 'feeds_fail': 0, 'feeds_empty': 0, 'start': time.time()}
+    
     for idx, feed in enumerate(feeds):
         if args.feed is not None and idx != args.feed:
             continue
         try:
             new_titles = process_feed(feed, dry_run=args.dry_run, global_seen=global_seen_titles)
+            if new_titles:
+                stats['feeds_ok'] += 1
+            else:
+                stats['feeds_empty'] += 1
             all_new_titles.extend(new_titles)
             if new_titles:
                 podcast_feeds[feed.get('name', f'feed_{idx}')] = new_titles
             if not args.dry_run and new_titles:
-                time.sleep(2)  # pausa reduzida de 3s para 2s
-            # Garbage collection periódico para não acumular memória
+                time.sleep(2)
             if idx > 0 and idx % Config.GC_INTERVAL == 0:
                 collected = gc.collect()
                 logger.debug(f"🧹 GC: {collected} objetos coletados após feed {idx}")
         except Exception as e:
             logger.error(f"❌ Erro no feed {idx}: {e}")
+            stats['feeds_fail'] += 1
             continue
 
     # Histórico
@@ -523,6 +529,20 @@ def main():
     if podcast_feeds and not args.dry_run:
         _generate_azuracast_jingle(podcast_feeds, feeds)
 
+    # Health report
+    elapsed = time.time() - stats['start']
+    feeds_processed = stats['feeds_ok'] + stats['feeds_fail'] + stats['feeds_empty']
+    health_msg = (
+        f"📊 *NewsBot Health*\n"
+        f"✅ {stats['feeds_ok']} feeds com notícias\n"
+        f"⏭️ {stats['feeds_empty']} feeds vazios\n"
+        f"❌ {stats['feeds_fail']} falhas\n"
+        f"📰 {len(all_new_titles)} notícias novas\n"
+        f"⏱️ {elapsed:.0f}s ({feeds_processed} feeds)"
+    )
+    if not args.dry_run:
+        send_telegram_message(health_msg)
+    logger.info(f"📊 Health: {stats['feeds_ok']}ok/{stats['feeds_empty']}vazios/{stats['feeds_fail']}falha — {elapsed:.0f}s")
     logger.info(f"Finalizado. {len(all_new_titles)} noticias novas.")
 
 

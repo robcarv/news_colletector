@@ -38,9 +38,7 @@ git reset -- .env .env.local azura_telegram_metadata.py data/audio/ logs/ 2>/dev
 
 # Verifica se tem algo para commitar
 if git diff --cached --quiet; then
-    # Força um commit vazio para registrar timestamp mesmo sem noticias
-    git commit --allow-empty -m "NewsBot: heartbeat $(date '+%d/%m/%Y %H:%M')" > /dev/null 2>&1 || true
-    echo "  Heartbeat commit (sem noticias novas)"
+    echo "  Nada para commitar — pulando"
 fi
 
 # Pega resumo das mudancas para o commit
