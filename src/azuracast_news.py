@@ -94,18 +94,7 @@ def upload_jingle(audio_path, filename=None):
             logger.error(f"  Upload failed: {r.status_code} {r.text[:200]}")
             return False
 
-        # Backup: copia via SCP para a Samba HDRadio
-        import subprocess as sp
-        try:
-            target = f"robert@pi5:/mnt/radio_hdd/{JINGLE_FOLDER}/{jingle_filename}"
-            sp.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
-                    str(mp3_path), target],
-                   capture_output=True, timeout=15)
-            logger.info("  Copia Samba HDRadio OK")
-        except Exception:
-            logger.info("  Copia Samba pulada (Pi5 offline?)")
-
-        # Marca playlist como jingle (sem lookup — endpoints timeoutam)
+        # Marca playlist como jingle
         try:
             r = requests.put(
                 f"{AZURACAST_URL}/station/{STATION_ID}/playlist/34",
