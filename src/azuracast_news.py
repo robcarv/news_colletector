@@ -77,8 +77,7 @@ def upload_jingle(audio_path, filename=None):
     # 2. Skip listagem — muito lenta em estações com biblioteca grande.
     #    Vamos direto pro upload (a API sobrescreve arquivo com mesmo nome).
 
-    # 3. Upload do novo jingle + extrai media_id da resposta
-    media_id = None
+    # 3. Upload do novo jingle
     try:
         with open(mp3_path, "rb") as f:
             r = requests.post(
@@ -91,17 +90,6 @@ def upload_jingle(audio_path, filename=None):
 
         if r.ok:
             logger.info(f"  Jingle uploaded: {jingle_filename}")
-            # Extrai media_id da resposta do upload
-            try:
-                data = r.json()
-                if isinstance(data, dict):
-                    files_list = data.get('files', [data])
-                    if isinstance(files_list, list) and files_list:
-                        media_id = files_list[0].get('id')
-                if media_id:
-                    logger.info(f"  Media ID obtido do upload: {media_id}")
-            except Exception:
-                pass
         else:
             logger.error(f"  Upload failed: {r.status_code} {r.text[:200]}")
             return False
@@ -117,66 +105,24 @@ def upload_jingle(audio_path, filename=None):
         except Exception:
             logger.info("  Copia Samba pulada (Pi5 offline?)")
 
-        # Adiciona o jingle à playlist "News Jingles" (ID 34)
-        _add_to_playlist(headers, api_key, media_id=media_id)
+        # Marca playlist como jingle (sem lookup — endpoints timeoutam)
+        try:
+            r = requests.put(
+                f"{AZURACAST_URL}/station/{STATION_ID}/playlist/34",
+                headers={**headers, "Content-Type": "application/json"},
+                json={"is_jingle": True},
+                timeout=10
+            )
+            if r.ok:
+                logger.info("  Playlist is_jingle=true")
+        except Exception:
+            pass
         return True
     except Exception as e:
         logger.error(f"  Upload erro: {e}")
         return False
 
 
-def _add_to_playlist(headers, api_key, media_id=None):
-    """Adiciona jingle a playlist 'News Jingles' (ID 34).
-    
-    Se media_id for fornecido (extraido do upload), pula o lookup.
-    Caso contrario, tenta buscar (pode timeoutar em bibliotecas grandes).
-    """
-    playlist_id = 34
-    
-    try:
-        if not media_id:
-            # Fallback: tenta buscar media_id (pode ser lento)
-            logger.info("  Procurando media_id...")
-            try:
-                r = requests.get(
-                    f"{AZURACAST_URL}/station/{STATION_ID}/media",
-                    params={"searchPhrase": JINGLE_FILENAME, "limit": 1},
-                    headers=headers,
-                    timeout=10
-                )
-                if r.ok:
-                    data = r.json()
-                    if isinstance(data, list) and data:
-                        media_id = data[0].get('id')
-            except Exception:
-                pass
-        
-        if media_id:
-            r = requests.post(
-                f"{AZURACAST_URL}/station/{STATION_ID}/playlist/{playlist_id}/bulk",
-                headers={**headers, "Content-Type": "application/json"},
-                json={"media_ids": [media_id]},
-                timeout=15
-            )
-            if r.ok:
-                logger.info(f"  Jingle adicionado a playlist (media_id={media_id})")
-            else:
-                logger.warning(f"  Bulk add falhou: {r.status_code}")
-        else:
-            logger.info("  media_id nao encontrado — adicione manualmente se necessario")
-        
-        # Marca playlist como jingle
-        r = requests.put(
-            f"{AZURACAST_URL}/station/{STATION_ID}/playlist/{playlist_id}",
-            headers={**headers, "Content-Type": "application/json"},
-            json={"is_jingle": True},
-            timeout=10
-        )
-        if r.ok:
-            logger.info("  Playlist is_jingle=true")
-            
-    except Exception as e:
-        logger.warning(f"  Playlist update (non-fatal): {e}")
 
 
 # Para testes locais, sem enviar para o AzuraCast real
