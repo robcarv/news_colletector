@@ -61,11 +61,15 @@ CACHE_FILE = Path("/tmp/azura_cache_v2.json")
 # Depois coloque LASTFM_API_KEY=xxx no arquivo .env
 LASTFM_API_KEY = os.getenv("LASTFM_API_KEY", "")
 
-# Links
+# Links (públicos — sem secrets)
 LISTEN_URL = f"{AZURACAST_URL}/listen/{STATION_SHORT}/radio.mp3"
 REQUEST_BOT = "https://t.me/Siteschanges_bot"
+STATION_URL = "https://dublincalling.duckdns.org/public/dublincalling"
 STATION_NAME = "DUBLIN CALLING"
 STATION_FLAG = "🇮🇪"
+# PIX key (chave pública de recebimento — não é secret, é pra ser compartilhada)
+PIX_KEY = os.getenv("PIX_KEY", "a8d87cf3-c48f-436a-acb5-7dfd0a64a7f6")
+QR_PIX_URL = "https://raw.githubusercontent.com/robcarv/azura-cast-customizations/main/assets/pix_qr.png"
 
 # ─── LOGGING ───────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -150,6 +154,16 @@ def search_lastfm(artist: str, title: str) -> dict:
         result["listeners"] = track.get("listeners", "")
         result["playcount"] = track.get("playcount", "")
         result["url"] = track.get("url", "")
+
+        # Album art do Last.fm (maior tamanho disponível)
+        album = track.get("album", {})
+        images = album.get("image", []) if isinstance(album, dict) else []
+        result["art_url"] = ""
+        for img in images:
+            if img.get("size") == "extralarge":
+                result["art_url"] = img.get("#text", "")
+        if not result["art_url"] and images:
+            result["art_url"] = images[-1].get("#text", "")
 
         # Tags do track
         toptags = track.get("toptags", {})
@@ -273,12 +287,16 @@ def clean_bio(text: str, max_len: int = 280) -> str:
 
 
 def build_message(info: dict, lastfm: dict | None = None, mb: dict | None = None) -> str:
-    """Monta a mensagem Telegram com box-drawing e metadados."""
+    """Monta a mensagem Telegram. Last.fm link gera preview rico automaticamente."""
     if not info or not info.get("title"):
         return ""
 
-    # ── Preview invisível (album art) ──
-    preview = f"[\u200b]({info['art']})" if info.get("art") else ""
+    # ── Preview: Last.fm URL gera preview rico. Fallback: página da rádio ──
+    preview = ""
+    if lastfm and lastfm.get("url"):
+        preview = f"🎵 [{info['artist']} — {info['title']}]({lastfm['url']})\n\n"
+    else:
+        preview = f"📻 [DUBLIN CALLING — Listen Live]({STATION_URL})\n\n"
 
     # ── Header ──
     header = (
@@ -350,7 +368,7 @@ def build_message(info: dict, lastfm: dict | None = None, mb: dict | None = None
     if lastfm:
         raw_bio = lastfm.get("bio_summary", "")
         if raw_bio:
-            bio = clean_bio(raw_bio, max_len=250)
+            bio = clean_bio(raw_bio, max_len=120)
             if bio:
                 bio_line = f"\n\n📖 _{bio}_"
 
@@ -380,11 +398,13 @@ def build_message(info: dict, lastfm: dict | None = None, mb: dict | None = None
         f"💬 [Request a Song]({REQUEST_BOT})"
     )
 
-    # ── Last.fm / MB links ──
-    if lastfm and lastfm.get("url"):
-        footer += f"\n🌐 [Last.fm]({lastfm['url']})"
+    # ── MusicBrainz link ──
     if mb and mb.get("mb_url"):
-        footer += f"  ·  📀 [MusicBrainz]({mb['mb_url']})"
+        footer += f"\n📀 [MusicBrainz]({mb['mb_url']})"
+
+    # ── PIX support ──
+    footer += f"\n\n🔗 [dublincalling.duckdns.org]({STATION_URL})"
+    footer += f"\n💚 *Ajude a rádio!* PIX: `{PIX_KEY}`"
 
     # ── Divider before next ──
     next_div = "\n" + "━" * 28 if next_line else ""
@@ -431,15 +451,19 @@ def build_inline_keyboard(lastfm_url: str = "", mb_url: str = "") -> dict:
     if second_row:
         buttons.append(second_row)
 
+    # Support button
+    buttons.append([
+        {"text": "💚 Support (PIX)", "url": QR_PIX_URL},
+    ])
+
     return {"inline_keyboard": buttons}
 
 
 # ─── TELEGRAM SEND ─────────────────────────────────────────────────────────
 
-def send_telegram(message: str, reply_markup: dict | None = None, chat_id: str | None = None, photo_url: str = "") -> bool:
-    """Envia mensagem para o Telegram. Usa sendPhoto se tiver capa (imagem grande + legenda)."""
+def send_telegram(message: str, reply_markup: dict | None = None, chat_id: str | None = None, art_url: str = "") -> bool:
+    """Envia via sendPhoto (capa do Last.fm) ou sendMessage (fallback)."""
     if not message:
-        log.warning("Mensagem vazia")
         return False
     if not TELEGRAM_TOKEN:
         log.error("BOT_TOKEN não configurado")
@@ -450,38 +474,38 @@ def send_telegram(message: str, reply_markup: dict | None = None, chat_id: str |
         log.error("CHAT_ID não configurado")
         return False
 
-    # Limita tamanho (Telegram caption cap: 1024 chars)
-    caption = message
-    if len(caption) > 1000:
-        caption = caption[:997] + "..."
+    # Tenta sendPhoto com capa do Last.fm
+    if art_url:
+        try:
+            img_resp = requests.get(art_url, timeout=15)
+            if img_resp.status_code == 200 and len(img_resp.content) > 500:
+                files = {"photo": ("art.jpg", img_resp.content, "image/jpeg")}
+                data = {
+                    "chat_id": target,
+                    "caption": message[:900],
+                    "parse_mode": "Markdown",
+                }
+                if reply_markup:
+                    data["reply_markup"] = json.dumps(reply_markup)
+                resp = requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto",
+                    data=data, files=files, timeout=20
+                )
+                resp.raise_for_status()
+                log.info(f"✅ Foto+legenda enviada para {target}")
+                return True
+        except Exception as e:
+            log.warning(f"sendPhoto falhou: {e}")
 
+    # Fallback: sendMessage
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
         "chat_id": target,
+        "text": message[:4000],
         "parse_mode": "Markdown",
     }
-
     if reply_markup:
         payload["reply_markup"] = json.dumps(reply_markup)
-
-    # Tenta sendPhoto se tiver capa — imagem grande + legenda rica
-    if photo_url:
-        payload["photo"] = photo_url
-        payload["caption"] = caption
-        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
-        try:
-            resp = requests.post(url, data=payload, timeout=15)
-            resp.raise_for_status()
-            log.info(f"✅ Foto+legenda enviada para {target}")
-            return True
-        except Exception as e:
-            log.warning(f"sendPhoto falhou ({e}), tentando sendMessage...")
-
-    # Fallback: sendMessage (texto normal com preview)
-    payload.pop("photo", None)
-    payload.pop("caption", None)
-    payload["text"] = message[:3997] + ("..." if len(message) > 4000 else "")
-    payload["disable_web_page_preview"] = "false"
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
 
     try:
         resp = requests.post(url, data=payload, timeout=15)
@@ -489,7 +513,7 @@ def send_telegram(message: str, reply_markup: dict | None = None, chat_id: str |
         log.info(f"✅ Enviado para chat {target}")
         return True
     except Exception as e:
-        log.error(f"❌ Erro Telegram ({target}): {e}")
+        log.error(f"❌ Erro Telegram ({target}): {type(e).__name__}")
         return False
 
 
@@ -572,12 +596,12 @@ def process(force: bool = False, dry_run: bool = False) -> bool:
         return True
 
     # 5. Enviar
-    photo_url = info.get("art", "")
-    ok = send_telegram(msg, reply_markup=keyboard, photo_url=photo_url)
+    art_url = lastfm.get("art_url", "")
+    ok = send_telegram(msg, reply_markup=keyboard, art_url=art_url)
 
     # Envia também para o canal (se configurado)
     if ok and TELEGRAM_CHANNEL_ID:
-        send_telegram(msg, reply_markup=keyboard, chat_id=TELEGRAM_CHANNEL_ID, photo_url=photo_url)
+        send_telegram(msg, reply_markup=keyboard, chat_id=TELEGRAM_CHANNEL_ID, art_url=art_url)
 
     return ok
 
