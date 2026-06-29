@@ -403,8 +403,8 @@ def build_message(info: dict, lastfm: dict | None = None, mb: dict | None = None
         footer += f"\n📀 [MusicBrainz]({mb['mb_url']})"
 
     # ── PIX support ──
-    footer += f"\n\n🔗 [dublincalling.duckdns.org]({STATION_URL})"
     footer += f"\n💚 *Ajude a rádio!* PIX: `{PIX_KEY}`"
+    footer += f"\n🔗 [dublincalling.duckdns.org]({STATION_URL})"
 
     # ── Divider before next ──
     next_div = "\n" + "━" * 28 if next_line else ""
@@ -482,7 +482,7 @@ def send_telegram(message: str, reply_markup: dict | None = None, chat_id: str |
                 files = {"photo": ("art.jpg", img_resp.content, "image/jpeg")}
                 data = {
                     "chat_id": target,
-                    "caption": message[:900],
+                    "caption": message[:1020],
                     "parse_mode": "Markdown",
                 }
                 if reply_markup:
