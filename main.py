@@ -318,6 +318,8 @@ def export_run_json(all_new_titles, feeds):
                 'source': item.get('source', ''),
                 'date': item.get('date', '')
             }
+            if item.get('audio'):
+                entry['audio'] = 'audio/' + item['audio']
             if lang == 'pt':
                 pt_items.append(entry)
             else:
