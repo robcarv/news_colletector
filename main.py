@@ -258,6 +258,37 @@ def process_feed(feed_config, dry_run=False, global_seen=None):
         # Envia o texto completo como mensagem (split automatico se >4000)
         send_telegram_long_message(msg)
         logger.info(f"📝 {name}: texto completo enviado ({len(msg)} chars)")
+    # --- 6. Gera audio por artigo (individual) ---
+    article_audio_files = {}
+    for i, (title, summary, link, src, pub, img) in enumerate(new_items):
+        art_text = f"{title}. {summary[:400] if summary else ''}"
+        safe = "".join(c if c.isalnum() or c in ' _-' else '_' for c in title)[:50].strip('_')
+        art_mp3 = f"{safe}.mp3"
+        art_wav = f"{safe}.wav"
+        wav_path = generate_audio_file(art_text, art_wav, language=lang, force=True)
+        if wav_path:
+            mp3_full = Config.AUDIO_DIR / art_mp3
+            result = subprocess.run(
+                ["ffmpeg", "-y", "-i", str(wav_path), "-ac", "1", "-b:a", "64k", str(mp3_full)],
+                capture_output=True, timeout=15
+            )
+            if result.returncode == 0 and mp3_full.exists():
+                article_audio_files[i] = art_mp3
+                try: Path(wav_path).unlink(missing_ok=True)
+                except: pass
+                try:
+                    subprocess.run(["scp", "-o", "ConnectTimeout=5", "-o", "StrictHostKeyChecking=no",
+                        str(mp3_full), f"robert@pi5:/mnt/radio_hdd/news_jingles/{art_mp3}"],
+                        capture_output=True, timeout=15)
+                except: pass
+
+    items_with_audio = []
+    for i, (t, s, l, src, pub, img) in enumerate(new_items):
+        item = {'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img}
+        if i in article_audio_files:
+            item['audio'] = article_audio_files[i]
+        items_with_audio.append(item)
+    return items_with_audio
 
     return [{'title': t, 'summary': s, 'link': l, 'source': src, 'date': pub.isoformat() if hasattr(pub, 'isoformat') else str(pub), 'image': img} for t, s, l, src, pub, img in new_items]
 
