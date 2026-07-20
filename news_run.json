@@ -1,559 +1,762 @@
 {
-  "updated": "2026-07-20T12:19:58.163222+01:00",
-  "total_pt": 24,
-  "total_en": 45,
+  "updated": "2026-07-20T18:20:33.935161+01:00",
+  "total_pt": 32,
+  "total_en": 63,
   "pt": [
     {
-      "title": "Brasileiro sabe identificar sinais do câncer colorretal, mas exame de rastreamento é pouco conhecido",
-      "summary": "Uma pesquisa do A.C. Camargo Cancer Center feita pela Nexus mostra que 80% dos brasileiros reconhecem a gravidade da presença de sangue nas fezes e da alterações de hábitos intestinais por mais de um mês, considerados sinais de alerta para o câncer colorretal. Apesar disso, apenas dois terços (67%) sabem o que é o exame de sangue oculto nas fezes, utilizado no rastreamento da doença. Leia mais (07/20/2026 - 08h00)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/07/brasileiro-sabe-identificar-sinais-do-cancer-colorretal-mas-exame-de-rastreamento-e-pouco-conhecido.shtml",
+      "title": "Incêndios avançam no Canadá e fumaça persiste em parte dos EUA",
+      "summary": "Os incêndios florestais que se alastram por Ontário atingem uma área de 735 mil hectares, segundo balanço divulgado nesta segunda-feira (20). Esse número representa um aumento de 13% em relação ao observado no fim de semana. Leia mais (07/20/2026 - 14h11)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/incendios-avancam-no-canada-e-fumaca-persiste-em-parte-dos-eua.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/Brasileiro sabe identificar sinais do câncer color.mp3"
+      "date": "2026-07-20T17:11:00",
+      "audio": "audio/Incêndios avançam no Canadá e fumaça persiste em p.mp3"
     },
     {
-      "title": "Investimento social corporativo é ativo estratégico para o setor privado",
-      "summary": "Nosso tempo vem sendo marcado pelo aprofundamento e pela sobreposição de crises sociais, econômicas e ambientais. Eventos climáticos extremos, desigualdades persistentes, derretimento da coesão social, fragilidades institucionais e instabilidades econômicas configuram um cenário em que os riscos à vida, ao meio ambiente e aos negócios se conectam e se potencializam mutuamente. Leia mais (07/20/2026 - 08h00)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/papo-de-responsa/2026/07/investimento-social-corporativo-e-ativo-estrategico-para-o-setor-privado.shtml",
+      "title": "PSD confirma Eduardo Paes como candidato ao governo do RJ",
+      "summary": "Convenção do PSD nesta segunda-feira (20) oficializou a candidatura do ex-prefeito do Rio de Janeiro, Eduardo Paes, ao governo do estado. A chapa de Paes terá como candidata a vice Jane Reis (MDB), irmã do ex-prefeito de Duque de Caxias Washington Reis. Leia mais (07/20/2026 - 14h02)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/poder/2026/07/psd-confirma-paes-como-candidato-ao-governo-do-rj.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/Investimento social corporativo é ativo estratégic.mp3"
+      "date": "2026-07-20T17:02:00",
+      "audio": "audio/PSD confirma Eduardo Paes como candidato ao govern.mp3"
     },
     {
-      "title": "O que é a gravidade, que faz as coisas caírem",
-      "summary": "Chute uma bola para o alto e, mesmo que tenha sido um chutão, uma hora ela vai cair. Pule e você não sairá flutuando, mas logo voltará ao chão. Até os aviões precisam manter ligadas poderosas turbinas para se manterem por um tempo no ar, ou então se esborracham no solo. Leia mais (07/20/2026 - 08h00)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/folhinha/2026/07/o-que-e-a-gravidade-que-faz-as-coisas-cairem.shtml",
+      "title": "Troca de fogo entre Rússia e Ucrânia deixa 22 mortos",
+      "summary": "A troca de fogo entre a Rússia e a Ucrânia deixou ao menos 22 civis mortos na noite de domingo (19) para segunda-feira (20). O conflito entre os países, iniciado quando Vladimir Putin invadiu o vizinho em 2022, vive uma de suas fases mais mortíferas. Leia mais (07/20/2026 - 14h01)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mundo/2026/07/troca-de-fogo-entre-russia-e-ucrania-deixa-22-mortos.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/O que é a gravidade_ que faz as coisas caírem.mp3"
+      "date": "2026-07-20T17:01:00",
+      "audio": "audio/Troca de fogo entre Rússia e Ucrânia deixa 22 mort.mp3"
     },
     {
-      "title": "Homem de 31 anos morre em acidente entre moto e carro na TO-255",
-      "summary": "Marcos dos Santos Lopes, de 31 anos, morreu em um acidente de trânsito na TO-255 Reprodução/ Instagram Porto Online O motociclista Marcos dos Santos Lopes, de 31 anos, morreu após se envolver em um acidente com um carro na zona rural de Porto Nacional, região central do Tocantins. Segundo a Polícia Militar (PM), o motorista fugiu do local.",
-      "link": "https://g1.globo.com/to/tocantins/noticia/2026/07/20/homem-de-31-anos-morre-em-acidente-entre-moto-e-carro-na-to-255.ghtml",
+      "title": "Jovem baleado enquanto assistia a jogo do Brasil morre após 14 dias internado em Imperatriz",
+      "summary": "Jovem baleado enquanto assistia a jogo do Brasil morre após 14 dias internado O jovem João Vítor da Silva Bento, de 23 anos, morreu na manhã de domingo, em Imperatriz, 14 dias depois de ser baleado em um ataque atribuído a uma facção criminosa. Ele foi atingido por disparos enquanto assistia a um jogo do Brasil na Copa do Mundo, em um bar no Parque Alvorada II. O crime aconteceu no dia 5 de julho.",
+      "link": "https://g1.globo.com/ma/maranhao/noticia/2026/07/20/jovem-baleado-enquanto-assistia-a-jogo-do-brasil-morre-apos-14-dias-internado-em-imperatriz.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-20T11:07:11",
-      "audio": "audio/Homem de 31 anos morre em acidente entre moto e ca.mp3"
+      "date": "2026-07-20T17:11:13",
+      "audio": "audio/Jovem baleado enquanto assistia a jogo do Brasil m.mp3"
     },
     {
-      "title": "Programa Tolerância Zero aborda 153 ambulantes na orla do Rio no primeiro fim de semana",
-      "summary": "No primeiro fim de semana do programa Tolerância Zero, iniciativa da Prefeitura do Rio em parceria com o Governo do Estado para reforçar o ordenamento urbano em parte da orla carioca, 153 ambulantes foram abordados ao longo dos oito quilômetros das praias de Copacabana, Ipanema, Leme e Leblon. O balanço divulgado pelo poder público é parcial e reúne dados coletados até o último sábado (18).",
-      "link": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/07/20/programa-tolerancia-zero-aborda-ambulantes-na-orla-do-rio-no-primeiro-fim-de-semana.ghtml",
+      "title": "Incêndio interdita prédio e deixa famílias desalojadas no Sul de MG",
+      "summary": "Incêndio interdita prédio e obriga retirada de moradores em Varginha Dezesseis apartamentos foram esvaziados em um prédio de um condomínio no bairro Jardim São Lucas, em Varginha (MG), onde houve o incêndio, na noite de sábado (18). O edifício foi interditado depois que vistorias do Corpo de Bombeiros e de engenheiros identificaram fissuras e rachaduras que podem indicar comprometimento da estrutura.",
+      "link": "https://g1.globo.com/mg/sul-de-minas/noticia/2026/07/20/incendio-interdita-predio-e-deixa-familias-desalojadas-no-sul-de-mg.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-20T11:06:55",
-      "audio": "audio/Programa Tolerância Zero aborda 153 ambulantes na .mp3"
+      "date": "2026-07-20T17:10:59",
+      "audio": "audio/Incêndio interdita prédio e deixa famílias desaloj.mp3"
     },
     {
-      "title": "VÍDEO: Imagem de Nossa Senhora Aparecida é encontrada intacta após incêndio no RS",
-      "summary": "Imagem da Nossa Senhora Aparecida é encontrada intacta após incêndio no RS Um incêndio atingiu uma casa de dois andares na madrugada desta segunda-feira (20) em Erechim, no Norte do Rio Grande do Sul. Uma imagem de Nossa Senhora Aparecida foi encontrada intacta em meio aos danos causados pelo fogo. O fato chamou a atenção de moradores e das equipes que atuavam no local.",
-      "link": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/07/20/video-imagem-de-nossa-senhora-aparecida-e-encontrada-intacta-apos-incendio-no-rs.ghtml",
+      "title": "PSD lança Eduardo Paes como candidato do governo do Rio de Janeiro",
+      "summary": "PSD lança Eduardo Paes como candidato do governo do Rio de Janeiro Willian Correa/TV Globo O PSD confirmou a candidatura de Eduardo Paes ao governo do Rio de Janeiro. A decisão foi tomada durante convenção realizada nesta segunda-feira (20), em Botafogo, na Zona Sul do Rio. Bacharel em direito e ex-prefeito do Rio, Eduardo Paes vai disputar o cargo pela terceira vez.",
+      "link": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/07/20/psd-lanca-eduardo-paes-como-candidato-do-governo-do-rio-de-janeiro.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-20T11:05:57",
-      "audio": "audio/VÍDEO_ Imagem de Nossa Senhora Aparecida é encontr.mp3"
+      "date": "2026-07-20T17:07:58",
+      "audio": "audio/PSD lança Eduardo Paes como candidato do governo d.mp3"
     },
     {
-      "title": "Andy Burnham assume como primeiro-ministro do Reino Unido nesta segunda; entenda desafios do novo premiê",
+      "title": "Tarifas de Trump não vão funcionar e fortalecerão Lula, diz Nobel de Economia",
+      "summary": "O economista americano Paul Krugman publicou um artigo nesta segunda-feira (20/7) no qual afirma que as tarifas impostas pelo governo Donald Trump ao Brasil não vão funcionar - e vão fortalecer o governo do presidente Luiz Inácio Lula da Silva.",
+      "link": "https://www.bbc.com/portuguese/articles/clyvgvw7px7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-07-20T12:53:26",
+      "audio": "audio/Tarifas de Trump não vão funcionar e fortalecerão .mp3"
+    },
+    {
+      "title": "Andy Burnham assume como primeiro-ministro do Reino Unido; entenda desafios do novo premiê",
       "summary": "Novo líder do partido que detém maioria no Parlamento será convidado nesta segunda pelo rei Charles 3º para formar novo governo.",
       "link": "https://www.bbc.com/portuguese/articles/cyvlyy9m7mzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Brasil",
-      "date": "2026-07-20T08:11:14",
+      "date": "2026-07-20T13:15:56",
       "audio": "audio/Andy Burnham assume como primeiro-ministro do Rein.mp3"
     },
     {
-      "title": "Mais jogos e mais polêmicas: o que deu certo e o que deu errado na maior Copa de todos os tempos",
-      "summary": "Dos preços exorbitantes dos ingressos às pausas para hidratação, passando por novas leis e intervenções políticas, houve poucos momentos de tédio nesta Copa.",
-      "link": "https://www.bbc.com/portuguese/articles/c0km8dm6j1yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Brasil",
-      "date": "2026-07-20T08:42:57",
-      "audio": "audio/Mais jogos e mais polêmicas_ o que deu certo e o q.mp3"
-    },
-    {
-      "title": "Análise: Burnham é o 5º premiê em 4 anos — e agora tenta contrariar tendência no Reino Unido",
-      "summary": "Determinado a começar o mandato em ritmo acelerado, o ex-prefeito espera manter o estilo de liderança que adotou como prefeito de Manchester.",
-      "link": "https://www.bbc.com/portuguese/articles/c62v96ndnjvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Brasil",
-      "date": "2026-07-20T10:54:14",
-      "audio": "audio/Análise_ Burnham é o 5º premiê em 4 anos _ e agora.mp3"
-    },
-    {
-      "title": "Operação mira grupo de roubos com veículos clonados no RJ",
-      "summary": "Mandados de prisão e busca e apreensão são cumpridos em Mesquita, na Baixada Fluminense;. até o momento, três pessoas foram presas",
-      "link": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/operacao-mira-grupo-de-roubos-com-veiculos-clonados-no-rj/",
+      "title": "Air France suspende voos para Riad e Dubai após piora da guerra no Irã",
+      "summary": "Empresa afirma que retomada depende de reavaliação de situação de segurança na região; Beirute, que já estava com voos paralisados, teve o período de suspensão estendido até 2 de agosto",
+      "link": "https://www.cnnbrasil.com.br/internacional/air-france-suspende-voos-para-riad-e-dubai-apos-piora-da-guerra-no-ira/",
       "source": "CNN Brasil",
-      "date": "2026-07-20T10:55:03",
-      "audio": "audio/Operação mira grupo de roubos com veículos clonado.mp3"
+      "date": "2026-07-20T17:02:30",
+      "audio": "audio/Air France suspende voos para Riad e Dubai após pi.mp3"
     },
     {
-      "title": "Espanha é a primeira campeã a sofrer apenas um gol em uma Copa do Mundo",
-      "summary": "Seleção espanhola conquistou o título do Mundial no último domingo (19), contra a Argentina",
-      "link": "https://www.cnnbrasil.com.br/esportes/futebol/copa-do-mundo/espanha-e-a-primeira-campea-a-sofrer-apenas-um-gol-em-uma-copa-do-mundo/",
+      "title": "Exportações do agro para países árabes avançam 5% no primeiro semestre",
+      "summary": "Setor alcança US$ 7,03 bilhões no primeiro semestre de 2026 mesmo com guerra no Oriente Médio",
+      "link": "https://www.cnnbrasil.com.br/agro/exportacoes-do-agro-para-paises-arabes-avancam-5-no-primeiro-semestre/",
       "source": "CNN Brasil",
-      "date": "2026-07-20T10:52:42",
-      "audio": "audio/Espanha é a primeira campeã a sofrer apenas um gol.mp3"
+      "date": "2026-07-20T17:02:27",
+      "audio": "audio/Exportações do agro para países árabes avançam 5_ .mp3"
     },
     {
-      "title": "Linha do tempo: Como foi a última década da política do Reino Unido",
-      "summary": "Desde o Brexit, líderes britânicos lutam para definir rumo do país, impactado por economia fraca e desafios políticos",
-      "link": "https://www.cnnbrasil.com.br/internacional/linha-do-tempo-como-foi-a-ultima-decada-da-politica-do-reino-unido/",
+      "title": "Ureia valoriza mais de 18% em um mês puxada por demanda e geopolítica",
+      "summary": "Tensões no Oriente Médio e enfraquecimento de negociações afetam a oferta global em momento de recomposição de estoques",
+      "link": "https://www.cnnbrasil.com.br/agro/ureia-valoriza-mais-de-18-em-um-mes-puxada-por-demanda-e-geopolitica/",
       "source": "CNN Brasil",
-      "date": "2026-07-20T10:49:46",
-      "audio": "audio/Linha do tempo_ Como foi a última década da políti.mp3"
+      "date": "2026-07-20T17:00:02",
+      "audio": "audio/Ureia valoriza mais de 18_ em um mês puxada por de.mp3"
     },
     {
-      "title": "Fonte desaba durante festa pelo título da Espanha; um adolescente morreu",
-      "summary": "Estrutura cedeu após várias pessoas subirem no monumento durante a festa pelo título da Copa do Mundo",
-      "link": "https://exame.com/mundo/fonte-desaba-durante-festa-pelo-titulo-da-espanha-um-adolescente-morreu/",
+      "title": "Pré-venda do GTA 6 se transformou em isca para golpes; veja como proteger seus dados e dinheiro",
+      "summary": "Criminosos usam pré-venda, supostos vazamentos e falsas ofertas ligadas a GTA VI para direcionar vítimas a páginas fraudulentas",
+      "link": "https://exame.com/pop/pre-venda-do-gta-6-se-transformou-em-isca-para-golpes-veja-como-proteger-seus-dados-e-dinheiro/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-20T08:14:48",
-      "audio": "audio/Fonte desaba durante festa pelo título da Espanha.mp3"
+      "date": "2026-07-20T14:04:07"
     },
     {
-      "title": "Com AmPm, Krispy Kreme traça estratégia para não 'virar' paleta mexicana",
-      "summary": "Rede americana aposta em distribuição, marketing e adaptação do cardápio para evitar o destino de outras febres gastronômicas que perderam força no país",
-      "link": "https://exame.com/exame-in/com-ipiranga-krispy-kreme-traca-estrategia-para-nao-virar-paleta-mexicana/",
+      "title": "Derrota na final não impede homenagens à Argentina e a Messi em Buenos Aires",
+      "summary": "Mesmo sem o bicampeonato, argentinos ocuparam o Obelisco após a final, agradeceram aos jogadores pelo legado iniciado em 2022 e se despediram de Lionel Messi",
+      "link": "https://exame.com/esporte/derrota-na-final-nao-impede-homenagens-a-argentina-e-a-messi-em-buenos-aires/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-20T08:04:17",
-      "audio": "audio/Com AmPm_ Krispy Kreme traça estratégia para não .mp3"
+      "date": "2026-07-20T13:54:36"
     },
     {
-      "title": "De estagiário à líder: MBRF lança programa para formar novas lideranças da indústria de alimentos",
-      "summary": "Programa oferece 43 vagas distribuídas em 11 estados do Brasil. Veja os requisitos",
-      "link": "https://exame.com/carreira/de-estagiario-a-lider-mbrf-lanca-programa-para-formar-novas-liderancas-da-industria-de-alimentos/",
+      "title": "De Barcelona ao Arsenal: veja por quais clubes atuam os campeões mundiais da Espanha",
+      "summary": "Seleção campeã da Copa do Mundo de 2026 reúne atletas de 12 clubes diferentes, com destaque para a forte presença do Barcelona",
+      "link": "https://exame.com/esporte/de-barcelona-ao-arsenal-veja-por-quais-clubes-atuam-os-campeoes-mundiais-da-espanha/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-20T08:00:25",
-      "audio": "audio/De estagiário à líder_ MBRF lança programa para fo.mp3"
+      "date": "2026-07-20T13:51:08"
     },
     {
-      "title": "O que se sabe sobre a morte de piloto de avião ‘batizado’ com banho de óleo",
-      "summary": "Gustavo Henrique Lara, de 27 anos, teria tido uma grava reação alérgica ao produto. A vítima sofreu três paradas cardiorespiratórias",
-      "link": "https://www.cartacapital.com.br/sociedade/o-que-se-sabe-sobre-a-morte-de-piloto-de-aviao-batizado-com-banho-de-oleo/",
+      "title": "Vereador do PT morre após ser vítima de um ataque de abelhas no Piauí",
+      "summary": "Odeilton Neto da Costa (PT) estava internado no Hospital de Doenças Tropicais Natan Portella e não resistiu às complicações causadas pelas múltiplas picadas",
+      "link": "https://www.cartacapital.com.br/cartaexpressa/vereador-do-pt-morre-apos-ser-vitima-de-um-ataque-de-abelhas-no-piaui/",
       "source": "Carta Capital (Brasil)",
-      "date": "2026-07-20T11:16:35",
-      "audio": "audio/O que se sabe sobre a morte de piloto de avião _ba.mp3"
+      "date": "2026-07-20T16:42:21",
+      "audio": "audio/Vereador do PT morre após ser vítima de um ataque .mp3"
     },
     {
-      "title": "Leila do Vôlei e Michelle Bolsonaro são as favoritas ao Senado no DF, segundo o Paraná Pesquisas",
-      "summary": "A esposa de Jair Bolsonaro, porém, indicou que pode abrir mão da disputa",
-      "link": "https://www.cartacapital.com.br/politica/leila-do-volei-e-michelle-bolsonaro-sao-as-favoritas-ao-senado-no-df-segundo-o-parana-pesquisas/",
+      "title": "Michelle Bolsonaro volta a atacar aliança do PL com Ciro Gomes e diz que ‘direita do Ceará está vendida’",
+      "summary": "A ex-primeira-dama retomou críticas à aproximação entre seu partido e o PSDB no estado e associou a negociação à crise com Flávio Bolsonaro",
+      "link": "https://www.cartacapital.com.br/politica/michelle-bolsonaro-volta-a-atacar-alianca-do-pl-com-ciro-gomes-e-diz-que-direita-do-ceara-esta-vendida/",
       "source": "Carta Capital (Brasil)",
-      "date": "2026-07-20T11:08:19",
-      "audio": "audio/Leila do Vôlei e Michelle Bolsonaro são as favorit.mp3"
+      "date": "2026-07-20T16:38:19",
+      "audio": "audio/Michelle Bolsonaro volta a atacar aliança do PL co.mp3"
     },
     {
-      "title": "Celina Leão lidera a disputa pelo governo do DF, mostra Paraná Pesquisas",
-      "summary": "A atual governadora lidera os dois cenários testados",
-      "link": "https://www.cartacapital.com.br/politica/celina-leao-lidera-a-disputa-pelo-governo-do-df-mostra-parana-pesquisas/",
+      "title": "Economia cresce 0,7% em maio, puxada por consumo das famílias, diz FGV",
+      "summary": "Monitor do PIB aponta alta de 1,7% no acumulado de 12 meses",
+      "link": "https://www.cartacapital.com.br/economia/economia-cresce-07-em-maio-puxada-por-consumo-das-familias-diz-fgv/",
       "source": "Carta Capital (Brasil)",
-      "date": "2026-07-20T10:43:51",
-      "audio": "audio/Celina Leão lidera a disputa pelo governo do DF_ m.mp3"
+      "date": "2026-07-20T16:07:43",
+      "audio": "audio/Economia cresce 0_7_ em maio_ puxada por consumo d.mp3"
     },
     {
-      "title": "Pé de Elefante: conheça o 'objeto' mais radioativo de Chernobyl",
+      "title": "Aquecimento 8.8 do Meli chega com ofertas para o Dias dos Pais; confira destaques",
       "summary": "",
-      "link": "https://www.tecmundo.com.br/ciencia/414526-pe-de-elefante-conheca-o-objeto-mais-radioativo-de-chernobyl.htm",
+      "link": "https://www.tecmundo.com.br/guia-de-compras/414664-aquecimento-88-do-meli-chega-com-ofertas-para-o-dias-dos-pais-confira-destaques.htm",
       "source": "TecMundo (Brasil)",
-      "date": "2026-07-20T11:15:00",
-      "audio": "audio/Pé de Elefante_ conheça o _objeto_ mais radioativo.mp3"
+      "date": "2026-07-20T17:07:11",
+      "audio": "audio/Aquecimento 8_8 do Meli chega com ofertas para o D.mp3"
     },
     {
-      "title": "Melhor aspirador de pó vertical Mondial; 5 modelos custo-benefício",
+      "title": "Taxa das blusinhas: importações batem recorde após fim do imposto",
       "summary": "",
-      "link": "https://www.tecmundo.com.br/guia-de-compras/414522-melhor-aspirador-de-po-vertical-mondial-5-modelos-custo-beneficio.htm",
+      "link": "https://www.tecmundo.com.br/mercado/414657-taxa-das-blusinhas-importacoes-batem-recorde-apos-fim-do-imposto.htm",
       "source": "TecMundo (Brasil)",
-      "date": "2026-07-20T10:15:00",
-      "audio": "audio/Melhor aspirador de pó vertical Mondial_ 5 modelos.mp3"
+      "date": "2026-07-20T17:00:00",
+      "audio": "audio/Taxa das blusinhas_ importações batem recorde após.mp3"
     },
     {
-      "title": "Chef mineiro é encontrado morto em Londres",
-      "summary": "Dener Marcos Guieiro, de 28 anos, estava desaparecido desde o início de julho; família confirmou a morte neste domingo por meio das redes sociais",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7464263-chef-mineiro-e-encontrado-morto-em-londres.html",
+      "title": "Inde Navarrette vira queridinha dos gamers e ganha cópia rara de Modern Warfare 2",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/voxel/504894-inde-navarrette-vira-queridinha-dos-gamers-e-ganha-copia-rara-de-modern-warfare-2.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-07-20T16:15:36",
+      "audio": "audio/Inde Navarrette vira queridinha dos gamers e ganha.mp3"
+    },
+    {
+      "title": "Lula diz que saúde é tema central para o futuro do país",
+      "summary": "O presidente discursou após sancionar a lei que busca ampliar a autonomia do país na produção de medicamentos, vacinas, equipamentos e insumos médicos",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7464569-lula-diz-que-saude-e-tema-central-para-o-futuro-do-pais.html",
       "source": "Correio Braziliense",
-      "date": "2026-07-20T10:07:00",
-      "audio": "audio/Chef mineiro é encontrado morto em Londres.mp3"
+      "date": "2026-07-20T17:00:00",
+      "audio": "audio/Lula diz que saúde é tema central para o futuro do.mp3"
     },
     {
-      "title": "Misoginia entre adolescentes é desafio na sala de aula",
-      "summary": "Jovens chamados de redpill humilham garotas, desprezam o gênero feminino e causam constrangimentos nas escolas. Especialistas advertem sobre necessidade de ação dos responsáveis e de controle nas redes sociais",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7464222-misoginia-entre-adolescentes-e-desafio-na-sala-de-aula.html",
+      "title": "Câmara aprova suspensão de prescrição para condenado que fugir da prisão",
+      "summary": "Proposta que segue para o Senado suspende a contagem do prazo para o Estado executar a pena até a recaptura do condenado; entenda a mudança",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7464518-camara-aprova-suspensao-de-prescricao-para-condenado-que-fugir-da-prisao.html",
       "source": "Correio Braziliense",
-      "date": "2026-07-20T06:59:00",
-      "audio": "audio/Misoginia entre adolescentes é desafio na sala de .mp3"
+      "date": "2026-07-20T16:03:00",
+      "audio": "audio/Câmara aprova suspensão de prescrição para condena.mp3"
     },
     {
-      "title": "Que horas estreia o 6º episódio da segunda temporada de ‘X-Men ’97’?",
-      "summary": "Novo ano da produção, que resgata a série clássica dos anos 1990, mostram os mutantes enfrentando novos desafios O post Que horas estreia o 6º episódio da segunda temporada de &#8216;X-Men &#8217;97&#8217;? apareceu primeiro em Rolling Stone Brasil.",
-      "link": "https://rollingstone.com.br/entretenimento/que-horas-estreia-o-6o-episodio-da-segunda-temporada-de-x-men-97/",
-      "source": "Rolling Stone Brasil",
-      "date": "2026-07-20T08:00:21",
-      "audio": "audio/Que horas estreia o 6º episódio da segunda tempora.mp3"
+      "title": "Lotofácil da Independência 2026: Vendas começam para prêmio de R$ 300 mi",
+      "summary": "Sorteio especial será em setembro com prêmio que não acumula; saiba como fazer sua aposta simples, participar de um bolão ou jogar pela internet",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7464488-lotofacil-da-independencia-2026-vendas-comecam-para-premio-de-rs-300-mi.html",
+      "source": "Correio Braziliense",
+      "date": "2026-07-20T15:33:00",
+      "audio": "audio/Lotofácil da Independência 2026_ Vendas começam pa.mp3"
     },
     {
-      "title": "Quando estreia o 10º e último episódio da nona temporada de ‘Rick and Morty’?",
-      "summary": "Animação de sucesso chega ao fim em breve na HBO Max O post Quando estreia o 10º e último episódio da nona temporada de &#8216;Rick and Morty&#8217;? apareceu primeiro em Rolling Stone Brasil.",
-      "link": "https://rollingstone.com.br/entretenimento/quando-estreia-o-10o-e-ultimo-episodio-da-nona-temporada-de-rick-and-morty/",
+      "title": "Joe Duplantier celebra Luigi Paraventi em show do Gojira: “não errou nada”",
+      "summary": "Vocalista aproveitou para enaltecer histórico de \"bateristas incríveis\" do Brasil O post Joe Duplantier celebra Luigi Paraventi em show do Gojira: &#8220;não errou nada&#8221; apareceu primeiro em TMDQA!.",
+      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/07/20/joe-duplantier-celebra-luigi-paraventi-show-gojira/",
+      "source": "Tenho Mais Discos Que Amigos (Brasil)",
+      "date": "2026-07-20T17:15:10",
+      "audio": "audio/Joe Duplantier celebra Luigi Paraventi em show do .mp3"
+    },
+    {
+      "title": "Nickelback une peso e groove em “Rattle the Cage”, uma das melhores músicas de 2026",
+      "summary": "Banda anunciou também o novo disco \"Everything Under the Sun\", seu 11º trabalho de estúdio O post Nickelback une peso e groove em “Rattle the Cage”, uma das melhores músicas de 2026 apareceu primeiro em TMDQA!.",
+      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/07/20/nickelback-rattle-the-cage-peso-groove/",
+      "source": "Tenho Mais Discos Que Amigos (Brasil)",
+      "date": "2026-07-20T14:58:57",
+      "audio": "audio/Nickelback une peso e groove em _Rattle the Cage.mp3"
+    },
+    {
+      "title": "Lenyn assina com a ODR Music e estreia parceria entre o selo e a produtora Anel de Bamba",
+      "summary": "Aos 24 anos, cantor e compositor chega ao casting da gravadora com projeto de estreia que transita entre Pop e R&#38;B, unindo autoconhecimento, ancestralidade e identidade O post Lenyn assina com a ODR Music e estreia parceria entre o selo e a produtora Anel de Bamba apareceu primeiro em TMDQA!.",
+      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/07/20/lenyn-odr-music-anel-de-bamba/",
+      "source": "Tenho Mais Discos Que Amigos (Brasil)",
+      "date": "2026-07-20T14:36:57",
+      "audio": "audio/Lenyn assina com a ODR Music e estreia parceria en.mp3"
+    },
+    {
+      "title": "Brian Johnson (AC/DC) revela que a perda auditiva foi causada por uma gripe",
+      "summary": "Em 2016 o AC/DC precisou adiar as últimas dez datas de sua turnê, já que o vocalista Brian Johnson fora aconselhado pela junta médica a parar de tocar ao vivo, pois corria o risco de perder totalmente a audição. A banda completou a perna europeia e norte-americana do giro com o frontman do Guns n’ ... Ler mais O post Brian Johnson (AC/DC) revela que a perda auditiva foi causada por uma gripe apareceu primeiro em RockBizz.",
+      "link": "https://www.rockbizz.com.br/brian-johnson-ac-dc-revela-que-a-perda-auditiva-foi-causada-por-uma-gripe/",
+      "source": "RockBizz (Brasil)",
+      "date": "2026-07-20T16:24:30",
+      "audio": "audio/Brian Johnson _AC_DC_ revela que a perda auditiva .mp3"
+    },
+    {
+      "title": "Liam Gallagher é irônico quanto a um novo álbum do Oasis: “Não estou preparado para as críticas”",
+      "summary": "Liam e Noel Gallagher, ícones do Britpop, anunciaram a turnê Live ’25 – seus primeiros shows juntos em 16 anos – em agosto de 2024. Depois de começar pelo Reino Unido, o Oasis levou os shows para o resto do mundo e encerraram a enorme jornada em São Paulo, no dia 23 de novembro de ... Ler mais O post Liam Gallagher é irônico quanto a um novo álbum do Oasis: &#8220;Não estou preparado para as críticas&#8221; apareceu primeiro em RockBizz.",
+      "link": "https://www.rockbizz.com.br/liam-gallagher-e-ironico-quanto-a-um-novo-album-do-oasis-nao-estou-preparado-para-as-criticas/",
+      "source": "RockBizz (Brasil)",
+      "date": "2026-07-20T16:03:15",
+      "audio": "audio/Liam Gallagher é irônico quanto a um novo álbum do.mp3"
+    },
+    {
+      "title": "Novo álbum do Saxon vai se chamar Gods Of Thunder, segundo o guitarrista Brian Tatler",
+      "summary": "O novo álbum do Saxon vai se chamar Gods Of Thunder, segundo o guitarrista Brian Tatler. Ele forneceu esta informação a Neil Jones, da TotalRock, durante o festival Maid Of Stone, que aconteceu no último fim de semana no Mote Park, em Maidstone, Kent, Reino Unido. O trabalho mais novo do Saxon no mercado é ... Ler mais O post Novo álbum do Saxon vai se chamar Gods Of Thunder, segundo o guitarrista Brian Tatler apareceu primeiro em RockBizz.",
+      "link": "https://www.rockbizz.com.br/novo-album-do-saxon-vai-se-chamar-gods-of-thunder-segundo-o-guitarrista-brian-tatler/",
+      "source": "RockBizz (Brasil)",
+      "date": "2026-07-20T15:42:39",
+      "audio": "audio/Novo álbum do Saxon vai se chamar Gods Of Thunder.mp3"
+    },
+    {
+      "title": "‘Mestres do Universo’, live-action do He-Man, ganha data para chegar ao streaming",
+      "summary": "Nicholas Galitzine, estrela de Vermelho, Branco e Sangue Azul (2023), é o protagonista da novidade O post &#8216;Mestres do Universo&#8217;, live-action do He-Man, ganha data para chegar ao streaming apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/cinema/mestres-do-universo-live-action-do-he-man-ganha-data-para-chegar-ao-streaming/",
       "source": "Rolling Stone Brasil",
-      "date": "2026-07-20T07:00:39",
-      "audio": "audio/Quando estreia o 10º e último episódio da nona tem.mp3"
+      "date": "2026-07-20T16:38:07",
+      "audio": "audio/Mestres do Universo__ live-action do He-Man_ ganh.mp3"
+    },
+    {
+      "title": "‘Battlefield 6’ ganha crossover com ‘Top Gun: Maverick’, mas sem Tom Cruise",
+      "summary": "Nova temporada do jogo traz aviões icônicos do filme, modos inéditos de combate aéreo e personagens dublados pelos atores originais, com exceção de Tom Cruise O post &#8216;Battlefield 6&#8217; ganha crossover com &#8216;Top Gun: Maverick&#8217;, mas sem Tom Cruise apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/guia-game/battlefield-6-ganha-crossover-com-top-gun-maverick-mas-sem-tom-cruise/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-07-20T15:39:33",
+      "audio": "audio/Battlefield 6_ ganha crossover com _Top Gun_ Mave.mp3"
+    },
+    {
+      "title": "Stephen King elogia série de ‘Cabo do Medo’ e diz que produção é ‘divertida e perturbada’",
+      "summary": "Escritor comentou a nova adaptação da Apple TV+ e afirmou que o tom exagerado da produção é justamente um de seus maiores atrativos O post Stephen King elogia série de &#8216;Cabo do Medo&#8217; e diz que produção é &#8216;divertida e perturbada&#8217; apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/tv/stephen-king-elogia-serie-de-cabo-do-medo/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-07-20T15:16:52",
+      "audio": "audio/Stephen King elogia série de _Cabo do Medo_ e diz .mp3"
     }
   ],
   "en": [
     {
-      "title": "A very quick guide to Andy Burnham",
-      "summary": "Andy Burnham will replace Sir Keir Starmer as PM, after winning the backing of Labour MPs.",
-      "link": "https://www.bbc.co.uk/news/articles/clyv9qe6wj7o?at_medium=RSS&at_campaign=rss",
+      "title": "Summer games on Nintendo Switch 2 and Nintendo Switch",
+      "summary": "Sun, sand, waves and more! Find the perfect summer adventure for you.",
+      "link": "https://www.nintendo.com/en-gb/News/2026/July/Summer-games-on-Nintendo-Switch-2-and-Nintendo-Switch-3139051.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+      "source": "Nintendo",
+      "date": "2026-07-17T13:00:00",
+      "audio": "audio/Summer games on Nintendo Switch 2 and Nintendo Swi.mp3"
+    },
+    {
+      "title": "Faisal Islam: The new PM has big ideas - but what will they cost?",
+      "summary": "Every tricky decision and trade off is being watched by the country and the markets at the same time",
+      "link": "https://www.bbc.co.uk/news/articles/c9357rlk494o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-07-20T09:32:07",
-      "audio": "audio/A very quick guide to Andy Burnham.mp3"
+      "date": "2026-07-20T16:51:54",
+      "audio": "audio/Faisal Islam_ The new PM has big ideas - but what .mp3"
     },
     {
-      "title": "Watch: Sir Keir Starmer's last speech as prime minister in full",
-      "summary": "Starmer spoke in front of an applauding crowd on Downing Street.",
-      "link": "https://www.bbc.co.uk/news/videos/cx2ml6g4y6ko?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham promises help with your money. How could it affect you?",
+      "summary": "The new PM says he will look at how much people can earn before paying tax but admitted changing it would be difficult.",
+      "link": "https://www.bbc.co.uk/news/articles/cp9ezldrkkgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-07-20T10:37:20",
-      "audio": "audio/Watch_ Sir Keir Starmer_s last speech as prime min.mp3"
+      "date": "2026-07-20T15:10:48",
+      "audio": "audio/Burnham promises help with your money_ How could i.mp3"
     },
     {
-      "title": "AliExpress fined almost $630 million over illegal product sales",
-      "summary": "AliExpress has been hit with a &#8364;550 million (about $629 million) fine for violating Europe's Digital Services Act (DSA) rules by failing to prevent illegal, unsafe, or counterfeit products from being sold on the e-commerce platform. The European Commission ruled that AliExpress didn't take effective measures to reduce the dissemination of illegal products, noting the [&#8230;]",
-      "link": "https://www.theverge.com/policy/967802/aliexpress-eu-dsa-fine-illegal-products",
+      "title": "Burnham's policy choices reveal what kind of PM he wants to be",
+      "summary": "The new prime minister has begun to set out key policies - starting with a vow to end rough sleeping.",
+      "link": "https://www.bbc.co.uk/news/articles/c3r0x5nzg0eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "date": "2026-07-20T15:41:02",
+      "audio": "audio/Burnham_s policy choices reveal what kind of PM he.mp3"
+    },
+    {
+      "title": "Adobe camera app’s new feature will critique your photos using AI",
+      "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app",
+      "link": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "source": "TechCrunch",
+      "date": "2026-07-20T15:45:00",
+      "audio": "audio/Adobe camera app_s new feature will critique your .mp3"
+    },
+    {
+      "title": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk",
+      "summary": "Two critical security flaws in WordPress’ software have given hackers the chance to remotely take over tens of millions of websites, according to an estimate by a cybersecurity researcher.",
+      "link": "https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/",
+      "source": "TechCrunch",
+      "date": "2026-07-20T15:35:37",
+      "audio": "audio/Hackers are exploiting recently patched WordPress .mp3"
+    },
+    {
+      "title": "YouTube clarifies policies around AI slop and upsetting videos",
+      "summary": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+      "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "source": "TechCrunch",
+      "date": "2026-07-20T15:23:06",
+      "audio": "audio/YouTube clarifies policies around AI slop and upse.mp3"
+    },
+    {
+      "title": "F1 in Belgium: The 2026 cars look pathetic on all the best racetracks",
+      "summary": "Many will say Spa is the best racetrack on earth, but not for these F1 cars.",
+      "link": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
+      "source": "Ars Technica",
+      "date": "2026-07-20T15:59:18",
+      "audio": "audio/F1 in Belgium_ The 2026 cars look pathetic on all .mp3"
+    },
+    {
+      "title": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
+      "summary": "Online retailer AliExpress says it's shocked by largest DSA fine yet.",
+      "link": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/",
+      "source": "Ars Technica",
+      "date": "2026-07-20T15:32:45",
+      "audio": "audio/AliExpress hit with record _625M fine after failin.mp3"
+    },
+    {
+      "title": "The first trailer for Avengers: Doomsday is finally here",
+      "summary": "\"Something's coming. Something we may not be able to deter.\"",
+      "link": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
+      "source": "Ars Technica",
+      "date": "2026-07-20T14:33:46",
+      "audio": "audio/The first trailer for Avengers_ Doomsday is finall.mp3"
+    },
+    {
+      "title": "LG&#8217;s glossy OLED gaming monitor is rare to find under $400",
+      "summary": "If you&#8217;ve been thinking about upgrading your gaming monitor, LG&#8217;s 27-inch 27GX704A-B pairs a glossy WOLED panel with a fast refresh rate, and it’s currently on sale for $379.99 (about $70 off) at Amazon and directly from LG, marking a new low price.&#160;It originally launched at $799.99, but has been available for under $500 since [&#8230;]",
+      "link": "https://www.theverge.com/gadgets/967993/lg-27-inch-ultragear-glossy-oled-gaming-monitor-deal-sale",
       "source": "The Verge",
-      "date": "2026-07-20T11:16:32"
+      "date": "2026-07-20T16:34:24"
     },
     {
-      "title": "China delivers a one-two punch to America’s AI dominance",
-      "summary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming [&#8230;]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "title": "LG’s monitors come with an unwanted addition for Windows: McAfee pop-up ads",
+      "summary": "A video from Gamers Nexus explains how, after connecting a new LG UltraGear monitor to a PC running Windows 11 for the first time, Windows Update is silently installing LG driver updates and the LG Monitor App Installer, without so much as a permission pop-up or notification. The app doesn't appear to include special controls [&#8230;]",
+      "link": "https://www.theverge.com/tech/967983/lg-monitors-mcafee-adware-gamers-nexus",
       "source": "The Verge",
-      "date": "2026-07-20T10:16:33"
+      "date": "2026-07-20T16:14:58"
     },
     {
-      "title": "Tehran and Washington Face a ‘Wake Up Moment’ Over the War",
-      "summary": "U.S. and Iranian attacks are unfolding in a way that risks a wider war they cannot contain, analysts warn, unless they can return to negotiations quickly.",
-      "link": "https://www.nytimes.com/2026/07/20/world/middleeast/iran-united-states-escalation.html",
+      "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
+      "summary": "Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the [&#8230;]",
+      "link": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "source": "The Verge",
+      "date": "2026-07-20T16:00:00"
+    },
+    {
+      "title": "Aiming for My Fastest Marathon, I Turned to Distance Running’s Mecca",
+      "summary": "A New York Times reporter’s quest to beat the personal best he set 14 years ago took him to a Kenyan village, where the biggest benefit he got was not what he expected.",
+      "link": "https://www.nytimes.com/2026/07/20/world/africa/kenya-iten-marathon-training.html",
       "source": "NYT World",
-      "date": "2026-07-20T08:09:12",
-      "audio": "audio/Tehran and Washington Face a _Wake Up Moment_ Over.mp3"
+      "date": "2026-07-20T17:01:56",
+      "audio": "audio/Aiming for My Fastest Marathon_ I Turned to Distan.mp3"
     },
     {
-      "title": "Zelensky Faces Pressure to Remove Ukraine’s Top General",
-      "summary": "Demonstrators and many soldiers want President Volodymyr Zelensky to reaffirm the vision of drone warfare laid out by the defense minister he fired last week.",
-      "link": "https://www.nytimes.com/2026/07/20/world/europe/ukraine-zelensky-general-defense-minister.html",
+      "title": "Burnham Set to Become Britain’s First Openly Roman Catholic Prime Minister",
+      "summary": "Andy Burnham has spoken of Catholicism as part of his cultural identity rather than as a fervent religious faith.",
+      "link": "https://www.nytimes.com/2026/07/20/world/europe/burnham-openly-roman-catholic-prime-minister.html",
       "source": "NYT World",
-      "date": "2026-07-20T10:42:04",
-      "audio": "audio/Zelensky Faces Pressure to Remove Ukraine_s Top Ge.mp3"
+      "date": "2026-07-20T10:44:02",
+      "audio": "audio/Burnham Set to Become Britain_s First Openly Roman.mp3"
     },
     {
-      "title": "Five of the Main Challenges Awaiting Andy Burnham When He Becomes Prime Minister",
-      "summary": "Andy Burnham, who is set to enter Downing Street on Monday, faces a long and daunting list of issues. Here are some of the most urgent.",
-      "link": "https://www.nytimes.com/2026/07/20/world/europe/britain-new-prime-minister-challenges.html",
-      "source": "NYT World",
-      "date": "2026-07-20T04:01:05",
-      "audio": "audio/Five of the Main Challenges Awaiting Andy Burnham .mp3"
-    },
-    {
-      "title": "Man denies murdering mother who was shot outside Sheffield bar",
-      "summary": "A man has denied murdering a mother who was shot dead outside a Sheffield bar.",
-      "link": "https://news.sky.com/story/man-denies-murdering-mother-shanice-brookes-who-was-shot-outside-sheffield-bar-13565177",
+      "title": "Hosepipe ban brought in for millions more people",
+      "summary": "More than two million people will face a hosepipe ban after South East Water said it was extending water restrictions.",
+      "link": "https://news.sky.com/story/hosepipe-ban-brought-in-for-more-people-amid-decline-in-river-levels-13565213",
       "source": "Sky News (UK)",
-      "date": "2026-07-20T09:38:00",
-      "audio": "audio/Man denies murdering mother who was shot outside S.mp3"
+      "date": "2026-07-20T10:49:00",
+      "audio": "audio/Hosepipe ban brought in for millions more people.mp3"
     },
     {
-      "title": "Broadcaster and journalist Edward Stourton, who had prostate cancer, dies",
-      "summary": "Newsreader and journalist Edward Stourton has died aged 68.",
-      "link": "https://news.sky.com/story/broadcaster-and-journalist-edward-stourton-who-had-prostate-cancer-dies-13565164",
+      "title": "Schoolboy who stabbed his teacher in the head not guilty of attempted murder",
+      "summary": "A schoolboy has been acquitted of attempted murder but found guilty of wounding with intent after stabbing his teacher in the head.",
+      "link": "https://news.sky.com/story/schoolboy-who-stabbed-his-teacher-in-the-head-not-guilty-of-attempted-murder-13565207",
       "source": "Sky News (UK)",
-      "date": "2026-07-20T09:05:00",
-      "audio": "audio/Broadcaster and journalist Edward Stourton_ who ha.mp3"
+      "date": "2026-07-20T10:36:00",
+      "audio": "audio/Schoolboy who stabbed his teacher in the head not .mp3"
     },
     {
-      "title": "At least 930 people have died in Congo's Ebola outbreak",
-      "summary": "Congo's health ministry said the deaths were recorded out of the 2,344 cases confirmed as of Saturday. Thirty-seven new deaths were recorded in the previous 24 hours in one of the highest totals.",
-      "link": "https://www.npr.org/2026/07/20/g-s1-134548/ebola-congo-deaths",
+      "title": "Three men charged with rape of teenage girls after child sex exploitation probe",
+      "summary": "Three men have been charged with the rape of under-16 teenage girls in Bury, Greater Manchester, between 1996 and 2003.",
+      "link": "https://news.sky.com/story/three-men-charged-with-rape-of-teenage-girls-after-child-sex-exploitation-probe-13565329",
+      "source": "Sky News (UK)",
+      "date": "2026-07-20T14:42:00",
+      "audio": "audio/Three men charged with rape of teenage girls after.mp3"
+    },
+    {
+      "title": "India's Gen Z 'Cockroach People's Party' started as satire but is serious about change",
+      "summary": "They call themselves the \"cockroaches\" and they're on the march — demanding action against corruption, amid a shortage of opportunities for young people in India.",
+      "link": "https://www.npr.org/2026/07/20/nx-s1-5889515/india-gen-z-cockroach-party-protests",
       "source": "NPR (US)",
-      "date": "2026-07-20T10:36:08",
-      "audio": "audio/At least 930 people have died in Congo_s Ebola out.mp3"
+      "date": "2026-07-20T16:36:04",
+      "audio": "audio/India_s Gen Z _Cockroach People_s Party_ started a.mp3"
     },
     {
-      "title": "U.S. and Iran launch new strikes after 3 U.S. service members are killed",
-      "summary": "The U.S. attacks were the ninth consecutive day of bombing since peace talks between the two countries collapsed in dispute over a memorandum of understanding focused on the Strait of Hormuz.",
-      "link": "https://www.npr.org/2026/07/20/nx-s1-5900601/us-iran-updates",
+      "title": "Putin meets North Korean foreign minister in diplomatic push",
+      "summary": "The visit by North Korean Foreign Minister Choe Son Hui comes without an obvious occasion, such as a multilateral diplomatic event or state anniversary, and has raised speculation that she may be coordinating a possible visit to Russia by North Korean leader Kim Jong Un.",
+      "link": "https://www.npr.org/2026/07/20/g-s1-134555/putin-meets-north-korean-foreign-minister-in-diplomatic-push",
       "source": "NPR (US)",
-      "date": "2026-07-20T10:04:56",
-      "audio": "audio/U_S_ and Iran launch new strikes after 3 U_S_ serv.mp3"
+      "date": "2026-07-20T13:18:51",
+      "audio": "audio/Putin meets North Korean foreign minister in diplo.mp3"
     },
     {
-      "title": "So distressed you can't think straight? Lower the intensity with these 4 skills",
-      "summary": "A clinical psychologist shares effective strategies to quickly de-escalate stress and anxiety. That includes dunking your head into a bowl of ice water to trigger your mammalian dive reflex.",
-      "link": "https://www.npr.org/2026/07/20/nx-s1-5894845/so-distressed-you-cant-think-straight-lower-the-intensity-with-these-4-skills",
+      "title": "3 U.S. personnel killed in Iran conflict. And, Hunter Biden opens up to NPR",
+      "summary": "Three U.S. service members have been killed since Friday amid rising tension between the U.S. and Iran. And, Hunter Biden talks to NPR's Newsmakers about addiction and public scrutiny.",
+      "link": "https://www.npr.org/2026/07/20/g-s1-134553/up-first-newsletter-iran-us-service-members-hunter-biden",
       "source": "NPR (US)",
-      "date": "2026-07-20T09:00:00",
-      "audio": "audio/So distressed you can_t think straight_ Lower the .mp3"
+      "date": "2026-07-20T11:40:28",
+      "audio": "audio/3 U_S_ personnel killed in Iran conflict_ And_ Hun.mp3"
     },
     {
-      "title": "Former ‘This Morning’ Host Holly Willoughby Heads to YouTube for New Lifestyle Series",
-      "summary": "Holly Willoughby, best known until recently as the host of ITV’s daytime show “This Morning,” is set to make a comeback. Rather than return to ITV, however, she has opted to launch her new lifestyle series “Holly Willoughby Together” on YouTube. Premiering July 28, the show is described as a “multi-platform lifestyle series built around [&#8230;]",
-      "link": "https://variety.com/2026/tv/global/holly-willoughby-youtube-together-show-1236816406/",
+      "title": "‘Stranger Things,’ ‘Marshals’ Top Final 2025-2026 TV Season Multiplatform Ratings (EXCLUSIVE)",
+      "summary": "The final 35-day multi-platform ratings for the 2025-2026 TV season are finally in, now that we&#8217;re more than a month beyond the official end of the TV season. According to Nielsen&#8217;s multiplatform 35-day linear and streaming ratings, Netflix&#8217;s &#8220;Stranger Things&#8221; was still the TV season&#8217;s most-watched non-sports series, with 32.9 million viewers, followed by the [&#8230;]",
+      "link": "https://variety.com/2026/tv/news/stranger-things-2025-2026-tv-season-multiplatform-ratings-1236816199/",
       "source": "Variety (US)",
-      "date": "2026-07-20T11:05:25",
-      "audio": "audio/Former _This Morning_ Host Holly Willoughby Heads .mp3"
+      "date": "2026-07-20T17:00:00",
+      "audio": "audio/Stranger Things__ _Marshals_ Top Final 2025-2026 .mp3"
     },
     {
-      "title": "Venice Critics’ Week Lineup: Shalini Adnani’s Family Drama ‘Our Share of Sand,’ AI-Assisted Colombian Doc ‘The End of Times’ and More",
-      "summary": "London-based Chilean-Indian director Shalini Adnani’s debut feature &#8220;Our Share of Sand,&#8221; about a 12-year-old girl named Maya who returns to rural India to reconnect with her estranged father, is among standout entries in the upcoming Venice Film Festival Critics&#8217; Week. The section, dedicated to first works from around the world, also comprises two titles from Colombia: [&#8230;]",
-      "link": "https://variety.com/2026/film/festivals/venice-critics-week-lineup-shalini-adnani-our-share-of-sand-1236815353/",
+      "title": "Judge Pauses Paramount-Warner Bros. Merger",
+      "summary": "A judge ordered a temporary halt to the Paramount-Warner Bros. merger on Monday, as a state coalition argues it would violate federal antitrust law, leading to higher prices and fewer movies and TV shows. Judge Araceli Martinez-Olguin granted a 14-day restraining order after hearing argument from both sides on Friday morning. Paramount had previously agreed [&#8230;]",
+      "link": "https://variety.com/2026/film/news/judge-paramount-warner-bros-merger-tro-1236815048/",
       "source": "Variety (US)",
-      "date": "2026-07-20T10:00:00",
-      "audio": "audio/Venice Critics_ Week Lineup_ Shalini Adnani_s Fami.mp3"
+      "date": "2026-07-20T16:58:13",
+      "audio": "audio/Judge Pauses Paramount-Warner Bros_ Merger.mp3"
     },
     {
-      "title": "James Gray to Be Honored With Locarno Film Festival Career Award",
-      "summary": "The Locarno Film Festival will honor James Gray with a lifetime career award at this year&#8217;s edition, where the U.S. auteur&#8217;s most recent work, &#8220;Paper Tiger,&#8221; will screen. Gray will receive the Pardo alla Carriera award on Aug. 9 and will present &#8220;Paper Tiger&#8221; — which launched in May from Cannes — at the fest&#8217;s [&#8230;]",
-      "link": "https://variety.com/2026/film/festivals/james-gray-honored-locarno-film-festival-career-award-1236816325/",
+      "title": "Variety’s Faith & Media Impact Report 2026: Nominations Are Open",
+      "summary": "Variety’s annual Faith &#38; Media Impact Report returns Dec. 2. The list recognizes a thriving segment of the entertainment industry that includes storytellers across the religious spectrum who are offering up compelling and creative experiences featuring faith and spirituality for broad audiences. Comprised of directors, writers, creators, studio executives and more working in the entertainment [&#8230;]",
+      "link": "https://variety.com/2026/film/news/varietys-faith-media-impact-report-2026-nominations-open-1236812230/",
       "source": "Variety (US)",
-      "date": "2026-07-20T09:00:00",
-      "audio": "audio/James Gray to Be Honored With Locarno Film Festiva.mp3"
+      "date": "2026-07-20T16:45:00",
+      "audio": "audio/Variety_s Faith _ Media Impact Report 2026_ Nomina.mp3"
     },
     {
-      "title": "‘A devil, a monster, a wolf in sheep’s clothing’: man who raped sister 40 years ago jailed for six years",
+      "title": "Beastie Boys’ Mike D Adds Tour Dates in North America and Europe",
+      "summary": "His Mike D 5D band heads out on its first major trek in late summer",
+      "link": "https://pitchfork.com/story/beastie-boys-mike-d-adds-tour-dates-in-north-america-and-europe/",
+      "source": "Pitchfork",
+      "date": "2026-07-20T17:09:36",
+      "audio": "audio/Beastie Boys_ Mike D Adds Tour Dates in North Amer.mp3"
+    },
+    {
+      "title": "Steve Lacy, Beck, and More: This Week’s Pitchfork Selects Playlist",
+      "summary": "Our weekly playlist highlights songs that our writers, editors, and contributors are listening to on repeat",
+      "link": "https://pitchfork.com/story/steve-lacy-beck-and-more-this-weeks-pitchfork-selects-playlist/",
+      "source": "Pitchfork",
+      "date": "2026-07-20T17:04:35",
+      "audio": "audio/Steve Lacy_ Beck_ and More_ This Week_s Pitchfork .mp3"
+    },
+    {
+      "title": "Melissa Auf der Maur Unveils First New Music in 16 Years",
+      "summary": "On Bass Womb Room, several new compositions thread together an unvaulted set of ’90s demos",
+      "link": "https://pitchfork.com/story/melissa-auf-der-maur-unveils-first-new-music-in-16-years/",
+      "source": "Pitchfork",
+      "date": "2026-07-20T16:02:36",
+      "audio": "audio/Melissa Auf der Maur Unveils First New Music in 16.mp3"
+    },
+    {
+      "title": "Lowdown on Shamrock Rovers’ Champions League opponents",
       "summary": "",
-      "link": "https://www.independent.ie/irish-news/courts/a-devil-a-monster-a-wolf-in-sheeps-clothing-man-who-raped-sister-40-years-ago-jailed-for-six-years/a/158959825.html",
+      "link": "https://www.independent.ie/sport/soccer/lowdown-on-shamrock-rovers-champions-league-opponents/a/158974873.html",
       "source": "Irish Independent",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/A devil_ a monster_ a wolf in sheep_s clothing__ .mp3"
+      "date": "2026-07-20T17:00:00",
+      "audio": "audio/Lowdown on Shamrock Rovers_ Champions League oppon.mp3"
     },
     {
-      "title": "Kerry bus pilot to be extended into autumn",
+      "title": "The 21 things that made this the maddest World Cup ever",
       "summary": "",
-      "link": "https://www.independent.ie/county/kerry/kerry-bus-pilot-to-be-extended-into-autumn/a/158958495.html",
+      "link": "https://www.independent.ie/sport/soccer/world-cup/the-21-things-that-made-this-the-maddest-world-cup-ever/a/158964958.html",
       "source": "Irish Independent",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/Kerry bus pilot to be extended into autumn.mp3"
+      "date": "2026-07-20T17:00:00",
+      "audio": "audio/The 21 things that made this the maddest World Cup.mp3"
     },
     {
-      "title": "No joy on Dublin’s ‘Trip to Tipp’ as Thurles  becomes part of Kerry’s kingdom and Brendan Martin departs the capital",
+      "title": "Water supply is being restored to customers in Enniscorthy and surrounding areas following emergency repairs",
       "summary": "",
-      "link": "https://www.independent.ie/sport/gaa/ladies-football/no-joy-on-dublins-trip-to-tipp-as-thurles-becomes-part-of-kerrys-kingdom-and-brendan-martin-departs-the-capital/a/158957720.html",
+      "link": "https://www.independent.ie/county/wexford/water-supply-is-being-restored-to-customers-in-enniscorthy-and-surrounding-areas-following-emergency-repairs/a/158982238.html",
       "source": "Irish Independent",
-      "date": "2026-07-20T11:00:00",
-      "audio": "audio/No joy on Dublin_s _Trip to Tipp_ as Thurles  beco.mp3"
+      "date": "2026-07-20T16:57:31",
+      "audio": "audio/Water supply is being restored to customers in Enn.mp3"
     },
     {
-      "title": "Live Report: Matt Berninger brings brooding baritone to inaugural Live at Castle Mills series",
-      "summary": "In his only Irish appearance of the year The National frontman delivered a spellbinding solo headline set",
-      "link": "https://www.hotpress.com/music/live-report-matt-berninger-brings-brooding-baritone-to-inaugural-live-at-castle-mills-series-23152725",
+      "title": "Robbie Williams to play Limerick show at Thomond Park next year",
+      "summary": "The show will be the artist&#039;s first-ever performance in Limerick City and it is his only Irish date for 2027.",
+      "link": "https://www.hotpress.com/music/robbie-williams-to-play-limerick-show-at-thomond-park-next-year-23153143",
       "source": "Hot Press (Ireland)",
-      "date": "2026-07-20T10:59:17",
-      "audio": "audio/Live Report_ Matt Berninger brings brooding barito.mp3"
+      "date": "2026-07-20T17:02:25",
+      "audio": "audio/Robbie Williams to play Limerick show at Thomond P.mp3"
     },
     {
-      "title": "The Jacksons announce 3Arena show this year",
-      "summary": "The night will celebrate Motown, soul and disco featuring Jackson 5 classics.",
-      "link": "https://www.hotpress.com/music/the-jacksons-announce-3arena-show-this-year-23152637",
+      "title": "UK Music Chief sets out five tests for Andy Burnham as new UK Prime Minister takes office",
+      "summary": "&quot;As a former Culture Secretary and big music fan, he has a deep understanding of what makes the music industry tick. He also knows the challenges,&quot; UK Music Chief Tom Kiehl said.",
+      "link": "https://www.hotpress.com/music/uk-music-chief-sets-out-five-tests-for-andy-burnham-as-new-uk-prime-minister-takes-office-23153130",
       "source": "Hot Press (Ireland)",
-      "date": "2026-07-20T10:56:00",
-      "audio": "audio/The Jacksons announce 3Arena show this year.mp3"
+      "date": "2026-07-20T17:00:53",
+      "audio": "audio/UK Music Chief sets out five tests for Andy Burnha.mp3"
     },
     {
-      "title": "Gareth Naughton: \"We want to be a really great neighbourhood restaurant – a restaurant you could stick in any town in Ireland, and people would love it\"",
-      "summary": "Having previously earned a Michelin Bib Gourmand at Circa in Terenure, chef Gareth Naughton now calls Co. Kildare home. He takes us behind-the-scenes of his award-winning Naas restaurant, Neighbourhood – and discusses music, failing the Leaving Cert, and the state of the Irish food scene.",
-      "link": "https://www.hotpress.com/lifestyle-sports/gareth-naughton-we-want-to-be-a-really-great-neighbourhood-restaurant-a-restaurant-you-could-stick-in-any-town-in-ireland-and-people-would-love-it-23152863",
+      "title": "Lemoncello, Rua Rí, Shark School and more announced for Féile na Gréine 2026 line-up",
+      "summary": "Féile na Gréine is free for all to attend and will take place from August 14-16 in Limerick City.",
+      "link": "https://www.hotpress.com/music/lemoncello-rua-ri-shark-school-and-more-announced-for-feile-na-greine-2026-line-up-23152590",
       "source": "Hot Press (Ireland)",
-      "date": "2026-07-20T10:46:14",
-      "audio": "audio/Gareth Naughton_ _We want to be a really great nei.mp3"
+      "date": "2026-07-20T16:53:32",
+      "audio": "audio/Lemoncello_ Rua Rí_ Shark School and more announce.mp3"
     },
     {
-      "title": "How Elephant and Castle risks becoming London’s gentrification ‘patient zero’",
-      "summary": "New £500m town centre welcomes its first tenant this month, but displaced traders say promises that they could return have been brokenDiana Sach once employed more than 30 people and catered for hundreds more every day from her Latin American restaurant and delicatessen, famous for its Peruvian empanadas, in south London’s Elephant and Castle district.Now, she looks longingly at the shiny tall buildings that have replaced the brightly coloured bu",
-      "link": "https://www.theguardian.com/cities/2026/jul/20/elephant-and-castle-london-gentrification-patient-zero",
+      "title": "A pioneer and a superstar, Kevin Keegan’s achievements were extraordinary",
+      "summary": "The former England manager may be remembered by many for his ‘I’d love it’ rant in 1996, but that should not obscure the remarkable nature of his football careerKevin Keegan, who has died aged 75, is the only British player to win the Ballon d’Or twice, was the star of Liverpool’s first European Cup-winning team, a messianic figure at Newcastle United as a player and coach, forging a team so memorable that Fifa’s president wrote to commend him, a",
+      "link": "https://www.theguardian.com/football/2026/jul/20/kevin-keegan-tribute-pioneer-superstar-liverpool-newcastle-hamburg-england",
       "source": "The Guardian UK",
-      "date": "2026-07-20T09:58:55",
-      "audio": "audio/How Elephant and Castle risks becoming London_s ge.mp3"
+      "date": "2026-07-20T15:02:51",
+      "audio": "audio/A pioneer and a superstar_ Kevin Keegan_s achievem.mp3"
     },
     {
-      "title": "The rave secret: why middle-aged women are larging it – and seeing big health benefits",
-      "summary": "For those who are burned out, perimenopausal, or both, dancing all night can be a panacea. It’s great exercise, lowers stress, boosts energy and provides connection. No wonder so many are doing itIt’s 4am and I’m in a club – the first time I’ve done this in years.",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/jul/20/the-rave-secret-why-middle-aged-women-are-larging-it-and-seeing-big-health-benefits",
-      "source": "The Guardian UK",
-      "date": "2026-07-20T09:00:51",
-      "audio": "audio/The rave secret_ why middle-aged women are larging.mp3"
-    },
-    {
-      "title": "Why has Britain’s oldest political magazine become such a rabid cheerleader for Islamophobia? | Nesrine Malik",
-      "summary": "A report on the Spectator’s coverage of Muslims makes for grim reading. Conservatism is now focused on this minority to the exclusion of everything elseI start this column already resigned to the tune out, to the glaze over, the click away. This is not to say that I do not have faith in you, dear reader, to keep reading and caring.",
-      "link": "https://www.theguardian.com/commentisfree/2026/jul/20/islamophobia-spectator-britain-oldest-political-magazine",
-      "source": "The Guardian UK",
-      "date": "2026-07-20T05:00:48",
-      "audio": "audio/Why has Britain_s oldest political magazine become.mp3"
-    },
-    {
-      "title": "Who speaks for the horses? New push seeks to ban Central Park’s carriages",
-      "summary": "A tourist’s death has boosted animal advocates’ drive to end a trade supporters say provides jobs and treats horses wellNew York city’s council chamber was packed, the debate wide-ranging and heated, but lacked one component – a talking horse.",
-      "link": "https://www.theguardian.com/us-news/2026/jul/20/horse-carriages-central-park-new-york",
+      "title": "The disturbing rise of ‘gooner’ assaults at Dollar Tree stores: ‘They find it funny to degrade women’",
+      "summary": "In dark corners of the internet, men are goading each other to masturbate in public – and on female shoppers – and post the footage This article contains graphic descriptions of sexual assault.*** Continue reading...",
+      "link": "https://www.theguardian.com/us-news/ng-interactive/2026/jul/20/dollar-tree-sexual-assault-gooner",
       "source": "The Guardian US",
-      "date": "2026-07-20T11:00:02",
-      "audio": "audio/Who speaks for the horses_ New push seeks to ban C.mp3"
+      "date": "2026-07-20T11:00:03"
     },
     {
-      "title": "House Democrats are finally shifting on Israel. Party leaders must listen | Norman Solomon",
-      "summary": "More than 100 Democratic lawmakers voted against arms for Israel. They’re listening to the people – their bosses are behindThe Democratic party is in dire need of a mutiny.Top leaders at the party’s helm are unprepared to navigate the political sea change about Israel. Last week, nearly half of House Democrats voted to block $3.3bn in weaponry and other aid to that country.",
-      "link": "https://www.theguardian.com/commentisfree/2026/jul/20/house-democrats-israel-hakeem-jeffries-schumer",
-      "source": "The Guardian US",
-      "date": "2026-07-20T10:00:54",
-      "audio": "audio/House Democrats are finally shifting on Israel_ Pa.mp3"
+      "title": "“As a former Culture Secretary and big music fan, he has a deep understanding of what makes the music industry tick. He also knows the challenges”: UK Music CEO sets out five key tests for new Prime Minister Andy Burnham",
+      "summary": "They include defending the BBC and breaking down EU touring barriers",
+      "link": "https://www.musicradar.com/music-industry/as-a-former-culture-secretary-and-big-music-fan-he-has-a-deep-understanding-of-what-makes-the-music-industry-tick-he-also-knows-the-challenges-uk-music-ceo-sets-out-five-key-tests-for-new-prime-minister-andy-burnham",
+      "source": "MusicRadar (UK)",
+      "date": "2026-07-20T15:13:09",
+      "audio": "audio/As a former Culture Secretary and big music fan_ .mp3"
     },
     {
-      "title": "Acting the fool: why have Hollywood press tours become so gimmicky?",
-      "summary": "From playing would you rather to ranking snacks, A-listers navigating the promo trail are now forced on a set schedule of sillinessThis summer, we’ve been blessed with new movies from the legendary director Steven Spielberg and one of his biggest and most beloved successors, Christopher Nolan.",
-      "link": "https://www.theguardian.com/film/2026/jul/20/hollywood-press-tours-gimmicky",
-      "source": "The Guardian US",
-      "date": "2026-07-20T10:00:54",
-      "audio": "audio/Acting the fool_ why have Hollywood press tours be.mp3"
+      "title": "Chase Bliss discontinues the Chompi sampler: \"At this specific moment we are not working on or planning any new Chompi products\"",
+      "summary": "There are fewer than 250 units remaining, so if you want a Chompi, now's your chance",
+      "link": "https://www.musicradar.com/music-tech/chase-bliss-discontinues-the-chompi-sampler-at-this-specific-moment-we-are-not-working-on-or-planning-any-new-chompi-products",
+      "source": "MusicRadar (UK)",
+      "date": "2026-07-20T13:37:25",
+      "audio": "audio/Chase Bliss discontinues the Chompi sampler_ _At t.mp3"
     },
     {
-      "title": "Jeff Bezos and UK government invest in £2bn British startup CuspAI",
-      "summary": "Company aims to develop AI software that cuts research times and use of rare metals in chipmakers’ supply chainsBusiness live – latest updatesAmazon’s founder, Jeff Bezos, and the UK government have invested in a £2bn British artificial intelligence startup that is aiming to become the “search engine for rare materials” that accelerates the next wave of technological breakthroughs.The Cambridge-based CuspAI has raised $450m (£330m) in funding fro",
-      "link": "https://www.theguardian.com/technology/2026/jul/20/jeff-bezos-uk-government-invest-in-2bn-british-startup-cuspai",
-      "source": "The Guardian Tech",
-      "date": "2026-07-20T08:37:52",
-      "audio": "audio/Jeff Bezos and UK government invest in _2bn Britis.mp3"
+      "title": "“This is like a bad trip\": Liam Gallagher, Wayne Rooney and others share their views on the first ever World Cup Halftime Show",
+      "summary": "It featured Madonna, BTS, Shakira, Justin Bieber and Coldplay",
+      "link": "https://www.musicradar.com/artists/shows-festivals/this-is-like-a-bad-trip-liam-gallagher-wayne-rooney-and-others-share-their-views-on-the-first-ever-world-cup-halftime-show",
+      "source": "MusicRadar (UK)",
+      "date": "2026-07-20T12:28:04",
+      "audio": "audio/This is like a bad trip__ Liam Gallagher_ Wayne R.mp3"
     },
     {
-      "title": "Experts warn of rise in sadistic online exploitation of vulnerable children",
-      "summary": "Global increase in cases of predators coercing children to harm themselves or produce child sexual abuse materialCases of predators coercing children into producing sexual photos and videos of themselves have surged globally in the past year, a cruel phenomenon known as “sadistic online exploitation”, child safety experts and law enforcement officials warn.In cases of sadistic online exploitation, perpetrators target vulnerable teens on social me",
-      "link": "https://www.theguardian.com/technology/2026/jul/20/online-exploitation-children-warning",
-      "source": "The Guardian Tech",
-      "date": "2026-07-20T11:00:03",
-      "audio": "audio/Experts warn of rise in sadistic online exploitati.mp3"
-    },
-    {
-      "title": "Could AI be conscious?",
-      "summary": "Experts believe it’s at least possible.",
-      "link": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
-      "source": "The Guardian Tech",
-      "date": "2026-07-19T11:00:25",
-      "audio": "audio/Could AI be conscious.mp3"
-    },
-    {
-      "title": "Liam Gallagher Says World Cup Halftime Show Was ‘Like a Bad Trip’",
-      "summary": "Madonna, Justin Bieber, Shakira, and more took the stage midway through the final game between Spain and Argentina",
-      "link": "https://www.rollingstone.com/music/music-news/liam-gallagher-world-cup-halftime-show-bad-trip-fifa-1235595853/",
+      "title": "No, Madonna Was Not in Trump’s Suite at the World Cup Final",
+      "summary": "A viral tweet claimed the pop icon watched the final from Donald Trump’s suite. The woman in the footage was clearly someone else",
+      "link": "https://www.rollingstone.com/music/music-news/madonna-trump-world-cup-rumor-1235595216/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-07-20T08:07:59",
-      "audio": "audio/Liam Gallagher Says World Cup Halftime Show Was _L.mp3"
+      "date": "2026-07-20T16:32:07",
+      "audio": "audio/No_ Madonna Was Not in Trump_s Suite at the World .mp3"
     },
     {
-      "title": "Gracie Abrams Shares Two Bonus ‘Daughter From Hell’ Tracks",
-      "summary": "The musician's third album, produced by Aaron Dessner, dropped last week",
-      "link": "https://www.rollingstone.com/music/music-news/gracie-abrams-daughter-from-hell-bonus-tracks-1235595848/",
+      "title": "Melissa Auf der Maur Digs Into Her Archive for First New Music in Over 15 Years",
+      "summary": "Bass Womb Room will find the Hole and Smashing Pumpkins bassist pairing previously unreleased demos with new \"interludes\" composed for an upcoming photo exhibit",
+      "link": "https://www.rollingstone.com/music/music-news/melissa-auf-der-maur-new-music-bass-womb-room-1235595950/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-07-20T06:10:14",
-      "audio": "audio/Gracie Abrams Shares Two Bonus _Daughter From Hell.mp3"
+      "date": "2026-07-20T16:01:09",
+      "audio": "audio/Melissa Auf der Maur Digs Into Her Archive for Fir.mp3"
     },
     {
-      "title": "Man appears in court after car allegedly driven at people in Skerries",
-      "summary": "Sean McGlone (29) of Beechwood Drive in Drogheda, Co Louth appeared before Judge Stephanine Coggins at Balbriggan District Court",
-      "link": "https://www.dublinlive.ie/news/dublin-news/man-appears-court-after-car-34319641",
+      "title": "Jim Gilstrap, ‘Good Times’ Singer and Vocalist for Stevie Wonder and Others, Dead at 79",
+      "summary": "Gilstrap sang backup for Whitney Houston, Michael Jackson, and Harry Styles, among many others",
+      "link": "https://www.rollingstone.com/music/music-news/jim-gilstrap-singer-stevie-wonder-good-times-theme-dead-1235595862/",
+      "source": "Rolling Stone Music (US)",
+      "date": "2026-07-20T15:28:39",
+      "audio": "audio/Jim Gilstrap_ _Good Times_ Singer and Vocalist for.mp3"
+    },
+    {
+      "title": "Uncle Acid and the Deadbeats Announce Shapes of Midnight Album, Unveil Title Track: Stream",
+      "summary": "The new album Shapes of Midnight, the group's seventh, is out September 18th via Killer Candy Records. Uncle Acid and the Deadbeats Announce Shapes of Midnight Album, Unveil Title Track: Stream Langdon Hickman",
+      "link": "https://consequence.net/2026/07/uncle-acid-and-the-deadbeats-shapes-at-midnight/",
+      "source": "Consequence of Sound (US)",
+      "date": "2026-07-20T17:07:49",
+      "audio": "audio/Uncle Acid and the Deadbeats Announce Shapes of Mi.mp3"
+    },
+    {
+      "title": "Kevin Feige Feels Like a “Gigantic Loser and Failure” Over Blade Reboot",
+      "summary": "The Marvel Studios president expressed regret that they weren't able to get the Mahershala Ali-starring film \"off the ground.\" Kevin Feige Feels Like a &#8220;Gigantic Loser and Failure&#8221; Over Blade Reboot Eddie Fu",
+      "link": "https://consequence.net/2026/07/kevin-feige-blade-reboot-mahershala-ali-comments/",
+      "source": "Consequence of Sound (US)",
+      "date": "2026-07-20T17:05:23",
+      "audio": "audio/Kevin Feige Feels Like a _Gigantic Loser and Failu.mp3"
+    },
+    {
+      "title": "Lizzy McAlpine Announces New Album Angel",
+      "summary": "Available September 18th via RCA Records. Lizzy McAlpine Announces New Album Angel Wren Graves",
+      "link": "https://consequence.net/2026/07/lizzy-mcalpine-new-album-angel/",
+      "source": "Consequence of Sound (US)",
+      "date": "2026-07-20T16:57:01",
+      "audio": "audio/Lizzy McAlpine Announces New Album Angel.mp3"
+    },
+    {
+      "title": "Hopes €100k Dublin city laneway revamp stops it being 'used as a toilet'",
+      "summary": "The latest 'Love the Lanes' revamp hopes to reimagine an alleyway off Dame Street as a celebration of the city's musical heritage and dissuade people from using it 'as a toilet'",
+      "link": "https://www.dublinlive.ie/news/dublin-news/hopes-100k-dublin-city-laneway-34323279",
       "source": "Dublin Live News",
-      "date": "2026-07-20T10:53:46",
-      "audio": "audio/Man appears in court after car allegedly driven at.mp3"
+      "date": "2026-07-20T16:53:10",
+      "audio": "audio/Hopes _100k Dublin city laneway revamp stops it be.mp3"
     },
     {
-      "title": "Popular Dublin beach given 'do not swim' notice after late night incident report",
-      "summary": "The council has decided to prohibit swimming and bathing at the beach while they investigate the cause of the issue with the water, but walkers can still enjoy the sand",
-      "link": "https://www.dublinlive.ie/news/dublin-news/popular-dublin-beach-given-do-34319407",
+      "title": "North Dublin delays due to crash - live traffic updates",
+      "summary": "We'll bring you all the latest Dublin traffic and travel updates throughout the evening",
+      "link": "https://www.dublinlive.ie/news/dublin-news/north-dublin-delays-due-crash-34322336",
       "source": "Dublin Live News",
-      "date": "2026-07-20T10:47:42",
-      "audio": "audio/Popular Dublin beach given _do not swim_ notice af.mp3"
+      "date": "2026-07-20T16:40:44",
+      "audio": "audio/North Dublin delays due to crash - live traffic up.mp3"
     },
     {
-      "title": "Applications open for Kilternan Cost Rental homes at €1,375 for a one-bed",
-      "summary": "The apartments come unfurnished with fully fitted kitchen and white goods, and have integrated wardrobes in double rooms and blinds and flooring installed throughout",
-      "link": "https://www.dublinlive.ie/news/dublin-news/applications-open-kilternan-cost-rental-34318572",
+      "title": "Government under fire over plans to sell LDA homes on private market in Dublin",
+      "summary": "Later this year new rules are set to allow the Land Development Agency (LDA) to sell 30% of their Dublin homes on the private market, which Sinn Féin Councillor Daithí Doolan has slammed as &quot;short sighted&quot;",
+      "link": "https://www.dublinlive.ie/news/dublin-news/government-under-fire-over-plans-34322516",
       "source": "Dublin Live News",
-      "date": "2026-07-20T09:56:11",
-      "audio": "audio/Applications open for Kilternan Cost Rental homes .mp3"
+      "date": "2026-07-20T15:39:37",
+      "audio": "audio/Government under fire over plans to sell LDA homes.mp3"
     },
     {
-      "title": "Tom Morello, Garbage, Violet Grohl and More Pay Tribute to L7’s Jennifer Finch",
-      "summary": "“A super cool person, a true artist with a kind and welcoming heart,” Morello wrote.",
-      "link": "https://www.billboard.com/music/rock/l7-jennifer-finch-tributes-1236297981/",
+      "title": "Ariana Grande Sings Decade-Old Hit for the First Time in Years During Tech Difficulty at NYC Show",
+      "summary": "\"I love things like this, because it means we get to spend more time together,\" she said as her crew fixed the issue.",
+      "link": "https://www.billboard.com/music/music-news/ariana-grande-be-alright-tech-difficulty-nyc-show-1236298204/",
       "source": "Billboard (US)",
-      "date": "2026-07-20T09:01:46",
-      "audio": "audio/Tom Morello_ Garbage_ Violet Grohl and More Pay Tr.mp3"
+      "date": "2026-07-20T17:19:01",
+      "audio": "audio/Ariana Grande Sings Decade-Old Hit for the First T.mp3"
     },
     {
-      "title": "Liam Gallagher Says FIFA’s World Cup Halftime Show Was ‘Like a Bad Trip’",
-      "summary": "The star-studded show marked the first halftime performance staged during a FIFA World Cup final.",
-      "link": "https://www.billboard.com/music/music-news/liam-gallagher-fifa-world-cup-halftime-show-1236297975/",
+      "title": "Billboard’s Music Industry Events Calendar",
+      "summary": "A complete rundown of the most important events across the music business.",
+      "link": "https://www.billboard.com/pro/music-industry-events-calendar-festivals-awards-conferences/",
       "source": "Billboard (US)",
-      "date": "2026-07-20T06:36:27",
-      "audio": "audio/Liam Gallagher Says FIFA_s World Cup Halftime Show.mp3"
+      "date": "2026-07-20T17:04:00",
+      "audio": "audio/Billboard_s Music Industry Events_Calendar.mp3"
     },
     {
-      "title": "L7’s Jennifer Finch has died at 59",
-      "summary": "The L7 bassist only revealed she had been diagnosed with an aggressive form of brain cancer a few days ago.",
-      "link": "https://www.brooklynvegan.com/l7s-jennifer-finch-has-died-at-59/",
+      "title": "Goose Announces Dates For 13th Annual Goosemas Holiday Shows",
+      "summary": "This year's holiday celebration will take place on Dec. 11-12 at the historic Jim Whelan Boardwalk Hall in Atlantic City, N.J.",
+      "link": "https://www.billboard.com/music/rock/goose-dates-annual-goosemas-holiday-shows-1236298252/",
+      "source": "Billboard (US)",
+      "date": "2026-07-20T16:56:46",
+      "audio": "audio/Goose Announces Dates For 13th Annual Goosemas Hol.mp3"
+    },
+    {
+      "title": "Melissa Auf Der Maur Announces First New Music In 16 Years, Hole Tease Something For Friday",
+      "summary": "Melissa Auf der Maur, who has provided both her musical talents to iconic groups Hole and the Smashing Pumpkins, is releasing her first new music in 16 years. The Montreal-born musician and artist announced BASS WOMB ROOM: My ’90s 4-Track Demos x Field Recordings, which is out September 4 via Envision Records. The post Melissa Auf Der Maur Announces First New Music In 16 Years, Hole Tease Something For Friday appeared first on Stereogum.",
+      "link": "https://stereogum.com/2505780/melissa-auf-der-maur-announces-first-new-music-in-15-years-hole-tease-something-for-friday/news/",
+      "source": "Stereogum (US)",
+      "date": "2026-07-20T16:06:35",
+      "audio": "audio/Melissa Auf Der Maur Announces First New Music In .mp3"
+    },
+    {
+      "title": "Strawberry Hands Announces New Album A Jazz Blessing For The Animal: Hear “Dream Of Water”",
+      "summary": "The Philadelphia musician Jacob Brunner is a member of Weyes Blood's touring band and he has played a supporting role on records from people like Karl Blau and Little Wings. Brunner also makes his own music under the name Strawberry Hands. Today, he announces plans to follow his 2020 album I Advance Wearing A Mask with a new one called A Jazz Blessing For The Animal.",
+      "link": "https://stereogum.com/2505833/strawberry-hands-announces-new-album-a-jazz-blessing-for-the-animal-hear-dream-of-water/music/",
+      "source": "Stereogum (US)",
+      "date": "2026-07-20T15:56:07",
+      "audio": "audio/Strawberry Hands Announces New Album A Jazz Blessi.mp3"
+    },
+    {
+      "title": "Rustie – “Psion”",
+      "summary": "In 2026, the massively influential Glaswegian producer Rustie is quietly emerging from years of silence, posting a series of mysterious new tracks on YouTube without announcing a record or making the new stuff available on streaming services. Thus far this year, Rustie has shared \"Athanasia,\" \"Amentet,\" \"Trizkel Sun,\" and \"Arora.\" Over the weekend, he dropped another one. The post Rustie &#8211; &#8220;Psion&#8221; appeared first on Stereogum.",
+      "link": "https://stereogum.com/2505827/rustie-psion/music/",
+      "source": "Stereogum (US)",
+      "date": "2026-07-20T14:43:30",
+      "audio": "audio/Rustie _ _Psion.mp3"
+    },
+    {
+      "title": "Rebecca Black announces tour for new LP ‘Age of the Exhibitionist’",
+      "summary": "Her second album is out on September 4.",
+      "link": "https://www.brooklynvegan.com/rebecca-black-announces-tour-for-new-lp-age-of-the-exhibitionist/",
       "source": "BrooklynVegan (US)",
-      "date": "2026-07-19T02:56:25",
-      "audio": "audio/L7_s Jennifer Finch has died at 59.mp3"
+      "date": "2026-07-20T16:06:28",
+      "audio": "audio/Rebecca Black announces tour for new LP _Age of th.mp3"
     },
     {
-      "title": "Tour news: Nirosta Steel, Mariachi El Brox, River Shook, Hyd, Empty Country, Dilly Dally Fest, more",
-      "summary": "Plus: &#8216;URGH! A Music War,&#8217; Hopscotch 2026, MEMORIALS, and more tour, show and festival news.",
-      "link": "https://www.brooklynvegan.com/tour-news-nirosta-steel-mariachi-el-brox-river-shook-hyd-empty-country-dilly-dally-fest-more/",
+      "title": "Hole’s Melissa Auf der Maur releasing unheard ’90s demos & new field recordings",
+      "summary": "She also has a photo exhibition and accompanying photo book arriving in September.",
+      "link": "https://www.brooklynvegan.com/holes-melissa-auf-der-maur-releasing-unheard-90s-demos-new-field-recordings/",
       "source": "BrooklynVegan (US)",
-      "date": "2026-07-17T23:00:57",
-      "audio": "audio/Tour news_ Nirosta Steel_ Mariachi El Brox_ River .mp3"
+      "date": "2026-07-20T16:00:49",
+      "audio": "audio/Hole_s Melissa Auf der Maur releasing unheard _90s.mp3"
     },
     {
-      "title": "19 New Songs Out Today",
-      "summary": "Hear new songs by Mike D, Matt Berninger, Brandon Flowers, MorMor, Rivkah Reyes, Evil Island, Spearmint, GB, Fenne Lily, Josh Wink, Fundido, and more",
-      "link": "https://www.brooklynvegan.com/19-new-songs-out-today-96/",
+      "title": "Meg Lui announces Sufjan Stevens-produced debut LP, shares “Elvis Queen”",
+      "summary": "’Instant Validation’ also features contributions from Hannah Cohen, Sam Evian, Liam Kazar, and more.",
+      "link": "https://www.brooklynvegan.com/meg-lui-announces-sufjan-stevens-produced-debut-lp-shares-elvis-queen/",
       "source": "BrooklynVegan (US)",
-      "date": "2026-07-17T21:58:51",
-      "audio": "audio/19 New Songs Out Today.mp3"
+      "date": "2026-07-20T15:20:42",
+      "audio": "audio/Meg Lui announces Sufjan Stevens-produced debut LP.mp3"
     },
     {
-      "title": "L7 Bassist Jennifer Finch Has Died at 59",
-      "summary": "Jennifer Finch",
-      "link": "https://loudwire.com/l7-jennifer-finch-died-59/",
+      "title": "Exclusive - See Retail-Only Cover Art for Anthrax's Graphic Novel",
+      "summary": "Scott Dudelson, Getty Images, Z2",
+      "link": "https://loudwire.com/anthrax-oral-history-graphic-novel-retail-cover/",
       "source": "Loudwire (US)",
-      "date": "2026-07-19T04:10:45",
-      "audio": "audio/L7 Bassist Jennifer Finch Has Died at 59.mp3"
+      "date": "2026-07-20T17:00:13",
+      "audio": "audio/Exclusive - See Retail-Only Cover Art for Anthrax.mp3"
     },
     {
-      "title": "Wes Parker’s Debut Album ‘Super Rare’ Is Full of Characters You Won’t Forget",
-      "summary": "A man eats so much sushi that it leads to mercury poisoning. A mother disappears in one of America&#8217;s most haunting true-crime cases. Someone falls so hard they can&#8217;t tell the difference between love and obsession anymore. Those are three of the 20 songs on Wes Parker&#8217;s debut album, Super Rare, and they sit comfortably [&#8230;]",
-      "link": "https://www.spinmagazine.com/2026/07/wes-parkers-debut-album-super-rare-is-full-of-characters-you-wont-forget/",
+      "title": "'Di'Anno: Iron Maiden's Lost Singer' Director Reveals Takeaway",
+      "summary": "Michael Buckner, Getty Images, Kevin Nixon/Metal Hammer Magazine/Future via Getty Images, Cleopatra Entertainment",
+      "link": "https://loudwire.com/dianno-iron-maiden-lost-singer-wes-orshoski-big-takeaway-2026-interview/",
+      "source": "Loudwire (US)",
+      "date": "2026-07-20T12:58:55",
+      "audio": "audio/Di_Anno_ Iron Maiden_s Lost Singer_ Director Reve.mp3"
+    },
+    {
+      "title": "11 Best Prog Metal Covers of Prog Rock Songs",
+      "summary": "Inside Out Music / Kirshner / Epic / CBS / Chrysalis",
+      "link": "https://loudwire.com/best-prog-metal-covers-prog-rock-songs/",
+      "source": "Loudwire (US)",
+      "date": "2026-07-20T11:55:13",
+      "audio": "audio/11 Best Prog Metal Covers of Prog Rock Songs.mp3"
+    },
+    {
+      "title": "BUTTHOLE SURFERS: Remember When Their Name Was Shocking?",
+      "summary": "It&#8217;s September 23, 2025, at the Egyptian Theater in Hollywood, where a tornado of psychedelic noise and insanity has descended, brought to delirious life by the reunited Butthole Surfers. It&#8217;s their first performance in eight years, and the opening song is &#8220;Cherub,&#8221; a frazzled bit of feedback and art-punk melody from 1984. Singer Gibby Haynes [&#8230;]",
+      "link": "https://www.spinmagazine.com/2026/07/butthole-surfers-remember-when-their-name-was-shocking/",
       "source": "Spin Magazine (US)",
-      "date": "2026-07-17T18:37:33",
-      "audio": "audio/Wes Parker_s Debut Album _Super Rare_ Is Full of C.mp3"
+      "date": "2026-07-20T11:30:00",
+      "audio": "audio/BUTTHOLE SURFERS_ Remember When Their Name Was Sho.mp3"
     },
     {
-      "title": "Liam Gallagher responds to fan’s request for new Oasis album",
-      "summary": "The Britpop icon teased fans in 2024 by saying that a new album was “in the bag”, before later saying that he was “fucking joking” The post Liam Gallagher responds to fan&#8217;s request for new Oasis album appeared first on NME.",
-      "link": "https://www.nme.com/news/music/liam-gallagher-responds-to-fans-request-for-new-oasis-album-3957968?utm_source=rss&utm_medium=rss&utm_campaign=liam-gallagher-responds-to-fans-request-for-new-oasis-album",
+      "title": "Brad Paisley defends marriage of Taylor Swift and Travis Kelce: “One of the least pretentious weddings that I’ve ever seen or ever will see”",
+      "summary": "The country singer invited Swift to be the opening act of his tour back in 2007 The post Brad Paisley defends marriage of Taylor Swift and Travis Kelce: &#8220;One of the least pretentious weddings that I&#8217;ve ever seen or ever will see” appeared first on NME.",
+      "link": "https://www.nme.com/news/music/brad-paisley-defends-marriage-of-taylor-swift-and-travis-kelce-one-of-the-least-pretentious-weddings-that-ive-ever-seen-or-ever-will-see-3958078?utm_source=rss&utm_medium=rss&utm_campaign=brad-paisley-defends-marriage-of-taylor-swift-and-travis-kelce-one-of-the-least-pretentious-weddings-that-ive-ever-seen-or-ever-will-see",
       "source": "NME News (UK)",
-      "date": "2026-07-20T11:04:51",
-      "audio": "audio/Liam Gallagher responds to fan_s request for new O.mp3"
+      "date": "2026-07-20T15:42:25",
+      "audio": "audio/Brad Paisley defends marriage of Taylor Swift and .mp3"
     },
     {
-      "title": "Twenty One Pilots announce global watch party for new live film ‘More Than We Ever Imagined’",
-      "summary": "There will also be a live Q&#038;A with Tyler Joseph and Josh Dun The post Twenty One Pilots announce global watch party for new live film &#8216;More Than We Ever Imagined’ appeared first on NME.",
-      "link": "https://www.nme.com/news/music/twenty-one-pilots-announce-global-watch-party-for-new-live-film-more-than-we-ever-imagined-3957948?utm_source=rss&utm_medium=rss&utm_campaign=twenty-one-pilots-announce-global-watch-party-for-new-live-film-more-than-we-ever-imagined",
+      "title": "Arca announces new album ‘XXXXX’ and ambitious Daniel Sannwald-directed livestream",
+      "summary": "The Venezuelan musician's new album drops July 31 and is said to be \"darker, more aggressive, more experimental\" The post Arca announces new album &#8216;XXXXX&#8217; and ambitious Daniel Sannwald-directed livestream appeared first on NME.",
+      "link": "https://www.nme.com/news/music/arca-announces-new-album-xxxxx-and-ambitious-daniel-sannwald-directed-livestream-3958014?utm_source=rss&utm_medium=rss&utm_campaign=arca-announces-new-album-xxxxx-and-ambitious-daniel-sannwald-directed-livestream",
       "source": "NME News (UK)",
-      "date": "2026-07-20T09:59:35",
-      "audio": "audio/Twenty One Pilots announce global watch party for .mp3"
+      "date": "2026-07-20T14:00:14",
+      "audio": "audio/Arca announces new album _XXXXX_ and ambitious Dan.mp3"
     },
     {
-      "title": "Lars Ulrich says Metallica’s upcoming Las Vegas Sphere residency feels “overwhelming and fucking intimidating”",
-      "summary": "\"Hopefully when we step out on stage that first night, we’ll have it somewhat together\" The post Lars Ulrich says Metallica’s upcoming Las Vegas Sphere residency feels &#8220;overwhelming and fucking intimidating” appeared first on NME.",
-      "link": "https://www.nme.com/news/music/lars-ulrich-says-metallicas-upcoming-las-vegas-sphere-residency-feels-overwhelming-and-fucking-intimidating-3957935?utm_source=rss&utm_medium=rss&utm_campaign=lars-ulrich-says-metallicas-upcoming-las-vegas-sphere-residency-feels-overwhelming-and-fucking-intimidating",
+      "title": "Government announce £45million to “turn up” music industry for artists, businesses and children – but what do Andy Burnham’s government need to do now?",
+      "summary": "MPs and industry insiders speak out on progress being made, and urgent, vital action still needed on the ticket levy for protecting artists and venues, as well as beating the Brexit touring crisis and banning ticket touts The post Government announce £45million to &#8220;turn up&#8221; music industry for artists, businesses and children – but what do Andy Burnham&#8217;s government need to do now? appeared first on NME.",
+      "link": "https://www.nme.com/news/music/uk-government-music-plan-investment-what-next-andy-burnham-venues-artists-brexit-touts-levy-3957999?utm_source=rss&utm_medium=rss&utm_campaign=uk-government-music-plan-investment-what-next-andy-burnham-venues-artists-brexit-touts-levy",
       "source": "NME News (UK)",
-      "date": "2026-07-20T09:46:42",
-      "audio": "audio/Lars Ulrich says Metallica_s upcoming Las Vegas Sp.mp3"
+      "date": "2026-07-20T13:53:06",
+      "audio": "audio/Government announce _45million to _turn up_ music .mp3"
     }
   ]
 }
