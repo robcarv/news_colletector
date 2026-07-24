@@ -1,441 +1,561 @@
 {
-  "updated": "2026-07-24T06:18:32.748840+01:00",
-  "total_pt": 18,
-  "total_en": 36,
+  "updated": "2026-07-24T12:19:01.478945+01:00",
+  "total_pt": 24,
+  "total_en": 45,
   "pt": [
     {
-      "title": "PF desarticula rede que exportava cocaína em sacas de café e cimento",
-      "summary": "A PF (Polícia Federal) deflagrou nesta quinta-feira (23) a Operação Commodity contra um esquema que enviou 6,5 toneladas de cocaína para países da Europa desde 2021, usando portos brasileiros e disfarçando a droga em sacas de café, cimento e argamassa. Um dos alvos foi morto em confronto com agentes em Igaratá (SP), e outras nove pessoas foram presas. Leia mais (07/23/2026 - 23h23)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/07/pf-desarticula-rede-que-exportava-cocaina-em-sacas-de-cafe-e-cimento.shtml",
+      "title": "Como nascem as divas pop, como Olivia Rodrigo e Miley Cyrus?",
+      "summary": "Antes de ocupar palcos cercados por milhares de fãs e aparecerem nas paradas musicais do mundo inteiro, muitas divas pop foram crianças que iniciaram a carreira atuando em séries, filmes ou programas de TV. Com o tempo, elas descobriram outros talentos -como cantar, compor e até dançar- e acabaram encontrando na música o sucesso. Leia mais (07/24/2026 - 08h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/folhinha/2026/07/como-nascem-as-divas-pop-como-olivia-rodrigo-e-miley-cyrus.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-24T02:23:00",
-      "audio": "audio/PF desarticula rede que exportava cocaína em sacas.mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/Como nascem as divas pop_ como Olivia Rodrigo e Mi.mp3"
     },
     {
-      "title": "Tarcísio afirma que poderá romper concessão se Trivia Trens não cumprir contrato",
-      "summary": "O governador Tarcísio de Freitas (Republicanos) disse que poderá decretar caducidade (rompimento) na concessão da Trivia Trens se a empresa não conseguir cumprir o que está previsto em contrato. Leia mais (07/23/2026 - 23h13)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/07/tarcisio-afirma-que-podera-romper-concessao-se-trivia-trens-nao-cumprir-contrato.shtml",
+      "title": "Quando as cidades vão sair do concreto?",
+      "summary": "Com um El Niño de grande intensidade em formação sobre um planeta já superaquecido, a agenda de cidades resilientes deixou de ser pauta ambiental periférica para se tornar questão central para a economia e a sobrevivência urbana. Leia mais (07/24/2026 - 08h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/papo-de-responsa/2026/07/quando-as-cidades-vao-sair-do-concreto.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-24T02:13:00",
-      "audio": "audio/Tarcísio afirma que poderá romper concessão se Tri.mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/Quando as cidades vão sair do concreto.mp3"
     },
     {
-      "title": "Regulação e taxação são caminhos para responsabilizar empresas de IA, diz Sérgio Dávila",
-      "summary": "\"Quando você fala em regulação e taxação [de empresas de inteligência artificial], em cinco segundos aparecem cem funcionários dessas empresas para fazer lobby no Congresso\", afirmou o diretor de Redação da Folha, Sérgio Dávila, nesta quinta-feira (23). \"Tem que ser por aí\", completou. Leia mais (07/23/2026 - 23h10)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/07/regulacao-e-taxacao-sao-caminhos-para-responsabilizar-empresas-de-ia-diz-sergio-davila.shtml",
+      "title": "PCC é 'paradigma da nova geopolítica criminal', diz assessor do governo italiano",
+      "summary": "A facção criminosa brasileira PCC (Primeiro Comando da Capital) tornou-se admirada por organizações criminosas estrangeiras e é considerada um modelo a ser seguido pelas facções internacionais. Leia mais (07/24/2026 - 08h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/07/pcc-e-paradigma-da-nova-geopolitica-criminal-diz-assessor-do-governo-italiano.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-07-24T02:10:00",
-      "audio": "audio/Regulação e taxação são caminhos para responsabili.mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/PCC é _paradigma da nova geopolítica criminal__ di.mp3"
     },
     {
-      "title": "Distração na cabine, gelo e fiscalização insuficiente: entenda conclusões do relatório do Cenipa em acidente da Voepass",
-      "summary": "Acidente Voepass: relatório final aponta que empresa, pilotos e Anac falharam O relatório final do Centro de Investigação e Prevenção de Acidentes Aeronáuticos (Cenipa) sobre a queda do avião da Voepass, em Vinhedo (SP), apresentou definiu recomendações às instituições envolvidas na tragédia - entre elas a ATR, fabricante francesa da aeronave, e a Agência Nacional de Aviação Civil (Anac) - e apontou conclusões sobre o acidente aéreo.",
-      "link": "https://g1.globo.com/sp/campinas-regiao/noticia/2026/07/24/distracao-na-cabine-gelo-e-fiscalizacao-insuficiente-entenda-conclusoes-do-relatorio-do-cenipa-em-acidente-da-voepass.ghtml",
+      "title": "Motorista e monitora de van escolar são condenados por morte de menino de 2 anos esquecido em veículo sob calor de mais de 37°C em SP",
+      "summary": "Menino morto após ser esquecido em van escolar em São Paulo Reprodução/TV Globo Motorista e monitora de van escolar foram condenados pela morte de um menino de 2 anos esquecido em veículo sob calor de mais de 37°C em SP. Apollo Gabriel Rodrigues morreu após permanecer cerca de sete horas preso à cadeirinha dentro de um micro-ônibus de transporte escolar, em novembro de 2023.",
+      "link": "https://g1.globo.com/sp/sao-paulo/noticia/2026/07/24/motorista-e-monitora-de-van-escolar-sao-condenados-por-morte-de-menino-de-2-anos-esquecido-em-veiculo-sob-calor-de-mais-de-37c-em-sp.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-24T04:19:59",
-      "audio": "audio/Distração na cabine_ gelo e fiscalização insuficie.mp3"
+      "date": "2026-07-24T11:09:10",
+      "audio": "audio/Motorista e monitora de van escolar são condenados.mp3"
     },
     {
-      "title": "'Precedente incendiário': ministro do Irã critica plano de Trump de usar ativos iranianos para indenizar navios",
-      "summary": "O ministro das Relações Exteriores do Irã, Seyed Abbas Araghchi, disse que a apreensão de ativos do país para pagar por \"reivindicações futuras não relacionadas é um precedente incendiário\".",
-      "link": "https://g1.globo.com/mundo/noticia/2026/07/24/precedente-incendiario-ministro-do-ira-critica-plano-de-trump-de-usar-ativos-iranianos-para-indenizar-navios.ghtml",
+      "title": "Ataque rebelde de modelo de criadora do ChatGPT leva EUA a discutir 'botão' para desligar Inteligência Artificial",
+      "summary": "O CEO da OpenAI, Sam Altman, já declarou diversas vezes que apoia uma maior regulamentação em torno da IA Reuters Parlamentares dos Estados Unidos querem dar ao governo a capacidade de determinar rapidamente o desligamento de ferramentas de inteligência artificial (IA) que possam representar uma ameaça ao público.",
+      "link": "https://g1.globo.com/tecnologia/noticia/2026/07/24/deputados-dos-eua-pressionam-por-botao-de-desligar-da-ia-apos-modelo-rebelde-atacar-empresa.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-24T04:16:01",
-      "audio": "audio/Precedente incendiário__ ministro do Irã critica .mp3"
+      "date": "2026-07-24T11:05:28",
+      "audio": "audio/Ataque rebelde de modelo de criadora do ChatGPT le.mp3"
     },
     {
-      "title": "Velvet Chains e Masters of Voices agitam o Capital Moto Week nesta sexta; veja atrações",
-      "summary": "Edu Falaschi, ex-Angra, sobe ao palco principal com o projeto Masters of Voice Caike Scheffer O projeto Masters of Voice leva, nesta sexta-feira (24), ao palco principal do Capital Moto Week as vozes que fizeram história em bandas como Angra, Journey, Mr. Big e Judas Priest. Entre os sucessos que o público pode esperar, estão \"Heaven and hell\", do Black Sabbath; \"To be with you\", do Mr.",
-      "link": "https://g1.globo.com/df/distrito-federal/moto-week/noticia/2026/07/24/velvet-chains-e-masters-of-voices-agitam-o-capital-moto-week-nesta-sexta-veja-atracoes.ghtml",
+      "title": "Brasil proíbe foie gras após classificar técnica como maus-tratos",
+      "summary": "Técnica gavage para produção de foie gras Jerry ツ on Visualhunt O presidente Luiz Inácio Lula da Silva sancionou nesta sexta-feira (24) um projeto de lei que proíbe a produção e a venda de produtos obtidos por meio da alimentação forçada de animais. Entre eles, está o foie gras, prato da culinária francesa feito com fígado gordo de pato ou ganso.",
+      "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/07/24/brasil-proibe-foie-gras-apos-classificar-tecnica-como-maus-tratos.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-07-24T04:00:15",
-      "audio": "audio/Velvet Chains e Masters of Voices agitam o Capital.mp3"
+      "date": "2026-07-24T11:03:38",
+      "audio": "audio/Brasil proíbe foie gras após classificar técnica c.mp3"
     },
     {
-      "title": "Irã rejeita nova proposta de cessar-fogo dos EUA, diz jornal",
-      "summary": "Teerã recusou oferta levada pelo primeiro-ministro do Iraque por não resolver a disputa sobre o Estreito de Ormuz",
-      "link": "https://www.cnnbrasil.com.br/internacional/ira-rejeita-proposta-de-cessar-fogo-dos-eua-diz-jornal/",
+      "title": "Flávio Bolsonaro está isolado após sucessão de crises na campanha à Presidência?",
+      "summary": "Senador prepara evento para oficializar sua candidatura à Presidência neste sábado em momento de turbulência e dificuldade para sacramentar alianças.",
+      "link": "https://www.bbc.com/portuguese/articles/cq56g16elpno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-07-24T07:58:46",
+      "audio": "audio/Flávio Bolsonaro está isolado após sucessão de cri.mp3"
+    },
+    {
+      "title": "O que é urânio enriquecido e por que ele é polêmico no acordo nuclear entre os EUA e a Arábia Saudita?",
+      "summary": "A Arábia Saudita poderá se tornar uma rara exceção, já que, segundo relatos, o acordo com os EUA permite que país enriqueça urânio internamente.",
+      "link": "https://www.bbc.com/portuguese/articles/c935k7q41v0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-07-24T10:16:01",
+      "audio": "audio/O que é urânio enriquecido e por que ele é polêmic.mp3"
+    },
+    {
+      "title": "Nível do Rio Taquari cai mais três metros e sai da cota de inundação",
+      "summary": "Na manhã desta sexta-feira (24), às 6h30, o nível estava em 16,6 metros, uma redução de 3,26 metros nas últimas 10 horas, segundo o Serviço Geológico do Brasil",
+      "link": "https://www.cnnbrasil.com.br/nacional/sul/rs/nivel-do-rio-taquari-cai-mais-tres-metros-e-sai-da-cota-de-inundacao/",
       "source": "CNN Brasil",
-      "date": "2026-07-24T04:42:13",
-      "audio": "audio/Irã rejeita nova proposta de cessar-fogo dos EUA_ .mp3"
+      "date": "2026-07-24T10:44:20",
+      "audio": "audio/Nível do Rio Taquari cai mais três metros e sai da.mp3"
     },
     {
-      "title": "Irã acusa EUA de “precedente incendiário” no uso ativos em indenizações",
-      "summary": "Chanceler iraniano reage à declaração de Donald Trump sobre destinar recursos iranianos confiscados ao pagamento de danos causados a navios e alerta que a medida ameaça a segurança dos ativos de outros países",
-      "link": "https://www.cnnbrasil.com.br/internacional/ira-acusa-eua-de-precedente-perigoso-no-uso-ativos-em-indenizacoes/",
+      "title": "Nevasca deixa 39 mineradores isolados em acampamento remoto no Chile",
+      "summary": "Operários enfrentam temperaturas negativas e falta de água, diz sindicato; mineradora afirmou que trabalhadores devem ser resgatados de helicóptero nesta sexta-feira (24)",
+      "link": "https://www.cnnbrasil.com.br/internacional/nevasca-deixa-39-mineradores-isolados-em-acampamento-remoto-no-chile/",
       "source": "CNN Brasil",
-      "date": "2026-07-24T03:59:40",
-      "audio": "audio/Irã acusa EUA de _precedente incendiário_ no uso a.mp3"
+      "date": "2026-07-24T10:40:16",
+      "audio": "audio/Nevasca deixa 39 mineradores isolados em acampamen.mp3"
     },
     {
-      "title": "Ataques dos EUA contra o Irã deixam ao menos quatro mortos, diz mídia",
-      "summary": "Comando Central dos EUA informou na noite de quinta-feira (23) que as forças armadas americanas realizaram ofensivas contra o território iraniano pela 13ª noite consecutiva",
-      "link": "https://www.cnnbrasil.com.br/internacional/ataques-dos-eua-contra-o-ira-deixam-ao-menos-quatro-mortos-diz-midia/",
+      "title": "Alemanha anuncia Jürgen Klopp como novo técnico da seleção",
+      "summary": "Ex-treinador do Liverpool e Borussia Dortmund assinou contrato de quatro anos com a equipe",
+      "link": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/alemanha-anuncia-jurgen-klopp-como-novo-tecnico-da-selecao/",
       "source": "CNN Brasil",
-      "date": "2026-07-24T03:42:25",
-      "audio": "audio/Ataques dos EUA contra o Irã deixam ao menos quatr.mp3"
+      "date": "2026-07-24T10:37:33",
+      "audio": "audio/Alemanha anuncia Jürgen Klopp como novo técnico da.mp3"
     },
     {
-      "title": "Star Wars: tudo o que se sabe sobre a exposição de 50 anos da franquia",
-      "summary": "Evento estreia em 2027 com peças históricas da saga, ambientes interativos e uma turnê de cinco anos pela América do Norte",
-      "link": "https://exame.com/pop/star-wars-tudo-o-que-se-sabe-sobre-a-exposicao-de-50-anos-da-franquia/",
+      "title": "Defesa Civil alerta para frente fria e chuva forte em São Paulo; veja previsão para os próximos dias",
+      "summary": "Frente fria avança sobre São Paulo, derruba as temperaturas e traz chuva, raios e rajadas de vento de até 70 km/h nesta sexta-feira",
+      "link": "https://exame.com/brasil/defesa-civil-alerta-para-frente-fria-e-chuva-forte-em-sao-paulo-veja-previsao-para-os-proximos-dias/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-23T22:57:51",
-      "audio": "audio/Star Wars_ tudo o que se sabe sobre a exposição de.mp3"
+      "date": "2026-07-24T08:03:23",
+      "audio": "audio/Defesa Civil alerta para frente fria e chuva forte.mp3"
     },
     {
-      "title": "Testosterona: qual é o nível considerado normal e quando se preocupar?",
-      "summary": "Especialistas explicam quando o hormônio está baixo, para que ele serve e por que mais testosterona nem sempre significa mais força",
-      "link": "https://exame.com/ciencia/testosterona-qual-e-o-nivel-considerado-normal-e-quando-se-preocupar/",
+      "title": "Tupperware aposta em 180 mil consultoras contra concorrência ‘sabor Tupperware’",
+      "summary": "Grupo mexicano BeFra, dono da Betterware e da Jafra, assumiu a operação latino-americana por 250 milhões de dólares e quer tirar a marca do plástico exclusivo: cerâmica, inox e biodegradáveis estão em estudo",
+      "link": "https://exame.com/negocios/tupperware-aposta-em-180-mil-consultoras-contra-concorrencia-sabor-tupperware/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-23T22:57:14",
-      "audio": "audio/Testosterona_ qual é o nível considerado normal e .mp3"
+      "date": "2026-07-24T08:01:33",
+      "audio": "audio/Tupperware aposta em 180 mil consultoras contra co.mp3"
     },
     {
-      "title": "Pietra Bertolazzi se afasta da internet após comentário sobre BTS gerar reação de fãs",
-      "summary": "Pietra Bertolazzi virou alvo de uma mobilização nas redes após comentários sobre o grupo sul-coreano e anunciou uma pausa por tempo indeterminado",
-      "link": "https://exame.com/pop/pietra-bertolazzi-se-afasta-da-internet-apos-comentario-sobre-bts-gerar-reacao-de-fas/",
+      "title": "A gestora brasileira que transformou crise imobiliária em aposta de US$ 790 milhões em Miami",
+      "summary": "Joint venture entre Grupo Leste e Opportunity aproveitou a crise financeira da incorporadora JDS para assumir um dos endereços mais disputados de Miami, em um projeto de US$ 1,1 bilhão assinado por Marcio Kogan",
+      "link": "https://exame.com/exame-in/grupo-leste-transforma-crise-imobiliaria-em-aposta-de-us-790-milhoes-em-miami/",
       "source": "Exame (Brasil)",
-      "date": "2026-07-23T22:55:37",
-      "audio": "audio/Pietra Bertolazzi se afasta da internet após comen.mp3"
+      "date": "2026-07-24T08:01:27",
+      "audio": "audio/A gestora brasileira que transformou crise imobili.mp3"
     },
     {
-      "title": "Veja comparativo gráfico de Halo Campaign Evolved em relação ao jogo de 2011 e 2001",
+      "title": "A disputa entre Lula e Flávio Bolsonaro no Amapá, segundo o Real Time Big Data",
+      "summary": "O presidente lidera a corrida no primeiro turno; no segundo há empate técnico, com vantagem numérica para o filho de Jair Bolsonaro",
+      "link": "https://www.cartacapital.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-amapa-segundo-o-real-time-big-data/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-07-24T10:41:50",
+      "audio": "audio/A disputa entre Lula e Flávio Bolsonaro no Amapá_ .mp3"
+    },
+    {
+      "title": "Pilotos da Voepass não relatavam falhas nas aeronaves, diz Cenipa",
+      "summary": "Relatório da queda do avião em Vinhedo, em 2024, aponta 19 fatores",
+      "link": "https://www.cartacapital.com.br/sociedade/relatorio-da-queda-do-aviao-em-vinhedo-em-2024-aponta-19-fatores/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-07-24T10:29:36",
+      "audio": "audio/Pilotos da Voepass não relatavam falhas nas aerona.mp3"
+    },
+    {
+      "title": "Nova pesquisa reforça o favoritismo do clã Furlan nas eleições do Amapá",
+      "summary": "Levantamento do Real Time Big Data mostra que Dr. Furlan é o favorito para comandar o governo do estado; Rayssa Furlan lidera pesquisa para o Senado",
+      "link": "https://www.cartacapital.com.br/politica/nova-pesquisa-reforca-o-favoritismo-do-cla-furlan-nas-eleicoes-do-amapa/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-07-24T10:17:41",
+      "audio": "audio/Nova pesquisa reforça o favoritismo do clã Furlan .mp3"
+    },
+    {
+      "title": "Lenovo atualiza linha ThinkBook 16p com chip Intel Core Ultra Plus",
       "summary": "",
-      "link": "https://www.tecmundo.com.br/voxel/504931-veja-comparativo-grafico-de-halo-campaign-evolved-em-relacao-ao-jogo-de-2011-e-2001.htm",
+      "link": "https://www.tecmundo.com.br/produto/414771-lenovo-atualiza-linha-thinkbook-16p-com-chip-intel-core-ultra-plus.htm",
       "source": "TecMundo (Brasil)",
-      "date": "2026-07-24T00:15:44",
-      "audio": "audio/Veja comparativo gráfico de Halo Campaign Evolved .mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/Lenovo atualiza linha ThinkBook 16p com chip Intel.mp3"
     },
     {
-      "title": "Realidade aumentada em cirurgias: como médicos usam RA para reduzir riscos",
+      "title": "OpenAI libera ChatGPT Health para todos os usuários nos EUA",
       "summary": "",
-      "link": "https://www.tecmundo.com.br/ciencia/414498-realidade-aumentada-em-cirurgias-como-medicos-usam-ra-para-reduzir-riscos.htm",
+      "link": "https://www.tecmundo.com.br/software/414784-openai-libera-chatgpt-health-para-todos-os-usuarios-nos-eua.htm",
       "source": "TecMundo (Brasil)",
-      "date": "2026-07-24T00:15:00",
-      "audio": "audio/Realidade aumentada em cirurgias_ como médicos usa.mp3"
+      "date": "2026-07-24T09:00:00",
+      "audio": "audio/OpenAI libera ChatGPT Health para todos os usuário.mp3"
     },
     {
-      "title": "Mesa de estudo para quarto: as 5 melhores opções",
+      "title": "Xiaomi lança no Brasil Redmi A7 Pro com bateria de 6.000 mAh",
       "summary": "",
-      "link": "https://www.tecmundo.com.br/guia-de-compras/414616-mesa-de-estudo-para-quarto-as-5-melhores-opcoes.htm",
+      "link": "https://www.tecmundo.com.br/produto/414788-xiaomi-lanca-no-brasil-redmi-a7-pro-com-bateria-de-6000-mah.htm",
       "source": "TecMundo (Brasil)",
-      "date": "2026-07-23T23:15:00",
-      "audio": "audio/Mesa de estudo para quarto_ as 5 melhores opções.mp3"
+      "date": "2026-07-24T08:00:00",
+      "audio": "audio/Xiaomi lança no Brasil Redmi A7 Pro com bateria de.mp3"
     },
     {
-      "title": "Mega-Sena, Lotofácil, Quina, Timemania e Dia de Sorte: resultados desta quinta",
-      "summary": "Sorteio foi realizado no Espaço Caixa Loterias, no novo Espaço da Sorte, na Avenida Paulista, em São Paulo",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7467085-mega-sena-lotofacil-quina-timemania-e-dia-de-sorte-resultados-desta-quinta.html",
+      "title": "Feminicídios batem recorde em 2025, mostra Anuário da Segurança",
+      "summary": "Levantamento mostra 1.517 mulheres mortas no período. Violência policial também aumentou e atinge mais os negros",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7467099-feminicidios-batem-recorde-em-2025-mostra-anuario-da-seguranca.html",
       "source": "Correio Braziliense",
-      "date": "2026-07-23T23:57:00",
-      "audio": "audio/Mega-Sena_ Lotofácil_ Quina_ Timemania e Dia de So.mp3"
+      "date": "2026-07-24T08:00:00",
+      "audio": "audio/Feminicídios batem recorde em 2025_ mostra Anuário.mp3"
     },
     {
-      "title": "Resenha: nem todos os caminhos dos Strokes levam ao mesmo lugar em “Reality Awaits”",
-      "summary": "Entre boas ideias e caminhos incertos, banda entrega seu álbum mais divisivo em anos O post Resenha: nem todos os caminhos dos Strokes levam ao mesmo lugar em “Reality Awaits” apareceu primeiro em TMDQA!.",
-      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/07/24/resenha-the-strokes-reality-awaits/",
-      "source": "Tenho Mais Discos Que Amigos (Brasil)",
-      "date": "2026-07-24T03:00:03",
-      "audio": "audio/Resenha_ nem todos os caminhos dos Strokes levam a.mp3"
+      "title": "Ataques contra mulheres aumentam pressão por PL da Misoginia",
+      "summary": "Casos recentes de ataques contra mulheres na política, como os cometidos pelo influenciador Paulo Figueiredo, mostram que a misoginia atinge todos os espectros políticos",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/07/7467116-ataques-contra-mulheres-aumentam-pressao-por-pl-da-misoginia.html",
+      "source": "Correio Braziliense",
+      "date": "2026-07-24T08:00:00",
+      "audio": "audio/Ataques contra mulheres aumentam pressão por PL da.mp3"
     },
     {
-      "title": "Iron Maiden revela que alguns fãs roubaram produtos oficiais no Eddfest: “Nada legal, pessoal”",
-      "summary": "O Iron Maiden revelou que alguns fãs roubaram produtos oficiais no Eddfest. A banda compartilhou um vídeo de quase seis minutos com os bastidores do evento, que rolou nos dias 10 e 11 de julho, no Knebworth Park, Inglaterra. No conteúdo, o grupo agradeceu o carinho do público, os grupos que tocaram no evento, equipe ...",
-      "link": "https://www.rockbizz.com.br/iron-maiden-revela-que-alguns-fas-roubaram-produtos-oficiais-no-eddfest-nada-legal-pessoal/",
-      "source": "RockBizz (Brasil)",
-      "date": "2026-07-23T23:34:48",
-      "audio": "audio/Iron Maiden revela que alguns fãs roubaram produto.mp3"
+      "title": "Oferta Relâmpago: desconto de 52% na caixa de som Charge 5 da JBL",
+      "summary": "Leve sua música para qualquer lugar com a potência e a qualidade de som JBL O post Oferta Relâmpago: desconto de 52% na caixa de som Charge 5 da JBL apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/ofertas/oferta-relampago-desconto-de-52-na-caixa-de-som-charge-5-da-jbl/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-07-24T11:00:05",
+      "audio": "audio/Oferta Relâmpago_ desconto de 52_ na caixa de som .mp3"
+    },
+    {
+      "title": "Onde assistir a ‘Stuart Não Consegue Salvar o Universo’, novo spin-off de ‘The Big Bang Theory’?",
+      "summary": "Novidade mistura elementos de comédia e ficção científica, mantendo o humor característico da franquia, mas explorando novas possibilidades narrativas O post Onde assistir a &#8216;Stuart Não Consegue Salvar o Universo&#8217;, novo spin-off de &#8216;The Big Bang Theory&#8217;? apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/entretenimento/onde-assistir-a-stuart-nao-consegue-salvar-o-universo-novo-spin-off-de-the-big-bang-theory/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-07-24T10:59:30",
+      "audio": "audio/Onde assistir a _Stuart Não Consegue Salvar o Univ.mp3"
     }
   ],
   "en": [
     {
-      "title": "Ask the Developer Vol. 22, Splatoon Raiders – Chapter 3",
-      "summary": "The most versatile protagonist",
-      "link": "https://www.nintendo.com/en-gb/News/2026/July/Ask-the-Developer-Vol-22-Splatoon-Raiders-Chapter-3-3143588.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+      "title": "Nintendo eShop Highlights – 23/07/2026",
+      "summary": "New releases are waiting for you on Nintendo eShop!",
+      "link": "https://www.nintendo.com/en-gb/News/2026/July/Nintendo-eShop-Highlights-23-07-2026-3143280.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
       "source": "Nintendo",
-      "date": "2026-07-21T13:03:00",
-      "audio": "audio/Ask the Developer Vol_ 22_ Splatoon Raiders _ Chap.mp3"
+      "date": "2026-07-23T13:00:00",
+      "audio": "audio/Nintendo eShop Highlights _ 23_07_2026.mp3"
     },
     {
-      "title": "Ask the Developer Vol. 22, Splatoon Raiders – Chapter 2",
-      "summary": "I’ve wound up in an outlandish environment",
-      "link": "https://www.nintendo.com/en-gb/News/2026/July/Ask-the-Developer-Vol-22-Splatoon-Raiders-Chapter-2-3143587.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
-      "source": "Nintendo",
-      "date": "2026-07-21T13:02:00",
-      "audio": "audio/Ask the Developer Vol_ 22_ Splatoon Raiders _ Chap.mp3"
-    },
-    {
-      "title": "IBM to Acquire HRL Laboratories to Power the Future of Quantum",
-      "summary": "HRL’s expertise in silicon-spin qubits and quantum sensing will strengthen and extend IBM’s world-leading quantum computing mission",
-      "link": "https://newsroom.ibm.com/2026-07-23-ibm-to-acquire-hrl-laboratories-to-power-the-future-of-quantum",
-      "source": "IBM",
-      "date": "2026-07-23T11:00:00",
-      "audio": "audio/IBM to Acquire HRL Laboratories to Power the Futur.mp3"
-    },
-    {
-      "title": "US imposes tariffs on dozens of trade partners, citing forced labour concerns",
-      "summary": "The tariffs target 60 trading partners over claims they failed to properly stop forced labour.",
-      "link": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
+      "title": "Southport killer Axel Rudakubana appears to be manipulating the system, families' lawyer says",
+      "summary": "On Thursday, Axel Rudakubana was moved from prison to a secure psychiatric hospital in Berkshire.",
+      "link": "https://www.bbc.co.uk/news/articles/cjrvy450jv5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-07-24T04:27:15",
-      "audio": "audio/US imposes tariffs on dozens of trade partners_ ci.mp3"
+      "date": "2026-07-24T10:44:24",
+      "audio": "audio/Southport killer Axel Rudakubana appears to be man.mp3"
     },
     {
-      "title": "PM to spend first day working from northern branch of No 10",
-      "summary": "Various ministers are also set to work regularly from the northern branch of Downing Street.",
-      "link": "https://www.bbc.co.uk/news/articles/ckgvyr76973o?at_medium=RSS&at_campaign=rss",
+      "title": "Tens of thousands evacuated from French tourist spot as wildfires spread",
+      "summary": "The fire has raged in the region for several days with officials now ordering the evacuation of the entire Cap Ferret peninsula.",
+      "link": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-07-24T01:44:39",
-      "audio": "audio/PM to spend first day working from northern branch.mp3"
+      "date": "2026-07-24T10:50:26",
+      "audio": "audio/Tens of thousands evacuated from French tourist sp.mp3"
     },
     {
-      "title": "UK complacent about war threat, warns defence boss",
-      "summary": "The threat of attack has never been higher, the boss of Europe's biggest defence contractor has warned. Dr Charles Woodburn",
-      "link": "https://www.bbc.co.uk/news/articles/cx2lpjjpny9o?at_medium=RSS&at_campaign=rss",
+      "title": "Angela Rayner rules out rent controls in England",
+      "summary": "The housing secretary tells the BBC that the Renters Rights' Act is already having a significant impact on the market.",
+      "link": "https://www.bbc.co.uk/news/articles/cx2dg54vprno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-07-23T23:04:19",
-      "audio": "audio/UK complacent about war threat_ warns defence boss.mp3"
+      "date": "2026-07-24T10:01:51",
+      "audio": "audio/Angela Rayner rules out rent controls in England.mp3"
     },
     {
-      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
-      "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
-      "source": "TechCrunch",
-      "date": "2026-07-24T01:00:00",
-      "audio": "audio/How AI guardrails are impeding the work of offensi.mp3"
+      "title": "Facebook considers giving up and becoming TikTok",
+      "summary": "Facebook is planning some big changes to try and keep its users from jumping to rival social platforms like TikTok - changes that sound dubiously similar to becoming a TikTok clone. Facebook head Tom Alison announced today that the platform will begin testing a \"reimagined experience\" later this year that will put a subset of [&#8230;]",
+      "link": "https://www.theverge.com/tech/970504/facebook-video-experience-testing-tiktok-updates",
+      "source": "The Verge",
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/Facebook considers giving up and becoming TikTok.mp3"
     },
     {
-      "title": "Meet the judges who will crown Australia’s next breakout startup",
-      "summary": "TechCrunch Startup Battlefield is coming to Australia — and we're partnering with Stripe to find the country's most exciting early-stage startups.",
-      "link": "https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/",
-      "source": "TechCrunch",
-      "date": "2026-07-24T00:05:00",
-      "audio": "audio/Meet the judges who will crown Australia_s next br.mp3"
+      "title": "Microsoft pressures LG into killing unwanted McAfee ads",
+      "summary": "Microsoft has intervened to stop Windows 11 users with LG monitors from being bombarded with annoying McAfee trial pop-ups. In response to complaints about the LG bloatware, Microsoft's Windows chief, Pavan Davuluri, said that LG has agreed to immediately disable the McAfee pop-up from its LG Monitor App Installer, and pledged that Microsoft will \"keep [&#8230;]",
+      "link": "https://www.theverge.com/tech/970489/lg-mcafee-ads-windows-microsoft-crackdown",
+      "source": "The Verge",
+      "date": "2026-07-24T09:20:09",
+      "audio": "audio/Microsoft pressures LG into killing unwanted McAfe.mp3"
     },
     {
-      "title": "Iran War Live Updates: Iran Rejected a U.S. Cease-Fire Offer Delivered by Iraq, Officials Say",
-      "summary": "The prime minister of Iraq, who recently visited the White House, carried the proposal to Tehran. The U.S. military said it conducted a 13th consecutive night of strikes on Iran in the early hours of Friday local time.",
-      "link": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump",
+      "title": "Phones in Hand, India’s Young Protesters Blast Through Modi’s Media Control",
+      "summary": "Prime Minister Narendra Modi’s tightly constructed image is being punctured as a Gen Z-led protest movement uses videos and memes to seize the digital narrative.",
+      "link": "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html",
       "source": "NYT World",
-      "date": "2026-07-24T05:07:57",
-      "audio": "audio/Iran War Live Updates_ Iran Rejected a U_S_ Cease-.mp3"
+      "date": "2026-07-24T10:17:21",
+      "audio": "audio/Phones in Hand_ India_s Young Protesters Blast Thr.mp3"
     },
     {
-      "title": "Reward offered after monkey found on London bus",
-      "summary": "A reward of up to £3,000 is being offered for information that leads to any arrest and conviction after a monkey was found abandoned on a London bus.",
-      "link": "https://news.sky.com/story/3000-reward-offered-for-information-after-monkey-found-abandoned-on-london-bus-13566502",
+      "title": "In Kyrgyzstan, Girls Compete at Kok-Boru, a Game Like Polo",
+      "summary": "Here’s what happened when some teenage girls dared to compete in the dangerous sport of “kok-boru.”",
+      "link": "https://www.nytimes.com/2026/07/24/world/europe/first-girls-polo-team-breaks-with-tradition-but-keeps-the-goat-carcass.html",
+      "source": "NYT World",
+      "date": "2026-07-24T09:00:26",
+      "audio": "audio/In Kyrgyzstan_ Girls Compete at Kok-Boru_ a Game L.mp3"
+    },
+    {
+      "title": "‘We’re Trapped in Hell’: Iranians Say Life Is Put On Hold by Months of War",
+      "summary": "Devastated by cycles of violence and economic crisis, many are giving up on work and their futures as the United States batters Iran again.",
+      "link": "https://www.nytimes.com/2026/07/24/world/middleeast/iran-war-cycle.html",
+      "source": "NYT World",
+      "date": "2026-07-24T09:04:59",
+      "audio": "audio/We_re Trapped in Hell__ Iranians Say Life Is Put .mp3"
+    },
+    {
+      "title": "Southport killer accused of 'manipulating system' after move to psychiatric hospital",
+      "summary": "Southport killer Axel Rudakubana has been accused of trying to \"manipulate the system\" after he was transferred from prison to Broadmoor psychiatric hospital.",
+      "link": "https://news.sky.com/story/southport-killer-accused-of-manipulating-system-after-move-to-broadmoor-psychiatric-hospital-13566545",
       "source": "Sky News (UK)",
-      "date": "2026-07-24T03:21:00",
-      "audio": "audio/Reward offered after monkey found on London bus.mp3"
+      "date": "2026-07-24T08:46:00",
+      "audio": "audio/Southport killer accused of _manipulating system_ .mp3"
     },
     {
-      "title": "Burnham urged to 'build bridges' with sacked Starmerites",
-      "summary": "Andy Burnham needs to \"build bridges\" with the Starmerite minister he sacked during his reshuffle, Baroness Harriet Harman has told the Electoral Dysfunction podcast.",
-      "link": "https://news.sky.com/story/burnham-should-build-bridges-with-sacked-starmerites-like-darren-jones-says-harman-13566311",
+      "title": "Heat health alerts in place for England during busy getaway weekend",
+      "summary": "Heat health alerts have been issued for parts of England ahead of a busy getaway weekend, with temperatures potentially set to reach 30C.",
+      "link": "https://news.sky.com/story/uk-weather-heat-health-alerts-in-place-for-england-during-busy-getaway-weekend-13566549",
       "source": "Sky News (UK)",
-      "date": "2026-07-24T04:00:00",
-      "audio": "audio/Burnham urged to _build bridges_ with sacked Starm.mp3"
+      "date": "2026-07-24T08:57:00",
+      "audio": "audio/Heat health alerts in place for England during bus.mp3"
     },
     {
-      "title": "Justice Dept. drops 'New York Times' subpoenas under pressure from judge",
-      "summary": "The Justice Department is dropping the subpoenas it filed demanding grand jury testimony and phone records from New York Times journalists after sharp questioning Thursday from a federal judge.",
-      "link": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
+      "title": "US allies hit with new tariffs object to Trump's forced labor claims",
+      "summary": "Australia and the European Union were among U.S. trade partners who condemned the tariffs.",
+      "link": "https://www.npr.org/2026/07/24/nx-s1-5906301/us-global-trump-tariffs-reaction",
       "source": "NPR (US)",
-      "date": "2026-07-24T03:31:19",
-      "audio": "audio/Justice Dept_ drops _New York Times_ subpoenas und.mp3"
+      "date": "2026-07-24T10:31:08",
+      "audio": "audio/US allies hit with new tariffs object to Trump_s f.mp3"
     },
     {
-      "title": "Director Na Hong-Jin Makes Comic-Con Debut With Frightening New ‘Hope’ Footage, Says Casting Hoyeon Was His ‘Best Decision’",
-      "summary": "South Korean director Na Hong-Jin made his San Diego Comic-Con debut to preview his latest film, Neon&#8217;s alien action movie “Hope.&#8221; Before the action auteur took the stage in Ballroom 20, a sizzle reel of his previous work — from his 2008 debut “The Chaser”&#160;to “The Yellow Sea” and “The Wailing,&#8221; all set to Ozzy [&#8230;]",
-      "link": "https://variety.com/2026/film/news/na-hong-jin-comic-con-hope-footage-hoyeon-1236819530/",
+      "title": "What animal is the deformed-but-adorable Jimothy? The quiz knows — do you?",
+      "summary": "Also: Ryan Gosling's regrets, Zohran Mamdani's exhortations and the Smithsonian's alleged wokeness.",
+      "link": "https://www.npr.org/2026/07/24/g-s1-134821/jimothy-ai-uk-mamdani-strait-iran-news-quiz",
+      "source": "NPR (US)",
+      "date": "2026-07-24T09:01:00",
+      "audio": "audio/What animal is the deformed-but-adorable Jimothy_ .mp3"
+    },
+    {
+      "title": "Trump refuses to give up on tariffs - a pillar of his economic legacy",
+      "summary": "The administration timed a new set of tariffs on all of its largest trading partners to take effect at the same time the old, global tariff ended.",
+      "link": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
+      "source": "NPR (US)",
+      "date": "2026-07-24T09:00:00",
+      "audio": "audio/Trump refuses to give up on tariffs - a pillar of .mp3"
+    },
+    {
+      "title": "Edinburgh Industry Program Features Ewan McGregor, Kenneth Branagh and Bruce Dern and an Inaugural UK Film Conference",
+      "summary": "Ewan McGregor, Kenneth Branagh, Ken Burns, Christine Vachon and Bruce Dern have boarded the Edinburgh International Film Festival’s 2026 industry program, a talent-heavy five-day lineup anchored by the inaugural UK Film Conference, billed as a state-of-the-nation summit for British independent cinema. Unspooling Aug. 14-18 at EIFF’s Festival Hub at Central Hall, the program folds starry [&#8230;]",
+      "link": "https://variety.com/2026/biz/events/edinburgh-industry-program-sets-mcgregor-branagh-burns-1236820141/",
       "source": "Variety (US)",
-      "date": "2026-07-24T03:27:25",
-      "audio": "audio/Director Na Hong-Jin Makes Comic-Con Debut With Fr.mp3"
+      "date": "2026-07-24T11:12:32",
+      "audio": "audio/Edinburgh Industry Program Features Ewan McGregor.mp3"
     },
     {
-      "title": "‘Sia: Nostalgic for the Present’ Review: A Concert Performance Film from 2016, but It Channels Sia’s Mystery and Power",
-      "summary": "Sia’s greatest songs, like \"Unstoppable\" and \"Titanium\" and \"The Greatest,\" are anthems of strength, power, fortitude, invincibility, and watching the movie it’s fascinating to behold how her facelessness feeds that quality. She’s an abstract figure, a pair of lips singing, and this creates the sensation that the power she’s singing about doesn’t emanate from her.",
-      "link": "https://variety.com/2026/film/reviews/sia-nostalgic-for-the-present-review-1236817974/",
+      "title": "Fred Tsui Named Executive Director of Hong Kong International Film Festival Society",
+      "summary": "The Hong Kong International Film Festival Society has appointed Fred Tsui, founder and CEO of Moebius Entertainment, as its new executive director, the organization said Friday. Tsui succeeds Albert Lee and assumes the role Sept. 23, reporting to HKIFFS chair Dr. Wilfred Wong and the board. In the new post, Tsui will oversee the society&#8217;s [&#8230;]",
+      "link": "https://variety.com/2026/film/news/fred-tsui-executive-director-hong-kong-international-film-festival-society-1236820176/",
       "source": "Variety (US)",
-      "date": "2026-07-24T03:25:16",
-      "audio": "audio/Sia_ Nostalgic for the Present_ Review_ A Concert.mp3"
+      "date": "2026-07-24T10:43:36",
+      "audio": "audio/Fred Tsui Named Executive Director of Hong Kong In.mp3"
     },
     {
-      "title": "Creepy Twins, Religious Fanaticism and a Loaded Gun Collide in Tense Chamber Drama ‘Godhead’ — Fantasia",
-      "summary": "Mark H. Rapaport&#8217;s new film “Godhead” is a master-class in ratcheting up tension. Shot in black-and-white with camerawork that makes the audience feel like a voyeur uncovering perverse secrets, the film blends faith, sex, lies and discomfort into an unknowable dance between its leads. The premise begins simply: A rural Catholic priest (Al Warren) is [&#8230;]",
-      "link": "https://variety.com/2026/film/features/godhead-fantasia-festival-thriller-evil-twins-religious-1236819934/",
+      "title": "BBC Buys War Drama ‘Kabul,’ Featuring Eric Dane in One of His Last Roles",
+      "summary": "The BBC has acquired thriller series &#8220;Kabul,&#8221; starring the late Eric Dane and &#8220;Tehran&#8217;s&#8221; Shervin Alenabi, from Mediawan Rights. The six-part show, which is against the backdrop of U.S. troops’ withdrawal from Afghanistan amid the Taliban’s return to Kabul, follows the chaotic evacuation of various characters including diplomats, soldiers and civilians. The synopsis reads: “Kabul, [&#8230;]",
+      "link": "https://variety.com/2026/tv/global/bbc-war-drama-kabul-eric-dane-1236820165/",
       "source": "Variety (US)",
-      "date": "2026-07-24T01:41:58",
-      "audio": "audio/Creepy Twins_ Religious Fanaticism and a Loaded Gu.mp3"
+      "date": "2026-07-24T10:15:57",
+      "audio": "audio/BBC Buys War Drama _Kabul__ Featuring Eric Dane in.mp3"
     },
     {
-      "title": "Listen to Orville Peck’s New Song “Too Little, Too Late”",
-      "summary": "Emmylou Harris, Noah Cyrus, and Allison Russell feature on the singer's second LP, due out September 18",
-      "link": "https://pitchfork.com/story/listen-to-orville-pecks-new-song-too-little-too-late/",
-      "source": "Pitchfork",
-      "date": "2026-07-24T04:25:08",
-      "audio": "audio/Listen to Orville Peck_s New Song _Too Little_ Too.mp3"
-    },
-    {
-      "title": "Offaly IPAS centre seeks permission to extend operations for another three years",
+      "title": "Australian Para Powerlifters choose Kerry as Commonwealth Games training base",
       "summary": "",
-      "link": "https://www.independent.ie/county/offaly/offaly-ipas-centre-seeks-permission-to-extend-operations-for-another-three-years/a/159102854.html",
+      "link": "https://www.independent.ie/county/kerry/australian-para-powerlifters-choose-kerry-as-commonwealth-games-training-base/a/158978968.html",
       "source": "Irish Independent",
-      "date": "2026-07-24T05:00:00",
-      "audio": "audio/Offaly IPAS centre seeks permission to extend oper.mp3"
+      "date": "2026-07-24T11:10:00",
+      "audio": "audio/Australian Para Powerlifters choose Kerry as Commo.mp3"
     },
     {
-      "title": "Vandals tried to cut down Louth playground swings",
+      "title": "Sophia Young races into ‘A’ final at World Rowing Under-23 Championships",
       "summary": "",
-      "link": "https://www.independent.ie/county/louth/vandals-tried-to-cut-down-louth-playground-swings/a/159101723.html",
+      "link": "https://www.independent.ie/sport/other-sports/sophia-young-races-into-a-final-at-world-rowing-under-23-championships/a/159148906.html",
       "source": "Irish Independent",
-      "date": "2026-07-24T05:00:00",
-      "audio": "audio/Vandals tried to cut down Louth playground swings.mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/Sophia Young races into _A_ final at World Rowing .mp3"
     },
     {
-      "title": "No solicitor, no problem for Louth drugs accused who gets bail conditions varied",
+      "title": "New book from former journalist and tour guide Harry Keaney details O’Connor monument based in Sligo Abbey",
       "summary": "",
-      "link": "https://www.independent.ie/county/louth/no-solicitor-no-problem-for-louth-drugs-accused-who-gets-bail-conditions-varied/a/159096425.html",
+      "link": "https://www.independent.ie/county/sligo/new-book-from-former-journalist-and-tour-guide-harry-keaney-details-oconnor-monument-based-in-sligo-abbey/a/159146276.html",
       "source": "Irish Independent",
-      "date": "2026-07-24T05:00:00",
-      "audio": "audio/No solicitor_ no problem for Louth drugs accused w.mp3"
+      "date": "2026-07-24T11:00:00",
+      "audio": "audio/New book from former journalist and tour guide Har.mp3"
     },
     {
-      "title": "Charli xcx: Music, Fashion, Film review – slippery search into selfhood that hits just as hard as Brat",
-      "summary": "(Atlantic)How do you follow up the album that made you a star – and a caricature? In classic Charli style: with a pivot to guitar and a meta masterpiece about the instability of identityAfter a decade spent trailblazing a unique kind of pop freedom from the genre’s fringes, A-list success seemed like the thing that might finally trap Charli xcx.",
-      "link": "https://www.theguardian.com/music/2026/jul/24/charli-xcx-music-fashion-film-review",
+      "title": "John Prine recordings to be released in new collection <i>Found Dogs</i>",
+      "summary": "Watch the lyric video including Super 8 footage from a Prine family vacation below.",
+      "link": "https://www.hotpress.com/music/john-prine-recordings-to-be-released-in-new-collection-found-dogs-23153788",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-07-24T10:18:05",
+      "audio": "audio/John Prine recordings to be released in new collec.mp3"
+    },
+    {
+      "title": "Robbie Williams adds second Thomond Park show following sell-out",
+      "summary": "The newly announced date will take place on July 7, 2027.",
+      "link": "https://www.hotpress.com/music/robbie-williams-adds-second-thomond-park-show-following-sell-out-23153798",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-07-24T10:11:19",
+      "audio": "audio/Robbie Williams adds second Thomond Park show foll.mp3"
+    },
+    {
+      "title": "Salman Rushdie tells court knife came \"a millimetre from my brain\" during 2022 attack",
+      "summary": "The author gave evidence at the terrorism trial of the man accused of carrying out the stabbing.",
+      "link": "https://www.hotpress.com/culture/salman-rushdie-tells-court-knife-came-a-millimetre-from-my-brain-during-2022-attack-23153787",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-07-24T09:35:38",
+      "audio": "audio/Salman Rushdie tells court knife came _a millimetr.mp3"
+    },
+    {
+      "title": "Race, school, gender: the makeup of Andy Burnham’s cabinet – in charts",
+      "summary": "Women have half the seats at the top table for the first time, but Oxbridge maintains its gripAndy Burnham has appointed the first cabinet of his premiership. Much has been made of how key allies of his predecessor, Keir Starmer, have been demoted or sacked, but what is the demographic makeup of the new team of senior ministers, and how does it differ from other governments? Continue reading...",
+      "link": "https://www.theguardian.com/politics/2026/jul/24/demographic-makeup-of-andy-burnham-cabinet-charts",
       "source": "The Guardian UK",
-      "date": "2026-07-23T23:01:56",
-      "audio": "audio/Charli xcx_ Music_ Fashion_ Film review _ slippery.mp3"
+      "date": "2026-07-24T09:00:08",
+      "audio": "audio/Race_ school_ gender_ the makeup of Andy Burnham_s.mp3"
     },
     {
-      "title": "My generation shouldn’t be scared of a care tax – we’re paying one already | Gaby Hinsliff",
-      "summary": "If Andy Burnham is minded to grasp the nettle, he will need to sell it to people like me. The right will call it a ‘death tax’ – why not a levy for ageing well?One of the last things Andy Burnham did before entering Downing Street was to go and see his father.Now living in a nursing home, Roy Burnham has Alzheimer’s and isn’t really aware of his son’s new job.",
-      "link": "https://www.theguardian.com/commentisfree/2026/jul/24/my-generation-scared-care-tax-andy-burnham-ageing-well",
+      "title": "‘It’s become a nepo baby sport’: how secondhand fashion got so expensive",
+      "summary": "Thanks to gen Z resellers and platforms like Depop, thrifting has lost its subcultural roots - and ballooned into a $350bn businessVintage boutique owner Janelle Best has been rummaging in thrift shop bins since the 90s. When she started, she says, there was a stigma about it. “It was either you were a freak, or you were poor – and I was a freak.”At first, she did it to source stage outfits while playing in psych-rock bands.",
+      "link": "https://www.theguardian.com/fashion/2026/jul/24/secondhand-fashion-thrifting-depop-cost",
       "source": "The Guardian UK",
-      "date": "2026-07-24T05:00:05",
-      "audio": "audio/My generation shouldn_t be scared of a care tax _ .mp3"
+      "date": "2026-07-24T08:00:08",
+      "audio": "audio/It_s become a nepo baby sport__ how secondhand fa.mp3"
     },
     {
-      "title": "‘It’s more than backcombing a beehive!’ How tribute acts got massive – and put the live music scene back in the black",
-      "summary": "Versions of Amy Winehouse and hundreds of other musicians are generating millions for beleaguered UK venues. But what is the emotional toll for the imitators, and are they pushing out original artists?As peak heatwave sun beams down on to a field in Derbyshire, Amy Winehouse tells the crowd she is in need of hydration – so Robbie Williams fetches her a drink.",
-      "link": "https://www.theguardian.com/music/2026/jul/24/its-more-than-backcombing-a-beehive-how-tribute-acts-got-massive-and-put-the-live-music-scene-back-in-the-black",
+      "title": "‘It was the moment I lost innocence’: how a childhood stop-and-search led to the British debut movie of the year",
+      "summary": "When Imran Perretta was young, he was abruptly pulled by police into a van for questioning. That experience, as well as the death of his mother, inspired him to make Ish, a coming-of-age tale set amongst the British Muslim community.",
+      "link": "https://www.theguardian.com/film/2026/jul/24/imran-perretta-interview-ish-british-debut-movie-of-the-year",
       "source": "The Guardian UK",
-      "date": "2026-07-24T04:00:04",
-      "audio": "audio/It_s more than backcombing a beehive__ How tribut.mp3"
+      "date": "2026-07-24T07:00:07",
+      "audio": "audio/It was the moment I lost innocence__ how a childh.mp3"
     },
     {
-      "title": "The smartest time to do holiday shopping is in July. We found the best, earliest deals",
-      "summary": "Christmas shopping in July is better. These 12 very early Black Friday deals, on tried and tested products, make the perfect gifts – for yourself or othersTechnically, we still have 60 days to enjoy summer.Yet in the world of retail, Black Friday deals have already arrived. To mark the rough half-way point to the holidays, retailers such as Macy’s and Best Buy have rebranded Black Friday as “Christmas in July” discounts.",
-      "link": "https://www.theguardian.com/thefilter-us/2026/jul/23/early-holiday-christmas-in-july-deals",
-      "source": "The Guardian US",
-      "date": "2026-07-23T21:45:47",
-      "audio": "audio/The smartest time to do holiday shopping is in Jul.mp3"
-    },
-    {
-      "title": "EU fines Google €890m for competition breaches over search and apps",
-      "summary": "Firm told to treat third-party services that appear in its results in ‘fair and non-discriminatory manner’Google has been fined a total of €890m (£760m) by the EU for breaches of online competition laws by its search and app store services.The European Commission, the EU’s executive arm, said Google had broken the Digital Markets Act by giving priority to its own services, such as shopping and hotel deals, in search results over those of its riva",
-      "link": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
+      "title": "Space datacenters proposed by Musk and Bezos ‘catastrophic’ for planet, experts warn",
+      "summary": "New US petition demands review of plans from tech companies amid fears of environmental destructionSpace datacenters proposed by SpaceX, Jeff Bezos’s Blue Origin and others would release staggering levels of pollution that would probably alter the Earth’s atmosphere and be “catastrophic” for the planet, space industry experts and environmental groups warn in a new petition demanding a review of their impacts.Tech companies have collectively propo",
+      "link": "https://www.theguardian.com/science/2026/jul/23/space-datacenters-bezos-blue-origin",
       "source": "The Guardian Tech",
-      "date": "2026-07-23T10:00:42",
-      "audio": "audio/EU fines Google _890m for competition breaches ove.mp3"
+      "date": "2026-07-23T11:00:43",
+      "audio": "audio/Space datacenters proposed by Musk and Bezos _cata.mp3"
     },
     {
-      "title": "Personal and banking details among customer data stolen in Origin Energy hack",
-      "summary": "Hackers access Australian customers’ names, addresses, dates of birth, phone numbers and some bank account details, company saysFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastOrigin Energy customers’ addresses, phone numbers and partial bank account data have been accessed in a hack, the company has confirmed.The firm has 4.8m customer accounts in Australia, providing electricity, ",
-      "link": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+      "title": "Elon Musk says he got ‘carried away’ with Trump – but still holds on to contentious political views",
+      "summary": "In interview, billionaire says instead of running ‘Doge’ he should’ve ‘worked on my companies’ and shares extreme predictionsElon Musk has admitted he became too consumed by politics during his volatile alliance with Donald Trump and his brief appointment as the president’s financial axman, running the so-called “department of government efficiency” (Doge).The world’s richest person, and briefly its first trillionaire after his SpaceX company flo",
+      "link": "https://www.theguardian.com/technology/2026/jul/23/elon-musk-regret-trump-doge-ai",
       "source": "The Guardian Tech",
-      "date": "2026-07-23T09:55:27",
-      "audio": "audio/Personal and banking details among customer data s.mp3"
+      "date": "2026-07-23T15:27:52",
+      "audio": "audio/Elon Musk says he got _carried away_ with Trump _ .mp3"
     },
     {
-      "title": "Noah Kahan Gets a ‘Call’ From Congress Ordering Fans to Wear Diapers at Concerts",
-      "summary": "During his stop in Washington, the singer pretended to get a phone call from the government about fans relieving themselves mid-show",
-      "link": "https://www.rollingstone.com/music/music-news/noah-kahan-call-congress-fans-wear-diapers-concerts-1235598251/",
+      "title": "‘Customers prefer AI chatbots,’ says British Gas owner as 1,300 call centre jobs axed",
+      "summary": "CEO Chris O’Shea defends Centrica’s plans as it reports rise in retail profits following focus on bigger marginsThe owner of British Gas has claimed that most households would rather speak with an AI chatbot than deal with the company’s staff as it prepares to cut 1,300 jobs from its call centres.Centrica, the supplier’s FTSE 100 owner, plans to cut 800 jobs as the company carries out a “targeted deployment of AI tools”, on top of the 500 cuts it",
+      "link": "https://www.theguardian.com/business/2026/jul/23/customers-prefer-ai-chatbots-says-chris-oshea-british-gas-centrica-boss",
+      "source": "The Guardian Tech",
+      "date": "2026-07-23T16:45:56",
+      "audio": "audio/Customers prefer AI chatbots__ says British Gas o.mp3"
+    },
+    {
+      "title": "“It was such a cliché. I knew I had to use it”: How a joke comment led Neil Young to create the rock anthem that inspired Pearl Jam and started a beef with Trump",
+      "summary": "The song has more in common with hard rock than the folk scene Young had been part of",
+      "link": "https://www.musicradar.com/artists/it-was-such-a-cliche-i-knew-i-had-to-use-it-how-a-joke-comment-led-neil-young-to-create-the-rock-anthem-that-inspired-pearl-jam-and-started-a-beef-with-trump",
+      "source": "MusicRadar (UK)",
+      "date": "2026-07-24T10:42:58",
+      "audio": "audio/It was such a cliché_ I knew I had to use it__ Ho.mp3"
+    },
+    {
+      "title": "“We go back a long way with Martin, and there’s always a sense of adventure whenever we get together\": U2 join forces with DJ and producer Martin Garrix for new single, Fireflies",
+      "summary": "The song comes as the band gears up for a first new studio record in almost a decade",
+      "link": "https://www.musicradar.com/artists/bands/we-go-back-a-long-way-with-martin-and-theres-always-a-sense-of-adventure-whenever-we-get-together-u2-join-forces-with-dj-and-producer-martin-garrix-for-new-single-fireflies",
+      "source": "MusicRadar (UK)",
+      "date": "2026-07-24T09:52:10",
+      "audio": "audio/We go back a long way with Martin_ and there_s al.mp3"
+    },
+    {
+      "title": "Blackpink’s Jennie Debuts Wistful Single ‘Less Than a Lover’",
+      "summary": "The singer's debut solo album, Ruby, was released last year via her own record label Odd Atelier",
+      "link": "https://www.rollingstone.com/music/music-news/blackpink-jennie-less-than-a-lover-solo-single-1235598273/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-07-24T05:11:18",
-      "audio": "audio/Noah Kahan Gets a _Call_ From Congress Ordering Fa.mp3"
+      "date": "2026-07-24T06:32:28",
+      "audio": "audio/Blackpink_s Jennie Debuts Wistful Single _Less Tha.mp3"
     },
     {
-      "title": "Charli XCX’s New Album ‘Music, Fashion, Film’ Is Here",
-      "summary": "\"It’s not creatively rewarding for me to make the same thing twice,\" British pop star says of her Brat follow-up",
-      "link": "https://www.rollingstone.com/music/music-news/charli-xcx-new-album-music-fashion-film-here-1235597706/",
+      "title": "Hear U2, Martin Garrix Team Up for Anthemic Single ‘Fireflies’",
+      "summary": "The producer originally debuted the joint track during his set at Tomorrowland earlier this month",
+      "link": "https://www.rollingstone.com/music/music-news/u2-martin-garrix-fireflies-single-1235598269/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-07-24T04:00:00",
-      "audio": "audio/Charli XCX_s New Album _Music_ Fashion_ Film_ Is H.mp3"
+      "date": "2026-07-24T06:11:55",
+      "audio": "audio/Hear U2_ Martin Garrix Team Up for Anthemic Single.mp3"
     },
     {
-      "title": "Bon Jovi Abruptly Ends MSG Concert Due to Sinus Infection",
-      "summary": "\"Don’t throw away your ticket stubs, I’m gonna figure something out,\" the singer said from the stage before ending the night early",
-      "link": "https://www.rollingstone.com/music/music-news/bon-jovi-abruptly-ends-msg-concert-sinus-infection-1235598245/",
-      "source": "Rolling Stone Music (US)",
-      "date": "2026-07-24T03:01:08",
-      "audio": "audio/Bon Jovi Abruptly Ends MSG Concert Due to Sinus In.mp3"
-    },
-    {
-      "title": "U2 and DJ Martin Garrix Unveil New Single “Fireflies”: Stream",
-      "summary": "Members of the Irish band, which is gearing up for an album drop later this year, and the Dutch DJ have collaborated in the past U2 and DJ Martin Garrix Unveil New Single &#8220;Fireflies&#8221;: Stream Travis Bland",
-      "link": "https://consequence.net/2026/07/u2-martin-garrix-release-fireflies/",
-      "source": "Consequence of Sound (US)",
-      "date": "2026-07-24T04:02:58",
-      "audio": "audio/U2 and DJ Martin Garrix Unveil New Single _Firefli.mp3"
-    },
-    {
-      "title": "Johnny Depp Is Basically Jack Sparrow as Scrooge in Trailer for Ebenezer: Watch",
-      "summary": "The film marks Depp's first major studio project since his lengthy legal battle with Amber Heard. Johnny Depp Is Basically Jack Sparrow as Scrooge in Trailer for Ebenezer: Watch Alex Young",
-      "link": "https://consequence.net/2026/07/ebenezer-trailer-johnny-depp/",
-      "source": "Consequence of Sound (US)",
-      "date": "2026-07-24T02:07:22",
-      "audio": "audio/Johnny Depp Is Basically Jack Sparrow as Scrooge i.mp3"
-    },
-    {
-      "title": "Charli XCX Gives Her Top 5 Underrated Films",
-      "summary": "Sofia Coppola and David Lynch films made the pop singer's list. Charli XCX Gives Her Top 5 Underrated Films Travis Bland",
-      "link": "https://consequence.net/2026/07/charli-xcx-names-top-5-underrated-films/",
-      "source": "Consequence of Sound (US)",
-      "date": "2026-07-24T01:59:51",
-      "audio": "audio/Charli XCX Gives Her Top 5 Underrated Films.mp3"
-    },
-    {
-      "title": "Gardai quiz trainee Dublin lawyer after finding viable explosive device in her car",
-      "summary": "The search discovered the device that contained military grade plastic explosives as well as a timer unit and detonator",
-      "link": "https://www.dublinlive.ie/news/gardai-quiz-trainee-dublin-lawyer-34342486",
+      "title": "Urgent compass jellyfish warning issued for popular Dublin beach",
+      "summary": "Compass jellyfish are usually recognised by their umbrella‑shaped bell marked with distinctive brown V‑shaped lines, resembling a compass rose",
+      "link": "https://www.dublinlive.ie/news/dublin-news/urgent-compass-jellyfish-warning-issued-34344599",
       "source": "Dublin Live News",
-      "date": "2026-07-24T03:00:00",
-      "audio": "audio/Gardai quiz trainee Dublin lawyer after finding vi.mp3"
+      "date": "2026-07-24T11:10:32",
+      "audio": "audio/Urgent compass jellyfish warning issued for popula.mp3"
     },
     {
-      "title": "Charli xcx, Tyla, Morgan Wallen & More: New Music Friday Guide",
-      "summary": "Check out the must-hear releases of the week.",
-      "link": "https://www.billboard.com/music/music-news/charli-xcx-tyla-morgan-wallen-new-music-friday-guide-1236300112/",
+      "title": "Dublin rail line to double tracks in major €1 billion expansion",
+      "summary": "The 14km stretch of two-track line will expand to four tracks, under the Four North project announced today by Iarnrod Eireann",
+      "link": "https://www.dublinlive.ie/news/dublin-rail-line-double-tracks-34344697",
+      "source": "Dublin Live News",
+      "date": "2026-07-24T11:01:45",
+      "audio": "audio/Dublin rail line to double tracks in major _1 bill.mp3"
+    },
+    {
+      "title": "A new 15-year plan aims to bring nature back to Dublin’s streets",
+      "summary": "Dublin's green strategy is a response to the Nature Restoration Regulation enacted by the European Union in 2024 which outlines a need to increase green spaces and tree canopy covers in urban areas",
+      "link": "https://www.dublinlive.ie/news/dublin-news/new-15-year-plan-aims-34344144",
+      "source": "Dublin Live News",
+      "date": "2026-07-24T10:59:55",
+      "audio": "audio/A new 15-year plan aims to bring nature back to Du.mp3"
+    },
+    {
+      "title": "Lewis Capaldi and RAYE to Headline Australia’s 2026 Spilt Milk Fest",
+      "summary": "The 2026 edition will visit Canberra, Gold Coast, Geelong and Perth this December, the start of the southern summer.",
+      "link": "https://www.billboard.com/music/concerts/lewis-capaldi-raye-headline-australia-2026-spilt-milk-1236302204/",
       "source": "Billboard (US)",
-      "date": "2026-07-24T04:52:48",
-      "audio": "audio/Charli xcx_ Tyla_ Morgan Wallen _ More_ New Music.mp3"
+      "date": "2026-07-24T09:16:36",
+      "audio": "audio/Lewis Capaldi_and_RAYE_to Headline Australia_s 202.mp3"
     },
     {
-      "title": "The Rolling Stones’ ‘Foreign Tongues’ Debuts at No. 1 on Billboard’s Top Album Sales Chart",
-      "summary": "Plus, the set starts in the top 10 on five more album charts.",
-      "link": "https://www.billboard.com/music/chart-beat/the-rolling-stones-foreign-tongues-number-one-album-sales-1236302146/",
+      "title": "Gracie Abrams Charges to No. 1 In Australia With ‘Daughter From Hell’",
+      "summary": "The week’s best-seller on vinyl, Daughter From Hell is the second leader for Abrams after 2024's The Secret Of Us.",
+      "link": "https://www.billboard.com/music/chart-beat/gracie-abrams-no-1-australia-daughter-from-hell-1236302195/",
       "source": "Billboard (US)",
-      "date": "2026-07-24T04:29:50",
-      "audio": "audio/The Rolling Stones_ _Foreign Tongues_ Debuts at No.mp3"
+      "date": "2026-07-24T08:00:57",
+      "audio": "audio/Gracie Abrams Charges to No_ 1 In Australia With .mp3"
     },
     {
-      "title": "‘I Needed Something to Sink My Teeth Into’: Why Amy Shark Decamped to a Converted Church In Wales to Create ‘Soft Pop’",
-      "summary": "“It was such a rollercoaster, but I'm just so proud of myself. I really went for it,” Shark tells Billboard.",
-      "link": "https://www.billboard.com/music/pop/amy-shark-interview-soft-pop-1236302143/",
+      "title": "‘Feels Like a Full-Circle Moment’: VASSY Talks Tomorrowland Performance and Fresh Tune ‘DAY N NIGHT’",
+      "summary": "VASSY is returning to Tomorrowland \"as a new mum to premiere the first single of an entirely new chapter,\" she tells Billboard.",
+      "link": "https://www.billboard.com/music/music-news/vassy-interview-tomorrowland-day-n-night-1236302186/",
       "source": "Billboard (US)",
-      "date": "2026-07-24T04:17:23",
-      "audio": "audio/I Needed Something to Sink My Teeth Into__ Why Am.mp3"
+      "date": "2026-07-24T07:34:28",
+      "audio": "audio/Feels Like a Full-Circle Moment__ VASSY Talks Tom.mp3"
     },
     {
-      "title": "The New Rock + Metal Albums Out Today",
-      "summary": "Better Noise, ℗ 2026 Willowtip Records, ℗ 2026 Nuclear Blast",
-      "link": "https://loudwire.com/2026-hard-rock-metal-album-release-calendar/",
-      "source": "Loudwire (US)",
-      "date": "2026-07-24T04:01:48",
-      "audio": "audio/The New Rock _ Metal Albums Out Today.mp3"
+      "title": "Indie Basement (7/24): the week in classic indie, alternative & college rock",
+      "summary": "This week: Robyn Hitchcock, Talk Talk, Alex Cameron, Baxter Dury, Baxter Dury, and more",
+      "link": "https://www.brooklynvegan.com/album-reviews-7-24-robyn-hitchcock-baxter-dury-talk-talk-alex-cameron-josh-da-costa/",
+      "source": "BrooklynVegan (US)",
+      "date": "2026-07-24T10:54:33",
+      "audio": "audio/Indie Basement _7_24__ the week in classic indie_ .mp3"
+    },
+    {
+      "title": "Martin Garrix, U2 ‘Fire’ Up First Collaboration",
+      "summary": "The Edge helped Dutch EDM star debut the track at recent Belgian festival appearance.",
+      "link": "https://www.spinmagazine.com/2026/07/martin-garrix-u2-new-song/",
+      "source": "Spin Magazine (US)",
+      "date": "2026-07-24T07:06:33",
+      "audio": "audio/Martin Garrix_ U2 _Fire_ Up First Collaboration.mp3"
+    },
+    {
+      "title": "The Avalanches, Karen O Emerge From ‘Shadows’",
+      "summary": "The Avalanches are keeping a busy 2026 rolling with another high-profile collaboration.",
+      "link": "https://www.spinmagazine.com/2026/07/avalanches-karen-o-new-song/",
+      "source": "Spin Magazine (US)",
+      "date": "2026-07-24T06:52:06",
+      "audio": "audio/The Avalanches_ Karen O Emerge From _Shadows.mp3"
+    },
+    {
+      "title": "Finn Wolfhard shares update on The Replacements biopic he’s been working on with his dad",
+      "summary": "He also shared which music biopic he doesn't want the film to emulate The post Finn Wolfhard shares update on The Replacements biopic he&#8217;s been working on with his dad appeared first on NME.",
+      "link": "https://www.nme.com/news/film/finn-wolfhard-shares-update-on-the-replacements-biopic-hes-been-working-on-with-his-dad-3958800?utm_source=rss&utm_medium=rss&utm_campaign=finn-wolfhard-shares-update-on-the-replacements-biopic-hes-been-working-on-with-his-dad",
+      "source": "NME News (UK)",
+      "date": "2026-07-24T11:17:56",
+      "audio": "audio/Finn Wolfhard shares update on The Replacements bi.mp3"
+    },
+    {
+      "title": "Teddy Swims announces massive 2027 UK and Europe arena tour",
+      "summary": "The ‘Ugly Tour’ concludes with a show at The O2 in London next spring The post Teddy Swims announces massive 2027 UK and Europe arena tour appeared first on NME.",
+      "link": "https://www.nme.com/news/music/teddy-swims-announces-massive-2027-uk-and-europe-arena-tour-3958792?utm_source=rss&utm_medium=rss&utm_campaign=teddy-swims-announces-massive-2027-uk-and-europe-arena-tour",
+      "source": "NME News (UK)",
+      "date": "2026-07-24T10:45:34",
+      "audio": "audio/Teddy Swims announces massive 2027 UK and Europe a.mp3"
+    },
+    {
+      "title": "KoRn’s Jonathan Davis married Brittany Parisi on same day as Taylor Swift and Travis Kelce wed",
+      "summary": "“Here is to the rest of our lives. I’m so lucky to have you” The post KoRn&#8217;s Jonathan Davis married Brittany Parisi on same day as Taylor Swift and Travis Kelce wed appeared first on NME.",
+      "link": "https://www.nme.com/news/music/korns-jonathan-davis-married-brittany-parisi-on-same-day-as-taylor-swift-and-travis-kelce-wed-3958777?utm_source=rss&utm_medium=rss&utm_campaign=korns-jonathan-davis-married-brittany-parisi-on-same-day-as-taylor-swift-and-travis-kelce-wed",
+      "source": "NME News (UK)",
+      "date": "2026-07-24T10:08:16",
+      "audio": "audio/KoRn_s Jonathan Davis married Brittany Parisi on s.mp3"
     }
   ]
 }
