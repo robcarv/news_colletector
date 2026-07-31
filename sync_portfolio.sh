@@ -33,31 +33,17 @@ fi
 # news.json e health.json sao 100% auto-gerados — SEMPRE sobrescrevem o remoto.
 # Em vez de pull+rebase (que conflita), fazemos:
 #   1. fetch para pegar o estado do remoto
-#   2. reset --soft para posicionar no remoto (mantendo mudancas locais unstaged)
-#   3. add apenas os arquivos que queremos
-#   4. commit + push
+#   2. add SOMENTE os arquivos gerados (news.json/health.json/radio_metadata.json)
+#   3. commit + push (com pull --rebase se o remoto andou)
+# NOTA (2026-07-31): NUNCA adicionar/tocar index.html ou outros arquivos de
+# layout — um add indevido ja atropelou o layout do portfolio (commit c211428).
 
 echo "  Fetching remote..."
-if ! git fetch origin main -q 2>&1; then
-    echo "  Aviso: fetch falhou, tentando push direto..."
-fi
+git fetch origin main -q 2>&1 || echo "  Aviso: fetch falhou"
 
-# Guarda mudancas locais nao comitadas (se houver)
-git stash -q 2>/dev/null || true
+# ─── Adiciona SOMENTE arquivos gerados ─────────────────────────────────────
 
-# Reseta para o estado do remoto (soft = mantem arquivos locais intactos)
-if git rev-parse origin/main >/dev/null 2>&1; then
-    git reset --soft origin/main 2>/dev/null || true
-else
-    echo "  Aviso: origin/main nao encontrado, pulando reset"
-fi
-
-# Restaura stash (se havia algo)
-git stash pop -q 2>/dev/null || true
-
-# ─── Adiciona arquivos ─────────────────────────────────────────────────────
-
-# health.json (opcional — pode faltar se Pi5 estiver offline)
+# health.json (opcional — pode faltar se o health cron nao rodou)
 if [ -f "$PORTFOLIO_DIR/health.json" ]; then
     git add health.json
     echo "  health.json adicionado"
@@ -65,10 +51,6 @@ fi
 
 # news.json (sempre — gerado pelo run_newsbot.sh)
 git add news.json
-
-# Touch index files para forcar rebuild do GitHub Pages
-touch index.html index.en.html index.pt.html
-git add index.html index.en.html index.pt.html
 
 # Radio metadata (se atualizado)
 if [ -f "$PORTFOLIO_DIR/radio_metadata.json" ]; then
@@ -89,10 +71,10 @@ git commit -m "news: update feed $(date '+%d/%m/%Y %H:%M')" -q 2>/dev/null || tr
 if git push origin main -q 2>&1; then
     echo "  OK robcarv.github.io atualizado"
 else
-    # Fallback: force-with-lease (mais seguro que --force)
-    echo "  Push normal falhou, tentando force-with-lease..."
-    if git push origin main --force-with-lease -q 2>&1; then
-        echo "  OK robcarv.github.io (force-with-lease)"
+    # Remoto andou? rebase e tenta de novo (sem force)
+    echo "  Push falhou — rebase e nova tentativa..."
+    if git pull --rebase origin main -q 2>&1 && git push origin main -q 2>&1; then
+        echo "  OK robcarv.github.io atualizado (apos rebase)"
     else
         echo "  ERRO: falha definitiva no push do portfolio"
         exit 1
