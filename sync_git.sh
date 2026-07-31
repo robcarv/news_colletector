@@ -75,23 +75,20 @@ else
     echo "  Aviso: $SCRIPT nao encontrado, pulando"
 fi
 
-# ─── 3. Health check via SSH do Pi5 (se disponivel) ──────────────────────────
-# Opcional — nao falha se o Pi5 estiver offline
+# ─── 3. Health check (cron portfolio-health-update gera localmente) ─────────
+# Opcional — nao falha se health.json estiver ausente
 
-echo "[3/3] Atualizando health.json (Pi5)..."
-# IP resolved via /etc/hosts (pi5=192.168.68.108), never hardcoded in public repos
-PI5_HOST=$(getent hosts pi5 2>/dev/null | awk '{print $1}')
-if [ -z "$PI5_HOST" ]; then
-    echo "  pi5 nao resolvido em /etc/hosts, pulando health check"
-else
-    if ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no \
-        robert@pi5 \
-        'cat /home/robert/health_reports/health.json' \
-        2>/dev/null > /home/robert/Documents/portfolio-html/health.json; then
-        echo "  OK health.json atualizado do Pi5"
+echo "[3/3] Verificando health.json (gerado pelo cron portfolio-health-update)..."
+HEALTH_FILE="/home/robert/Documents/portfolio-html/health.json"
+if [ -f "$HEALTH_FILE" ]; then
+    AGE=$(( $(date +%s) - $(stat -c %Y "$HEALTH_FILE") ))
+    if [ "$AGE" -lt 7200 ]; then
+        echo "  OK health.json presente ($((AGE/60))min de idade)"
     else
-        echo "  Pi5 offline ou health.json indisponivel (ignorado)"
+        echo "  Aviso: health.json com $((AGE/60))min — cron portfolio-health-update atrasado"
     fi
+else
+    echo "  Aviso: health.json nao encontrado (cron portfolio-health-update nao rodou?)"
 fi
 
 echo "=== sync_git.sh concluido ==="
