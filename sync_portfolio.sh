@@ -52,6 +52,11 @@ fi
 # news.json (sempre — gerado pelo run_newsbot.sh)
 git add news.json
 
+# audio/ (MP3s per-article — gerados pelo run_newsbot.sh)
+if [ -d "$PORTFOLIO_DIR/audio" ]; then
+    git add audio/
+fi
+
 # Radio metadata (se atualizado)
 if [ -f "$PORTFOLIO_DIR/radio_metadata.json" ]; then
     git add radio_metadata.json
