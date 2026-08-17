@@ -1,441 +1,337 @@
 {
-  "updated": "2026-08-17T00:18:28.781772+00:00",
-  "total_pt": 24,
-  "total_en": 31,
+  "updated": "2026-08-17T06:17:54.094644+00:00",
+  "total_pt": 13,
+  "total_en": 28,
   "pt": [
     {
-      "title": "Editorial sobre contas públicas divide opiniões de leitores",
-      "summary": "Contas públicas \"É urgente recolocar as contas públicas nos trilhos\" (Editorial, 15/8). O equilíbrio fiscal é necessário, mas a abordagem precisa ser específica e justa. Em vez de focar apenas discursos genéricos de austeridade, o debate econômico deveria priorizar a eficiência dos gastos.",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/paineldoleitor/2026/08/editorial-sobre-contas-publicas-divide-opinioes-de-leitores.shtml",
+      "title": "Hayden Panettiere, atriz de 'Heroes', morre aos 36 anos",
+      "summary": "A atriz americana Hayden Panettiere, conhecida por seus papéis em séries de TV como \"Nashville\", \"Pânico\" e \"Heroes\", morreu aos 36 anos, informou a ABC News neste domingo (16), citando o pai da artista, Skip Panettiere, A causa da morte não foi revelada. Leia mais (08/17/2026 - 01h52)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/08/hayden-panettiere-atriz-de-heroes-morre-aos-36-anos.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-16T23:45:00"
+      "date": "2026-08-17T04:52:00",
+      "audio": "audio/Hayden Panettiere_ atriz de _Heroes__ morre aos 36.mp3"
     },
     {
-      "title": "PF apreende no Paraguai avião de Vorcaro",
-      "summary": "A Polícia Federal apreendeu neste sábado (15), no Paraguai, um avião da frota pessoal do ex-banqueiro Daniel Vorcaro. Como revelou a Folha, a aeronave continuou voando entre América do Sul, Europa, Estados Unidos e Oriente Médio mesmo após a prisão mais recente do ex-dono do Master, em 4 de março deste ano. Leia mais (08/16/2026 - 20h38)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/08/pf-apreende-no-paraguai-aviao-de-vorcaro-que-continuou-voando-mesmo-apos-prisao-de-ex-banqueiro.shtml",
+      "title": "Candidato ao Governo do Paraná pelo PSD, Sandro Alex participa de sabatina Folha/UOL nesta segunda",
+      "summary": "Candidato a governador do Paraná pelo PSD, o deputado federal Sandro Alex será sabatinado nesta segunda-feira (17), às 12h30, em mais uma rodada do ciclo de entrevistas promovido por Folha e UOL. A estreia foi dia 6 de agosto, com o candidato ao Governo do Rio de Janeiro Anthony Garotinho (Republicanos). Leia mais (08/17/2026 - 00h03)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/poder/2026/08/candidato-ao-governo-do-parana-pelo-psd-sandro-alex-participa-de-sabatina-folhauol-nesta-segunda.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-16T23:38:00"
+      "date": "2026-08-17T03:03:00",
+      "audio": "audio/Candidato ao Governo do Paraná pelo PSD_ Sandro Al.mp3"
     },
     {
-      "title": "Lula decide não ir a debate da Band e alega desigualdade de condições",
-      "summary": "A campanha do presidente Luiz Inácio Lula da Silva (PT) decidiu não ir ao debate da TV Bandeirantes, programado para o próximo domingo (23), com a justificativa de falta de igualdade de condições para ele se defender contra os ataques dos adversários. Leia mais (08/16/2026 - 20h30)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/08/lula-decide-nao-ir-a-debate-da-band-e-alega-desigualdade-de-condicoes.shtml",
+      "title": "Latino se pronuncia após declaração de ex-noiva: 'Nego todas as acusações'",
+      "summary": "O cantor Latino, 53, se pronunciou em suas redes sociais na noite de sábado (15) após sua ex-noiva, a modelo e influenciadora Rafaella Ribeiro, 27, conhecida como Raffa Rarbbie, o ter acusado de agressões verbais e outros episódios de violência durante o relacionamento. Leia mais (08/16/2026 - 23h30)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/celebridades/2026/08/latino-se-pronuncia-apos-declaracao-de-ex-noiva-nego-todas-as-acusacoes.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-16T23:30:00"
+      "date": "2026-08-17T02:30:00",
+      "audio": "audio/Latino se pronuncia após declaração de ex-noiva_ .mp3"
     },
     {
-      "title": "Terremoto de magnitude 7,4 causa destruição na Colômbia e mata mais de 290 pessoas",
-      "summary": "Pelo menos três países registraram terremotos nos últimos dias. O mais grave ocorreu na Colômbia, onde um tremor de magnitude 7,4 matou mais de 290 pessoas e deixou cerca de 4 mil feridos, segundo o governo do país. O terremoto atingiu o oeste colombiano na última segunda-feira e durou entre 90 segundos e dois minutos.",
-      "link": "https://g1.globo.com/fantastico/noticia/2026/08/16/terremoto-de-74-causa-destruicao-na-colombia-e-mata-mais-de-290-pessoas.ghtml",
+      "title": "Previsão do tempo hoje para Brasília (DF): sol e muitas nuvens à tarde; à noite o céu ainda fica com muita nebulosidade, mas não chove",
+      "summary": "Previsão do tempo hoje em Brasília g1 A previsão do tempo para esta segunda-feira (17) para Brasília (DF) é de sol e muitas nuvens à tarde. À noite o céu ainda fica com muita nebulosidade, mas não chove. As máximas são de 28ºC e as mínimas de 18ºC.",
+      "link": "https://g1.globo.com/df/distrito-federal/previsao-do-tempo/noticia/2026/08/17/previsao-do-tempo-hoje-para-brasilia-df-sol-e-muitas-nuvens-a-tarde-a-noite-o-ceu-ainda-fica-com-muita-nebulosidade-mas-nao-chove.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-17T00:03:53",
-      "audio": "audio/Terremoto de magnitude 7_4 causa destruição na Col.mp3"
+      "date": "2026-08-17T06:06:49",
+      "audio": "audio/Previsão do tempo hoje para Brasília _DF__ sol e m.mp3"
     },
     {
-      "title": "Morre Luiz Gutemberg, referência no jornalismo em Brasília, aos 88 anos",
-      "summary": "Morreu, na tarde deste domingo (16), o jornalista Luiz Gutemberg, aos 88 anos. Arquivo pessoal Morreu, na tarde deste domingo (16), o jornalista Luiz Gutemberg, aos 88 anos. Natural de Maceió (AL), Gutemberg construiu carreira de sucesso no Distrito Federal.",
-      "link": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/16/morre-luiz-gutemberg-referencia-no-jornalismo-em-brasilia-aos-88-anos.ghtml",
+      "title": "Previsão do tempo hoje para São Paulo (SP): sol com algumas nuvens; não chove",
+      "summary": "Previsão do tempo hoje em São Paulo g1 A previsão do tempo para esta segunda-feira (17) para São Paulo (SP) é de sol com algumas nuvens. Não chove. As máximas são de 29ºC e as mínimas de 16ºC.",
+      "link": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/17/previsao-do-tempo-hoje-para-sao-paulo-sp-sol-com-algumas-nuvens-nao-chove.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-16T23:54:23",
-      "audio": "audio/Morre Luiz Gutemberg_ referência no jornalismo em .mp3"
+      "date": "2026-08-17T06:06:35",
+      "audio": "audio/Previsão do tempo hoje para São Paulo _SP__ sol co.mp3"
     },
     {
-      "title": "Mãe de 3 filhos e foragido por matar adolescente: quem é o casal preso por sequestrar bebê Ayla em MS",
-      "summary": "Suspeita sequestra bebê para encobrir gravidez falsa em Campo Grande Mãe de três filhos que foram criados pelas avós, Suzilaine da Graça Costa fingiu estar grávida e, segundo a polícia, sustentou a mentira diante da família. Alex Melo de Abreu, marido dela, era foragido da Justiça após ser condenado a 11 anos e seis meses de prisão pela morte de uma adolescente em um acidente de trânsito.",
-      "link": "https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/08/16/mae-de-3-filhos-e-foragido-por-matar-adolescente-quem-e-o-casal-preso-por-sequestrar-bebe-ayla-em-ms.ghtml",
+      "title": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com poucas nuvens",
+      "summary": "Previsão do tempo hoje em São Bernardo do Campo g1 A previsão do tempo para esta segunda-feira (17) para São Bernardo do Campo (SP) é de sol com muitas nuvens durante o dia e períodos de céu nublado. Noite com poucas nuvens. As máximas são de 26ºC e as mínimas de 15ºC.",
+      "link": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/17/previsao-do-tempo-hoje-para-sao-bernardo-do-campo-sp-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-poucas-nuvens.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-16T23:47:56",
-      "audio": "audio/Mãe de 3 filhos e foragido por matar adolescente_ .mp3"
+      "date": "2026-08-17T06:06:19",
+      "audio": "audio/Previsão do tempo hoje para São Bernardo do Campo .mp3"
     },
     {
-      "title": "Os casos de puberdade precoce que intrigam os médicos em todo o mundo (incluindo no Brasil)",
-      "summary": "A puberdade precoce consiste no desenvolvimento das funções sexuais em crianças com pouca idade. A condição afeta majoritariamente as meninas e requer tratamento para evitar problemas de saúde na idade adulta.",
-      "link": "https://www.bbc.com/portuguese/articles/c935ee7g059o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Brasil",
-      "date": "2026-08-16T21:02:10",
-      "audio": "audio/Os casos de puberdade precoce que intrigam os médi.mp3"
-    },
-    {
-      "title": "Bruno Rodrigues encerra jejum de quase 6 meses e marca contra o Corinthians",
-      "summary": "Atacante não balançava as redes pelo Cruzeiro desde fevereiro",
-      "link": "https://www.cnnbrasil.com.br/esportes/brasileirao/bruno-rodrigues-encerra-jejum-de-6-meses-e-marca-contra-o-corinthians/",
+      "title": "Tumulto em templo deixa ao menos seis mortos e vários feridos na Índia",
+      "summary": "Episódio aconteceu no complexo de Ashok Dham, no distrito de Lakhisarai, em Bihar",
+      "link": "https://www.cnnbrasil.com.br/internacional/tumulto-em-templo-deixa-mortos-e-varios-feridos-na-india/",
       "source": "CNN Brasil",
-      "date": "2026-08-16T23:39:24",
-      "audio": "audio/Bruno Rodrigues encerra jejum de quase 6 meses e m.mp3"
+      "date": "2026-08-17T04:37:22",
+      "audio": "audio/Tumulto em templo deixa ao menos seis mortos e vár.mp3"
     },
     {
-      "title": "Debaixo de muita chuva, Vitória supera Botafogo por 1 a 0 pelo Brasileirão",
-      "summary": "Próximo jogo do rubro-negro será o clássico BaVi, enquanto o time carioca enfrenta missão quase impossível pela Sul-Americana",
-      "link": "https://www.cnnbrasil.com.br/esportes/brasileirao/debaixo-de-muita-chuva-vitoria-supera-botafogo-por-1-a-0-pelo-brasileirao/",
+      "title": "Hayden Panettiere, atriz de Heroes e Nashville, morre aos 36 anos",
+      "summary": "Circunstâncias da morte não foram divulgadas",
+      "link": "https://www.cnnbrasil.com.br/pop/hayden-panettiere-atriz-de-heroes-e-nashville-morre-aos-36-anos/",
       "source": "CNN Brasil",
-      "date": "2026-08-16T23:32:50",
-      "audio": "audio/Debaixo de muita chuva_ Vitória supera Botafogo po.mp3"
+      "date": "2026-08-17T04:02:47",
+      "audio": "audio/Hayden Panettiere_ atriz de Heroes e Nashville_ mo.mp3"
     },
     {
-      "title": "Caiado sinaliza idade mínima de 60 anos para entrar no STF",
-      "summary": "Candidato também defendeu mandato de 15 anos para ministros e quarentena de oito anos antes de eventual disputa eleitoral",
-      "link": "https://www.cnnbrasil.com.br/eleicoes/caiado-sinaliza-idade-minima-de-60-anos-para-entrar-no-stf/",
+      "title": "Após descoberta da Petrobras e reunião com Alcolumbre, Lula vai ao Amapá",
+      "summary": "O presidente visitará o navio-sonda da empresa em Oiapoque para ver de perto o local em que foram descobertos os hidrocarbonetos na Margem Equatorial",
+      "link": "https://www.cnnbrasil.com.br/politica/apos-descoberta-da-petrobras-e-reuniao-com-alcolumbre-lula-vai-ao-amapa/",
       "source": "CNN Brasil",
-      "date": "2026-08-16T23:29:23",
-      "audio": "audio/Caiado sinaliza idade mínima de 60 anos para entra.mp3"
+      "date": "2026-08-17T02:36:04",
+      "audio": "audio/Após descoberta da Petrobras e reunião com Alcolum.mp3"
     },
     {
-      "title": "Vasco x Santos: além do 3 x 0, jogo foi recheado de provocações - veja vídeos",
-      "summary": "Clima ruim começou logo na troca de flâmulas entre os capitães",
-      "link": "https://exame.com/esporte/vasco-x-santos-alem-do-3-x-0-jogo-foi-recheado-de-provocacoes-veja-videos/",
-      "source": "Exame (Brasil)",
-      "date": "2026-08-16T20:46:53",
-      "audio": "audio/Vasco x Santos_ além do 3 x 0_ jogo foi recheado d.mp3"
-    },
-    {
-      "title": "'Estacionado' por 300 anos, navio de guerra revela como viviam marinheiros",
-      "summary": "Artefatos recuperados de duas embarcações da Grande Guerra do Norte ajudam arqueólogos a reconstruir o cotidiano das tripulações",
-      "link": "https://exame.com/ciencia/estacionado-por-300-anos-navio-de-guerra-revela-como-viviam-marinheiros/",
-      "source": "Exame (Brasil)",
-      "date": "2026-08-16T20:29:37",
-      "audio": "audio/Estacionado_ por 300 anos_ navio de guerra revela.mp3"
-    },
-    {
-      "title": "Seca em rio revela altar romano dedicado ao deus do trovão na Europa",
-      "summary": "Fragmento dedicado a Júpiter foi encontrado na Hungria e pode ajudar arqueólogos a reconstruir a história de um antigo assentamento romano",
-      "link": "https://exame.com/ciencia/seca-em-rio-revela-altar-romano-dedicado-ao-deus-do-trovao-na-europa/",
-      "source": "Exame (Brasil)",
-      "date": "2026-08-16T20:22:09",
-      "audio": "audio/Seca em rio revela altar romano dedicado ao deus d.mp3"
-    },
-    {
-      "title": "Flávio Bolsonaro posta vídeo de IA usando sunga com estética de GTA VI",
-      "summary": "",
-      "link": "https://www.tecmundo.com.br/voxel/505127-flavio-bolsonaro-posta-video-de-ia-usando-sunga-com-estetica-de-gta-vi.htm",
-      "source": "TecMundo (Brasil)",
-      "date": "2026-08-16T23:50:13",
-      "audio": "audio/Flávio Bolsonaro posta vídeo de IA usando sunga co.mp3"
-    },
-    {
-      "title": "Mortal Shell 2, The Sinking City 2 e mais! Veja os lançamentos de games da semana",
-      "summary": "",
-      "link": "https://www.tecmundo.com.br/voxel/505126-mortal-shell-2-the-sinking-city-2-e-mais-veja-os-lancamentos-de-games-da-semana.htm",
-      "source": "TecMundo (Brasil)",
-      "date": "2026-08-16T22:45:00",
-      "audio": "audio/Mortal Shell 2_ The Sinking City 2 e mais_ Veja os.mp3"
-    },
-    {
-      "title": "Home office: 41 vagas para trabalho remoto internacional [16/08]",
-      "summary": "",
-      "link": "https://www.tecmundo.com.br/mercado/415277-home-office-41-vagas-para-trabalho-remoto-internacional-1608.htm",
-      "source": "TecMundo (Brasil)",
-      "date": "2026-08-16T22:00:00",
-      "audio": "audio/Home office_ 41 vagas para trabalho remoto interna.mp3"
-    },
-    {
-      "title": "Campanha presidencial começa com atos e agendas pelo país",
-      "summary": "Largada neste domingo (16/8) levou candidatos às ruas em diferentes regiões do Brasil no primeiro dia oficial da campanha eleitoral",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7481151-campanha-presidencial-comeca-com-atos-e-agendas-pelo-pais.html",
+      "title": "Corpo de kitesurfista desaparecido no Maranhão é encontrado",
+      "summary": "Alan Wesley Pinto Ribeiro, de 29 anos, caiu no mar enquanto praticava kitesurf na Praia de São Marcos, em São Luís",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7481195-corpo-de-kitesurfista-desaparecido-no-maranhao-e-encontrado.html",
       "source": "Correio Braziliense",
-      "date": "2026-08-16T23:51:00",
-      "audio": "audio/Campanha presidencial começa com atos e agendas pe.mp3"
+      "date": "2026-08-17T01:45:00",
+      "audio": "audio/Corpo de kitesurfista desaparecido no Maranhão é e.mp3"
     },
     {
-      "title": "Ônibus tomba em Petrópolis, deixa 10 mortos e dezenas de feridos",
-      "summary": "O ônibus transportava 56 pessoas e tinha como destino o bairro de Copacabana, na zona sul do Rio de Janeiro",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7481133-onibus-tomba-em-petropolis-deixa-10-mortos-e-dezenas-de-feridos.html",
+      "title": "Morre aos 88 anos Luiz Gutemberg, referência do jornalismo político",
+      "summary": "A melhor definição para Gutemberg era sua \"mente inquieta intelectualmente\". Quem o conhecia, sabia: estava sempre atrás de novidades, buscando algo diferente e inovador",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7481196-morre-aos-88-anos-luiz-gutemberg-referencia-do-jornalismo-politico.html",
       "source": "Correio Braziliense",
-      "date": "2026-08-16T22:56:00",
-      "audio": "audio/Ônibus tomba em Petrópolis_ deixa 10 mortos e deze.mp3"
+      "date": "2026-08-17T01:36:00",
+      "audio": "audio/Morre aos 88 anos Luiz Gutemberg_ referência do jo.mp3"
     },
     {
-      "title": "Mega-Sena, Lotofácil, Quina, Timemania e Dia de Sorte: resultados deste domingo",
-      "summary": "Sorteio foi realizado no Espaço Caixa Loterias, no novo Espaço da Sorte, na Avenida Paulista, em São Paulo",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7481082-mega-sena-lotofacil-quina-timemania-e-dia-de-sorte-resultados-deste-domingo.html",
-      "source": "Correio Braziliense",
-      "date": "2026-08-16T21:20:00",
-      "audio": "audio/Mega-Sena_ Lotofácil_ Quina_ Timemania e Dia de So.mp3"
-    },
-    {
-      "title": "Nova Twins chega ao Brasil para estrear no Rock in Rio: “sempre quisemos vir para cá”",
-      "summary": "Em entrevista exclusiva ao TMDQA!, Amy Love e Georgia South falaram sobre o novo álbum, a expectativa para o Palco Mundo e o show ao lado de MC Taya e The Mönic em São Paulo O post Nova Twins chega ao Brasil para estrear no Rock in Rio: &#8220;sempre quisemos vir para cá&#8221; apareceu primeiro em TMDQA!.",
-      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/08/15/tmdqa-entrevista-nova-twins/",
-      "source": "Tenho Mais Discos Que Amigos (Brasil)",
-      "date": "2026-08-15T20:41:38",
-      "audio": "audio/Nova Twins chega ao Brasil para estrear no Rock in.mp3"
-    },
-    {
-      "title": "Hyldon lança “Festa na Aldeia”, álbum que passeia pela sua carreira em som analógico",
-      "summary": "Gravado integralmente de forma analógica, em fita de duas polegadas, disco mistura baladas, soul, metais, percussão e o chamado “blues sertanejo” O post Hyldon lança “Festa na Aldeia”, álbum que passeia pela sua carreira em som analógico apareceu primeiro em TMDQA!.",
-      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/08/15/hyldon-lanca-festa-na-aldeia-album-que-passeia-pela-sua-carreira-em-som-analogico/",
-      "source": "Tenho Mais Discos Que Amigos (Brasil)",
-      "date": "2026-08-15T20:21:56",
-      "audio": "audio/Hyldon lança _Festa na Aldeia__ álbum que passeia .mp3"
-    },
-    {
-      "title": "VALLADA reforça sua identidade artística em “Umami”, seu álbum de estreia",
-      "summary": "Produzido por Jader Marques, disco reúne oito faixas e acompanha personagem entre inseguranças e frustrações O post VALLADA reforça sua identidade artística em “Umami”, seu álbum de estreia apareceu primeiro em TMDQA!.",
-      "link": "https://www.tenhomaisdiscosqueamigos.com/2026/08/15/vallada-identidade-artistica-umami-album-estreia/",
-      "source": "Tenho Mais Discos Que Amigos (Brasil)",
-      "date": "2026-08-15T20:19:55",
-      "audio": "audio/VALLADA reforça sua identidade artística em _Umami.mp3"
-    },
-    {
-      "title": "Governo fascista e ditadura nos querem ignorantes para nos controlar, segundo Andreas Kisser (Sepultura)",
-      "summary": "Durante entrevista ao The Adventures Of Pipeman, o guitarrista e líder do Sepultura, Andreas Kisser, refletiu sobre como governos autoritários aprenderam que controlar a arte é um atalho para reprimir qualquer ideia contrária às suas convicções e aspirações. &#8220;Eles têm medo da arte e da cultura&#8221;, começou Kisser. &#8220;Em um governo fascista ou ditadura, os ...",
-      "link": "https://www.rockbizz.com.br/governo-fascista-e-ditadura-nos-querem-ignorantes-para-nos-controlar-segundo-andreas-kisser-sepultura/",
+      "title": "Ritchie Blackmore sobre reunião com o Deep Purple: “Eu estava lá para rever velhos amigos que não via há 40 anos”",
+      "summary": "Ritchie Blackmore subiu ao palco com o Deep Purple pela primeira vez em mais de três décadas durante show da banda na última quarta-feira (12 de agosto), no Jones Beach Theater em Wantagh, Nova York, Estados Unidos. O guitarrista de 81 anos, que se apresentou pela última vez com o grupo britânico em 1993, juntou-se ...",
+      "link": "https://www.rockbizz.com.br/ritchie-blackmore-sobre-reuniao-com-o-deep-purple-eu-estava-la-para-rever-velhos-amigos-que-nao-via-ha-40-anos/",
       "source": "RockBizz (Brasil)",
-      "date": "2026-08-17T00:04:02",
-      "audio": "audio/Governo fascista e ditadura nos querem ignorantes .mp3"
+      "date": "2026-08-17T00:39:50",
+      "audio": "audio/Ritchie Blackmore sobre reunião com o Deep Purple.mp3"
     },
     {
-      "title": "Graveyard lança videoclipe do novo som A Means To An End",
-      "summary": "O Graveyard lançou o videoclipe do novo som A Means To An End. A faixa é o primeiro vislumbre de seu sétimo álbum de estúdio, Fever, que sairá mundialmente no dia 09 de outubro de 2026 pela Nuclear Blast Records. Chegando três anos após o soturno Six, o grupo eleva a temperatura ao entregar uma ... Ler mais O post Graveyard lança videoclipe do novo som A Means To An End apareceu primeiro em RockBizz.",
-      "link": "https://www.rockbizz.com.br/graveyard-lanca-videoclipe-do-novo-som-a-means-to-an-end/",
-      "source": "RockBizz (Brasil)",
-      "date": "2026-08-16T23:38:57",
-      "audio": "audio/Graveyard lança videoclipe do novo som A Means To .mp3"
+      "title": "Hayden Panettiere, da franquia ‘Pânico’ e da série ‘Heroes’, morre aos 36 anos",
+      "summary": "Atriz conhecida por Heroes, Nashville e pela franquia Pânico morreu no domingo (16); causa da morte não foi divulgada O post Hayden Panettiere, da franquia &#8216;Pânico&#8217; e da série &#8216;Heroes&#8217;, morre aos 36 anos apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/cinema/hayden-panettiere-panico-heroes-morre-aos-36-anos/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-08-17T03:43:35",
+      "audio": "audio/Hayden Panettiere_ da franquia _Pânico_ e da série.mp3"
     }
   ],
   "en": [
     {
-      "title": "Nintendo eShop Highlights – 06/08/2026",
-      "summary": "What's new on Nintendo eShop? Let's take a look!",
-      "link": "https://www.nintendo.com/en-gb/News/2026/August/Nintendo-eShop-Highlights-06-08-2026-3153637.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
-      "source": "Nintendo",
+      "title": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations",
+      "summary": "- Joint go-to-market partnership embeds OpenAI frontier models like GPT-5.6 and other products into IBM Consulting’s AI delivery platform and assets to help organizations modernize applications and strengthen security",
+      "link": "https://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations",
+      "source": "IBM",
+      "date": "2026-08-13T10:00:00",
+      "audio": "audio/IBM Partners with OpenAI to Accelerate Secure AI D.mp3"
+    },
+    {
+      "title": "IBM and Together AI Sign Multi-Year Agreement to Scale Open-Source AI Inference with NVIDIA AI Infrastructure on IBM Cloud",
+      "summary": "",
+      "link": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud",
+      "source": "IBM",
+      "date": "2026-08-11T12:00:00",
+      "audio": "audio/IBM and Together AI Sign Multi-Year Agreement to S.mp3"
+    },
+    {
+      "title": "IBM Introduces Apptio AI Value & ROI to Close the Gap Between AI Spend and Business Results",
+      "summary": "",
+      "link": "https://newsroom.ibm.com/2026-08-06-IBM-Introduces-Apptio-AI-Value-ROI-to-Close-the-Gap-Between-AI-Spend-and-Business-Results",
+      "source": "IBM",
       "date": "2026-08-06T13:00:00",
-      "audio": "audio/Nintendo eShop Highlights _ 06_08_2026.mp3"
+      "audio": "audio/IBM Introduces Apptio AI Value _ ROI to Close the .mp3"
     },
     {
-      "title": "Nintendo Switch 2 is touring the UK throughout 2026!",
-      "summary": "Get hands-on time with the upcoming Nintendo Switch Sports Resort and more!",
-      "link": "https://www.nintendo.com/en-gb/News/2026/July/Nintendo-Switch-2-is-touring-the-UK-throughout-2026--3144945.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
-      "source": "Nintendo",
-      "date": "2026-08-06T08:00:00",
-      "audio": "audio/Nintendo Switch 2 is touring the UK throughout 202.mp3"
-    },
-    {
-      "title": "Trump envoy Kushner meets Hamas leader to push Gaza peace plan",
-      "summary": "The rare meeting comes a week after Israel rejected Donald Trump's peace plan for Gaza.",
+      "title": "Trump envoy Kushner arrives in Israel after rare Hamas talks on Gaza peace plan",
+      "summary": "US President Trump's son-in-law Jared Kushner is expected to meet Israeli Prime Minister Benjamin Netanyahu later on Monday.",
       "link": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-08-16T19:58:14",
-      "audio": "audio/Trump envoy Kushner meets Hamas leader to push Gaz.mp3"
+      "date": "2026-08-17T04:50:56",
+      "audio": "audio/Trump envoy Kushner arrives in Israel after rare H.mp3"
     },
     {
-      "title": "Five teenagers dead and four injured after car drives on wrong side of motorway",
-      "summary": "The collision occurred on on the M9 Northbound at about 03:00 local time on Sunday in County Kildare.",
-      "link": "https://www.bbc.co.uk/news/articles/cwyqq52xkypo?at_medium=RSS&at_campaign=rss",
+      "title": "Parents pushed to breaking point by Child Maintenance Service, BBC told",
+      "summary": "Mothers, like Katy, describe battles to make ex-partners pay, while fathers say they have been wrongly charged thousands.",
+      "link": "https://www.bbc.co.uk/news/articles/c4g3re5ew8do?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-08-16T20:07:40",
-      "audio": "audio/Five teenagers dead and four injured after car dri.mp3"
+      "date": "2026-08-17T05:03:31",
+      "audio": "audio/Parents pushed to breaking point by Child Maintena.mp3"
     },
     {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch",
-      "date": "2026-08-16T20:57:04",
-      "audio": "audio/Stripe will reportedly acquire AI gateway startup .mp3"
+      "title": "UK to turn cooler with rain after exceptional heat and dry spell",
+      "summary": "After and exceptional summer of heatwaves and drought, the weather will turn wetter and cooler this week, as Simon King explains",
+      "link": "https://www.bbc.co.uk/weather/articles/cy8eevy3zzxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "date": "2026-08-17T02:08:56",
+      "audio": "audio/UK to turn cooler with rain after exceptional heat.mp3"
     },
     {
-      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
-      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-      "source": "TechCrunch",
-      "date": "2026-08-16T20:32:01",
-      "audio": "audio/Why people aren_t buying Mark Zuckerberg_s AI futu.mp3"
-    },
-    {
-      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
-      "summary": "\"Flamingo missiles were used. A good achievement.\"",
-      "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
+      "summary": "Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter",
+      "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
       "source": "Ars Technica",
-      "date": "2026-08-15T15:46:05",
-      "audio": "audio/Ukraine strikes major Russian rocket factory with .mp3"
+      "date": "2026-08-15T21:21:27",
+      "audio": "audio/VisionQuest trailer kicks off Disney_s D23 fan eve.mp3"
     },
     {
-      "title": "OpenAI reportedly disbanded its preparedness team",
-      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "source": "The Verge",
-      "date": "2026-08-16T21:32:56",
-      "audio": "audio/OpenAI reportedly disbanded its preparedness team.mp3"
-    },
-    {
-      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
-      "summary": "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle's subject matter is usually personal, [&#8230;]",
-      "link": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
-      "source": "The Verge",
-      "date": "2026-08-16T20:31:37",
-      "audio": "audio/Open Mike Eagle and Kenny Segal crafted a hip hop .mp3"
-    },
-    {
-      "title": "Amy Hunt and Dina Asher-Smith make history at the European Athletics Championships",
-      "summary": "Amy Hunt has won a record fourth gold medal at a single European Athletics Championships after Great Britain and Northern Ireland won the Mixed 4x100m relay.",
-      "link": "https://news.sky.com/story/amy-hunt-wins-record-fourth-gold-medal-at-the-european-athletics-championships-13573825",
+      "title": "<a href=\"https://news.sky.com/story/uk-wildfires-wales-stourbridge-heatwave-weather-live-13571553\">'Most changeable conditions since June' are in the forecast</a>",
+      "summary": "",
+      "link": "https://news.sky.com/story/most-changeable-conditions-since-june-are-in-the-forecast-13573880",
       "source": "Sky News (UK)",
-      "date": "2026-08-16T19:20:00",
-      "audio": "audio/Amy Hunt and Dina Asher-Smith make history at the .mp3"
+      "date": "2026-08-17T01:55:00",
+      "audio": "audio/a href__https___news_sky_com_story_uk-wildfires-w.mp3"
     },
     {
-      "title": "Multiple people dead as flooding continues in Indiana",
-      "summary": "Some parts of Indiana received more than 11 inches of rainfall over three days, beginning Aug. 11, causing record floods. Several suburbs of Indianapolis also underwater.",
-      "link": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+      "title": "Oil and gas industry urges PM to approve controversial projects",
+      "summary": "The oil and gas industry has urged Andy Burnham to approve two controversial North Sea developments as a public consultation on the UK's largest undeveloped oil field closes.",
+      "link": "https://news.sky.com/story/oil-and-gas-industry-urges-pm-to-approve-controversial-north-sea-developments-13573878",
+      "source": "Sky News (UK)",
+      "date": "2026-08-17T05:00:00",
+      "audio": "audio/Oil and gas industry urges PM to approve controver.mp3"
+    },
+    {
+      "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+      "summary": "President Trump explained the decision by saying South Korea had declined to help with the \"denuclearization\" of Iran and he cited his good relationship with North Korea's leader.",
+      "link": "https://www.npr.org/2026/08/17/g-s1-138969/trump-exercises-south-korea",
       "source": "NPR (US)",
-      "date": "2026-08-16T20:38:40",
-      "audio": "audio/Multiple people dead as flooding continues in Indi.mp3"
+      "date": "2026-08-17T05:21:39",
+      "audio": "audio/Trump orders Pentagon to scale back joint exercise.mp3"
     },
     {
-      "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
-      "summary": "Jared Kushner, President Trump's son-in-law, held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort to make progress in the stalled Gaza ceasefire.",
-      "link": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
-      "source": "NPR (US)",
-      "date": "2026-08-16T20:20:22",
-      "audio": "audio/Kushner meets with Hamas on the Gaza road map ahea.mp3"
-    },
-    {
-      "title": "Tommy John, namesake for a pioneering elbow surgery that saved his career, dies at 83",
-      "summary": "The left-handed MLB pitcher was 31 years old when he tore the ulnar collateral ligament in his pitching elbow in 1974, an injury that had been a death knell for pitchers' careers up to that point.",
-      "link": "https://www.npr.org/2026/08/16/g-s1-138941/tommy-john-elbow-surgery-baseball-pitcher-yankees-dodgers",
-      "source": "NPR (US)",
-      "date": "2026-08-16T18:58:25",
-      "audio": "audio/Tommy John_ namesake for a pioneering elbow surger.mp3"
-    },
-    {
-      "title": "‘The End of Tom Six’ Review: The Director of the ‘Human Centipede’ Films Has Multiple Sclerosis and Is Sharing the Horror. This Confessional Doc Is His Witty Self-Defense",
-      "summary": "\"The End of Tom Six\" is a self-styled confessional memoir in which Six fuses his life and career and illness into a parable. He’s asking: Is there room anymore for movies, like his, that stray over the line? And if not, what does that mean?",
-      "link": "https://variety.com/2026/film/reviews/the-end-of-tom-six-review-the-human-centipede-1236835608/",
+      "title": "Hollywood Failed Hayden Panettiere",
+      "summary": "Hayden Panettiere, the former child actress who grew up onscreen before our very eyes, passed away Sunday at the age of 36. She died five days before her 37th birthday. “It is with profound sadness that we share the tragic passing of our beloved Hayden,” her father Alan said in a statement. “She was an [&#8230;]",
+      "link": "https://variety.com/2026/film/news/hayden-panettiere-death-hollywood-sexual-predators-1236836037/",
       "source": "Variety (US)",
-      "date": "2026-08-17T00:04:48",
-      "audio": "audio/The End of Tom Six_ Review_ The Director of the .mp3"
+      "date": "2026-08-17T06:03:33",
+      "audio": "audio/Hollywood Failed Hayden Panettiere.mp3"
     },
     {
-      "title": "Noah Wyle Hopes David Ellison’s Threat to Move Paramount Out of California is ‘Saber Rattling’: ‘You’re Going to Take Hollywood Out of Hollywood’",
-      "summary": "Noah Wyle is hoping David Ellison isn’t serious about moving Paramount out of California. “I hope this is saber rattling because I can&#8217;t think of anything that would less engender you to the population of this industry than to say you&#8217;re going to take Hollywood out of Hollywood,” the “Pitt” star told me Sunday at [&#8230;]",
-      "link": "https://variety.com/2026/tv/columns/noah-wyle-david-ellison-move-paramount-out-of-california-1236835892/",
+      "title": "John Oliver Brutally Mocks Trump for Sacrificing Staff in Airplane-Swap Incident",
+      "summary": "On Sunday night, the summer’s hottest soap opera star, John Oliver, opened the latest edition of his Emmy-winning HBO series “Last Week Tonight” by addressing Trump’s controversial airplane switcheroo incident whilst leaving a NATO summit in Turkey. “The Iran War dragged on with a series of humiliating news headlines including this revelation about Trump’s trip [&#8230;]",
+      "link": "https://variety.com/2026/tv/news/john-oliver-mocks-trump-sacrificing-staff-airplane-swap-incident-iran-1236836013/",
       "source": "Variety (US)",
-      "date": "2026-08-16T23:55:13",
-      "audio": "audio/Noah Wyle Hopes David Ellison_s Threat to Move Par.mp3"
+      "date": "2026-08-17T03:47:18",
+      "audio": "audio/John Oliver Brutally Mocks Trump for Sacrificing S.mp3"
     },
     {
-      "title": "Dwayne Johnson Leads Crowd in ‘Happy Birthday’ Song for Daughter Simone After Receiving Disney Legends Award at D23",
-      "summary": "Dwayne Johnson has been officially crowned a legend — a Disney Legend that is. On Sunday at D23, Johnson was honored with the hall-of-fame-style award from the Walt Disney Company. From &#8220;Jungle Cruise&#8221; to the &#8220;Moana&#8221; franchise and &#8220;Race to Witch Mountain,&#8221; Johnson is no stranger to the world of Disney. But as he took the stage to [&#8230;]",
-      "link": "https://variety.com/2026/film/news/dwayne-johnson-disney-legend-d23-emily-blunt-1236833908/",
+      "title": "Hayden Panettiere, ‘Heroes’ and ‘Scream’ Star, Dies at 36",
+      "summary": "Hayden Panettiere, known for her roles on &#8220;Heroes,&#8221; &#8220;Nashville&#8221; and in &#8220;Scream 4&#8221; and &#8220;Scream VI,&#8221; died on Sunday. Her rep confirmed her death to ABC News. A cause of death was not immediately known. &#8220;It is with profound sadness that we share the tragic passing of our beloved Hayden. She was an incredible light [&#8230;]",
+      "link": "https://variety.com/2026/film/news/hayden-panettiere-dead-heroes-scream-1236835999/",
       "source": "Variety (US)",
-      "date": "2026-08-16T23:34:24",
-      "audio": "audio/Dwayne Johnson Leads Crowd in _Happy Birthday_ Son.mp3"
+      "date": "2026-08-17T03:12:22",
+      "audio": "audio/Hayden Panettiere_ _Heroes_ and _Scream_ Star_ Die.mp3"
     },
     {
-      "title": "Watch Julia Jacklin Cover Sugar Ray’s “Every Morning”",
-      "summary": "“The song just makes me feel grateful to be alive”",
-      "link": "https://pitchfork.com/story/watch-julia-jacklin-cover-sugar-rays-every-morning/",
-      "source": "Pitchfork",
-      "date": "2026-08-14T16:31:40",
-      "audio": "audio/Watch Julia Jacklin Cover Sugar Ray_s _Every Morni.mp3"
-    },
-    {
-      "title": "Wexford FC have too much firepower for North End United in friendly",
+      "title": "‘I learned a lot in that time because in my sobriety journey, I had never really been tested’",
       "summary": "",
-      "link": "https://www.independent.ie/county/wexford/wexford-fc-have-too-much-firepower-for-north-end-united-in-friendly/a/160105547.html",
+      "link": "https://www.independent.ie/sport/gaa/i-learned-a-lot-in-that-time-because-in-my-sobriety-journey-i-had-never-really-been-tested/a/160053608.html",
       "source": "Irish Independent",
-      "date": "2026-08-16T22:30:00",
-      "audio": "audio/Wexford FC have too much firepower for North End U.mp3"
+      "date": "2026-08-17T06:15:00",
+      "audio": "audio/I learned a lot in that time because in my sobrie.mp3"
     },
     {
-      "title": "‘There was a gap, I just missed it’ — Sarah Healy weighs up future at longer distances after finishing fifth in 1,500m",
+      "title": "Kerry music school accuses council of hitting wrong note over roadworks",
       "summary": "",
-      "link": "https://www.independent.ie/sport/other-sports/athletics/there-was-a-gap-i-just-missed-it-sarah-healy-weighs-up-future-at-longer-distances-after-finishing-fifth-in-1500m/a/160105091.html",
+      "link": "https://www.independent.ie/county/kerry/kerry-music-school-accuses-council-of-hitting-wrong-note-over-roadworks/a/159982625.html",
       "source": "Irish Independent",
-      "date": "2026-08-16T21:30:00",
-      "audio": "audio/There was a gap_ I just missed it_ _ Sarah Healy .mp3"
+      "date": "2026-08-17T06:00:00",
+      "audio": "audio/Kerry music school accuses council of hitting wron.mp3"
     },
     {
-      "title": "Dundalk Young Irelands two goals kills off O’Connells challenge",
-      "summary": "DkIT Sport Louth Junior Football Championship",
-      "link": "https://www.independent.ie/county/louth/dundalk-young-irelands-two-goals-kills-off-oconnells-challenge/a/160105261.html",
+      "title": "Kerry capital sees almost one in three cigarette packs carrying no Irish tax",
+      "summary": "Counterfeit cigarettes in Tralee contribute to low tax take",
+      "link": "https://www.independent.ie/county/kerry/kerry-capital-sees-almost-one-in-three-cigarette-packs-carrying-no-irish-tax/a/159977478.html",
       "source": "Irish Independent",
-      "date": "2026-08-16T21:17:00",
-      "audio": "audio/Dundalk Young Irelands two goals kills off O_Conne.mp3"
+      "date": "2026-08-17T06:00:00",
+      "audio": "audio/Kerry capital sees almost one in three cigarette p.mp3"
     },
     {
-      "title": "Blankets, baskets and a flask that holds a bottle of wine: nine great picks for an elevated picnic",
-      "summary": "Retire your plastic cups and paper plates in favor of some sturdy (and chic) upgrades to store and chill food and drinksThe five best portable coolers in the US – testedSign up for the Filter US newsletter, your weekly guide to buying fewer, better thingsPicnics are a spectacular way to enjoy fresh air and sunshine, but packing and lugging food, keeping it chilled, and trying to find a comfortable place to sit might seem like more trouble than it",
-      "link": "https://www.theguardian.com/thefilter-us/2026/aug/16/best-picnic-items",
+      "title": "Andy Irvine to release album reimagining the songs of Woody Guthrie",
+      "summary": "Listen to the lead track &#039;Rambling Round your City&#039; below.",
+      "link": "https://www.hotpress.com/music/andy-irvine-to-release-album-reimagining-the-songs-of-woody-guthrie-23157122",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-08-14T16:18:00",
+      "audio": "audio/Andy Irvine to release album reimagining the songs.mp3"
+    },
+    {
+      "title": "Coping with 54C heat: Delhi slum diaries detail living in extreme temperatures",
+      "summary": "With heatwaves now recognised as disasters, personal testimonies are key to a new project that looks to protect those living in the most cramped districts of India’s capitalEvery summer evening, Gulshan follows the same routine. She washes the floor of her one-room home several times so it cools a little for her four children to sleep on.",
+      "link": "https://www.theguardian.com/global-development/2026/aug/17/india-disasters-heatwaves-slum-diaries-delhi-vulnerable-temperatures",
+      "source": "The Guardian UK",
+      "date": "2026-08-17T04:00:45",
+      "audio": "audio/Coping with 54C heat_ Delhi slum diaries detail li.mp3"
+    },
+    {
+      "title": "‘I saw Cliff Richard dressed as a leek!’ Su Pollard on Hi-de-Hi!, Aids and her amazing celebrity encounters",
+      "summary": "Even after half a century in the limelight, the actor can still surprise. Who’d have guessed she went clubbing with Freddie Mercury? Or that she watched Blair and Brown strike their fateful deal at Granita?A quick run-through of some of the 20th-century icons that Su Pollard has met.",
+      "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/aug/17/su-pollard-interview-hi-de-hi-cliff-richard-celebrity-encounters",
+      "source": "The Guardian UK",
+      "date": "2026-08-17T04:00:44",
+      "audio": "audio/I saw Cliff Richard dressed as a leek__ Su Pollar.mp3"
+    },
+    {
+      "title": "Italy’s mythic ‘month off’ in August was hard won. It would be good for us all | Jamie Mackay",
+      "summary": "The villeggiatura, a month-long break, was popularised in the 1960s when trade unions were strong – and so was economic productivityOn the Riviera di Ponente, sandwiched between the glitzy resort towns of the Ligurian coast, sits the Albenga plain. Dotted with campsites and bungalows, the area developed during Italy’s postwar boom as an affordable refuge for workers to escape the smog of nearby industrial cities like Turin and Milan.",
+      "link": "https://www.theguardian.com/commentisfree/2026/aug/17/italy-month-off-august-economic-productivity",
+      "source": "The Guardian UK",
+      "date": "2026-08-17T04:00:45",
+      "audio": "audio/Italy_s mythic _month off_ in August was hard won.mp3"
+    },
+    {
+      "title": "‘His ache is real’: Bob Dylan and more on the wild genius of honky-tonk hellraiser Gary Stewart",
+      "summary": "Worshipped by everyone from Willie Nelson to Joe Strummer, the country star with the amazing voice imploded in a blaze of guns, knives, drugs and infidelities. What’s behind his astonishing posthumous rediscovery?‘He sings like a man arguing with destiny. It sounds like the ache is real, that the ruin is real,” Bob Dylan tells me.",
+      "link": "https://www.theguardian.com/music/2026/aug/17/bob-dylan-gary-stewart-honky-tonk-hellraiser",
       "source": "The Guardian US",
-      "date": "2026-08-16T17:15:31"
+      "date": "2026-08-17T04:00:45",
+      "audio": "audio/His ache is real__ Bob Dylan and more on the wild.mp3"
     },
     {
-      "title": "Ali came to me seeking help for disordered eating. The real issue was a relationship built on control | Ahona Guha",
-      "summary": "She second-guessed herself and was eager to please. She ‘felt frozen’ when she believed she displeased someoneThe modern mind is a column where experts discuss mental health issues they are seeing in their workAli* initially came to therapy for disordered eating. She was a young and diffident woman.",
-      "link": "https://www.theguardian.com/commentisfree/2026/aug/17/disordered-eating-relationship-built-on-control",
-      "source": "The Guardian US",
-      "date": "2026-08-16T15:00:29"
+      "title": "Unemployed young people to join AI boot camps to get job-ready",
+      "summary": "Pilot scheme will provide three weeks of training as part of UK government’s latest attempt to address Neets crisisYoung people out of work or at risk of unemployment in the UK are to join “AI boot camps” where they harness the technology to get a foothold in the workplace.The government’s latest attempt to address the crisis in Neets – young people not in work or education – involves turning to a technology that many view as a potential threat t",
+      "link": "https://www.theguardian.com/society/2026/aug/14/unemployed-young-people-to-join-ai-boot-camps-to-get-job-ready",
+      "source": "The Guardian Tech",
+      "date": "2026-08-13T23:01:10",
+      "audio": "audio/Unemployed young people to join AI boot camps to g.mp3"
     },
     {
-      "title": "“We wanted people to say, ‘Wow, that's Cypress Hill?’”: Cypress Hill’s beat-master Eric Bobo tells us why the band recorded their new album entirely in Spanish",
-      "summary": "Percussionist Eric Bobo reveals how Cypress Hill embraced their Latino roots on their first full-length Spanish-language album",
-      "link": "https://www.musicradar.com/artists/we-wanted-people-to-say-wow-thats-cypress-hill-cypress-hills-beat-master-eric-bobo-tells-us-why-the-band-recorded-their-new-album-entirely-in-spanish",
-      "source": "MusicRadar (UK)",
-      "date": "2026-08-15T13:00:00",
-      "audio": "audio/We wanted people to say_ _Wow_ that_s Cypress Hil.mp3"
-    },
-    {
-      "title": "Jay Weinberg Reveals He Didn’t Have ‘Legal Ability’ to Work With Other Artists: Part of Him ‘Was Dying’",
-      "summary": "“Without giving too much attention to any kind of one situation, not having the legal ability to play music with other people was definitely difficult,” drummer says",
-      "link": "https://www.rollingstone.com/music/music-news/jay-weinberg-legally-barred-collaborating-musicians-1235609752/",
+      "title": "Selena Gomez’s Lawyer Calls Wondermind Suit ‘Meritless,’ Will File Motion to Dismiss ‘Baseless Claims’",
+      "summary": "The singer, her mother Mandy Teefey, and their former business partner were sued by investors who claim they were misled by Gomez’s involvement",
+      "link": "https://www.rollingstone.com/music/music-news/selena-gomez-wondermind-lawsuit-meritless-motion-to-dismiss-1235609673/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-08-16T19:45:28",
-      "audio": "audio/Jay Weinberg Reveals He Didn_t Have _Legal Ability.mp3"
+      "date": "2026-08-15T21:31:00",
+      "audio": "audio/Selena Gomez_s Lawyer Calls Wondermind Suit _Merit.mp3"
     },
     {
-      "title": "Lin-Manuel Miranda Not Returning for Moana 3",
-      "summary": "\"My time in the Moanaverse is done, but I can't wait to see how far she'll go.\" Lin-Manuel Miranda Not Returning for Moana 3 Alex Young",
-      "link": "https://consequence.net/2026/08/lin-manuel-miranda-not-returning-for-moana-3/",
+      "title": "Hayden Panettiere Dead at 36",
+      "summary": "Panettiere was better known for her starring roles on the NBC superhero series Heroes and ABC music drama Nashville. Hayden Panettiere Dead at 36 Alex Young",
+      "link": "https://consequence.net/2026/08/hayden-panettiere-dead/",
       "source": "Consequence of Sound (US)",
-      "date": "2026-08-16T18:47:35",
-      "audio": "audio/Lin-Manuel Miranda Not Returning for Moana 3.mp3"
+      "date": "2026-08-17T03:18:11",
+      "audio": "audio/Hayden Panettiere Dead at 36.mp3"
     },
     {
-      "title": "Fans Choose Ayra Starr’s ‘Starrgirl’ as This Week’s Favorite New Music",
-      "summary": "The Nigerian singer's new album brought in more than 87% of the vote.",
-      "link": "https://www.billboard.com/music/music-news/ayra-starrs-starrgirl-best-new-music-poll-results-1236317440/",
+      "title": "Occupants of vehicle involved in horror M9 road smash wore balaclavas or masks",
+      "summary": "The vehicle in which five teenagers died this morning was being driven on the wrong side of the motorway twice in a matter of minutes, the Irish Mirror understands",
+      "link": "https://www.dublinlive.ie/news/dublin-news/occupants-vehicle-involved-horror-m9-34468545",
+      "source": "Dublin Live News",
+      "date": "2026-08-17T06:07:06",
+      "audio": "audio/Occupants of vehicle involved in horror M9 road sm.mp3"
+    },
+    {
+      "title": "Portugal. The Man Announces 2026 Australian East Coast Tour Dates",
+      "summary": "The shows follow the release of the group's tenth studio album, SHISH, out last November.",
+      "link": "https://www.billboard.com/music/concerts/portugal-the-man-announces-2026-australian-tour-dates-1236317476/",
       "source": "Billboard (US)",
-      "date": "2026-08-16T23:27:11",
-      "audio": "audio/Fans Choose Ayra Starr_s _Starrgirl_ as This Week.mp3"
+      "date": "2026-08-17T04:38:24",
+      "audio": "audio/Portugal_ The Man Announces 2026 Australian East C.mp3"
     },
     {
-      "title": "These ‘KPop Demon Hunters’ Temporary Tattoos Let You Rep Your Favorite Characters and Display Glow-in-the-Dark Demon Markings",
-      "summary": "The temporary tattoos apply easily to the skin with water and wash off with soap or rubbing alcohol.",
-      "link": "https://www.billboard.com/culture/product-recommendations/kpop-demon-hunters-temporary-tattoos-stickers-buy-online-1236317354/",
+      "title": "Hayden Panettiere, ‘Nashville’ and ‘Heroes’ Star, Dies at 36",
+      "summary": "\"It is with profound sadness that we share the tragic passing of our beloved Hayden,\" her father said in a statement.",
+      "link": "https://www.billboard.com/culture/tv-film/hayden-panettiere-nashville-and-heroes-star-dies-1236317477/",
       "source": "Billboard (US)",
-      "date": "2026-08-16T20:48:46",
-      "audio": "audio/These _KPop Demon Hunters_ Temporary Tattoos Let Y.mp3"
+      "date": "2026-08-17T03:43:55",
+      "audio": "audio/Hayden Panettiere_ _Nashville_ and _Heroes_ Star_ .mp3"
     },
     {
-      "title": "The 11 Best 1970s Glam Rock Albums (Ranked)",
-      "summary": "Warner Bros. / CBS / Columbia / Fly / Reprise",
-      "link": "https://loudwire.com/best-1970s-glam-rock-albums/",
-      "source": "Loudwire (US)",
-      "date": "2026-08-16T22:31:11",
-      "audio": "audio/The 11 Best 1970s Glam Rock Albums _Ranked.mp3"
-    },
-    {
-      "title": "Townies share new song ‘Wednesday’ in response to Wednesday’s ‘Townies’",
-      "summary": "The Los Angeles emo band promised to deliver the track as soon as Wednesday's 'Bleeds' album was released last year The post Townies share new song &#8216;Wednesday&#8217; in response to Wednesday&#8217;s &#8216;Townies&#8217; appeared first on NME.",
-      "link": "https://www.nme.com/news/music/townies-share-new-song-wednesday-in-response-to-wednesdays-townies-3963052?utm_source=rss&utm_medium=rss&utm_campaign=townies-share-new-song-wednesday-in-response-to-wednesdays-townies",
-      "source": "NME News (UK)",
-      "date": "2026-08-16T21:27:15"
-    },
-    {
-      "title": "Angine De Poitrine’s Khn on the importance of music theory: “Value terminology. Worship terminology. Or be a monkey”",
-      "summary": "The microtonal guitarist has rejected the idea that music knowledge can restrict creativity The post Angine De Poitrine&#8217;s Khn on the importance of music theory: &#8220;Value terminology. Worship terminology. Or be a monkey&#8221; appeared first on NME.",
-      "link": "https://www.nme.com/news/music/angine-de-poitrines-khn-on-the-importance-of-music-theory-value-terminology-worship-terminology-or-be-a-monkey-3963048?utm_source=rss&utm_medium=rss&utm_campaign=angine-de-poitrines-khn-on-the-importance-of-music-theory-value-terminology-worship-terminology-or-be-a-monkey",
-      "source": "NME News (UK)",
-      "date": "2026-08-16T20:02:34"
-    },
-    {
-      "title": "See Nick Cave & The Bad Seeds enjoying The Cure at Way Out West",
-      "summary": "Warren Ellis, who first watched them play over 40 years ago, said he wants to see them \"again and again and again\" The post See Nick Cave &#038; The Bad Seeds enjoying The Cure at Way Out West appeared first on NME.",
-      "link": "https://www.nme.com/news/music/see-nick-cave-the-bad-seeds-enjoying-the-cure-at-way-out-west-3963043?utm_source=rss&utm_medium=rss&utm_campaign=see-nick-cave-the-bad-seeds-enjoying-the-cure-at-way-out-west",
-      "source": "NME News (UK)",
-      "date": "2026-08-16T19:00:42"
+      "title": "Fontaines D.C. Confirm New Album Dopamine Chamber, Bring Out Kurt Vile For Their Song He Inspired",
+      "summary": "Fontaines D.C. are slowly coming back into the fold, ratcheting up the hype along the way. Last weekend they unveiled some new songs at their first show in nearly a year, and now the Dublin rockers have confirmed their fifth album, Dopamine Chamber, is coming soon via XL Recordings.",
+      "link": "https://stereogum.com/2508463/kurt-vile-joins-fontaines-d-c-at-la-route-du-rock/news/",
+      "source": "Stereogum (US)",
+      "date": "2026-08-16T17:28:01",
+      "audio": "audio/Fontaines D_C_ Confirm New Album Dopamine Chamber.mp3"
     }
   ]
 }
