@@ -1,286 +1,595 @@
 {
-  "updated": "2026-08-20T06:16:50.936145+00:00",
-  "total_pt": 11,
-  "total_en": 24,
+  "updated": "2026-08-20T12:18:18.283510+00:00",
+  "total_pt": 26,
+  "total_en": 48,
   "pt": [
     {
-      "title": "Selton Mello se emociona ao receber prêmio no Festival de Gramado",
-      "summary": "Selton Mello subiu ao palco do Palácio dos Festivais, na noite desta quarta-feira (19), para receber o Kikito de Cristal. Leia mais (08/20/2026 - 00h43)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/08/selton-mello-se-emociona-ao-receber-premio-no-festival-de-gramado.shtml",
+      "title": "O alerta de médicos sobre o risco de cigarros eletrônicos para crianças e jovens",
+      "summary": "Uma associação de médicos no Reino Unido fez um alerta de que o uso de cigarros eletrônicos pode causar danos à saúde de crianças e jovens e, por isso, esses produtos precisam se tornar \"menos atraentes\" aos consumidores. Leia mais (08/20/2026 - 09h09)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/08/o-alerta-de-medicos-sobre-o-risco-de-cigarros-eletronicos-para-criancas-e-jovens.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-20T03:43:00",
-      "audio": "audio/Selton Mello se emociona ao receber prêmio no Fest.mp3"
+      "date": "2026-08-20T12:09:00"
     },
     {
-      "title": "Elenco de 'Emergência 53' celebra estreia da série em festa em São Paulo",
-      "summary": "O evento de lançamento de \"Emergência 53\", nova série do Globoplay, movimentou a noite de São Paulo nesta quarta-feira (19). O elenco e a equipe de produção estiveram no Instituto Tomie Ohtake, em Pinheiros, para celebrar a estreia da obra, que acompanha a rotina de socorristas de emergência. Leia mais (08/20/2026 - 00h36)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/televisao/2026/08/elenco-de-emergencia-53-celebra-estreia-da-serie-em-festa-em-sao-paulo.shtml",
+      "title": "República Democrática do Congo recebe 70 mil doses da vacina Ervebo em resposta a surto de ebola",
+      "summary": "A Organização Mundial da Saúde informou nesta quinta-feira que a República Democrática do Congo, atingida pelo ebola, receberá 70.000 doses de uma vacina aprovada para proteger contra o vírus, mas não contra a cepa que está se espalhando pelo país. Leia mais (08/20/2026 - 09h02)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/08/republica-democratica-do-congo-recebe-70-mil-doses-da-vacina-ervebo-em-resposta-a-surto-de-ebola.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-20T03:36:00",
-      "audio": "audio/Elenco de _Emergência 53_ celebra estreia da série.mp3"
+      "date": "2026-08-20T12:02:00"
     },
     {
-      "title": "Luísa Sonza desabafa sobre pressão: 'Entendo que não preciso carregar o mundo nas costas'",
-      "summary": "Luísa Sonza, 28, se prepara para completar dez anos de carreira e afirma ter mudado como lida com fama, exposição e vida pessoal. A cantora, que começou a se apresentar em casamentos no interior do Rio Grande do Sul e passou por festivais como Rock in Rio, Coachella e Tomorrowland, diz que hoje procura estabelecer limites mais claros entre a artista e a pessoa. Leia mais (08/19/2026 - 23h21)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/celebridades/2026/08/luisa-sonza-desabafa-sobre-pressao-hoje-entendo-que-nao-preciso-carregar-o-mundo-nas-costas.shtml",
+      "title": "Juízas recebem menos que homens em 86% dos tribunais de Justiça, aponta pesquisa",
+      "summary": "Juízas e desembargadoras recebem menos que seus colegas homens em 86% dos tribunais de Justiça do país, segundo pesquisa da organização Justa. A diferença aparece mesmo quando comparados magistrados que ocupam o mesmo cargo. Leia mais (08/20/2026 - 09h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/08/juizas-recebem-menos-que-homens-em-86-dos-tribunais-de-justica-aponta-pesquisa.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-20T02:21:00",
-      "audio": "audio/Luísa Sonza desabafa sobre pressão_ _Entendo que n.mp3"
+      "date": "2026-08-20T12:00:00"
     },
     {
-      "title": "Previsão do tempo hoje para Brasília (DF): sol e muitas nuvens à tarde; à noite o céu ainda fica com muita nebulosidade, mas não chove",
-      "summary": "Previsão do tempo hoje em Brasília g1 A previsão do tempo para esta quinta-feira (20) para Brasília (DF) é de sol e muitas nuvens à tarde. À noite o céu ainda fica com muita nebulosidade, mas não chove. As máximas são de 30ºC e as mínimas de 16ºC.",
-      "link": "https://g1.globo.com/df/distrito-federal/previsao-do-tempo/noticia/2026/08/20/previsao-do-tempo-hoje-para-brasilia-df-sol-e-muitas-nuvens-a-tarde-a-noite-o-ceu-ainda-fica-com-muita-nebulosidade-mas-nao-chove.ghtml",
+      "title": "Acidente entre motos e bicicleta deixa quatro feridos na BR-101 na Grande Natal",
+      "summary": "Acidente com 2 motos e bicicleta deixa 4 feridos na BR-101 Norte Sérgio Henrique Santos/Inter TV Cabugi Um acidente envolvendo duas motocicletas e uma bicicleta deixou quatro pessoas feridas na manhã desta quinta-feira (20), na BR-101 Norte, próximo ao acesso à Avenida Moema Tinoco, em Extremoz, na Grande Natal. Segundo a Polícia Rodoviária Federal (PRF), duas das vítimas ficaram em estado grave.",
+      "link": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/08/20/acidente-br-101-grande-natal.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-20T06:06:27",
-      "audio": "audio/Previsão do tempo hoje para Brasília _DF__ sol e m.mp3"
+      "date": "2026-08-20T12:08:20",
+      "audio": "audio/Acidente entre motos e bicicleta deixa quatro feri.mp3"
     },
     {
-      "title": "Previsão do tempo hoje para São Paulo (SP): sol o dia todo sem nuvens no céu, com aumento de nebulosidade à noite; não chove",
-      "summary": "Previsão do tempo hoje em São Paulo g1 A previsão do tempo para esta quinta-feira (20) para São Paulo (SP) é de sol o dia todo sem nuvens no céu, com aumento de nebulosidade à noite. Não chove. As máximas são de 32ºC e as mínimas de 18ºC.",
-      "link": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/20/previsao-do-tempo-hoje-para-sao-paulo-sp-sol-o-dia-todo-sem-nuvens-no-ceu-com-aumento-de-nebulosidade-a-noite-nao-chove.ghtml",
+      "title": "Pix movimenta R$ 36,9 bilhões em MT em julho, alta de 15,98% em um ano",
+      "summary": "Apesar disso, o professor alerta que o aumento de 15,98% na movimentação do Pix não significa que o consumo ou a atividade econômica cresceram na mesma proporção. Getty Images via BBC O Pix movimentou R$ 36,92 bilhões em Mato Grosso em julho de 2026, alta de 15,98% em relação ao mesmo mês do ano passado. Em julho de 2025, foram movimentados R$ 31,83 bilhões.",
+      "link": "https://g1.globo.com/mt/mato-grosso/noticia/2026/08/20/pix-movimenta-r-369-bilhoes-em-mt-em-julho-alta-de-1598percent-em-um-ano.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-20T06:06:11",
-      "audio": "audio/Previsão do tempo hoje para São Paulo _SP__ sol o .mp3"
+      "date": "2026-08-20T12:08:16",
+      "audio": "audio/Pix movimenta R_ 36_9 bilhões em MT em julho_ alta.mp3"
     },
     {
-      "title": "Previsão do tempo hoje para São Bernardo do Campo (SP): sol com muitas nuvens durante o dia e períodos de céu nublado; noite com muitas nuvens",
-      "summary": "Previsão do tempo hoje em São Bernardo do Campo g1 A previsão do tempo para esta quinta-feira (20) para São Bernardo do Campo (SP) é de sol com muitas nuvens durante o dia e períodos de céu nublado. Noite com muitas nuvens. As máximas são de 30ºC e as mínimas de 15ºC.",
-      "link": "https://g1.globo.com/sp/sao-paulo/previsao-do-tempo/noticia/2026/08/20/previsao-do-tempo-hoje-para-sao-bernardo-do-campo-sp-sol-com-muitas-nuvens-durante-o-dia-e-periodos-de-ceu-nublado-noite-com-muitas-nuvens.ghtml",
+      "title": "Carreta fica atravessada na BR-381 após pane mecânica no Morro da Usipa, em Ipatinga",
+      "summary": "Carreta fica atravessada no Morro da Usipa após pane mecânica em Ipatinga Marina Bhering Uma carreta ficou atravessada na pista após apresentar uma pane mecânica na manhã desta quinta-feira (20), no trecho conhecido como Morro da Usipa, na BR-381 em Ipatinga. O local liga o município a Coronel Fabriciano. Segundo o motorista, por volta das 4h, a carreta apresentou uma pane mecânica, o condutor estava sozinho no veículo e não teve ferimentos.",
+      "link": "https://g1.globo.com/mg/vales-mg/noticia/2026/08/20/carreta-fica-atravessada-no-morro-da-usipa-na-br-381-apos-pane-mecanica-em-ipatinga.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-20T06:05:55",
-      "audio": "audio/Previsão do tempo hoje para São Bernardo do Campo .mp3"
+      "date": "2026-08-20T12:07:41",
+      "audio": "audio/Carreta fica atravessada na BR-381 após pane mecân.mp3"
     },
     {
-      "title": "Paralisação de 24 horas dos bancários começa nesta quinta-feira",
-      "summary": "Atividades devem ser interrompidas em todo o Brasil; negociações com a Fenaban devem ser retomadas na próxima segunda-feira (24), segundo o Sindicato dos Bancários de São Paulo",
-      "link": "https://www.cnnbrasil.com.br/economia/paralisacao-de-24-horas-dos-bancarios-comeca-nesta-quinta-feira/",
+      "title": "Por que impacto da IA em eleições pode estar sendo exagerado, segundo pesquisador de Oxford",
+      "summary": "Segundo estudo desenvolvido por Felix Simon, IA tem poder muito menor de influenciar eleições do que se imaginava: 'a internet já está lotada de desinformação e embora seja possível criar mais, isso não significa um efeito maior'.",
+      "link": "https://www.bbc.com/portuguese/articles/c0l52n6ddkdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-08-20T07:35:07",
+      "audio": "audio/Por que impacto da IA em eleições pode estar sendo.mp3"
+    },
+    {
+      "title": "Por que existe o Dia Mundial do Mosquito — e o que isso tem a ver com o Nobel",
+      "summary": "Dia 20 de agosto marca a descoberta dos mecanismos de transmissão da malária — algo que pode ter salvado milhões de vidas.",
+      "link": "https://www.bbc.com/portuguese/articles/c8xnwz8g48zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-08-20T09:57:56",
+      "audio": "audio/Por que existe o Dia Mundial do Mosquito _ e o que.mp3"
+    },
+    {
+      "title": "Brigou no avião? Você poderá ficar até um ano proibido de voar; entenda, em cinco pontos, a nova regra da Anac",
+      "summary": "Medida entra em vigor em setembro e também prevê multas de R$ 17,5 mil para casos de conflitos menos graves durante o voo ou o embarque.",
+      "link": "https://www.bbc.com/portuguese/articles/czrjdp484mlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-08-20T09:23:31",
+      "audio": "audio/Brigou no avião_ Você poderá ficar até um ano proi.mp3"
+    },
+    {
+      "title": "Republicanos suspende filiação de prefeito “tiktoker” Rodrigo Manga",
+      "summary": "Decisão do Conselho de Ética do partido ocorre após o prefeito declarar apoio a sua mulher, Sirlange Maganhato, que disputa uma vaga na Câmara dos Deputados pelo União Brasil",
+      "link": "https://www.cnnbrasil.com.br/eleicoes/republicanos-suspende-filiacao-de-rodrigo-manga-prefeito-de-sorocaba/",
       "source": "CNN Brasil",
-      "date": "2026-08-20T05:12:03"
+      "date": "2026-08-20T11:41:04",
+      "audio": "audio/Republicanos suspende filiação de prefeito _tiktok.mp3"
     },
     {
-      "title": "Abel faz forte desabafo após vitória do Palmeiras: “Futebol está doente”",
-      "summary": "Treinador critica cobranças pesadas no esporte após a classificação sofrida do Verdão na Libertadores diante do Cerro Porteño, do Paraguai",
-      "link": "https://www.cnnbrasil.com.br/esportes/futebol/palmeiras/abel-faz-forte-desabafo-apos-vitoria-do-palmeiras-futebol-esta-doente/",
+      "title": "Bolsas da Ásia fecham em alta após ganhos em WS; Kospi salta quase 6%",
+      "summary": "Ações da Samsung Electronics avançaram 9,5% enquando a fabricanta de memória SK Hynix disparou mais de 12% após anunciar recompra significativa de ações",
+      "link": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsas-da-asia-fecham-em-alta-apos-ganhos-em-wall-street-kospi-salta-quase-6/",
       "source": "CNN Brasil",
-      "date": "2026-08-20T03:44:59"
+      "date": "2026-08-20T11:36:45",
+      "audio": "audio/Bolsas da Ásia fecham em alta após ganhos em WS_ K.mp3"
     },
     {
-      "title": "Terremoto de magnitude 5,9 atinge ilha na Indonésia",
-      "summary": "Tremor aconteceu a uma profundida de 10 quilômetros, informou o Centro Sismolígico Euro-Mediterrânico; não há informações sobre vítimas e danos a infraestrutura",
-      "link": "https://www.cnnbrasil.com.br/internacional/terremoto-de-magnitude-59-atinge-indonesia-2/",
+      "title": "PM faz operação no Complexo do Chapadão, na zona Norte do Rio",
+      "summary": "Dois homens foram presos durante a madrugada; um fuzil, munições e drogas foram apreendidos na região",
+      "link": "https://www.cnnbrasil.com.br/nacional/sudeste/rj/pm-faz-operacao-no-complexo-do-chapadao-na-zona-norte-do-rio/",
       "source": "CNN Brasil",
-      "date": "2026-08-20T03:32:59"
+      "date": "2026-08-20T11:36:05",
+      "audio": "audio/PM faz operação no Complexo do Chapadão_ na zona N.mp3"
     },
     {
-      "title": "Trump ameaça com represálias econômicas ‘qualquer país’ que ajudar Irã",
-      "summary": "As declarações do presidente republicano ocorrem no momento em que a guerra entre Washington e Teerã se aproxima do sexto mês",
-      "link": "https://www.cartacapital.com.br/mundo/trump-ameaca-com-represalias-economicas-qualquer-pais-que-ajudar-ira/",
+      "title": "De uma inquietação profissional a uma empresa de R$ 2,4 milhões",
+      "summary": "O cearense que transformou a vontade de fazer diferente em uma empresa de tecnologia que ampliou mercados, especializou sua atuação e passou a disputar contratos maiores",
+      "link": "https://exame.com/negocios/de-uma-inquietacao-profissional-a-uma-empresa-de-r-24-milhoes/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-20T09:03:29",
+      "audio": "audio/De uma inquietação profissional a uma empresa de R.mp3"
+    },
+    {
+      "title": "Maiores campeões da Champions League: veja o ranking histórico",
+      "summary": "Real Madrid lidera com folga o ranking histórico, seguido por Milan, Liverpool e Bayern de Munique",
+      "link": "https://exame.com/esporte/maiores-campeoes-da-champions-league-veja-o-ranking-historico/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-20T08:50:32",
+      "audio": "audio/Maiores campeões da Champions League_ veja o ranki.mp3"
+    },
+    {
+      "title": "‘Tem que melhorar o fiscal no país’, diz Durigan sobre cobrança do mercado",
+      "summary": "Ministro da Fazenda afirma que dúvidas sobre dívida e gastos obrigatórios são legítimas e aponta política fiscal como caminho para reduzir os juros",
+      "link": "https://exame.com/economia/tem-que-melhorar-o-fiscal-no-pais-diz-durigan-sobre-cobranca-do-mercado/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-20T08:47:59",
+      "audio": "audio/Tem que melhorar o fiscal no país__ diz Durigan s.mp3"
+    },
+    {
+      "title": "Agenda dos candidatos: Lula vai ao RN e Flávio Bolsonaro cumpre compromissos em SP",
+      "summary": "Presidente participa de agenda em Macaíba e de ato em Natal, enquanto senador do PL visita equipamentos públicos da capital paulista e faz live à noite",
+      "link": "https://www.cartacapital.com.br/politica/agenda-dos-candidatos-lula-vai-ao-rn-e-flavio-bolsonaro-cumpre-compromissos-em-sp/",
       "source": "Carta Capital (Brasil)",
-      "date": "2026-08-20T01:38:53",
-      "audio": "audio/Trump ameaça com represálias econômicas _qualquer .mp3"
+      "date": "2026-08-20T11:56:31",
+      "audio": "audio/Agenda dos candidatos_ Lula vai ao RN e Flávio Bol.mp3"
     },
     {
-      "title": "MP pede ao TSE a impugnação da candidatura de Pablo Marçal à presidência",
-      "summary": "O ex-coach está inelegível em razão de condenações da Justiça Eleitoral relacionadas à campanha para a prefeitura de São Paulo em 2024",
-      "link": "https://www.cartacapital.com.br/politica/mp-pede-ao-tse-impugnacao-de-candidatura-de-pablo-marcal-a-presidencia/",
+      "title": "Trump afirma que vai se reunir com Kin Jong Un neste ano",
+      "summary": "O encontro entre os presidentes dos EUA e da Coreia do Norte deve acontecer em novembro, segundo a imprensa norte-americana",
+      "link": "https://www.cartacapital.com.br/mundo/trump-afirma-que-vai-se-reunir-com-kin-jong-un-neste-ano/",
       "source": "Carta Capital (Brasil)",
-      "date": "2026-08-20T00:36:50",
-      "audio": "audio/MP pede ao TSE a impugnação da candidatura de Pabl.mp3"
+      "date": "2026-08-20T11:49:09",
+      "audio": "audio/Trump afirma que vai se reunir com Kin Jong Un nes.mp3"
+    },
+    {
+      "title": "Lula é o preferido dos eleitores paraenses, indica pesquisa AtlasIntel",
+      "summary": "O presidente lidera os cenários de primeiro e segundo turnos",
+      "link": "https://www.cartacapital.com.br/politica/lula-e-o-preferido-dos-eleitores-paraenses-indica-pesquisa-atlasintel/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-08-20T11:13:28",
+      "audio": "audio/Lula é o preferido dos eleitores paraenses_ indica.mp3"
+    },
+    {
+      "title": "Marvel’s Wolverine é tão ruim assim? Não é perfeito, mas está longe de ser um desastre",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/voxel/505168-marvels-wolverine-e-tao-ruim-assim-nao-e-perfeito-mas-esta-longe-de-ser-um-desastre.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-08-20T12:05:36",
+      "audio": "audio/Marvel_s Wolverine é tão ruim assim_ Não é perfeit.mp3"
+    },
+    {
+      "title": "Black Myth Zhong Kui ganha 15 minutos de gameplay com belos gráficos e muita ação",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/voxel/505170-black-myth-zhong-kui-ganha-15-minutos-de-gameplay-com-belos-graficos-e-muita-acao.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-08-20T11:30:22",
+      "audio": "audio/Black Myth Zhong Kui ganha 15 minutos de gameplay .mp3"
+    },
+    {
+      "title": "Impressão 3D de alimentos: o que é e como funciona",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/ciencia/415162-impressao-3d-de-alimentos-o-que-e-e-como-funciona.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-08-20T11:15:00",
+      "audio": "audio/Impressão 3D de alimentos_ o que é e como funciona.mp3"
+    },
+    {
+      "title": "Operação mira furtos cibernéticos que causaram prejuízo de R$ 50 mi",
+      "summary": "Ação da Polícia Civil de SP cumpre 37 mandados em quatro estados para desarticular esquema que fraudou contas de empresas",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7483639-operacao-mira-quadrilha-por-fraude-de-rs-50-mi-contra-empresas.html",
+      "source": "Correio Braziliense",
+      "date": "2026-08-20T12:09:00",
+      "audio": "audio/Operação mira furtos cibernéticos que causaram pre.mp3"
+    },
+    {
+      "title": "Lei Seca inclui substâncias psicoativas; veja o que 'drogômetro' detecta",
+      "summary": "Nova regulamentação permite uso de drogômetros para identificar, de forma preliminar, a presença de determinadas substâncias em motoristas durante fiscalizações",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7483262-lei-seca-inclui-substancias-psicoativas-veja-o-que-drogometro-detecta.html",
+      "source": "Correio Braziliense",
+      "date": "2026-08-20T11:19:00",
+      "audio": "audio/Lei Seca inclui substâncias psicoativas_ veja o qu.mp3"
+    },
+    {
+      "title": "Como ‘Blonde’, de Frank Ocean, moldou (e continua moldando) o R&B",
+      "summary": "No aniversário de dez anos do disco, um mergulho no que ele é, de onde veio, o que disse — e o que ainda diz O post Como ‘Blonde’, de Frank Ocean, moldou (e continua moldando) o R&#038;B apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/musica/como-blonde-de-frank-ocean-moldou-e-continua-moldando-o-rb/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-08-20T12:02:19",
+      "audio": "audio/Como _Blonde__ de Frank Ocean_ moldou _e continua .mp3"
+    },
+    {
+      "title": "O motivo que fez T-Pain vender seu catálogo musical",
+      "summary": "Acordo com a HarbourView Equity Partners teria sido estimado em cerca de US$ 100 milhões O post O motivo que fez T-Pain vender seu catálogo musical apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/musica/o-motivo-que-fez-t-pain-vender-seu-catalogo-musical/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-08-20T12:02:05",
+      "audio": "audio/O motivo que fez T-Pain vender seu catálogo musica.mp3"
+    },
+    {
+      "title": "Tudo o que Frank Ocean fez desde 2016 além de lançar um álbum",
+      "summary": "De fundar uma marca de luxo a estrear como diretor de cinema, o artista tem se mantido ocupado desde o lançamento de ‘Blonde’ O post Tudo o que Frank Ocean fez desde 2016 além de lançar um álbum apareceu primeiro em Rolling Stone Brasil.",
+      "link": "https://rollingstone.com.br/lista-rs/tudo-o-que-frank-ocean-fez-desde-2016-alem-de-lancar-um-album/",
+      "source": "Rolling Stone Brasil",
+      "date": "2026-08-20T11:38:41",
+      "audio": "audio/Tudo o que Frank Ocean fez desde 2016 além de lanç.mp3"
     }
   ],
   "en": [
     {
-      "title": "IBM Connects Its First Modular Cryogenic Systems in Milestone Toward Fault-Tolerant Quantum Computing",
-      "summary": "• New cryogenic quantum fridges designed to link hundreds of quantum chips.",
-      "link": "https://newsroom.ibm.com/2026-08-19-ibm-connects-its-first-modular-cryogenic-systems-in-milestone-toward-fault-tolerant-quantum-computing",
-      "source": "IBM",
-      "date": "2026-08-19T10:00:00",
-      "audio": "audio/IBM Connects Its First Modular Cryogenic Systems i.mp3"
+      "title": "Harry and Meghan's security arrangements a private matter, PM says",
+      "summary": "Andy Burnham wishes the Duke and Duchess of Sussex well in \"the move that they are making\".",
+      "link": "https://www.bbc.co.uk/news/articles/cr59yg34r4mo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "date": "2026-08-20T12:12:25",
+      "audio": "audio/Harry and Meghan_s security arrangements a private.mp3"
     },
     {
-      "title": "Harry and Meghan are experts in surprise - but is their UK return forever?",
+      "title": "Harry and Meghan are experts in surprise - but why are they returning to UK now?",
       "summary": "The sudden decision to return leaves lots of questions for the Duke and Duchess of Sussex and Royal Family.",
       "link": "https://www.bbc.co.uk/news/articles/cqjxn9j410vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "date": "2026-08-20T02:00:51",
-      "audio": "audio/Harry and Meghan are experts in surprise - but is .mp3"
+      "audio": "audio/Harry and Meghan are experts in surprise - but why.mp3"
     },
     {
-      "title": "Russia launches missile strikes on Kyiv and surrounding region, killing at least eight",
-      "summary": "Apartment blocks and warehouses were targeted in the \"massive attack\" on Thursday, according to the State Emergency Service of Ukraine.",
-      "link": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+      "title": "Travelodge boss resigns as chain tackles security after sex assault at hotel",
+      "summary": "Jo Boydell had been criticised for the company's handling of issues with its safety and security.",
+      "link": "https://www.bbc.co.uk/news/articles/c2k7e7zwxvyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-08-20T05:25:23",
-      "audio": "audio/Russia launches missile strikes on Kyiv and surrou.mp3"
+      "date": "2026-08-20T10:05:24",
+      "audio": "audio/Travelodge boss resigns as chain tackles security .mp3"
     },
     {
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-      "link": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "source": "Ars Technica",
-      "date": "2026-08-20T00:18:48",
-      "audio": "audio/NASA calls off mission to rescue Swift gamma-ray o.mp3"
+      "title": "Meta AI’s new Mac app wants you to talk to your apps",
+      "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+      "link": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "source": "TechCrunch",
+      "date": "2026-08-20T12:11:57",
+      "audio": "audio/Meta AI_s new Mac app wants you to talk to your ap.mp3"
     },
     {
-      "title": "Ukraine’s Ex-Defense Minister Calls for Election, Cementing Break With Zelensky",
-      "summary": "Mykhailo Fedorov, a popular young leader who was fired last month, said Russia should not be allowed to dictate when Ukrainians can choose their next government.",
-      "link": "https://www.nytimes.com/2026/08/19/world/europe/ukraine-fedorov-zelensky-elections.html",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "link": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "source": "TechCrunch",
+      "date": "2026-08-20T09:30:00",
+      "audio": "audio/Binance now lets AI agents trade_ but keeping them.mp3"
+    },
+    {
+      "title": "Meta glasses are a workplace menace",
+      "summary": "In August, Toru Hinkle was stocking shelves at their job at Target when they noticed two customers and asked if they needed any help. The men requested a price check on an item - but even after Hinkle told them the item was $20, the customers asked for the price again and again. \"After a [&#8230;]",
+      "link": "https://www.theverge.com/report/982414/meta-glasses-work-surveillance-labor-security",
+      "source": "The Verge",
+      "date": "2026-08-20T12:00:00",
+      "audio": "audio/Meta glasses are a workplace menace.mp3"
+    },
+    {
+      "title": "Slack is launching collaborative vibe-coding channels",
+      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "source": "The Verge",
+      "date": "2026-08-20T12:00:00",
+      "audio": "audio/Slack is launching collaborative vibe-coding chann.mp3"
+    },
+    {
+      "title": "I ruined my cats’ toilet time with a motion-activated neon litter box sign",
+      "summary": "My two cats live a refreshingly low-tech lifestyle. They've never experienced a robot litter box, an automated feeder, or a GPS tracker. Noodle and Loaf live blissfully unaware of the technological trappings that surround the rest of my life. Except, that is, for the glowing neon sign that turns on whenever they go to the [&#8230;]",
+      "link": "https://www.theverge.com/gadgets/978782/cat-litterbox-motion-activated-neon-on-air-sign",
+      "source": "The Verge",
+      "date": "2026-08-20T11:30:00",
+      "audio": "audio/I ruined my cats_ toilet time with a motion-activa.mp3"
+    },
+    {
+      "title": "Bare Grocery Shelves Are a New Wartime Hardship for Ukrainians",
+      "summary": "After years of pounding power plants and cities, Russia’s air war has taken aim at Ukraine’s supermarket warehouses.",
+      "link": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-grocery-stores-shortages.html",
       "source": "NYT World",
-      "date": "2026-08-19T12:53:51",
-      "audio": "audio/Ukraine_s Ex-Defense Minister Calls for Election_ .mp3"
+      "date": "2026-08-20T09:28:09",
+      "audio": "audio/Bare Grocery Shelves Are a New Wartime Hardship fo.mp3"
     },
     {
-      "title": "UK cinemas consider ban on Meta glasses",
-      "summary": "Cinemas are considering a ban on Meta AI glasses amid piracy concerns.",
-      "link": "https://news.sky.com/story/uk-cinemas-consider-ban-on-meta-glasses-13574686",
+      "title": "Russian Missiles Kill at Least 15 in Kyiv as Air Defenses Dwindle",
+      "summary": "Moscow is taking advantage of Ukraine’s depleted stock of interceptors and is intensifying attacks, worsening the civilian death toll.",
+      "link": "https://www.nytimes.com/2026/08/20/world/europe/ukraine-kyiv-missiles-russia-war.html",
+      "source": "NYT World",
+      "date": "2026-08-20T12:13:01",
+      "audio": "audio/Russian Missiles Kill at Least 15 in Kyiv as Air D.mp3"
+    },
+    {
+      "title": "As Iran and U.S. Settle Into an Uneasy Standoff, Who Will Blink First?",
+      "summary": "For weeks, there has been no diplomatic progress, but also no full-scale fighting, as both sides seem to believe they can hold out longer than the other.",
+      "link": "https://www.nytimes.com/2026/08/20/world/middleeast/iran-us-war-standoff-hormuz.html",
+      "source": "NYT World",
+      "date": "2026-08-20T09:04:07",
+      "audio": "audio/As Iran and U_S_ Settle Into an Uneasy Standoff_ W.mp3"
+    },
+    {
+      "title": "Travelodge boss quits amid guest sex assault row",
+      "summary": "The boss of Travelodge has quit amid a backlash over the chain's handling of a sexual assault at one of its hotels.",
+      "link": "https://news.sky.com/story/travelodge-boss-jo-boydell-quits-amid-guest-sex-assault-row-13574911",
       "source": "Sky News (UK)",
-      "date": "2026-08-19T11:44:00",
-      "audio": "audio/UK cinemas consider ban on Meta glasses.mp3"
+      "date": "2026-08-20T07:04:00",
+      "audio": "audio/Travelodge boss quits amid guest sex assault row.mp3"
     },
     {
-      "title": "'Don't rape, sexually assault or make kissing noises' at people, asylum seekers warned in new guidance about living in UK",
-      "summary": "A guide for asylum seekers published by the Home Office has told them not to rape or sexually harass people, including partners and children.",
-      "link": "https://news.sky.com/story/asylum-seekers-warned-not-to-make-kissing-sounds-at-people-in-new-guidance-about-living-in-uk-13574744",
+      "title": "Thug pictured sticking his tongue out jailed for brutal strangle attack on woman",
+      "summary": "A man who kicked and strangled a woman twice before the escaped and fled to a petrol station has been jailed for nearly three years.",
+      "link": "https://news.sky.com/story/thug-pictured-sticking-his-tongue-out-jailed-for-brutal-strangle-attack-13574986",
       "source": "Sky News (UK)",
-      "date": "2026-08-19T14:34:00",
-      "audio": "audio/Don_t rape_ sexually assault or make kissing nois.mp3"
+      "date": "2026-08-20T10:51:00",
+      "audio": "audio/Thug pictured sticking his tongue out jailed for b.mp3"
     },
     {
-      "title": "'Children should never vape': Doctors sound alarm over wide range of health impacts",
-      "summary": "Doctors have raised the alarm about the growing prevalence of vaping among children after studies showed it was linked to a raft of health issues.",
-      "link": "https://news.sky.com/story/doctors-sound-alarm-over-children-vaping-as-studies-find-wide-range-of-health-impacts-13574877",
-      "source": "Sky News (UK)",
-      "date": "2026-08-20T02:06:00",
-      "audio": "audio/Children should never vape__ Doctors sound alarm .mp3"
-    },
-    {
-      "title": "Israeli military launches criminal probes into killings of 5-year-old and paramedics",
-      "summary": "Israel's military on Wednesday announced its first criminal investigations into troop conduct in Gaza, focusing on the killings of 5-year-old Hind Rajab and her family and of 15 Palestinian paramedics.",
-      "link": "https://www.npr.org/2026/08/20/nx-s1-5939310/israeli-military-criminal-probes",
+      "title": "U.S. debt tops $40 trillion. And, new census report Trump is touting raises concerns",
+      "summary": "The U.S. debt has surpassed $40 trillion. And, a new census report on noncitizen voting that President Trump is touting has ties to a think tank aligned with him, raising concerns among experts.",
+      "link": "https://www.npr.org/2026/08/20/g-s1-139388/up-first-newsletter-us-debt-venezuela-oil-deals-census-bureau-trump-voting-claims",
       "source": "NPR (US)",
-      "date": "2026-08-20T05:50:53",
-      "audio": "audio/Israeli military launches criminal probes into kil.mp3"
+      "date": "2026-08-20T11:30:18",
+      "audio": "audio/U_S_ debt tops _40 trillion_ And_ new census repor.mp3"
     },
     {
-      "title": "Busan Festival Honors Ahn Sung-ki, Market Names Thailand Country of Honor",
-      "summary": "The 31st Busan International Film Festival (BIFF) has unveiled a Special Program in Focus honoring the late Korean screen legend Ahn Sung-ki, while the festival&#8217;s market arm has named Thailand the first-ever recipient of a new top-tier country partnership. &#8220;Those Beautiful Years, Ahn Sung-ki&#8221; serves as the grand finale to the nationwide tributes paid to [&#8230;]",
-      "link": "https://variety.com/2026/film/markets-festivals/busan-festival-honor-ahn-sung-ki-market-thailand-country-of-honor-1236838811/",
+      "title": "North Korea fires a suspected missile toward the sea, Japan says",
+      "summary": "The suspected launch on Thursday comes a day after North Korea shrugged off a U.S. decision to scale back military drills with South Korea in an apparent bid to resume diplomacy.",
+      "link": "https://www.npr.org/2026/08/20/g-s1-139381/north-korea-suspected-missile",
+      "source": "NPR (US)",
+      "date": "2026-08-20T09:24:45",
+      "audio": "audio/North Korea fires a suspected missile toward the s.mp3"
+    },
+    {
+      "title": "Privacy advocates call on Maryland to investigate data brokers",
+      "summary": "Maryland has one of the strictest data privacy laws in the country. But privacy advocates allege data brokers are violating the law by selling data to police and federal immigration agencies.",
+      "link": "https://www.npr.org/2026/08/20/nx-s1-5938822/maryland-privacy-data-brokers",
+      "source": "NPR (US)",
+      "date": "2026-08-20T09:00:00",
+      "audio": "audio/Privacy advocates call on Maryland to investigate .mp3"
+    },
+    {
+      "title": "Charter Closes $34.5 Billion Cox Deal in Cable Megamerger, Company to Adopt Cox Communications Name",
+      "summary": "Charter Communications, already the No. 1 cable operator in the U.S., closed its acquisition of Cox Communications, creating a cable giant with operations in 45 states serving roughly 37 million customers. The closing of the deal, valued at $34.5 billion, comes after the California Public Utility Commission (CPUC) last week voted to approve the transaction, [&#8230;]",
+      "link": "https://variety.com/2026/tv/news/charter-closes-cox-merger-new-company-name-1236838902/",
       "source": "Variety (US)",
-      "date": "2026-08-20T05:32:22",
-      "audio": "audio/Busan Festival Honors Ahn Sung-ki_ Market Names Th.mp3"
+      "date": "2026-08-20T12:03:25",
+      "audio": "audio/Charter Closes _34_5 Billion Cox Deal in Cable Meg.mp3"
     },
     {
-      "title": "Manoj Bajpayee, Sudhir Mishra, Anubhav Sinha’s Gandhi Film Unveils Plot, Adds Saurabh Shukla, Narendra Hirawat (EXCLUSIVE)",
-      "summary": "Indian thespian Manoj Bajpayee&#8217;s first screen portrayal of Mahatma Gandhi will focus on a previously undisclosed chapter of India&#8217;s independence history, according to new details released on the Sudhir Mishra-directed film. Saurabh Shukla has joined the cast, and Narendra Hirawat and NH Studioz have come aboard as producer and presenter, respectively, alongside Anubhav Sinha&#8217;s Benaras [&#8230;]",
-      "link": "https://variety.com/2026/film/news/manoj-bajpayee-gandhi-film-plot-cast-producer-1236838081/",
+      "title": "Christine Vachon on Why Landing Pedro Pascal to Replace Joaquin Phoenix in ‘De Noche’ Gave Todd Haynes the ‘Happy Ending’ He Deserved",
+      "summary": "&#8220;Being a film producer is like childbirth. You really have to forget the pain or else you wouldn&#8217;t keep doing it.&#8221; So claimed Christine Vachon, speaking at the Variety Lounge at Edinburgh International Film Festival, where the prolific indie film icon gave a brief insight into the pain — but also joy — of producing. It&#8217;s something she&#8217;s famously [&#8230;]",
+      "link": "https://variety.com/2026/film/global/christine-vachon-pedro-pascal-joaquin-phoenix-de-noche-1236838882/",
       "source": "Variety (US)",
-      "date": "2026-08-20T05:30:00",
-      "audio": "audio/Manoj Bajpayee_ Sudhir Mishra_ Anubhav Sinha_s Gan.mp3"
+      "date": "2026-08-20T12:02:44",
+      "audio": "audio/Christine Vachon on Why Landing Pedro Pascal to Re.mp3"
     },
     {
-      "title": "Josh Radnor Is ‘Not Even a Little Bit’ Close to His ‘How I Met Your Mother’ Co-Stars: ‘You Just Go Out and Live Your Life’",
-      "summary": "Josh Radnor recently told the “Half the Picture” podcast that he is “not even a little bit” close to his “How I Met Your Mother” co-stars, despite filming together for 208 episodes across 9 seasons. When asked if he’s still tight with his “How I Met Your Mother” family, Radnor said, “No. Not even a [&#8230;]",
-      "link": "https://variety.com/2026/tv/news/josh-radnor-not-close-how-i-met-your-mother-co-stars-1236838802/",
+      "title": "Mubi Set to Stream Manuela Martelli’s ‘The Meltdown’ After Its Screening at San Sebastián (EXCLUSIVE)",
+      "summary": "Global film distributor and production company Mubi has picked up “The Meltdown” (“El Deshielo”) by Chile’s Manuela Martelli (“Chile’76”), which world premiered at the Un Certain Regard sidebar at Cannes last May. Mubi plans to stream Martelli’s latest drama later this year after it screens at the San Sebastian Film Festival’s Horizontes Latinos strand in [&#8230;]",
+      "link": "https://variety.com/2026/film/global/manuela-martelli-the-meltdown-mubi-san-sebastian-festival-1236838772/",
       "source": "Variety (US)",
-      "date": "2026-08-20T04:37:05",
-      "audio": "audio/Josh Radnor Is _Not Even a Little Bit_ Close to Hi.mp3"
+      "date": "2026-08-20T11:56:16",
+      "audio": "audio/Mubi Set to Stream Manuela Martelli_s _The Meltdow.mp3"
     },
     {
-      "title": "Russian missile attack on Kyiv kills 12 and injures dozens",
+      "title": "Sen Morimoto Readies New Album Time Is on Your Side",
+      "summary": "Join the versatile singer-songwriter in a woodsy video for single “Overthinker”",
+      "link": "https://pitchfork.com/story/sen-morimoto-readies-new-album-time-is-on-your-side/",
+      "source": "Pitchfork",
+      "date": "2026-08-20T12:01:37",
+      "audio": "audio/Sen Morimoto Readies New Album Time Is on Your Sid.mp3"
+    },
+    {
+      "title": "Dart services suspended due to ‘major signalling’ issue",
       "summary": "",
-      "link": "https://www.independent.ie/world-news/russian-missile-attack-on-kyiv-kills-12-and-injures-dozens/a/160258463.html",
+      "link": "https://www.independent.ie/irish-news/dart-services-suspended-due-to-major-signalling-issue/a/160279337.html",
       "source": "Irish Independent",
-      "date": "2026-08-20T06:10:00",
-      "audio": "audio/Russian missile attack on Kyiv kills 12 and injure.mp3"
+      "date": "2026-08-20T12:07:04",
+      "audio": "audio/Dart services suspended due to _major signalling_ .mp3"
     },
     {
-      "title": "Limerick among Ireland’s top performers as local businesses create over 500 new jobs",
+      "title": "Dáil recall over fuel interventions ‘under review’, Minister Peter Burke says",
       "summary": "",
-      "link": "https://www.independent.ie/county/limerick/limerick-among-irelands-top-performers-as-local-businesses-create-over-500-new-jobs/a/160223271.html",
+      "link": "https://www.independent.ie/irish-news/dail-recall-over-fuel-interventions-under-review-minister-peter-burke-says/a/160263041.html",
       "source": "Irish Independent",
-      "date": "2026-08-20T06:00:00",
-      "audio": "audio/Limerick among Ireland_s top performers as local b.mp3"
+      "date": "2026-08-20T12:00:00",
+      "audio": "audio/Dáil recall over fuel interventions _under review.mp3"
     },
     {
-      "title": "Limerick duo rise to the challenge as they reach national brown bread finals",
-      "summary": "",
-      "link": "https://www.independent.ie/county/limerick/limerick-duo-rise-to-the-challenge-as-they-reach-national-brown-bread-finals/a/160219936.html",
+      "title": "Claremorris LGFA voice support for player seriously injured in M9 crash",
+      "summary": "Niamh Kinsella wished well by Claremorris LGFA after being injured in M9 crash which claimed five lives",
+      "link": "https://www.independent.ie/county/mayo/claremorris-lgfa-voice-support-for-player-seriously-injured-in-m9-crash/a/160259412.html",
       "source": "Irish Independent",
-      "date": "2026-08-20T06:00:00",
-      "audio": "audio/Limerick duo rise to the challenge as they reach n.mp3"
+      "date": "2026-08-20T12:00:00",
+      "audio": "audio/Claremorris LGFA voice support for player seriousl.mp3"
     },
     {
-      "title": "Watermelons in Bristol: how UK heatwaves are affecting growers",
-      "summary": "Most allotment holders say the heat has meant more work for smaller crops, although some have found a silver liningAfter a summer of repeated heatwaves and exceptionally dry weather in the UK, rain has brought some relief this week, but drought remains widespread and experts warn it will take weeks of sustained rainfall for water supplies to recover.For people growing their own fruit and vegetables, it has been a challenging and sometimes surpris",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/aug/20/watermelons-in-bristol-how-uk-heatwaves-are-affecting-growers",
+      "title": "Mark Zuckerberg buys Co. Waterford castle",
+      "summary": "The Meta mogul purchased Strancally Castle and its 440-acre estate, originally built around 1830.",
+      "link": "https://www.hotpress.com/opinion/mark-zuckerberg-buys-co-waterford-castle-23157792",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-08-20T12:01:53",
+      "audio": "audio/Mark Zuckerberg buys Co_ Waterford castle.mp3"
+    },
+    {
+      "title": "Major gig announcement teased for Aviva Stadium – with emojis hinting at Noah Kahan",
+      "summary": "The American singer-songwriter could be preparing to bring &lt;i&gt;The Great Divide&lt;/i&gt; tour to Ireland in 2027.",
+      "link": "https://www.hotpress.com/music/major-gig-announcement-teased-for-aviva-stadium-with-emojis-hinting-at-noah-kahan-23157823",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-08-20T11:49:52",
+      "audio": "audio/Major gig announcement teased for Aviva Stadium _ .mp3"
+    },
+    {
+      "title": "Netflix announce documentary about \"one-of-a-kind\" Wu-Tang Clan album",
+      "summary": "&lt;i&gt;One Upon a Time in Shaolin&lt;/i&gt; is the most expensive album ever sold, and barely anyone has heard it.",
+      "link": "https://www.hotpress.com/film-tv/netflix-announce-documentary-about-one-of-a-kind-wu-tang-clan-album-23157775",
+      "source": "Hot Press (Ireland)",
+      "date": "2026-08-20T11:42:44",
+      "audio": "audio/Netflix announce documentary about _one-of-a-kind.mp3"
+    },
+    {
+      "title": "Humans have learned to fear ‘bugs’, but we shouldn’t – life as we know it hinges on invertebrates | Chris Packham",
+      "summary": "At this point of the crisis in our relations with the natural world, we’ve got to protect these creatures – and we are running out of timeRead more from the Guardian’s invertebrate of the year 2026Too many animals are regarded as “bugs”. And, if anything is a bug, it is a short step to it becoming a “pest”.",
+      "link": "https://www.theguardian.com/commentisfree/2026/aug/20/humans-bugs-invertebrates-of-the-year-natural-world-chris-packham",
       "source": "The Guardian UK",
-      "date": "2026-08-20T05:00:43",
-      "audio": "audio/Watermelons in Bristol_ how UK heatwaves are affec.mp3"
+      "date": "2026-08-20T11:00:50"
     },
     {
-      "title": "From bone-dry to soaked to the bone, welcome to the age of climate whiplash | Aditya Chakrabortty",
-      "summary": "This punishingly hot and dry summer will probably be followed by another wet winter. But it’s nothing compared with what Britain will endure in years to comeThis summer could be the hottest, driest and deadliest in English history. Successive heatwaves have so far claimed almost 3,000 lives.",
-      "link": "https://www.theguardian.com/commentisfree/2026/aug/20/hot-summer-wet-winter-welcome-to-the-age-of-climate-whiplash",
+      "title": "‘It was a damn unicorn’: the pioneering, divisive power of Paul Simon’s Graceland at 40",
+      "summary": "On its anniversary, the author of a new book about the album explains the complex legacy and masterful musicianship of the 1986 classicIt was the summer of 1984 and things weren’t going well for Paul Simon. The year prior, a blockbuster Simon and Garfunkel tour ended in bickering.",
+      "link": "https://www.theguardian.com/music/2026/aug/20/paul-simon-graceland-anniversary",
       "source": "The Guardian UK",
-      "date": "2026-08-20T05:00:43",
-      "audio": "audio/From bone-dry to soaked to the bone_ welcome to th.mp3"
+      "date": "2026-08-20T09:00:48"
     },
     {
-      "title": "The threatening thaw: climate professor on heatwave risks to tipping point of permafrost",
-      "summary": "Prof Gustaf Hugelius warns wildfires could accelerate release of methane and carbon as vast regions approach irreversible thresholdsHeatwaves and wildfires are not just scorching forests, they are adding to the tipping point risks in the world’s vast permafrost regions, which contain three times more carbon than all the living vegetation on Earth.This is a major concern for Gustaf Hugelius, a professor at the Bolin Centre of Climate Research at S",
-      "link": "https://www.theguardian.com/environment/2026/aug/20/tipping-points-heatwaves-wildfires-permafrost-climate-crisis",
+      "title": "‘Are you ready for some filth?’ Julian Clary and more on comedy’s great smut explosion",
+      "summary": "Clary’s back with Fully Dilated, a burlesque star called Entendre Entendre is doing lewd singalongs and there’s an A-Z of very dirty words. Our writer investigates Edinburgh’s smut outbreak – and ends up getting his own fantasies turned into eroticaOn a street in Edinburgh, a woman I’ve only just met is quizzing me on my sexual fantasies. “Do you want softcore or hardcore?",
+      "link": "https://www.theguardian.com/stage/2026/aug/20/julian-clary-fully-dilated-smut-edinburgh-fringe-comedy-entendre",
       "source": "The Guardian UK",
-      "date": "2026-08-20T04:00:43",
-      "audio": "audio/The threatening thaw_ climate professor on heatwav.mp3"
+      "date": "2026-08-20T04:00:41"
     },
     {
-      "title": "OpenAI announces slowing pace of development after hack by rogue agent",
-      "summary": "Amid race with Anthropic, firm plans to overhaul research and training and require more safety parameters after hackOpenAI on ⁠Tuesday said it had slowed down the ⁠pace of ⁠its ​AI development while it overhauled its ⁠research and training systems.The company’s researchers were ⁠caught unaware last month ​when an ‌AI agent ‌under testing hacked another AI ‌firm, Hugging Face. Continue reading...",
-      "link": "https://www.theguardian.com/technology/2026/aug/18/open-ai-pause-hack",
+      "title": "We are finally witnessing the decline of corporate Democrats | Robert Reich",
+      "summary": "Americans are backing progressives not because they want socialism, but because they want candidates who will fight for the working classMost discussions about the Democratic party in this election cycle focus on the remarkable rise of progressive Democrats, such as the Florida state representative Angie Nixon, a democratic socialist who scored an upset win in the Democratic US Senate primary on Tuesday.But an equally big story is the remarkable ",
+      "link": "https://www.theguardian.com/commentisfree/2026/aug/20/corporate-democrats-decline",
+      "source": "The Guardian US",
+      "date": "2026-08-20T10:00:49",
+      "audio": "audio/We are finally witnessing the decline of corporate.mp3"
+    },
+    {
+      "title": "Winner of Invertebrate of the Year 2026 crowned – and it is the size of a grain of rice",
+      "summary": "The leaf sheep, a neon green solar-powered slug, has inspired at least one Pokémon character and triumphs in global ballotA neon green solar-powered slug that lives underwater is the winner of the increasingly popular Invertebrate of the Year competition run by the Guardian.The leaf sheep, Costasiella kuroshimae, triumphed in the global ballot after hundreds of thousands of readers around the world read about and shared their appreciation for the",
+      "link": "https://www.theguardian.com/environment/2026/aug/20/winner-invertebrate-of-the-year-2026-crowned-leaf-sheep",
+      "source": "The Guardian US",
+      "date": "2026-08-20T11:00:50",
+      "audio": "audio/Winner of Invertebrate of the Year 2026 crowned _ .mp3"
+    },
+    {
+      "title": "Zuckerberg lied about concern for child safety, Meta whistleblower testifies at landmark trial",
+      "summary": "Arturo Béjar, former Meta safety engineer, tells jury tech company was aware of products’ potential harm to childrenMeta has taken a “don’t ask, don’t tell” strategy when it comes to the safety of children on its social media platforms, according to a whistleblower who testified during a landmark trial against the company on Tuesday and Wednesday.Arturo Béjar, a former Meta safety engineer, told the jury that the company was aware of the harm its",
+      "link": "https://www.theguardian.com/technology/2026/aug/19/meta-safety-trial-whistleblower-testimony",
       "source": "The Guardian Tech",
-      "date": "2026-08-18T20:47:17",
-      "audio": "audio/OpenAI announces slowing pace of development after.mp3"
+      "date": "2026-08-19T21:30:11",
+      "audio": "audio/Zuckerberg lied about concern for child safety_ Me.mp3"
     },
     {
-      "title": "Social media on trial as $200bn case against Facebook and Instagram begins",
-      "summary": "Twenty-nine US states are seeking huge damages, claiming Meta’s platforms were addictive by designIn 1994, more than 40 US states came together to sue one of the most powerful industries on Earth: big tobacco.The suits brought together diverse claims centred on tobacco companies’ misleading advertising and contribution to a mounting public health crisis.",
-      "link": "https://www.theguardian.com/technology/2026/aug/18/meta-facebook-instagram-trial",
+      "title": "Roblox commits to privacy overhaul after eSafety discovers adults can contact children via gaming platform",
+      "summary": "Regulator says verifiable safety measures are ‘critical’ to the online service’s viabilityFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastRoblox has committed to making changes to its online gaming platform after Australia’s eSafety commissioner discovered adults were still able to see child accounts and send connection requests without parental consent.The company has provided a le",
+      "link": "https://www.theguardian.com/australia-news/2026/aug/20/roblox-esafety-commissioner-children-adults-ntwnfb",
       "source": "The Guardian Tech",
-      "date": "2026-08-18T18:27:09",
-      "audio": "audio/Social media on trial as _200bn case against Faceb.mp3"
+      "date": "2026-08-19T15:00:17",
+      "audio": "audio/Roblox commits to privacy overhaul after eSafety d.mp3"
     },
     {
-      "title": "Gardai dismiss claims sixth person was in car before M9 crash killing five teens",
-      "summary": "The force confirmed they are focused solely on the movements of the five teenagers killed in the fatal Kildare crash",
-      "link": "https://www.dublinlive.ie/news/gardai-dismiss-claims-sixth-person-34486748",
+      "title": "It used to be our imperfect bodies that made us insecure. With AI, it’s our minds as well",
+      "summary": "For most of modern history, technology sought to imitate humans. Humans increasingly seek to imitate technologyTwo faces that appeared on my Instagram feed in recent months gave me pause. One belonged to John Travolta at Cannes.",
+      "link": "https://www.theguardian.com/commentisfree/2026/aug/20/bodies-ai-minds-history-technology-humans",
+      "source": "The Guardian Tech",
+      "date": "2026-08-20T04:00:42",
+      "audio": "audio/It used to be our imperfect bodies that made us in.mp3"
+    },
+    {
+      "title": "“Lemme guess, you got Che Guevara and Malcolm X on your shelf, maybe even Fred Hampton, but at the end of the day you get in the Lamborghini and put your kids in private school”: Charlie Crokett gets personal in playground tussle with Jack White",
+      "summary": "Argument broke out over ‘Satanic’ support act",
+      "link": "https://www.musicradar.com/artists/singers-songwriters/lemme-guess-you-got-che-guevara-and-malcolm-x-on-your-shelf-maybe-even-fred-hampton-but-at-the-end-of-the-day-you-get-in-the-lamborghini-and-put-your-kids-in-private-school-charlie-crokett-gets-personal-in-playground-tussle-with-jack-white",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-20T11:30:21",
+      "audio": "audio/Lemme guess_ you got Che Guevara and Malcolm X on.mp3"
+    },
+    {
+      "title": "A dream machine for Gretsch superfans, this limited run Penguin is refreshed in Pale Blue Pearl with Bigsby and Ful-Fidelity FilterTrons – and it is one sweet songbird",
+      "summary": "A Professional Series Penguin for those serious about Gretsch sounds with a few bucks to spare on a big budget bird",
+      "link": "https://www.musicradar.com/guitars/gretsch-limited-edition-penguin-pale-blue-pearl-with-bigsby",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-20T09:18:16",
+      "audio": "audio/A dream machine for Gretsch superfans_ this limite.mp3"
+    },
+    {
+      "title": "“People look down on stuff that sells. What do you call that? Downward snobbery I guess”: Revisiting our classic interview with the legendary Lemmy",
+      "summary": "Back in 2012 we spoke to the late Motorhead mainman about his other great passion - rockabilly",
+      "link": "https://www.musicradar.com/artists/people-look-down-on-stuff-that-sells-what-do-you-call-that-downward-snobbery-i-guess-revisiting-our-classic-interview-with-the-legendary-lemmy",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-20T08:52:31",
+      "audio": "audio/People look down on stuff that sells_ What do you.mp3"
+    },
+    {
+      "title": "Joyriders crash after driving wrong way on M50 and N3 - just days after M9 collision",
+      "summary": "The terrifying incident took place at around 3:30 am on Thursday - just days after five teens were killed in a head-on collision",
+      "link": "https://www.dublinlive.ie/news/dublin-news/joyriders-crash-after-driving-wrong-34490176",
       "source": "Dublin Live News",
-      "date": "2026-08-20T03:00:00",
-      "audio": "audio/Gardai dismiss claims sixth person was in car befo.mp3"
+      "date": "2026-08-20T12:03:46",
+      "audio": "audio/Joyriders crash after driving wrong way on M50 and.mp3"
     },
     {
-      "title": "NCT 127 Hits ‘Kick It’ And ‘Piñata’ Medley on ‘AGT’: Watch",
-      "summary": "NCT 127 dazzled and rapper Luke Taleno advanced to the semis during Wednesday night's \"AGT\" results show.",
-      "link": "https://www.billboard.com/music/pop/nct-127-kick-it-pinata-medley-agt-1236320657/",
-      "source": "Billboard (US)",
-      "date": "2026-08-20T04:59:12",
-      "audio": "audio/NCT 127 Hits _Kick It_ And _Piñata_ Medley on _AGT.mp3"
+      "title": "Mum who suffered brutal baby pram crash speaks out after M9 crash horror",
+      "summary": "A mum, who was struck by a car while walking her baby in a pram last October, speaks out after the tragic M9 crash in Co Kildare reignited her own road safety trauma",
+      "link": "https://www.dublinlive.ie/news/mum-who-suffered-brutal-baby-34489745",
+      "source": "Dublin Live News",
+      "date": "2026-08-20T11:48:46",
+      "audio": "audio/Mum who suffered brutal baby pram crash speaks out.mp3"
     },
     {
-      "title": "BMG Signs Anna Lunoe to Worldwide Publishing Deal",
-      "summary": "“Super excited to be kickstarting a new era for my music with the BMG family,” comments Lunoe.",
-      "link": "https://www.billboard.com/pro/bmg-signs-anna-lunoe-worldwide-publishing-deal/",
-      "source": "Billboard (US)",
-      "date": "2026-08-20T03:28:48",
-      "audio": "audio/BMG Signs Anna Lunoe to Worldwide Publishing_Deal.mp3"
+      "title": "Dad, 41, died after plummeting from cliff on Spanish holiday, inquest hears",
+      "summary": "The coroner said it was a 'tragic accident' that led to Ben Clark's death",
+      "link": "https://www.dublinlive.ie/news/world-news/dad-41-died-after-plummeting-34489294",
+      "source": "Dublin Live News",
+      "date": "2026-08-20T11:04:36",
+      "audio": "audio/Dad_ 41_ died after plummeting from cliff on Spani.mp3"
     },
     {
-      "title": "‘This Is Definitely An Up’: Evanescence’s Amy Lee Reflects on Latest Album ‘Sanctuary’ And World Tour",
-      "summary": "\"It's a lot to sum up, but it's been emotional in a very beautiful, connected way,\" Amy Lee says of this latest phase of Evanescence.",
-      "link": "https://www.billboard.com/music/rock/evanescence-amy-lee-interview-sanctuary-world-tour-1236320633/",
+      "title": "Phoebe Bridgers Plays Haunting Acoustic Cover of Nirvana’s ‘Lithium’ for BBC Radio 1 Live Lounge: Listen",
+      "summary": "She also ran through her own \"Lost Boys\" and \"Bobby\" from her just-released Lost Weekend album.",
+      "link": "https://www.billboard.com/music/rock/phoebe-bridgers-acoustic-cover-nirvana-lithium-bbc-radio-1-1236320763/",
       "source": "Billboard (US)",
-      "date": "2026-08-20T02:47:19",
-      "audio": "audio/This Is Definitely An Up__ Evanescence_s Amy Lee .mp3"
+      "date": "2026-08-20T11:50:42",
+      "audio": "audio/Phoebe Bridgers Plays Haunting Acoustic Cover of N.mp3"
+    },
+    {
+      "title": "Weezer’s Rivers Cuomo Showed Up on Late Night TV Painted In Gold",
+      "summary": "The band performed \"Gold Album\" cut \"We Might as Well Be Strangers\" on \"The Tonight Show.\"",
+      "link": "https://www.billboard.com/music/rock/weezer-rivers-cuomo-late-night-tv-painted-in-gold-1236320736/",
+      "source": "Billboard (US)",
+      "date": "2026-08-20T09:32:45",
+      "audio": "audio/Weezer_s Rivers Cuomo Showed Up on Late Night TV P.mp3"
+    },
+    {
+      "title": "Fcukers & Jim Legxacy Lead 2026 Independent Music Awards Nominations: See the Full List",
+      "summary": "The ceremony will take place at London's Roundhouse in September.",
+      "link": "https://www.billboard.com/music/awards/fcukers-2026-independent-music-awards-nominations-list-1236294481/",
+      "source": "Billboard (US)",
+      "date": "2026-08-20T08:00:00",
+      "audio": "audio/Fcukers _ Jim Legxacy Lead 2026 Independent Music .mp3"
+    },
+    {
+      "title": "Tom Morello Preps For His First-Ever Solo Rock Album - Interview",
+      "summary": "Danny Clinch",
+      "link": "https://loudwire.com/tom-morello-new-solo-rock-album-interview/",
+      "source": "Loudwire (US)",
+      "date": "2026-08-20T11:24:26",
+      "audio": "audio/Tom Morello Preps For His First-Ever Solo Rock Alb.mp3"
+    },
+    {
+      "title": "KISS’ 1976 Anaheim Stadium Conquest Finally Gets Its Due",
+      "summary": "The show has long circulated in bootleg form, but as of tomorrow, fans can finally own the pristine, buffed- and beefed-up audio of that night.",
+      "link": "https://www.spinmagazine.com/2026/08/kiss-1976-anaheim-stadium-reissue/",
+      "source": "Spin Magazine (US)",
+      "date": "2026-08-20T12:00:00",
+      "audio": "audio/KISS_ 1976 Anaheim Stadium Conquest Finally Gets I.mp3"
+    },
+    {
+      "title": "Footage unearthed from drama student who filmed Jimi Hendrix’s Woodstock performance from the stage",
+      "summary": "The newly-discovered footage is being shown in new concert film celebrating 57 years since the iconic set The post Footage unearthed from drama student who filmed Jimi Hendrix’s Woodstock performance from the stage appeared first on NME.",
+      "link": "https://www.nme.com/news/music/footage-unearthed-from-drama-student-who-filmed-jimi-hendrixs-woodstock-performance-from-the-stage-3963821?utm_source=rss&utm_medium=rss&utm_campaign=footage-unearthed-from-drama-student-who-filmed-jimi-hendrixs-woodstock-performance-from-the-stage",
+      "source": "NME News (UK)",
+      "date": "2026-08-20T11:54:04",
+      "audio": "audio/Footage unearthed from drama student who filmed Ji.mp3"
+    },
+    {
+      "title": "Rex Orange County reunited with Daniel Caesar for soulful new single ‘Indecision’",
+      "summary": "The new track arrives ahead of the British singer-songwriter joining Tyler, The Creator at his All Points East shows next week The post Rex Orange County reunited with Daniel Caesar for soulful new single &#8216;Indecision&#8217; appeared first on NME.",
+      "link": "https://www.nme.com/news/music/rex-orange-county-reunited-with-daniel-caesar-for-soulful-new-single-indecision-3963798?utm_source=rss&utm_medium=rss&utm_campaign=rex-orange-county-reunited-with-daniel-caesar-for-soulful-new-single-indecision",
+      "source": "NME News (UK)",
+      "date": "2026-08-20T10:18:46",
+      "audio": "audio/Rex Orange County reunited with Daniel Caesar for .mp3"
+    },
+    {
+      "title": "Here’s Phoebe Bridgers covering Nirvana’s ‘Lithium’ for the BBC Radio 1 Live Lounge",
+      "summary": "The artist also played two tracks from her new album 'Lost Weekend' The post Here&#8217;s Phoebe Bridgers covering Nirvana&#8217;s &#8216;Lithium&#8217; for the BBC Radio 1 Live Lounge appeared first on NME.",
+      "link": "https://www.nme.com/news/music/heres-phoebe-bridgers-covering-nirvanas-lithium-for-the-bbc-radio-1-live-lounge-3963782?utm_source=rss&utm_medium=rss&utm_campaign=heres-phoebe-bridgers-covering-nirvanas-lithium-for-the-bbc-radio-1-live-lounge",
+      "source": "NME News (UK)",
+      "date": "2026-08-20T09:57:29",
+      "audio": "audio/Here_s Phoebe Bridgers covering Nirvana_s _Lithium.mp3"
     }
   ]
 }
