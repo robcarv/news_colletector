@@ -1,305 +1,513 @@
 {
-  "updated": "2026-08-30T06:17:22.374994+00:00",
-  "total_pt": 12,
-  "total_en": 25,
+  "updated": "2026-08-30T12:18:45.333841+00:00",
+  "total_pt": 21,
+  "total_en": 42,
   "pt": [
     {
-      "title": "Judô estreia no Spaten Fight com vitória de Rafaela Silva e derrota de Bia Souza",
-      "summary": "Na estreia do judô na terceira edição do Spaten Fight Night, o Brasil teve uma vitória com Rafaela Silva e uma derrota com Bia Souza na noite de sábado (29), na Arena Pacaembu, em São Paulo. Leia mais (08/30/2026 - 00h19)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/08/judo-estreia-no-spaten-fight-com-vitoria-de-rafaela-silva-e-derrota-de-bia-souza.shtml",
+      "title": "Einstein está com inscrições abertas para residência médica e de outras áreas da saúde",
+      "summary": "O Ensino Einstein está com as inscrições abertas para os processos seletivos de residência médica, multiprofissional e uniprofissional com ingresso em 2027. Leia mais (08/30/2026 - 09h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/educacao/2026/08/einstein-esta-com-inscricoes-abertas-para-residencia-medica-e-de-outras-areas-da-saude.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-30T03:19:00",
-      "audio": "audio/Judô estreia no Spaten Fight com vitória de Rafael.mp3"
+      "date": "2026-08-30T12:00:00",
+      "audio": "audio/Einstein está com inscrições abertas para residênc.mp3"
     },
     {
-      "title": "Mostra de São Paulo terá cartaz de James Gray e vai exibir o premiado 'Minotaur'",
-      "summary": "O cineasta James Gray será um dos principais homenageados da 50ª Mostra Internacional de Cinema de São Paulo. Além de vir pessoalmente exibir o seu filme mais recente, \"Tigre de Papel\", estrelado por Adam Driver e Miles Teller, o diretor de \"Os Donos da Noite\" também assina o cartaz da edição, receberá o prêmio Leon Cakoff e será tema de uma retrospectiva. Leia mais (08/30/2026 - 00h01)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/08/mostra-de-sao-paulo-tera-cartaz-de-james-gray-e-vai-exibir-o-premiado-minotaur.shtml",
+      "title": "Fusões e aquisições de empresas chegam a US$ 2,4 trilhões entre janeiro e maio",
+      "summary": "As fusões e aquisições (M&amp;A) globais cresceram nos cinco primeiros meses deste ano. Foram US$ 2,4 trilhões (R$ 12,4 trilhões), alta de 41% em relação ao mesmo período de 2025. No ritmo atual, no final de dezembro terão sido US$ 5,3 trilhões (R$ 27,5 trilhões), próximo do recorde de US$ 5,6 trilhões (R$ 29 trilhões pela cotação atual) registrado em 2020. Leia mais (08/30/2026 - 09h00)",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/painelsa/2026/08/fusoes-e-aquisicoes-de-empresas-chegam-a-us-24-trilhoes-entre-janeiro-e-maio.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-30T03:01:00",
-      "audio": "audio/Mostra de São Paulo terá cartaz de James Gray e va.mp3"
+      "date": "2026-08-30T12:00:00",
+      "audio": "audio/Fusões e aquisições de empresas chegam a US_ 2_4 t.mp3"
     },
     {
-      "title": "Lendário Trem da Morte volta a operar na Bolívia",
-      "summary": "O icônico Trem da Morte, que liga a boliviana Puerto Quijarro, na fronteira com o Brasil, a Santa Cruz de la Sierra, voltou a operar após um hiato de seis anos, provocado pela pandemia de Covid-19. Leia mais (08/29/2026 - 23h58)",
-      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/sobre-trilhos/2026/08/lendario-trem-da-morte-volta-a-operar-na-bolivia.shtml",
+      "title": "Missão chinesa Change-7 ao polo lunar fica para 2027",
+      "summary": "Um dos maiores sinais de que estamos numa corrida espacial é que reveses ocasionais podem mudar os rumos da disputa. O programa espacial chinês suspendeu o lançamento de sua missão robótica Chang'e-7 ao polo sul lunar apenas horas antes da decolagem, na semana passada, o que a levará a um adiamento de vários meses ?e pode dar a chance de os Estados Unidos pousarem primeiro em uma das regiões mais cobiçadas do satélite.",
+      "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/mensageiro-sideral/2026/08/missao-chinesa-change-7-ao-polo-lunar-fica-para-2027.shtml",
       "source": "Folha de S.Paulo",
-      "date": "2026-08-30T02:58:00",
-      "audio": "audio/Lendário Trem da Morte volta a operar na Bolívia.mp3"
+      "date": "2026-08-30T12:00:00",
+      "audio": "audio/Missão chinesa Change-7 ao polo lunar fica para 20.mp3"
     },
     {
-      "title": "Dor pós-COVID: estudo explica os mecanismos ligados à sequela, que afeta até 40% das pessoas que têm a doença",
-      "summary": "Experimentos com camundongos mostram como a proteína Spike pode desencadear uma resposta imunológica capaz de manter a sensibilidade à dor mesmo após o fim da resposta inflamatória. Pexels Durante a segunda onda de COVID-19 no Brasil, minha colega (e coautora deste texto), Giselle Passos, contraiu a doença. Mesmo após se recuperar da fase aguda da infecção, alguns sintomas permaneceram.",
-      "link": "https://g1.globo.com/saude/noticia/2026/08/30/dor-pos-covid-estudo-explica-os-mecanismos-ligados-a-sequela-que-afeta-ate-40-das-pessoas-que-tem-a-doenca.ghtml",
+      "title": "Ciclista morre após ser atropelado enquanto tentava atravessar via na faixa de pedestres, em João Pessoa",
+      "summary": "Ciclista morreu após ser atropelado no bairro Cristo Redentor, em João Pessoa Flávio Fernandes/TV Cabo Branco Um ciclista morreu após ser atingido por um carro na faixa de pedestres, na noite deste sábado (29), em João Pessoa. O caso ocorreu ao lado do estádio Almeidão, no bairro do Cristo.",
+      "link": "https://g1.globo.com/pb/paraiba/noticia/2026/08/30/ciclista-morre-apos-ser-atropelado-enquanto-tentava-atravessar-via-na-faixa-de-pedestres-em-joao-pessoa.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-30T06:00:41",
-      "audio": "audio/Dor pós-COVID_ estudo explica os mecanismos ligado.mp3"
+      "date": "2026-08-30T12:02:25",
+      "audio": "audio/Ciclista morre após ser atropelado enquanto tentav.mp3"
     },
     {
-      "title": "Economia: veja propostas dos candidatos ao Governo do RJ",
-      "summary": "Candidatos a governador do RJ nas eleições de 2026 Reprodução O Rio de Janeiro enfrenta uma crise fiscal e tem na economia um dos principais desafios para o próximo governo. Dependência das receitas do petróleo, necessidade de equilibrar as contas públicas, atração de investimentos, geração de empregos e revisão de benefícios fiscais estão entre os temas abordados pelos candidatos ao Palácio Guanabara.",
-      "link": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/08/30/economia-veja-propostas-dos-candidatos-ao-governo-do-rj.ghtml",
+      "title": "Dez banhistas são resgatados no mar na Barra da Tijuca durante manhã de ventos fortes no Rio",
+      "summary": "Praia do Pepê Reprodução Google Maps Dez banhistas precisaram ser resgatados do mar na Praia do Pepê, na Barra da Tijuca, na Zona Sudoeste do Rio, na manhã deste domingo (30). Segundo o Corpo de Bombeiros, o grupo teve dificuldade para sair da água por causa das rajadas de vento que atingem a cidade. 📱Baixe o app do g1 para ver notícias do RJ em tempo real e de graça Os bombeiros foram acionados às 7h29 para realizar o resgate.",
+      "link": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/08/30/banhistas-resgatados-durante-manha-de-ventos-fortes-no-rio.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-30T06:00:38",
-      "audio": "audio/Economia_ veja propostas dos candidatos ao Governo.mp3"
+      "date": "2026-08-30T12:00:49",
+      "audio": "audio/Dez banhistas são resgatados no mar na Barra da Ti.mp3"
     },
     {
-      "title": "Robôs, sensores e IA: o que é a Indústria 4.0 que avança nas fábricas do RS e integra pessoas com máquinas",
-      "summary": "A nova era da indústria A chamada Indústria 4.0 já faz parte da rotina de empresas do Rio Grande do Sul. Sensores, inteligência artificial e sistemas capazes de analisar informações em tempo real estão transformando a forma de produzir e mudando a relação entre trabalhadores e máquinas dentro das fábricas. Em empresas gaúchas, essa integração já aparece no chão de fábrica.",
-      "link": "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/08/30/robos-sensores-e-ia-o-que-e-a-industria-40-que-avanca-nas-fabricas-do-rs-e-integra-pessoas-com-maquinas.ghtml",
+      "title": "Vestir natureza: a beleza dos verdes e tons terrosos no visual",
+      "summary": "A natureza atravessa diferentes formas de criação. Está nas paisagens registradas pela fotografia, nas cores da pintura e nas atmosferas construídas pelo cinema. Também inspira músicas, obras de arte e histórias que procuram traduzir aquilo que uma paisagem desperta.",
+      "link": "https://g1.globo.com/pr/parana/especial-publicitario/recco-guia-de-moda-e-bem-estar/noticia/2026/08/30/vestir-natureza-a-beleza-dos-verdes-e-tons-terrosos-no-visual.ghtml",
       "source": "G1 (Brasil)",
-      "date": "2026-08-30T06:00:18",
-      "audio": "audio/Robôs_ sensores e IA_ o que é a Indústria 4_0 que .mp3"
+      "date": "2026-08-30T12:00:42",
+      "audio": "audio/Vestir natureza_ a beleza dos verdes e tons terros.mp3"
     },
     {
-      "title": "Augusto Cury na Globo: o que disse o candidato à Presidência na entrevista à emissora",
-      "summary": "Candidato pelo Avante, ele foi o último entrevistado da série da emissora com seis postulantes à Presidência da República na eleição de 2026.",
-      "link": "https://www.bbc.com/portuguese/articles/c2dwxj2zn63o?at_medium=RSS&at_campaign=rss",
+      "title": "O plano bilionário da China para fazer uma nova revolução industrial com milhões de robôs",
+      "summary": "O governo chinês está investindo US$ 20 bilhões para colocar o país na vanguarda da inovação na robótica para fábricas e concorrer com os EUA.",
+      "link": "https://www.bbc.com/portuguese/articles/c9w4j2555qro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Brasil",
-      "date": "2026-08-30T02:23:38",
-      "audio": "audio/Augusto Cury na Globo_ o que disse o candidato à P.mp3"
+      "date": "2026-08-30T09:18:38",
+      "audio": "audio/O plano bilionário da China para fazer uma nova re.mp3"
     },
     {
-      "title": "“Jingle do Osmarzinho”: por que mensagem publicitária gruda feito “chiclete” na cabeça",
-      "summary": "Música sobre ex-prefeito do interior do Piauí é o novo áudio viral das redes sociais, e ajuda a explicar por que tantos políticos recorrem aos \"jingles\"",
-      "link": "https://www.cnnbrasil.com.br/curiosidades/jingle-do-osmarzinho-por-que-mensagem-publicitaria-cantada-gruda-feito-chiclete-na-cabeca/",
+      "title": "Islândia rejeita aderir à União Europeia em referendo que revela divisão no país",
+      "summary": "Segundo informações preliminares, 52,5% rejeitaram a proposta do governo de retomar as negociações para entrar na UE, enquanto 47,5% a aprovaram. A diferença entre os dois grupos foi de aproximadamente 9.500 votos",
+      "link": "https://www.bbc.com/portuguese/articles/cvgyxj3jkxro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-08-30T12:04:07",
+      "audio": "audio/Islândia rejeita aderir à União Europeia em refere.mp3"
+    },
+    {
+      "title": "O país que enfrenta a escassez de água com sistemas hídricos abandonados há centenas de anos",
+      "summary": "A escassez de água e as mudanças climáticas estão levando muitas comunidades indianas a restaurar antigas infraestruturas hídricas construídas há séculos, para colocá-las novamente em funcionamento",
+      "link": "https://www.bbc.com/portuguese/articles/c78064pyzdzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Brasil",
+      "date": "2026-08-30T10:55:43",
+      "audio": "audio/O país que enfrenta a escassez de água com sistema.mp3"
+    },
+    {
+      "title": "Ex-Miss Brasil Supranational é internada após perder a coroa por gravidez",
+      "summary": "Modelo foi desclassificada de competição após descumprir cláusula de contrato",
+      "link": "https://www.cnnbrasil.com.br/pop/celebridades/ex-miss-brasil-supranational-e-internada-apos-perder-a-coroa-por-gravidez/",
       "source": "CNN Brasil",
-      "date": "2026-08-30T06:03:12",
-      "audio": "audio/Jingle do Osmarzinho__ por que mensagem publicitá.mp3"
+      "date": "2026-08-30T12:00:57",
+      "audio": "audio/Ex-Miss Brasil Supranational é internada após perd.mp3"
     },
     {
-      "title": "Redes sociais distorceram visão sobre ascensão social, diz professora",
-      "summary": "Ao WW Especial, cientista política Tathiana Chicarino afirmou que digitalização mudou hábitos de consumo e de trabalho",
-      "link": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/redes-sociais-distorceram-visao-sobre-ascensao-social-diz-professora/",
+      "title": "Libéria recebe imigrantes deportados pelos Estados Unidos",
+      "summary": "Voo vindo da Louisiana levou 20 deportados ao país, sob um acordo que pode resultar na transferência de até 1.200 pessoas",
+      "link": "https://www.cnnbrasil.com.br/internacional/liberia-recebe-imigrantes-deportados-pelos-estados-unidos/",
       "source": "CNN Brasil",
-      "date": "2026-08-30T06:00:39",
-      "audio": "audio/Redes sociais distorceram visão sobre ascensão soc.mp3"
+      "date": "2026-08-30T12:00:21",
+      "audio": "audio/Libéria recebe imigrantes deportados pelos Estados.mp3"
     },
     {
-      "title": "Real Madrid x Málaga: horário e onde assistir ao jogo de LaLiga",
-      "summary": "Clubes se enfrentam pela terceira rodada do Campeonato Espanhol neste domingo (30)",
-      "link": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/futebol-espanhol/real-madrid-x-malaga-horario-e-onde-assistir-ao-jogo-de-laliga/",
+      "title": "Gigantes do varejo fecham 1,1 mil lojas desde 2022",
+      "summary": "Canais digitais e marketplaces, inclusive internacionais, ganham peso na decisão de compra",
+      "link": "https://www.cnnbrasil.com.br/economia/money/negocios/gigantes-do-varejo-fecham-11-mil-lojas-desde-2022/",
       "source": "CNN Brasil",
-      "date": "2026-08-30T05:00:46",
-      "audio": "audio/Real Madrid x Málaga_ horário e onde assistir ao j.mp3"
+      "date": "2026-08-30T11:56:07",
+      "audio": "audio/Gigantes do varejo fecham 1_1 mil lojas desde 2022.mp3"
     },
     {
-      "title": "Lito Sousa diz que não perdeu cognição: \"Serei a primeira pessoa a controlar a doença\"",
-      "summary": "Diagnosticado com a Síndrome de Creutzfeldt-Jakob, influenciador agradeceu fãs e disse que em breve \"presenciaremos um milagre\"",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7490150-lito-sousa-diz-que-nao-perdeu-cognicao-serei-a-primeira-pessoa-a-controlar-a-doenca.html",
+      "title": "Felipe Preguiça vence Nicholas Meregali pela primeira vez no Spaten Fight Night 3",
+      "summary": "Mineiro supera rival por decisão unânime, encerra sequência de duas derrotas no confronto direto e vence duelo de jiu-jítsu sem kimono em São Paulo",
+      "link": "https://exame.com/esporte/felipe-preguica-vence-nicholas-meregali-pela-primeira-vez-no-spaten-fight-night-3/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-30T09:10:55",
+      "audio": "audio/Felipe Preguiça vence Nicholas Meregali pela prime.mp3"
+    },
+    {
+      "title": "Raz Hershko vence Bia Souza no Spaten Fight Night 3 e quebra sequência de derrotas",
+      "summary": "Israelense superou a campeã olímpica por yuko no golden score, em São Paulo, e venceu a brasileira pela primeira vez em sete confrontos",
+      "link": "https://exame.com/esporte/raz-hershko-vence-bia-souza-no-spaten-fight-night-3-e-quebra-sequencia-de-derrotas/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-30T09:03:48",
+      "audio": "audio/Raz Hershko vence Bia Souza no Spaten Fight Night .mp3"
+    },
+    {
+      "title": "Como digitalizar e organizar documentos importantes da casa no celular? Veja 5 recursos",
+      "summary": "Apps gratuitos e pagos permitem escanear contratos, contas e garantias com a câmera do celular e manter tudo acessível na nuvem",
+      "link": "https://exame.com/tecnologia/examelab/como-digitalizar-e-organizar-documentos-importantes-da-casa-no-celular-veja-5-recursos/",
+      "source": "Exame (Brasil)",
+      "date": "2026-08-30T09:00:27",
+      "audio": "audio/Como digitalizar e organizar documentos importante.mp3"
+    },
+    {
+      "title": "Ataque a tiros em festa rave na Suíça deixa um morto e cinco feridos",
+      "summary": "A busca pelos autores, cujas identidades ainda são desconhecidas, continua, informou a polícia local",
+      "link": "https://www.cartacapital.com.br/mundo/ataque-a-tiros-em-festa-rave-na-suica-deixa-um-morto-e-cinco-feridos/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-08-30T12:08:04",
+      "audio": "audio/Ataque a tiros em festa rave na Suíça deixa um mor.mp3"
+    },
+    {
+      "title": "Rapper Rô Rosa revela que começou a compor com violão que tinha só 3 cordas",
+      "summary": "Músico, que recentemente lançou seu segundo trabalho, acumula hoje milhões de execuções nas plataformas de música",
+      "link": "https://www.cartacapital.com.br/blogs/augusto-diniz/rapper-ro-rosa-revela-que-comecou-a-compor-com-violao-que-tinha-so-3-cordas/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-08-30T11:05:29",
+      "audio": "audio/Rapper Rô Rosa revela que começou a compor com vio.mp3"
+    },
+    {
+      "title": "Tarot semanal: previsão para os signos de 31 de agosto a 06 de setembro de 2026",
+      "summary": "A energia geral da semana será marcada por movimento, renovação e oportunidades de crescimento, mas também pedirá equilíbrio para lidar com decisões e mudanças inesperadas. Conforme as cartas do tarot, o período será favorável para colocar planos em prática, fortalecer relações, organizar a vida financeira [&#8230;]",
+      "link": "https://www.cartacapital.com.br/astrologia/tarot-semanal-previsao-para-os-signos-de-31-de-agosto-a-06-de-setembro-de-2026/",
+      "source": "Carta Capital (Brasil)",
+      "date": "2026-08-30T10:03:00",
+      "audio": "audio/Tarot semanal_ previsão para os signos de 31 de ag.mp3"
+    },
+    {
+      "title": "Gundam Hathaway, One Piece e mais: os lançamentos de animes da semana (30/08)",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/minha-serie/604518-gundam-hathaway-one-piece-e-mais-os-lancamentos-de-animes-da-semana-3008.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-08-30T11:15:00",
+      "audio": "audio/Gundam Hathaway_ One Piece e mais_ os lançamentos .mp3"
+    },
+    {
+      "title": "Roteador Mesh vale a pena para casa? Saiba quando investir",
+      "summary": "",
+      "link": "https://www.tecmundo.com.br/guia-de-compras/415624-roteador-mesh-vale-a-pena-para-casa-saiba-quando-investir.htm",
+      "source": "TecMundo (Brasil)",
+      "date": "2026-08-30T10:15:00",
+      "audio": "audio/Roteador Mesh vale a pena para casa_ Saiba quando .mp3"
+    },
+    {
+      "title": "Doenças raras: quando a genética desafia o diagnóstico",
+      "summary": "Pacientes enfrentam obstáculos diários e transformam suas experiências em histórias de superação, ativismo e esperança",
+      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7490105-doencas-raras-quando-a-genetica-desafia-o-diagnostico.html",
       "source": "Correio Braziliense",
-      "date": "2026-08-30T02:24:59",
-      "audio": "audio/Lito Sousa diz que não perdeu cognição_ _Serei a p.mp3"
-    },
-    {
-      "title": "Coronel do Exército morre após cair de parapente em praia do RJ",
-      "summary": "A suspeita do Clube São Conrado de Voo Livre (CSCVL), do qual o coronal fazia parte, é de que linhas de pipa com cerol (conhecida também como linha chinela) teriam provocado a queda do piloto",
-      "link": "https://www.correiobraziliense.com.br/brasil/2026/08/7490125-coronel-do-exercito-morre-apos-cair-de-parapente-em-praia-do-rj.html",
-      "source": "Correio Braziliense",
-      "date": "2026-08-30T01:38:04",
-      "audio": "audio/Coronel do Exército morre após cair de parapente e.mp3"
+      "date": "2026-08-30T07:00:00",
+      "audio": "audio/Doenças raras_ quando a genética desafia o diagnós.mp3"
     }
   ],
   "en": [
     {
-      "title": "PC Harper's killers to stay in jail as PM announces changes to early release scheme",
-      "summary": "Andy Burnham tells BBC Breakfast anyone convicted of manslaughter will be excluded from the early release scheme in the Sentencing Act.",
-      "link": "https://www.bbc.co.uk/news/articles/crr4wd81pdpo?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham gets the early prison release changes he wanted - but at what cost?",
+      "summary": "The prime minister says he will keep hundreds more criminals behind bars but doing so requires complex changes.",
+      "link": "https://www.bbc.co.uk/news/articles/cdx5zw4e2x9o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-08-30T05:50:27",
-      "audio": "audio/PC Harper_s killers to stay in jail as PM announce.mp3"
+      "date": "2026-08-30T07:58:31",
+      "audio": "audio/Burnham gets the early prison release changes he w.mp3"
     },
     {
-      "title": "WhatsApp group chat used to send millions in cash, funding crime and extremism",
-      "summary": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
-      "link": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
+      "title": "British woman killed in stabbing at German railway station",
+      "summary": "A 27-year-old German man was arrested immediately after the incident in Rosenheim, Bavaria.",
+      "link": "https://www.bbc.co.uk/news/articles/cx2zy118q7ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "date": "2026-08-30T04:59:56",
-      "audio": "audio/WhatsApp group chat used to send millions in cash.mp3"
+      "date": "2026-08-30T11:34:48",
+      "audio": "audio/British woman killed in stabbing at German railway.mp3"
     },
     {
-      "title": "Iceland EU referendum on a knife edge as counting continues",
-      "summary": "A vote on whether to resume membership talks with the European Union is too close to call.",
-      "link": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "date": "2026-08-30T03:57:01",
-      "audio": "audio/Iceland EU referendum on a knife edge as counting .mp3"
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "summary": "The company is testing robots on tasks that can performed by technicians.",
+      "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "source": "Ars Technica",
+      "date": "2026-08-30T11:03:47",
+      "audio": "audio/Inside Meta_s push to put robots to work in data c.mp3"
     },
     {
-      "title": "British boxer Moses Itauma stretchered off after shock defeat in world title fight",
-      "summary": "British boxer Moses Itauma has suffered a shock defeat to Filip Hrgovic in a punishing world heavyweight title fight in London.",
-      "link": "https://news.sky.com/story/british-boxer-moses-itauma-suffers-shock-defeat-to-filip-hrgovic-in-world-title-fight-13578896",
+      "title": "I asked 100 companies for my data. Some deleted it instead.",
+      "summary": "Testing 100 companies found privacy requests often led to confusion and dead ends.",
+      "link": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
+      "source": "Ars Technica",
+      "date": "2026-08-29T10:50:31",
+      "audio": "audio/I asked 100 companies for my data_ Some deleted it.mp3"
+    },
+    {
+      "title": "China’s robots race ahead",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on falling robots and the US-China AI race, follow Robert Hart. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started I've admitted my fondness for [&#8230;]",
+      "link": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "source": "The Verge",
+      "date": "2026-08-30T12:00:00",
+      "audio": "audio/China_s robots race ahead.mp3"
+    },
+    {
+      "title": "Two new small, powerful Macs",
+      "summary": "Hi, friends! Welcome to Installer No. 142, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, how is it almost September already, and also you can read all the old editions at the Installer homepage.) This week, I've been remembering Dolly Parton, Tim Curry, and Peter Cullen, absorbing [&#8230;]",
+      "link": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+      "source": "The Verge",
+      "date": "2026-08-30T12:00:00",
+      "audio": "audio/Two new small_ powerful Macs.mp3"
+    },
+    {
+      "title": "China Says 261 Foreigners From 23 Countries Are Missing in Tibet Flood",
+      "summary": "The disclosure offered one of the clearest pictures yet of the disaster on the Chinese side of the border, where authorities have released few details.",
+      "link": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html",
+      "source": "NYT World",
+      "date": "2026-08-30T06:25:52",
+      "audio": "audio/China Says 261 Foreigners From 23 Countries Are Mi.mp3"
+    },
+    {
+      "title": "The People of Hirosaki, Japan, Try to Move a Castle by Hand",
+      "summary": "In Japan, the ancient tradition of hikiya involves moving buildings with ropes and rollers. About 4,000 people teamed up to try it on Hirosaki Castle.",
+      "link": "https://www.nytimes.com/2026/08/30/world/asia/japan-hirosaki-castle-moving.html",
+      "source": "NYT World",
+      "date": "2026-08-30T05:28:16",
+      "audio": "audio/The People of Hirosaki_ Japan_ Try to Move a Castl.mp3"
+    },
+    {
+      "title": "Far Right Is Poised to Win in a German State, but Fight Over Power Won’t End There",
+      "summary": "State and federal leaders are trying to avoid sharing sensitive intelligence with the Alternative for Germany should it take power in a state’s elections next week.",
+      "link": "https://www.nytimes.com/2026/08/30/world/europe/germany-afd-saxony-anhalt.html",
+      "source": "NYT World",
+      "date": "2026-08-30T09:00:16",
+      "audio": "audio/Far Right Is Poised to Win in a German State_ but .mp3"
+    },
+    {
+      "title": "British woman dies after stabbing at train station in Germany",
+      "summary": "A 31-year-old British woman has died after being stabbed at a train station in Germany, police say.",
+      "link": "https://news.sky.com/story/british-woman-dies-after-stabbing-at-train-station-in-germany-13578974",
       "source": "Sky News (UK)",
-      "date": "2026-08-29T20:58:00",
-      "audio": "audio/British boxer Moses Itauma stretchered off after s.mp3"
+      "date": "2026-08-30T09:47:00",
+      "audio": "audio/British woman dies after stabbing at train station.mp3"
     },
     {
-      "title": "Icelanders vote on whether they want to join the EU",
-      "summary": "The final vote is expected to be extremely close, with ballot counting continuing through the night.",
-      "link": "https://www.npr.org/2026/08/29/nx-s1-5948759/iceland-european-union-referendum-vote",
+      "title": "Two missing after fishing boat sinks in Channel",
+      "summary": "Two people are missing and three others have been rescued after a French-registered fishing boat sank in the English Channel.",
+      "link": "https://news.sky.com/story/two-missing-after-fishing-vessel-sinks-in-channel-13578966",
+      "source": "Sky News (UK)",
+      "date": "2026-08-30T09:22:00",
+      "audio": "audio/Two missing after fishing boat sinks in Channel.mp3"
+    },
+    {
+      "title": "Are you sure that Kimmel clip was real? Late-night AI deepfakes are spreading online",
+      "summary": "While social media is rife with AI celebrity deepfakes, videos featuring late night TV hosts like Jimmy Kimmel and Jon Stewart are are easier to create than other kinds of deepfakes and potentially more disruptive.",
+      "link": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai",
       "source": "NPR (US)",
-      "date": "2026-08-30T01:47:44",
-      "audio": "audio/Icelanders vote on whether they want to join the E.mp3"
+      "date": "2026-08-30T11:00:00",
+      "audio": "audio/Are you sure that Kimmel clip was real_ Late-night.mp3"
     },
     {
-      "title": "Harry Styles Pokes Fun at Ex Taylor Swift’s Wedding During Madison Square Garden Show",
-      "summary": "On the opening night of his 30-concert residency at Madison Square Garden, pop superstar Harry Styles paid tribute to the late, great Dolly Parton. And at the tail end of Saturday night’s show, he shouted out his ex-girlfriend Taylor Swift’s wedding to Travis Kelce. “We’re at Madison Square Garden, home of the world champion New [&#8230;]",
-      "link": "https://variety.com/2026/music/news/harry-styles-shout-out-taylor-swift-wedding-travis-kelce-madison-square-garden-show-1236846748/",
+      "title": "NASA has successfully launched its newest space telescope",
+      "summary": "The tour-bus-sized telescope aims to unravel cosmic mysteries and identify more than 100,000 planets beyond our solar system.",
+      "link": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa",
+      "source": "NPR (US)",
+      "date": "2026-08-30T10:30:00",
+      "audio": "audio/NASA has successfully launched its newest space te.mp3"
+    },
+    {
+      "title": "How a comic book store got swept into the tariff storm",
+      "summary": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
+      "link": "https://www.npr.org/2026/08/30/nx-s1-5939521/tariff-refunds-canada-trade-war",
+      "source": "NPR (US)",
+      "date": "2026-08-30T10:00:00",
+      "audio": "audio/How a comic book store got swept into the tariff s.mp3"
+    },
+    {
+      "title": "’17’ Review: Harrowing Teen Pregnancy Drama from Macedonia Could Be the Feel-Bad Movie of the Year",
+      "summary": "From the first frame, Kosara Mitić’s “17” refuses to pull any punches, plunging us immediately into the traumatic moment when a hookup between high-school student Sara (Eva Kostić) and two boys takes a violent turn. From here, this nervy teen drama from Macedonia picks up several months later and follows the withdrawn Sara over the [&#8230;]",
+      "link": "https://variety.com/2026/film/reviews/17-review-1236846790/",
       "source": "Variety (US)",
-      "date": "2026-08-30T01:52:12",
-      "audio": "audio/Harry Styles Pokes Fun at Ex Taylor Swift_s Weddin.mp3"
+      "date": "2026-08-30T10:13:56",
+      "audio": "audio/17_ Review_ Harrowing Teen Pregnancy Drama from M.mp3"
     },
     {
-      "title": "Teenagers raise €8k for Kerry Hospice Foundation through half-marathon swim fundraiser",
+      "title": "‘Sea of Glass’ Review: A Widow’s Coastal Healing Retreat Turns Into a Stately, Moody Greek Tragedy",
+      "summary": "There are Greek waves aplenty lapping at the forlorn beachside setting of &#8220;Sea of Glass,&#8221; though they&#8217;re not especially weird ones. Amid a national cinema that has become internationally recognized for perverse plotting and deadpan absurdism, writer-director Alexis Alexiou&#8217;s third feature stands out for its stark storytelling and earnest emotional intensity. There is more than [&#8230;]",
+      "link": "https://variety.com/2026/film/news/sea-of-glass-review-1236846714/",
+      "source": "Variety (US)",
+      "date": "2026-08-30T08:31:55",
+      "audio": "audio/Sea of Glass_ Review_ A Widow_s Coastal Healing R.mp3"
+    },
+    {
+      "title": "Inside the Global Rise of CJ ENM’s ‘The Legend of Kitchen Soldier’",
+      "summary": "When &#8220;The Legend of Kitchen Soldier&#8221; was selected as the only K-drama in the Special Screening section at Series Mania in Lille earlier this year, it marked an early signal that something unusual was happening with a show that had started life as a calculated creative gamble. By July 31, when the series took best [&#8230;]",
+      "link": "https://variety.com/2026/tv/news/legend-of-kitchen-soldier-cj-enm-global-success-1236846772/",
+      "source": "Variety (US)",
+      "date": "2026-08-30T07:56:17",
+      "audio": "audio/Inside the Global Rise of CJ ENM_s _The Legend of .mp3"
+    },
+    {
+      "title": "Premier League transfer latest: Martinez completes Chelsea move | Ndiaye and Richarlison set to swap clubs",
       "summary": "",
-      "link": "https://www.independent.ie/county/kerry/teenagers-raise-8k-for-kerry-hospice-foundation-through-half-marathon-swim-fundraiser/a/160656814.html",
+      "link": "https://www.independent.ie/sport/soccer/premier-league-transfer-latest-martinez-completes-chelsea-move-ndiaye-and-richarlison-set-to-swap-clubs/a/160552805.html",
       "source": "Irish Independent",
-      "date": "2026-08-30T06:00:00",
-      "audio": "audio/Teenagers raise _8k for Kerry Hospice Foundation t.mp3"
+      "date": "2026-08-30T11:30:00",
+      "audio": "audio/Premier League transfer latest_ Martinez completes.mp3"
     },
     {
-      "title": "Liebherr reaffirms commitment to Killarney with new administration building",
-      "summary": "Long-standing Kerry business reinvests in its facilities",
-      "link": "https://www.independent.ie/county/kerry/liebherr-reaffirms-commitment-to-killarney-with-new-administration-building/a/160612015.html",
+      "title": "Icelandic voters reject proposal to restart negotiations to join the EU",
+      "summary": "",
+      "link": "https://www.independent.ie/world-news/icelandic-voters-reject-proposal-to-restart-negotiations-to-join-the-eu/a/160705984.html",
       "source": "Irish Independent",
-      "date": "2026-08-30T06:00:00",
-      "audio": "audio/Liebherr reaffirms commitment to Killarney with ne.mp3"
+      "date": "2026-08-30T11:10:06",
+      "audio": "audio/Icelandic voters reject proposal to restart negoti.mp3"
     },
     {
-      "title": "Streamstown’s 18th-century ruins and historic salt pans showcased in afternoon of talks and guided walks",
-      "summary": "Event was organised as part of Heritage Week",
-      "link": "https://www.independent.ie/county/sligo/streamstowns-18th-century-ruins-and-historic-salt-pans-showcased-in-afternoon-of-talks-and-guided-walks/a/160609301.html",
+      "title": "Irish woman and husband who died in hot tub in Spanish villa lay undiscovered for 12 hours",
+      "summary": "Thomasina and Patrick Tobin are believed to have died after ‘a technical failure in the jacuzzi’s suction system’",
+      "link": "https://www.independent.ie/irish-news/irish-woman-and-husband-who-died-in-hot-tub-in-spanish-villa-lay-undiscovered-for-12-hours/a/160692667.html",
       "source": "Irish Independent",
-      "date": "2026-08-30T06:00:00",
-      "audio": "audio/Streamstown_s 18th-century ruins and historic salt.mp3"
+      "date": "2026-08-30T11:00:00",
+      "audio": "audio/Irish woman and husband who died in hot tub in Spa.mp3"
     },
     {
-      "title": "Men I Trust at Electric Picnic 2026 (Photos)",
-      "summary": "",
-      "link": "https://www.hotpress.com/pics-vids/men-i-trust-at-electric-picnic-2026-photos-23159066",
+      "title": "Live Report: Damien Dempsey turns Irishness into a celebration of everyone at Electric Picnic",
+      "summary": "As Electric Picnic&#039;s second day winds down, Damien Dempsey brings Stradbally a set of raw storytelling, roaring singalongs and an Irish identity defined by openness rather than division.",
+      "link": "https://www.hotpress.com/music/live-report-damien-dempsey-turns-irishness-into-a-celebration-of-everyone-at-electric-picnic-23159080",
       "source": "Hot Press (Ireland)",
-      "date": "2026-08-30T01:52:39",
-      "audio": "audio/Men I Trust at Electric Picnic 2026 _Photos.mp3"
+      "date": "2026-08-30T12:06:05",
+      "audio": "audio/Live Report_ Damien Dempsey turns Irishness into a.mp3"
     },
     {
-      "title": "Oklou at Electric Picnic 2026 (Photos)",
-      "summary": "",
-      "link": "https://www.hotpress.com/pics-vids/oklou-at-electric-picnic-2026-photos-23159054",
+      "title": "Live Report: Arron Rowe is a new voice with an old soul in Rankins Wood",
+      "summary": "Just three weeks before the festival, Aaron Rowe was added to the Electric Picnic line-up. A last-minute addition, perhaps, but one that feels increasingly like a very good surprise.",
+      "link": "https://www.hotpress.com/music/live-report-arron-rowe-is-a-new-voice-with-an-old-soul-in-rankins-wood-23159075",
       "source": "Hot Press (Ireland)",
-      "date": "2026-08-30T01:48:19",
-      "audio": "audio/Oklou at Electric Picnic 2026 _Photos.mp3"
+      "date": "2026-08-30T11:36:35",
+      "audio": "audio/Live Report_ Arron Rowe is a new voice with an old.mp3"
     },
     {
-      "title": "Audrey Hobert at Electric Picnic 2026 (Photos)",
-      "summary": "",
-      "link": "https://www.hotpress.com/pics-vids/audrey-hobert-at-electric-picnic-2026-photos-23159042",
-      "source": "Hot Press (Ireland)",
-      "date": "2026-08-30T01:44:24",
-      "audio": "audio/Audrey Hobert at Electric Picnic 2026 _Photos.mp3"
-    },
-    {
-      "title": "‘You’re at war when you get attacked’: Mark Carney shows combative nature in face-off with Trump",
-      "summary": "The Canadian PM is one of the few world leaders to stand up to the US president. Former colleagues say they are not surprisedMark Carney stood before a walnut-veneered lectern, his face drawn tight, as he announced that talks with Canada’s biggest trading partner had collapsed. “Last spring, I warned that America is trying to break us so that they can own us,” he said.",
-      "link": "https://www.theguardian.com/world/ng-interactive/2026/aug/30/youre-at-war-when-you-get-attacked-mark-carney-shows-combative-nature-in-face-off-with-trump",
+      "title": "Make your bed – and be ruthless: 14 expert rules for a clean, healthy, happy home",
+      "summary": "Is your place crying out for some TLC? Housekeepers reveal how to keep it looking its best – and when it’s OK to let standards slipLife is busy and there is only so much time to spend cleaning and tidying. What are the non-negotiables of a well-managed home? Here, housekeepers share their tips and hacks for making a chaotic house feel more orderly. Continue reading...",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/aug/30/make-your-bed-and-be-ruthless-14-expert-rules-for-a-clean-healthy-happy-home",
       "source": "The Guardian UK",
-      "date": "2026-08-30T05:00:46",
-      "audio": "audio/You_re at war when you get attacked__ Mark Carney.mp3"
+      "date": "2026-08-30T04:00:47",
+      "audio": "audio/Make your bed _ and be ruthless_ 14 expert rules f.mp3"
     },
     {
-      "title": "‘I was miserable for a lot of this century’: Stewart Lee on divorce, his adoption and the twisted children’s poem that explains his life",
-      "summary": "After a rocky few decades, the standup is nearing 60 – and finding contentment at last. But what does his grotesque retelling of The Owl and the Pussy-cat tell us about his inability to connect with people?Stewart Lee is somewhat fretfully tidying his kitchen. Nothing is exactly where he left it two months ago to go on tour.",
-      "link": "https://www.theguardian.com/culture/2026/aug/30/stewart-lee-comedian-interview-divorce-adoption-retelling-owl-and-the-pussycat",
-      "source": "The Guardian UK",
-      "date": "2026-08-30T05:00:48",
-      "audio": "audio/I was miserable for a lot of this century__ Stewa.mp3"
+      "title": "Italy may ban staring at your phone while crossing the street. Why stop there? | Dave Schilling",
+      "summary": "The move sends the right signal. While we’re at it, can we ban using ringtones and scooting on the sidewalk?Imagine driving in Italy, with its narrow, cobblestone streets and scooter enthusiasts. I find it hard enough to drive in Los Angeles, a city designed specifically with the automobile in mind.",
+      "link": "https://www.theguardian.com/commentisfree/2026/aug/30/italy-phone-street-ban",
+      "source": "The Guardian US",
+      "date": "2026-08-30T11:00:56",
+      "audio": "audio/Italy may ban staring at your phone while crossing.mp3"
     },
     {
-      "title": "Kismet, London SE1: ‘The sort of beans that make you want to move to the sun’ – restaurant review",
-      "summary": "The first genuinely cool thing to have happened in Borough Market for agesA Turkish-Cypriot meyhane, which translates roughly as “wine house”, has slotted in upstairs at the Globe Tavern in Borough Market, south London.",
-      "link": "https://www.theguardian.com/food/2026/aug/30/kismet-london-se1-restaurant-review-grace-dent",
-      "source": "The Guardian UK",
-      "date": "2026-08-30T05:00:48",
-      "audio": "audio/Kismet_ London SE1_ _The sort of beans that make y.mp3"
+      "title": "This is how we do it: ‘My ex wouldn’t even kiss me during sex. Marcus is happy to take his time’",
+      "summary": "Camille had bad experiences with men, so when she met Marcus they took things slowly. Now sex is a shared joy• How do you do it? Share the story of your sex life, anonymouslyMarcus will go down on me for as long as it takes. He has a gentle touch and is an amazing kisser Continue reading...",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/aug/30/this-is-how-we-do-it-ex-wouldnt-kiss-during-sex-marcus-takes-time",
+      "source": "The Guardian US",
+      "date": "2026-08-30T10:00:52",
+      "audio": "audio/This is how we do it_ _My ex wouldn_t even kiss me.mp3"
     },
     {
-      "title": "What could Meta’s US settlement mean around the world – and what now for other claims against firm?",
-      "summary": "Other governments could seek similar concessions, while separate legal action is pending in places ranging from Kenya to the NetherlandsIn October 2021, Abrham Meareg’s father, a professor of chemistry in Ethiopia’s northern town of Bahir Dar, was shot at close range and died outside his family home.",
-      "link": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+      "title": "Sharp rise in incidents of AI escaping users’ control, research finds",
+      "summary": "Exclusive: Number of times AI lies, ignores instructions and pursues goals in harmful ways almost doubles in JulyIncidents of AIs escaping users’ control to lie, ignore instructions and pursue goals in harmful ways have hit a new high, according to research that also suggests the severity of deception and misalignment is worsening.Analysis of real-world loss of control incidents involving AI models flagged by businesses and individuals almost dou",
+      "link": "https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds",
       "source": "The Guardian Tech",
-      "date": "2026-08-28T04:00:48",
-      "audio": "audio/What could Meta_s US settlement mean around the wo.mp3"
+      "date": "2026-08-29T06:00:20",
+      "audio": "audio/Sharp rise in incidents of AI escaping users_ cont.mp3"
     },
     {
-      "title": "Pentagon’s blacklisting of Anthropic was unlawful, US judge rules",
-      "summary": "Anthropic ​argued designation as ‘supply-chain risk’ could cost billions ‌in lost business ‌and reputational harmA US judge ruled on Thursday that the Trump administration broke the law when it designated Anthropic as a supply chain risk earlier this year, finding that the government had unlawfully targeted the AI firm for refusing to comply with defense department demands.“The empty invocation of national security is not a blank check to punish ",
-      "link": "https://www.theguardian.com/technology/2026/aug/28/us-court-rules-pentagon-anthropic-ban-illegal-trump-claude-ai",
+      "title": "UK risks falling behind in AI race without faster telecoms upgrades, say executives",
+      "summary": "Planning delays and slow 5G upgrades could leave the UK unable to cope with a surge in AI-related traffic The UK risks becoming a laggard in the global AI race as crucial telecoms upgrades to harness the technology fall behind rival nations, according to senior industry executives.The infrastructure AI race has centred on the need to build datacentres, and to ensure they have access to the huge water and energy supplies required to cool and suppl",
+      "link": "https://www.theguardian.com/technology/2026/aug/29/uk-risk-falling-behind-ai-telecoms-upgrades",
       "source": "The Guardian Tech",
-      "date": "2026-08-28T03:34:35",
-      "audio": "audio/Pentagon_s blacklisting of Anthropic was unlawful.mp3"
+      "date": "2026-08-29T06:00:19",
+      "audio": "audio/UK risks falling behind in AI race without faster .mp3"
     },
     {
-      "title": "Nicola Coughlan and Matt Lucas among stars backing campaign against AI voice cloning",
-      "summary": "About 80 people sign open letter to Andy Burnham calling for legislation to protect voice ownershipNicola Coughlan, Hugh Bonneville and Matt Lucas are among a group of actors backing a campaign against artificial intelligence voice cloning.Save Our Voices Now, which is also being supported by Luke Evans, Jen Brister, Siobhán McSweeney and Pearl Mackie, aims to stop the practice in which AI technology is used to replicate a real person’s voice to ",
-      "link": "https://www.theguardian.com/technology/2026/aug/28/stars-back-campaign-against-ai-voice-cloning-nicola-coughlan-matt-lucas",
-      "source": "The Guardian Tech",
-      "date": "2026-08-28T07:15:00",
-      "audio": "audio/Nicola Coughlan and Matt Lucas among stars backing.mp3"
+      "title": "“He wasn’t listening to anything I had to say. So I went home and wrote that song and took it back the next morning. I sang it and he was crying”: How Dolly Parton’s heart-wrenching ballad became one of the most famous songs of all time",
+      "summary": "“We had one of those love-hate relationships – it was just hard to move on”",
+      "link": "https://www.musicradar.com/artists/he-wasnt-listening-to-anything-i-had-to-say-so-i-went-home-and-wrote-that-song-and-took-it-back-the-next-morning-i-sang-it-and-he-was-crying-how-dolly-partons-heart-wrenching-ballad-became-one-of-the-most-famous-songs-of-all-time",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-30T11:00:00",
+      "audio": "audio/He wasn_t listening to anything I had to say_ So .mp3"
     },
     {
-      "title": "Watch Bruce Springsteen and Bleachers Reunite to Sing ‘Jersey Girl’ and ‘Chinatown’ in Asbury Park",
-      "summary": "The duo last performed \"Chinatown\" live in 2020",
-      "link": "https://www.rollingstone.com/music/music-news/bruce-springsteen-bleachers-perform-jersey-girl-chinatown-1235617724/",
+      "title": "“It talks the talk and you listen when it does”: UDO Audio DMNO review",
+      "summary": "It's another two-synths-in-one offering from UDO, but this one has the Domino effect",
+      "link": "https://www.musicradar.com/music-tech/analogue-synths/udo-audio-dmno-review",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-30T11:00:00",
+      "audio": "audio/It talks the talk and you listen when it does__ U.mp3"
+    },
+    {
+      "title": "“We could play the same groove for a number of hours – Prince would walk in and out of the room saying, ‘Don’t stop! Nobody move!’”: Lisa Coleman on how Prince insisted on perfection from his Revolution bandmates",
+      "summary": "Prince ran a tight ship and as Lisa Coleman told us, he’d get a real kick out of keeping his band on their toes",
+      "link": "https://www.musicradar.com/artists/we-could-play-the-same-groove-for-a-number-of-hours-prince-would-walk-in-and-out-of-the-room-saying-dont-stop-nobody-move-lisa-coleman-on-how-prince-insisted-on-perfection-from-his-revolution-bandmates",
+      "source": "MusicRadar (UK)",
+      "date": "2026-08-30T08:30:00",
+      "audio": "audio/We could play the same groove for a number of hou.mp3"
+    },
+    {
+      "title": "Olivia Rodrigo Delivers Magic With Stevie Nicks, Sarah McLachlan, Alanis Morissette at Daisy Chain",
+      "summary": "Rodrigo capped her inaugural all-women festival with a stunning headlining set — and invited her heroes to the stage",
+      "link": "https://www.rollingstone.com/music/music-news/olivia-rodrigo-stevie-nicks-sarah-mclachlan-alanis-perform-1235614614/",
       "source": "Rolling Stone Music (US)",
-      "date": "2026-08-29T05:22:21",
-      "audio": "audio/Watch Bruce Springsteen and Bleachers Reunite to S.mp3"
+      "date": "2026-08-30T08:48:18",
+      "audio": "audio/Olivia Rodrigo Delivers Magic With Stevie Nicks_ S.mp3"
     },
     {
-      "title": "Taylor Swift Donates $50k to Help Mother Struck by Car",
-      "summary": "The superstar donated to a GoFundMe launched to help Ashley Taunton, who was hit by a vehicle while helping others on the side of a road",
-      "link": "https://www.rollingstone.com/music/music-news/taylor-swift-donates-50k-mother-hit-by-car-1235617716/",
-      "source": "Rolling Stone Music (US)",
-      "date": "2026-08-29T02:28:58",
-      "audio": "audio/Taylor Swift Donates _50k to Help Mother Struck by.mp3"
+      "title": "Search for missing south Dublin teen last seen a week ago",
+      "summary": "He is described as being approximately 5 foot 6 inches in height, of slim build, with brown hair and green eyes",
+      "link": "https://www.dublinlive.ie/news/dublin-news/search-missing-south-dublin-teen-34541646",
+      "source": "Dublin Live News",
+      "date": "2026-08-30T11:09:53",
+      "audio": "audio/Search for missing south Dublin teen last seen a w.mp3"
     },
     {
-      "title": "Bad Wolves Dropped From Skillet Tour Over Singer’s OnlyFans, Guitarist Quits Over Dolly Parton Cover",
-      "summary": "A lot is going on with Bad Wolves. The Los Angeles metal band lost its vocalist last year when D.L. Laskiewicz departed to play in Falling In Reverse.",
-      "link": "https://stereogum.com/2509777/bad-wolves-singer-speaks-out-after-band-is-dropped-from-skillet-tour-guitarist-quits-over-dolly-parton-cover/news/",
-      "source": "Stereogum (US)",
-      "date": "2026-08-29T17:23:57",
-      "audio": "audio/Bad Wolves Dropped From Skillet Tour Over Singer_s.mp3"
+      "title": "Nationwide thunderstorm warning issued by Met Eireann as 'widespread' downpours to hit",
+      "summary": "The Status Yellow warning kicks in at noon and will remain in place until 9pm",
+      "link": "https://www.dublinlive.ie/news/nationwide-thunderstorm-warning-issued-met-34541618",
+      "source": "Dublin Live News",
+      "date": "2026-08-30T10:53:41",
+      "audio": "audio/Nationwide thunderstorm warning issued by Met Eire.mp3"
     },
     {
-      "title": "Cypress Hill announce ‘Haunted’ shows in NYC & Colorado + more tour dates (BV presale for NY)",
-      "summary": "Cypress Hill&#8217;s new album Dios Bendiga, came out in July.",
-      "link": "https://www.brooklynvegan.com/cypress-hill-announce-haunted-shows-in-nyc-colorado-more-tour-dates-bv-presale-for-ny/",
+      "title": "Concern for welfare of missing 16-year-old boy who may have travelled to Dublin 8",
+      "summary": "Gardaí and his family are concerned for his wellbeing",
+      "link": "https://www.dublinlive.ie/news/dublin-news/concern-welfare-missing-16-year-34541529",
+      "source": "Dublin Live News",
+      "date": "2026-08-30T10:36:59",
+      "audio": "audio/Concern for welfare of missing 16-year-old boy who.mp3"
+    },
+    {
+      "title": "Olivia Rodrigo’s Daisy Chain Fields Music Festival Proves There Is Hope For Us All: 13 Best Moments",
+      "summary": "Inside the inaugural all-women festival founded and headlined by the pop superstar.",
+      "link": "https://www.billboard.com/lists/olivia-rodrigo-daisy-chain-fields-music-festival-recap/",
+      "source": "Billboard (US)",
+      "date": "2026-08-30T11:16:53",
+      "audio": "audio/Olivia Rodrigo_s Daisy Chain Fields Music Festival.mp3"
+    },
+    {
+      "title": "Olivia Rodrigo Recruits Alanis Morissette for a Surprise ‘Ironic’ Duet",
+      "summary": "Rodrigo welcomed Morissette, and the two launched into \"Ironic,\" the enduring single from Morissette's 1995 landmark Jagged Little Pill.",
+      "link": "https://www.billboard.com/music/pop/olivia-rodrigo-alanis-morissette-rework-ironic-daisy-chain-fields-1236328211/",
+      "source": "Billboard (US)",
+      "date": "2026-08-30T08:07:18",
+      "audio": "audio/Olivia Rodrigo Recruits Alanis Morissette for a Su.mp3"
+    },
+    {
+      "title": "Harry Styles Jokes About Taylor Swift’s MSG Wedding During Residency Show",
+      "summary": "The singer name-checked the Knicks' championship and his ex's wedding in the same breath at his third Madison Square Garden date.",
+      "link": "https://www.billboard.com/music/pop/harry-styles-taylor-swift-wedding-msg-residency-show-1236328209/",
+      "source": "Billboard (US)",
+      "date": "2026-08-30T06:55:07",
+      "audio": "audio/Harry Styles Jokes About Taylor Swift_s MSG Weddin.mp3"
+    },
+    {
+      "title": "Haywire sign to Roadrunner, announce new LP & video, threw $$ into the crowd at Sound & Fury, keep touring & stuff (BV-exclusive vinyl)",
+      "summary": "The album was produced by Mat from Citizen and mixed by Taylor Young whose band God&#8217;s Hate meanwhile surprised the world with a surprise Sound &amp; Fury set followed by a surprise new EP.",
+      "link": "https://www.brooklynvegan.com/haywire-sign-to-roadrunner-announce-new-lp-video-threw-into-the-crowd-at-sound-fury-keep-touring-stuff-bv-exclusive-vinyl/",
       "source": "BrooklynVegan (US)",
-      "date": "2026-08-25T20:11:00",
-      "audio": "audio/Cypress Hill announce _Haunted_ shows in NYC _ Col.mp3"
+      "date": "2026-08-19T13:21:54",
+      "audio": "audio/Haywire sign to Roadrunner_ announce new LP _ vide.mp3"
     },
     {
-      "title": "Olivia Rodrigo Fest Raises $10M For Women, Girls",
-      "summary": "Olivia Rodrigo’s Daisy Chain Fields is about to open its gates, and it’s already delivered a pretty remarkable encore.",
-      "link": "https://www.spinmagazine.com/2026/08/olivia-rodrigo-festival-fundraising/",
-      "source": "Spin Magazine (US)",
-      "date": "2026-08-28T20:06:33",
-      "audio": "audio/Olivia Rodrigo Fest Raises _10M For Women_ Girls.mp3"
+      "title": "Fontaines D.C. announce new album ‘Dopamine Chamber,’ share ‘Marianne,’ sang with Kurt Vile",
+      "summary": "Fontaines D.C. brought Kurt Vile at a recent show where they also played new songs that are now officially announced.",
+      "link": "https://www.brooklynvegan.com/fontaines-d-c-announce-new-album-dopamine-chamber-share-marianne-sang-with-kurt-vile/",
+      "source": "BrooklynVegan (US)",
+      "date": "2026-08-18T15:06:49",
+      "audio": "audio/Fontaines D_C_ announce new album _Dopamine Chambe.mp3"
     },
     {
-      "title": "Is Zak Starkey Returning To The Who?",
-      "summary": "The Who’s relationship with Zak Starkey appears to be entering yet another unlikely chapter.",
-      "link": "https://www.spinmagazine.com/2026/08/is-zak-starkey-returning-to-the-who/",
-      "source": "Spin Magazine (US)",
-      "date": "2026-08-28T20:00:00",
-      "audio": "audio/Is Zak Starkey Returning To The Who.mp3"
+      "title": "Reading 2026: Lola Young confirmed for surprise secret set",
+      "summary": "The 'Messy' hitmaker follows other surprise appearances from Jamie T and Royal Blood at the southern site of R+L The post Reading 2026: Lola Young confirmed for surprise secret set appeared first on NME.",
+      "link": "https://www.nme.com/news/music/reading-2026-lola-young-confirmed-for-surprise-secret-set-3965777?utm_source=rss&utm_medium=rss&utm_campaign=reading-2026-lola-young-confirmed-for-surprise-secret-set",
+      "source": "NME News (UK)",
+      "date": "2026-08-30T12:04:55",
+      "audio": "audio/Reading 2026_ Lola Young confirmed for surprise se.mp3"
     },
     {
-      "title": "Angine de Poitrine at Ottawa Bluesfest",
-      "summary": "There has never been a phenomenon quite like the polka dot-clad, math rock duo from Saguenay, Quebec. In case you haven’t heard: they were discovered at a Montreal conference last year and invited by Seattle public radio station KEXP to film one of their Tiny Desk-style 20-minute online concerts. Once that clip was posted last [&#8230;]",
-      "link": "https://www.spinmagazine.com/2026/08/angine-de-poitrine-at-ottawa-bluesfest/",
-      "source": "Spin Magazine (US)",
-      "date": "2026-08-28T19:24:05",
-      "audio": "audio/Angine de Poitrine at Ottawa Bluesfest.mp3"
+      "title": "Nashville airport to be renamed for Dolly Parton after petition reaches over 160,000 signatures",
+      "summary": "Tennessee Governor Bill Lee said it was \"fitting\" that the airport would \"bear the name of our state’s favourite daughter\" The post Nashville airport to be renamed for Dolly Parton after petition reaches over 160,000 signatures appeared first on NME.",
+      "link": "https://www.nme.com/news/music/nashville-airport-to-be-renamed-for-dolly-parton-3965744?utm_source=rss&utm_medium=rss&utm_campaign=nashville-airport-to-be-renamed-for-dolly-parton",
+      "source": "NME News (UK)",
+      "date": "2026-08-30T10:30:51",
+      "audio": "audio/Nashville airport to be renamed for Dolly Parton a.mp3"
+    },
+    {
+      "title": "Man dies and five injured after sign collapses at Big Church Festival",
+      "summary": "The sold-out Christian music festival was cancelled and police are investigating the incident The post Man dies and five injured after sign collapses at Big Church Festival appeared first on NME.",
+      "link": "https://www.nme.com/news/music/man-dies-and-five-injured-after-sign-collapses-at-big-church-festival-3965767?utm_source=rss&utm_medium=rss&utm_campaign=man-dies-and-five-injured-after-sign-collapses-at-big-church-festival",
+      "source": "NME News (UK)",
+      "date": "2026-08-30T10:29:27",
+      "audio": "audio/Man dies and five injured after sign collapses at .mp3"
     }
   ]
 }
