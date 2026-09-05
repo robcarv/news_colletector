@@ -333,20 +333,13 @@ def export_run_json(all_new_titles, feeds):
         'en': en_items
     }
     
-    # Write to repo root
+    # Write to repo root (portfolio conversion is export_portfolio_news.py,
+    # called by run_newsbot.sh — NUNCA escrever o formato {pt,en} em
+    # portfolio-html/news.json, que espera {updated, items[]})
     run_json = Config.BASE_DIR / 'news_run.json'
     with open(run_json, 'w') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
-    
-    # Also copy to portfolio directory
-    portfolio_json = Path('/home/robert/Documents/portfolio-html/news.json')
-    try:
-        portfolio_json.parent.mkdir(parents=True, exist_ok=True)
-        with open(portfolio_json, 'w') as f:
-            json.dump(output, f, indent=2, ensure_ascii=False)
-        logger.info(f"📰 news_run.json exportado: {len(pt_items)} PT + {len(en_items)} EN → portfolio")
-    except Exception:
-        logger.info(f"📰 news_run.json exportado: {len(pt_items)} PT + {len(en_items)} EN")
+    logger.info(f"📰 news_run.json exportado: {len(pt_items)} PT + {len(en_items)} EN")
 
 
 def main():
